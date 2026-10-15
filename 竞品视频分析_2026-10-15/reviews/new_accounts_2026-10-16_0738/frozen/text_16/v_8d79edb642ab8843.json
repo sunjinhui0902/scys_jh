@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_8d79edb642ab8843",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "c91ee398dad1417677b4502ab5069bcdfafb87184e22dfd8221ad6a167d263ca",
+  "started_at": "2026-10-16T04:46:48.108253+08:00",
+  "finished_at": "2026-10-16T04:46:48.108253+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_8d79edb642ab8843_u001",
+      "v_8d79edb642ab8843_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000404",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：爱欲之死",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十三分钟讲解韩炳哲爱欲之死，",
+      "叙事节点（s000068）：努力工作，",
+      "叙事节点（s000135）：忧郁症以如此惊人的速度蔓延？",
+      "叙事节点（s000202）：当信息取代了想象，",
+      "叙事节点（s000269）：那个人就是那个人，",
+      "叙事节点（s000336）：走，",
+      "叙事节点（s000403）：我是小海龟。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "爱欲之死",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十三分钟讲解韩炳哲爱欲之死，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解韩炳哲爱欲之死，",
+      "start_s": 0.33,
+      "end_s": 2.53
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000068",
+      "quote": "努力工作，",
+      "start_s": 134.32,
+      "end_s": 134.9
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000404",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 801.44,
+      "end_s": 803.455
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解韩炳哲爱欲之死，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000068",
+      "quote": "努力工作，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000404",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解韩炳哲爱欲之死，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

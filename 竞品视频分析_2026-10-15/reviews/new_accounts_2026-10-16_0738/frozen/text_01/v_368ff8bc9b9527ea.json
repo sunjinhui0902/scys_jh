@@ -1,0 +1,79 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_368ff8bc9b9527ea",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "6e1cd64e42d15be2edef42d5dc88c72cf3cd6422752e03381b38f15c37cd7f3d",
+  "started_at": "2026-10-16T04:40:15+08:00",
+  "finished_at": "2026-10-16T04:41:00+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_368ff8bc9b9527ea_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000272",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "低成本过冬小城后五名盘点与退休慢生活体验",
+    "category": "旅居生活/旅行地理",
+    "story_points": [
+      "接上集盘点，列出北海、崇左、建水等后五名冬季避寒城市",
+      "北海：一千块房租、十来块海鲜花蟹，海滨气候宜人，生活成本极低",
+      "崇左：七八百块房租，骑电动车在喀斯特山水画卷穿梭，中越边境风情",
+      "建水：五毛钱一块的烤豆腐，一千二百年历史名城，紫陶与古井人文慢生活",
+      "分析北方冬季暖气费与南方小城月租成本对比，击中老年旅居痛点",
+      "强调退休后走出家门看世界的意义，呼吁不要被琐事束缚"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "上一集讲了后五名北海一千块房租配十来块的花蟹，",
+      "start_s": 0.46,
+      "end_s": 5.56
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000004",
+      "quote": "建水五毛钱一块的烤豆腐配一千二百年的古城。",
+      "start_s": 11.0,
+      "end_s": 15.0
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000271",
+      "quote": "这十个地方一千块钱住一个月，",
+      "start_s": 720.0,
+      "end_s": 724.0
+    },
+    "reusable_method": "强生活数字反差（1000元房租/5毛钱豆腐）+ 城市特色风物提炼 + 老年情绪共鸣（北方供暖费换暖冬旅居）+ 催化行动的呼吁式收尾。",
+    "original_topic_angles": [
+      "结合《365日走遍中国》中的暖冬避寒名录，策划'千元房租过暖冬：跟着地理书选避寒养老小城'系列图文/短视频",
+      "建水古城深度选题：一口大板井、千年紫陶与慢节奏人文生活的建水生活指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "上一集讲了后五名北海一千块房租配十来块的花蟹，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000004",
+      "quote": "建水五毛钱一块的烤豆腐配一千二百年的古城。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000271",
+      "quote": "这十个地方一千块钱住一个月，",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无实际视频镜头/画面印证",
+    "未提及任何书籍或实体商品，属于纯生活方式/文旅内容分享"
+  ],
+  "status": "AI_OK"
+}

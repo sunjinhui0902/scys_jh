@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_9ca608cbe701f27c",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "b6e5bf5a24d0fb65cc82fc2ace5236ff6159b0e019470476365796d80e8bad59",
+  "started_at": "2026-10-16T04:46:47.805118+08:00",
+  "finished_at": "2026-10-16T04:46:47.805118+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_9ca608cbe701f27c_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000286",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：莫高窟的壁画正在一天天消失，故宫下雪的画面谁也复制不了，而真",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上一集咱们讲了我国十个医生必去一次的地方。",
+      "叙事节点（s000048）：海拔三千七百多米，",
+      "叙事节点（s000095）：四万五千平方米的壁画是什么概念呢？",
+      "叙事节点（s000142）：这种走法只走了故宫的十分之一。",
+      "叙事节点（s000189）：出发之前翻一遍，",
+      "叙事节点（s000236）：什么都没有，",
+      "叙事节点（s000283）：帮忙点个赞同时，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "上一集咱们讲了我国十个医生必去一次的地方。",
+      "start_s": 0.07,
+      "end_s": 3.81
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000048",
+      "quote": "海拔三千七百多米，",
+      "start_s": 147.07,
+      "end_s": 148.725
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000286",
+      "quote": "咱们下一期接着聊。",
+      "start_s": 784.22,
+      "end_s": 785.685
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "上一集咱们讲了我国十个医生必去一次的地方。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000048",
+      "quote": "海拔三千七百多米，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000286",
+      "quote": "咱们下一期接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

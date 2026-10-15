@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_7c8bdf178c13ccee",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "7c33bb47b629a2799fffdf5597f8871ae315ce2f11cf08ab05a8d77b0446768b",
+  "started_at": "2026-10-16T04:46:47.546958+08:00",
+  "finished_at": "2026-10-16T04:46:47.546958+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_7c8bdf178c13ccee_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000149",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：道学入门",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：你敢相信吗？",
+      "叙事节点（s000025）：那一年，",
+      "叙事节点（s000049）：江湖上有人骂他，",
+      "叙事节点（s000073）：越修越偏，",
+      "叙事节点（s000097）：试了三分钟叩齿燕睛、舌底生津，",
+      "叙事节点（s000121）：这个领域有他学术地位的，",
+      "叙事节点（s000145）：给自己选一条踏实路，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "道学入门",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "你敢相信吗？"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "start_s": 0.27,
+      "end_s": 1.19
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000025",
+      "quote": "那一年，",
+      "start_s": 54.22,
+      "end_s": 54.76
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000149",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 312.72,
+      "end_s": 314.475
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000025",
+      "quote": "那一年，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000149",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

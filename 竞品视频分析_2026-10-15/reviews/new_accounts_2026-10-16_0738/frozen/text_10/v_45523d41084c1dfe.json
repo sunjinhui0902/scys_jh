@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_45523d41084c1dfe",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "e56d7cda017e148509ca58f0da4be322eda7984872ceec0094bee3ddee1247b3",
+  "started_at": "2026-10-16T04:46:47.626764+08:00",
+  "finished_at": "2026-10-16T04:46:47.626764+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_45523d41084c1dfe_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000206",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：故宫里藏着十件东西，第一眼看上去根本不信是人做的。张成刷上百",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：您知道故宫里有一件东西是人做出来，",
+      "叙事节点（s000035）：替西也是高手，",
+      "叙事节点（s000069）：您凑近看，",
+      "叙事节点（s000103）：每一个指头都刻出，",
+      "叙事节点（s000137）：可细看，",
+      "叙事节点（s000171）：当年那种无线代工具，",
+      "叙事节点（s000205）：第一条视频就是下一集点个关注，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "您知道故宫里有一件东西是人做出来，",
+      "start_s": 0.07,
+      "end_s": 3.69
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000035",
+      "quote": "替西也是高手，",
+      "start_s": 104.6,
+      "end_s": 106.155
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000206",
+      "quote": "咱们好好看看中国工匠到底造出了什么。",
+      "start_s": 550.55,
+      "end_s": 553.97
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "您知道故宫里有一件东西是人做出来，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000035",
+      "quote": "替西也是高手，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000206",
+      "quote": "咱们好好看看中国工匠到底造出了什么。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

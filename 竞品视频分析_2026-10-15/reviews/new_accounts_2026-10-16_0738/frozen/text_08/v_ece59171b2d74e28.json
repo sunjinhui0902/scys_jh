@@ -1,0 +1,91 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_ece59171b2d74e28",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "d75aa920d57be131072eb18d040e83f50578225516b6b8c6c6f9a9b3a16e9990",
+  "started_at": "2026-10-16T04:46:47.491051+08:00",
+  "finished_at": "2026-10-16T04:46:47.491051+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_ece59171b2d74e28_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000264",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：通往奴役之路：物质条件和理想目标",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十一分钟讲解哈耶克通往奴役之路，",
+      "叙事节点（s000045）：你感到物欲横流，",
+      "叙事节点（s000089）：但我们恰恰忘记了没有物质条件的支撑，",
+      "叙事节点（s000133）：你要先憋气再蹬腿再滑手。",
+      "叙事节点（s000177）：并且在头脑简单的理想主义者，",
+      "叙事节点（s000221）：在一个复杂的社会里，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "通往奴役之路：物质条件和理想目标",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十一分钟讲解哈耶克通往奴役之路，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十一分钟讲解哈耶克通往奴役之路，",
+      "start_s": 0.43,
+      "end_s": 3.09
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000045",
+      "quote": "你感到物欲横流，",
+      "start_s": 123.8,
+      "end_s": 125.0
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000264",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 653.32,
+      "end_s": 655.325
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十一分钟讲解哈耶克通往奴役之路，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000045",
+      "quote": "你感到物欲横流，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000264",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十一分钟讲解哈耶克通往奴役之路，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

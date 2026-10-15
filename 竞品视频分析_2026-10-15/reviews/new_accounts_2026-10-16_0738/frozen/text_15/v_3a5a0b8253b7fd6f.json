@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_3a5a0b8253b7fd6f",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "f00a34370155fec9d23bad2645c9356300d00194404f4eeb159bda773049d5b8",
+  "started_at": "2026-10-16T04:46:48.063834+08:00",
+  "finished_at": "2026-10-16T04:46:48.063834+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_3a5a0b8253b7fd6f_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000257",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：红书",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：卡尔荣格，",
+      "叙事节点（s000043）：和他在一起的时候，",
+      "叙事节点（s000085）：荣哥发现他把太多的自己存放在了弗洛伊德身上。",
+      "叙事节点（s000127）：而是安放在你自己的生命里。",
+      "叙事节点（s000169）：我的未来我的安全感不是他的是我的。",
+      "叙事节点（s000211）：第一条路，",
+      "叙事节点（s000253）：我知道你已经准备好，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "红书",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "卡尔荣格，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "卡尔荣格，",
+      "start_s": 0.51,
+      "end_s": 1.31
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000043",
+      "quote": "和他在一起的时候，",
+      "start_s": 91.66,
+      "end_s": 92.74
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000257",
+      "quote": "现在是时候把他们带回家了。",
+      "start_s": 588.5,
+      "end_s": 591.255
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "卡尔荣格，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000043",
+      "quote": "和他在一起的时候，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000257",
+      "quote": "现在是时候把他们带回家了。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "卡尔荣格，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

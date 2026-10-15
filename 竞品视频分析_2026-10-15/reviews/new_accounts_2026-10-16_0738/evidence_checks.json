@@ -1,0 +1,3829 @@
+{
+  "at": "2026-10-16T07:43:30+08:00",
+  "scope": "All 108 structurally valid per-video outputs; reference checks do not certify complete model reading",
+  "results": [
+    {
+      "path": "deep_01/v_2be39eef1514e89b.json",
+      "kind": "deep",
+      "video_id": "v_2be39eef1514e89b",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_2be39eef1514e89b_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000284",
+          "start_ms": 747650,
+          "end_ms": 749015,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_01/v_38056006fbf46638.json",
+      "kind": "deep",
+      "video_id": "v_38056006fbf46638",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_38056006fbf46638_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000155",
+          "start_ms": 343510,
+          "end_ms": 344145,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_01/v_76be786067862904.json",
+      "kind": "deep",
+      "video_id": "v_76be786067862904",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_76be786067862904_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000193",
+          "start_ms": 453450,
+          "end_ms": 455535,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_01/v_ad944b26480f2d8b.json",
+      "kind": "deep",
+      "video_id": "v_ad944b26480f2d8b",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ad944b26480f2d8b_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000324",
+          "start_ms": 983140,
+          "end_ms": 984285,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_01/v_db13a0a34de523f4.json",
+      "kind": "deep",
+      "video_id": "v_db13a0a34de523f4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_db13a0a34de523f4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000365",
+          "start_ms": 983820,
+          "end_ms": 985395,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_02/v_17f0c21059230af2.json",
+      "kind": "deep",
+      "video_id": "v_17f0c21059230af2",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_17f0c21059230af2_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000372",
+          "start_ms": 788030,
+          "end_ms": 788655,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_02/v_33f1e4063c99a716.json",
+      "kind": "deep",
+      "video_id": "v_33f1e4063c99a716",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_33f1e4063c99a716_u001",
+          "v_33f1e4063c99a716_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000405",
+          "start_ms": 925900,
+          "end_ms": 926495,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_02/v_9b4af995d6505fc2.json",
+      "kind": "deep",
+      "video_id": "v_9b4af995d6505fc2",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_9b4af995d6505fc2_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000200",
+          "start_ms": 608770,
+          "end_ms": 611715,
+          "text": "看看谁才是中国流失海外最珍贵的文物。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_02/v_9f185f433a49579e.json",
+      "kind": "deep",
+      "video_id": "v_9f185f433a49579e",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_9f185f433a49579e_u001",
+          "v_9f185f433a49579e_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000501",
+          "start_ms": 1111690,
+          "end_ms": 1112355,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_02/v_d4c74c1dc35fd3e7.json",
+      "kind": "deep",
+      "video_id": "v_d4c74c1dc35fd3e7",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_d4c74c1dc35fd3e7_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000274",
+          "start_ms": 781300,
+          "end_ms": 782785,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_03/v_10265caa1174ccfd.json",
+      "kind": "deep",
+      "video_id": "v_10265caa1174ccfd",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_10265caa1174ccfd_u001",
+          "v_10265caa1174ccfd_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000452",
+          "start_ms": 1022350,
+          "end_ms": 1024185,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_03/v_30ab5bb2ea001aea.json",
+      "kind": "deep",
+      "video_id": "v_30ab5bb2ea001aea",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_30ab5bb2ea001aea_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000177",
+          "start_ms": 437240,
+          "end_ms": 439075,
+          "text": "感兴趣的朋友可以关注后续。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_03/v_92afd56d4cbb2493.json",
+      "kind": "deep",
+      "video_id": "v_92afd56d4cbb2493",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_92afd56d4cbb2493_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000264",
+          "start_ms": 750030,
+          "end_ms": 751775,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_03/v_cc8397da3c3f0c8a.json",
+      "kind": "deep",
+      "video_id": "v_cc8397da3c3f0c8a",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_cc8397da3c3f0c8a_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000245",
+          "start_ms": 655120,
+          "end_ms": 656865,
+          "text": "看看中国到底丢了什么。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_03/v_fc3786ad66dc77e3.json",
+      "kind": "deep",
+      "video_id": "v_fc3786ad66dc77e3",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_fc3786ad66dc77e3_u001",
+          "v_fc3786ad66dc77e3_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000497",
+          "start_ms": 1002270,
+          "end_ms": 1002975,
+          "text": "我们下本书。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_04/v_0f9d69c591d2a5e5.json",
+      "kind": "deep",
+      "video_id": "v_0f9d69c591d2a5e5",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_0f9d69c591d2a5e5_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000346",
+          "start_ms": 801440,
+          "end_ms": 802085,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_04/v_2306120bb0b29be4.json",
+      "kind": "deep",
+      "video_id": "v_2306120bb0b29be4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_2306120bb0b29be4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000383",
+          "start_ms": 856230,
+          "end_ms": 858175,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_04/v_3ed9e1106acc15f8.json",
+      "kind": "deep",
+      "video_id": "v_3ed9e1106acc15f8",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_3ed9e1106acc15f8_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000135",
+          "start_ms": 359110,
+          "end_ms": 364945,
+          "text": "下一期我们接着盘点故宫五大国宝揭晓这件传奇文物的故事。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_04/v_4f4d5d796acb8bf2.json",
+      "kind": "deep",
+      "video_id": "v_4f4d5d796acb8bf2",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_4f4d5d796acb8bf2_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000220",
+          "start_ms": 603540,
+          "end_ms": 603970,
+          "text": "我等你。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_04/v_f5f330e99bb6bcd1.json",
+      "kind": "deep",
+      "video_id": "v_f5f330e99bb6bcd1",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f5f330e99bb6bcd1_u001",
+          "v_f5f330e99bb6bcd1_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000449",
+          "start_ms": 961590,
+          "end_ms": 962115,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_05/v_255ca28b37185f92.json",
+      "kind": "deep",
+      "video_id": "v_255ca28b37185f92",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_255ca28b37185f92_u001",
+          "v_255ca28b37185f92_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000465",
+          "start_ms": 982050,
+          "end_ms": 982645,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_05/v_8ea3bdec43adefd7.json",
+      "kind": "deep",
+      "video_id": "v_8ea3bdec43adefd7",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_8ea3bdec43adefd7_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000224",
+          "start_ms": 577590,
+          "end_ms": 579225,
+          "text": "咱们下一期接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_05/v_a8a9f9dc511b9853.json",
+      "kind": "deep",
+      "video_id": "v_a8a9f9dc511b9853",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_a8a9f9dc511b9853_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000260",
+          "start_ms": 626980,
+          "end_ms": 627565,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_05/v_cd6edb76157fc255.json",
+      "kind": "deep",
+      "video_id": "v_cd6edb76157fc255",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_cd6edb76157fc255_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000310",
+          "start_ms": 781800,
+          "end_ms": 785295,
+          "text": "这趟旅途就直了。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "deep_05/v_f47a13f215121591.json",
+      "kind": "deep",
+      "video_id": "v_f47a13f215121591",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "input_mode_claim": "text_plus_frames",
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f47a13f215121591_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000199",
+          "start_ms": 528640,
+          "end_ms": 529305,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE",
+          "note": "Repeated generic caption is not proof that the four actual images were observed."
+        },
+        {
+          "code": "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES"
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_368ff8bc9b9527ea.json",
+      "kind": "text",
+      "video_id": "v_368ff8bc9b9527ea",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_368ff8bc9b9527ea_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000272",
+          "start_ms": 724960,
+          "end_ms": 726845,
+          "text": "比你在家开暖气还舒坦。"
+        }
+      },
+      "issues": [
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000001",
+          "claimed": [
+            0.46,
+            5.56
+          ],
+          "actual": [
+            0.07,
+            5.25
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000004",
+          "claimed": [
+            11.0,
+            15.0
+          ],
+          "actual": [
+            9.33,
+            13.39
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000271",
+          "claimed": [
+            720.0,
+            724.0
+          ],
+          "actual": [
+            721.68,
+            724.355
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_5d5e6d383a0f923f.json",
+      "kind": "text",
+      "video_id": "v_5d5e6d383a0f923f",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_REVIEW",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 7,
+        "quote_pass": 7,
+        "matching_time_ranges": 2,
+        "expected_unit_ids": [
+          "v_5d5e6d383a0f923f_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000207",
+          "start_ms": 484400,
+          "end_ms": 487105,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000013",
+          "claimed": [
+            32.0,
+            36.5
+          ],
+          "actual": [
+            37.02,
+            41.64
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_9f185f433a49579e.json",
+      "kind": "text",
+      "video_id": "v_9f185f433a49579e",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 7,
+        "quote_pass": 7,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_9f185f433a49579e_u001",
+          "v_9f185f433a49579e_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000501",
+          "start_ms": 1111690,
+          "end_ms": 1112355,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER",
+          "analysis_finished": "2026-10-16T04:43:45+08:00",
+          "completion_finished": "2026-10-16T04:41:37.198791+08:00"
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000001",
+          "claimed": [
+            0.44,
+            4.5
+          ],
+          "actual": [
+            0.34,
+            3.88
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000004",
+          "claimed": [
+            12.0,
+            16.0
+          ],
+          "actual": [
+            8.64,
+            11.24
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000501",
+          "claimed": [
+            1110.0,
+            1112.539
+          ],
+          "actual": [
+            1111.69,
+            1112.355
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_cd6edb76157fc255.json",
+      "kind": "text",
+      "video_id": "v_cd6edb76157fc255",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_cd6edb76157fc255_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000310",
+          "start_ms": 781800,
+          "end_ms": 785295,
+          "text": "这趟旅途就直了。"
+        }
+      },
+      "issues": [
+        {
+          "code": "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER",
+          "analysis_finished": "2026-10-16T04:42:45+08:00",
+          "completion_finished": "2026-10-16T04:41:37.198791+08:00"
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000003",
+          "claimed": [
+            3.0,
+            8.0
+          ],
+          "actual": [
+            5.09,
+            9.55
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000004",
+          "claimed": [
+            8.0,
+            10.5
+          ],
+          "actual": [
+            10.51,
+            12.49
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000308",
+          "claimed": [
+            776.0,
+            780.0
+          ],
+          "actual": [
+            775.21,
+            778.05
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_fc3786ad66dc77e3.json",
+      "kind": "text",
+      "video_id": "v_fc3786ad66dc77e3",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 7,
+        "quote_pass": 7,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_fc3786ad66dc77e3_u001",
+          "v_fc3786ad66dc77e3_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000497",
+          "start_ms": 1002270,
+          "end_ms": 1002975,
+          "text": "我们下本书。"
+        }
+      },
+      "issues": [
+        {
+          "code": "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER",
+          "analysis_finished": "2026-10-16T04:42:00+08:00",
+          "completion_finished": "2026-10-16T04:41:37.198791+08:00"
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000001",
+          "claimed": [
+            0.44,
+            3.7
+          ],
+          "actual": [
+            0.33,
+            2.57
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000002",
+          "claimed": [
+            3.7,
+            7.0
+          ],
+          "actual": [
+            3.05,
+            5.51
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000497",
+          "claimed": [
+            999.0,
+            1003.0
+          ],
+          "actual": [
+            1002.27,
+            1002.975
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_02/v_249bc02b484fc719.json",
+      "kind": "text",
+      "video_id": "v_249bc02b484fc719",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_249bc02b484fc719_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000224",
+          "start_ms": 588760,
+          "end_ms": 591105,
+          "text": "就是咱们接着接前五名。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_02/v_7ace1d24442d99c9.json",
+      "kind": "text",
+      "video_id": "v_7ace1d24442d99c9",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7ace1d24442d99c9_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000256",
+          "start_ms": 573080,
+          "end_ms": 574825,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_02/v_7efe414380952566.json",
+      "kind": "text",
+      "video_id": "v_7efe414380952566",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7efe414380952566_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000343",
+          "start_ms": 876530,
+          "end_ms": 877800,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_02/v_98f75a1acaea5c52.json",
+      "kind": "text",
+      "video_id": "v_98f75a1acaea5c52",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_98f75a1acaea5c52_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000338",
+          "start_ms": 821030,
+          "end_ms": 822995,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_02/v_b133ac8fb205de0d.json",
+      "kind": "text",
+      "video_id": "v_b133ac8fb205de0d",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_b133ac8fb205de0d_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000306",
+          "start_ms": 766020,
+          "end_ms": 767565,
+          "text": "咱们下一期接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_03/v_17f0c21059230af2.json",
+      "kind": "text",
+      "video_id": "v_17f0c21059230af2",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_17f0c21059230af2_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000372",
+          "start_ms": 788030,
+          "end_ms": 788655,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_03/v_255ca28b37185f92.json",
+      "kind": "text",
+      "video_id": "v_255ca28b37185f92",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_255ca28b37185f92_u001",
+          "v_255ca28b37185f92_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000465",
+          "start_ms": 982050,
+          "end_ms": 982645,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_03/v_3e3873deeb6c8d7e.json",
+      "kind": "text",
+      "video_id": "v_3e3873deeb6c8d7e",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_3e3873deeb6c8d7e_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000125",
+          "start_ms": 315080,
+          "end_ms": 316955,
+          "text": "感兴趣的朋友可以关注后续。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_03/v_7bc646162220f8e7.json",
+      "kind": "text",
+      "video_id": "v_7bc646162220f8e7",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7bc646162220f8e7_u001",
+          "v_7bc646162220f8e7_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000415",
+          "start_ms": 939130,
+          "end_ms": 940955,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_03/v_db13a0a34de523f4.json",
+      "kind": "text",
+      "video_id": "v_db13a0a34de523f4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_db13a0a34de523f4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000365",
+          "start_ms": 983820,
+          "end_ms": 985395,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_04/v_2306120bb0b29be4.json",
+      "kind": "text",
+      "video_id": "v_2306120bb0b29be4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_2306120bb0b29be4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000383",
+          "start_ms": 856230,
+          "end_ms": 858175,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_04/v_277bc3d78abb6ee9.json",
+      "kind": "text",
+      "video_id": "v_277bc3d78abb6ee9",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_277bc3d78abb6ee9_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000232",
+          "start_ms": 640190,
+          "end_ms": 644690,
+          "text": "看看中国地底下到底还埋着什么让人说不清的东西。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_04/v_76b65d4cc4baa4f7.json",
+      "kind": "text",
+      "video_id": "v_76b65d4cc4baa4f7",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_76b65d4cc4baa4f7_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000380",
+          "start_ms": 852010,
+          "end_ms": 853835,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_04/v_92afd56d4cbb2493.json",
+      "kind": "text",
+      "video_id": "v_92afd56d4cbb2493",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_92afd56d4cbb2493_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000264",
+          "start_ms": 750030,
+          "end_ms": 751775,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_04/v_cbb3ad669fcfbba1.json",
+      "kind": "text",
+      "video_id": "v_cbb3ad669fcfbba1",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_cbb3ad669fcfbba1_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000249",
+          "start_ms": 740220,
+          "end_ms": 742195,
+          "text": "感兴趣的朋友可以关注后续。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_05/v_4f4d5d796acb8bf2.json",
+      "kind": "text",
+      "video_id": "v_4f4d5d796acb8bf2",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_4f4d5d796acb8bf2_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000220",
+          "start_ms": 603540,
+          "end_ms": 603970,
+          "text": "我等你。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_05/v_8b41cd4017b43c59.json",
+      "kind": "text",
+      "video_id": "v_8b41cd4017b43c59",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_8b41cd4017b43c59_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000392",
+          "start_ms": 893420,
+          "end_ms": 894105,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_05/v_9914a4b5d84ec970.json",
+      "kind": "text",
+      "video_id": "v_9914a4b5d84ec970",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_9914a4b5d84ec970_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000136",
+          "start_ms": 320790,
+          "end_ms": 321455,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_05/v_f47a13f215121591.json",
+      "kind": "text",
+      "video_id": "v_f47a13f215121591",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f47a13f215121591_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000199",
+          "start_ms": 528640,
+          "end_ms": 529305,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_05/v_fe586626fea2b1e4.json",
+      "kind": "text",
+      "video_id": "v_fe586626fea2b1e4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_fe586626fea2b1e4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000136",
+          "start_ms": 371950,
+          "end_ms": 377225,
+          "text": "咱们接着看谁才是秋水秘境真正的天花板。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_06/v_2e02bd2be61f0d6d.json",
+      "kind": "text",
+      "video_id": "v_2e02bd2be61f0d6d",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_2e02bd2be61f0d6d_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000189",
+          "start_ms": 528290,
+          "end_ms": 531925,
+          "text": "看看谁才是中国从古至今极神秘的那座湖。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_06/v_5e4bd31ad730ff67.json",
+      "kind": "text",
+      "video_id": "v_5e4bd31ad730ff67",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_5e4bd31ad730ff67_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000288",
+          "start_ms": 627170,
+          "end_ms": 629325,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_06/v_6aa6ef974dccc10f.json",
+      "kind": "text",
+      "video_id": "v_6aa6ef974dccc10f",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_6aa6ef974dccc10f_u001",
+          "v_6aa6ef974dccc10f_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000411",
+          "start_ms": 970120,
+          "end_ms": 972095,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_06/v_8064b34009bba1d8.json",
+      "kind": "text",
+      "video_id": "v_8064b34009bba1d8",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_8064b34009bba1d8_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000217",
+          "start_ms": 646280,
+          "end_ms": 647895,
+          "text": "你听过哪座山的传说？"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_06/v_aeab3bc4712a27c4.json",
+      "kind": "text",
+      "video_id": "v_aeab3bc4712a27c4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_aeab3bc4712a27c4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000150",
+          "start_ms": 411250,
+          "end_ms": 411675,
+          "text": "我等你。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_07/v_0f9d69c591d2a5e5.json",
+      "kind": "text",
+      "video_id": "v_0f9d69c591d2a5e5",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_0f9d69c591d2a5e5_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000346",
+          "start_ms": 801440,
+          "end_ms": 802085,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_07/v_3b5e02e2296f859a.json",
+      "kind": "text",
+      "video_id": "v_3b5e02e2296f859a",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_3b5e02e2296f859a_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000199",
+          "start_ms": 426560,
+          "end_ms": 427135,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_07/v_9b4af995d6505fc2.json",
+      "kind": "text",
+      "video_id": "v_9b4af995d6505fc2",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_9b4af995d6505fc2_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000200",
+          "start_ms": 608770,
+          "end_ms": 611715,
+          "text": "看看谁才是中国流失海外最珍贵的文物。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_07/v_a3bd76ce44483897.json",
+      "kind": "text",
+      "video_id": "v_a3bd76ce44483897",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_a3bd76ce44483897_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000362",
+          "start_ms": 780430,
+          "end_ms": 782385,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_07/v_d4c74c1dc35fd3e7.json",
+      "kind": "text",
+      "video_id": "v_d4c74c1dc35fd3e7",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_d4c74c1dc35fd3e7_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000274",
+          "start_ms": 781300,
+          "end_ms": 782785,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_08/v_2be39eef1514e89b.json",
+      "kind": "text",
+      "video_id": "v_2be39eef1514e89b",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_2be39eef1514e89b_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000284",
+          "start_ms": 747650,
+          "end_ms": 749015,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_08/v_535debe3daf9d6d8.json",
+      "kind": "text",
+      "video_id": "v_535debe3daf9d6d8",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_535debe3daf9d6d8_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000208",
+          "start_ms": 555770,
+          "end_ms": 557035,
+          "text": "到底能做出什么？"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_08/v_8ea3bdec43adefd7.json",
+      "kind": "text",
+      "video_id": "v_8ea3bdec43adefd7",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_8ea3bdec43adefd7_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000224",
+          "start_ms": 577590,
+          "end_ms": 579225,
+          "text": "咱们下一期接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_08/v_d1c2ac4f2d71153a.json",
+      "kind": "text",
+      "video_id": "v_d1c2ac4f2d71153a",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_d1c2ac4f2d71153a_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000410",
+          "start_ms": 876030,
+          "end_ms": 876655,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_08/v_ece59171b2d74e28.json",
+      "kind": "text",
+      "video_id": "v_ece59171b2d74e28",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ece59171b2d74e28_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000264",
+          "start_ms": 653320,
+          "end_ms": 655325,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_09/v_4be8e3025bc509bf.json",
+      "kind": "text",
+      "video_id": "v_4be8e3025bc509bf",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_4be8e3025bc509bf_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000184",
+          "start_ms": 479670,
+          "end_ms": 483865,
+          "text": "就是咱们接着接前五个秘密。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_09/v_7c8bdf178c13ccee.json",
+      "kind": "text",
+      "video_id": "v_7c8bdf178c13ccee",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7c8bdf178c13ccee_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000149",
+          "start_ms": 312720,
+          "end_ms": 314475,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_09/v_a8a9f9dc511b9853.json",
+      "kind": "text",
+      "video_id": "v_a8a9f9dc511b9853",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_a8a9f9dc511b9853_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000260",
+          "start_ms": 626980,
+          "end_ms": 627565,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_09/v_f2936927de841d82.json",
+      "kind": "text",
+      "video_id": "v_f2936927de841d82",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f2936927de841d82_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000355",
+          "start_ms": 750200,
+          "end_ms": 750735,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_09/v_ff66999e727495b1.json",
+      "kind": "text",
+      "video_id": "v_ff66999e727495b1",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ff66999e727495b1_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000219",
+          "start_ms": 554990,
+          "end_ms": 558195,
+          "text": "每天用的东西比皇帝的更有意思。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_10/v_45523d41084c1dfe.json",
+      "kind": "text",
+      "video_id": "v_45523d41084c1dfe",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_45523d41084c1dfe_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000206",
+          "start_ms": 550550,
+          "end_ms": 553970,
+          "text": "咱们好好看看中国工匠到底造出了什么。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_10/v_64ba721585f53252.json",
+      "kind": "text",
+      "video_id": "v_64ba721585f53252",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_64ba721585f53252_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000489",
+          "start_ms": 963920,
+          "end_ms": 965750,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_10/v_ad944b26480f2d8b.json",
+      "kind": "text",
+      "video_id": "v_ad944b26480f2d8b",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ad944b26480f2d8b_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000324",
+          "start_ms": 983140,
+          "end_ms": 984285,
+          "text": "咱们下回接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_10/v_ef4cb6d438651ccf.json",
+      "kind": "text",
+      "video_id": "v_ef4cb6d438651ccf",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ef4cb6d438651ccf_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000173",
+          "start_ms": 475730,
+          "end_ms": 480385,
+          "text": "咱们好好看看皇帝每天用的东西到底藏着什么秘密。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_10/v_fa9448dfccdd4269.json",
+      "kind": "text",
+      "video_id": "v_fa9448dfccdd4269",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_fa9448dfccdd4269_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000213",
+          "start_ms": 480550,
+          "end_ms": 481205,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_11/v_33f1e4063c99a716.json",
+      "kind": "text",
+      "video_id": "v_33f1e4063c99a716",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_33f1e4063c99a716_u001",
+          "v_33f1e4063c99a716_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000405",
+          "start_ms": 925900,
+          "end_ms": 926495,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_11/v_7199f8033bb838af.json",
+      "kind": "text",
+      "video_id": "v_7199f8033bb838af",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7199f8033bb838af_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000291",
+          "start_ms": 707250,
+          "end_ms": 711275,
+          "text": "就是咱们接着接前五名。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_11/v_7e282e82c16ff21e.json",
+      "kind": "text",
+      "video_id": "v_7e282e82c16ff21e",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7e282e82c16ff21e_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000225",
+          "start_ms": 551910,
+          "end_ms": 553655,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_11/v_e55cdcc6396cb15e.json",
+      "kind": "text",
+      "video_id": "v_e55cdcc6396cb15e",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_e55cdcc6396cb15e_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000240",
+          "start_ms": 608570,
+          "end_ms": 611795,
+          "text": "就是咱们接着接前五名。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_11/v_f63315a861608ed4.json",
+      "kind": "text",
+      "video_id": "v_f63315a861608ed4",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_REVIEW",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f63315a861608ed4_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000109",
+          "start_ms": 258650,
+          "end_ms": 260675,
+          "text": "值得放在手边慢慢读。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_12/v_0a4577db9c6cff5b.json",
+      "kind": "text",
+      "video_id": "v_0a4577db9c6cff5b",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_0a4577db9c6cff5b_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000292",
+          "start_ms": 753940,
+          "end_ms": 754545,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_12/v_3ed9e1106acc15f8.json",
+      "kind": "text",
+      "video_id": "v_3ed9e1106acc15f8",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_3ed9e1106acc15f8_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000135",
+          "start_ms": 359110,
+          "end_ms": 364945,
+          "text": "下一期我们接着盘点故宫五大国宝揭晓这件传奇文物的故事。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_12/v_9ca608cbe701f27c.json",
+      "kind": "text",
+      "video_id": "v_9ca608cbe701f27c",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_9ca608cbe701f27c_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000286",
+          "start_ms": 784220,
+          "end_ms": 785685,
+          "text": "咱们下一期接着聊。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_12/v_c110f20742e7bf64.json",
+      "kind": "text",
+      "video_id": "v_c110f20742e7bf64",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_c110f20742e7bf64_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000382",
+          "start_ms": 760450,
+          "end_ms": 762435,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_12/v_e296bf0afb5c1ab0.json",
+      "kind": "text",
+      "video_id": "v_e296bf0afb5c1ab0",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_e296bf0afb5c1ab0_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000288",
+          "start_ms": 698040,
+          "end_ms": 701725,
+          "text": "第一条就是咱们接着接前五名。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_13/v_30ab5bb2ea001aea.json",
+      "kind": "text",
+      "video_id": "v_30ab5bb2ea001aea",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_30ab5bb2ea001aea_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000177",
+          "start_ms": 437240,
+          "end_ms": 439075,
+          "text": "感兴趣的朋友可以关注后续。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_13/v_38056006fbf46638.json",
+      "kind": "text",
+      "video_id": "v_38056006fbf46638",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_38056006fbf46638_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000155",
+          "start_ms": 343510,
+          "end_ms": 344145,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_13/v_76be786067862904.json",
+      "kind": "text",
+      "video_id": "v_76be786067862904",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_76be786067862904_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000193",
+          "start_ms": 453450,
+          "end_ms": 455535,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_13/v_b27db8ad24d44b64.json",
+      "kind": "text",
+      "video_id": "v_b27db8ad24d44b64",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_b27db8ad24d44b64_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000287",
+          "start_ms": 799530,
+          "end_ms": 802125,
+          "text": "就是咱们接着接。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_13/v_ca16a281f181b54b.json",
+      "kind": "text",
+      "video_id": "v_ca16a281f181b54b",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ca16a281f181b54b_u001",
+          "v_ca16a281f181b54b_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000431",
+          "start_ms": 968820,
+          "end_ms": 969445,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_14/v_2f0e25053eef097c.json",
+      "kind": "text",
+      "video_id": "v_2f0e25053eef097c",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_2f0e25053eef097c_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000223",
+          "start_ms": 445580,
+          "end_ms": 446185,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_14/v_7d2b26fa20a69875.json",
+      "kind": "text",
+      "video_id": "v_7d2b26fa20a69875",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_7d2b26fa20a69875_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000386",
+          "start_ms": 873340,
+          "end_ms": 873985,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_14/v_aaa7253ec7413328.json",
+      "kind": "text",
+      "video_id": "v_aaa7253ec7413328",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_aaa7253ec7413328_u001",
+          "v_aaa7253ec7413328_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000371",
+          "start_ms": 892620,
+          "end_ms": 893225,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_14/v_cc8397da3c3f0c8a.json",
+      "kind": "text",
+      "video_id": "v_cc8397da3c3f0c8a",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_cc8397da3c3f0c8a_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000245",
+          "start_ms": 655120,
+          "end_ms": 656865,
+          "text": "看看中国到底丢了什么。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_14/v_f4a8f176c6f73910.json",
+      "kind": "text",
+      "video_id": "v_f4a8f176c6f73910",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f4a8f176c6f73910_u001",
+          "v_f4a8f176c6f73910_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000442",
+          "start_ms": 961320,
+          "end_ms": 961955,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_15/v_3a5a0b8253b7fd6f.json",
+      "kind": "text",
+      "video_id": "v_3a5a0b8253b7fd6f",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_3a5a0b8253b7fd6f_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000257",
+          "start_ms": 588500,
+          "end_ms": 591255,
+          "text": "现在是时候把他们带回家了。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_15/v_5cbbc93d14301400.json",
+      "kind": "text",
+      "video_id": "v_5cbbc93d14301400",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_5cbbc93d14301400_u001",
+          "v_5cbbc93d14301400_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000343",
+          "start_ms": 881070,
+          "end_ms": 882725,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_15/v_73fe295c18ecf289.json",
+      "kind": "text",
+      "video_id": "v_73fe295c18ecf289",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_73fe295c18ecf289_u001",
+          "v_73fe295c18ecf289_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000547",
+          "start_ms": 1224710,
+          "end_ms": 1226605,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_15/v_ebbf44d69331baee.json",
+      "kind": "text",
+      "video_id": "v_ebbf44d69331baee",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ebbf44d69331baee_u001",
+          "v_ebbf44d69331baee_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000444",
+          "start_ms": 985910,
+          "end_ms": 987775,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 6
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_15/v_ff3ea70e28828a27.json",
+      "kind": "text",
+      "video_id": "v_ff3ea70e28828a27",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ff3ea70e28828a27_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000341",
+          "start_ms": 850390,
+          "end_ms": 852435,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_16/v_31abd177485f569a.json",
+      "kind": "text",
+      "video_id": "v_31abd177485f569a",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_31abd177485f569a_u001",
+          "v_31abd177485f569a_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000394",
+          "start_ms": 953260,
+          "end_ms": 953885,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_16/v_8d79edb642ab8843.json",
+      "kind": "text",
+      "video_id": "v_8d79edb642ab8843",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_8d79edb642ab8843_u001",
+          "v_8d79edb642ab8843_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000404",
+          "start_ms": 801440,
+          "end_ms": 803455,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_16/v_a9c57eabcd7c9a22.json",
+      "kind": "text",
+      "video_id": "v_a9c57eabcd7c9a22",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_a9c57eabcd7c9a22_u001",
+          "v_a9c57eabcd7c9a22_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000494",
+          "start_ms": 1000370,
+          "end_ms": 1001965,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_16/v_ae143b3a34f18507.json",
+      "kind": "text",
+      "video_id": "v_ae143b3a34f18507",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_ae143b3a34f18507_u001",
+          "v_ae143b3a34f18507_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000425",
+          "start_ms": 1033030,
+          "end_ms": 1033695,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_16/v_f5f330e99bb6bcd1.json",
+      "kind": "text",
+      "video_id": "v_f5f330e99bb6bcd1",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f5f330e99bb6bcd1_u001",
+          "v_f5f330e99bb6bcd1_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000449",
+          "start_ms": 961590,
+          "end_ms": 962115,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_17/v_10265caa1174ccfd.json",
+      "kind": "text",
+      "video_id": "v_10265caa1174ccfd",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_10265caa1174ccfd_u001",
+          "v_10265caa1174ccfd_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000452",
+          "start_ms": 1022350,
+          "end_ms": 1024185,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_17/v_b503588bf897195f.json",
+      "kind": "text",
+      "video_id": "v_b503588bf897195f",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_REVIEW",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_b503588bf897195f_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000389",
+          "start_ms": 810250,
+          "end_ms": 812325,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_17/v_f3dd15cb2a3da32c.json",
+      "kind": "text",
+      "video_id": "v_f3dd15cb2a3da32c",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 8,
+        "quote_pass": 8,
+        "matching_time_ranges": 3,
+        "expected_unit_ids": [
+          "v_f3dd15cb2a3da32c_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000227",
+          "start_ms": 572260,
+          "end_ms": 574390,
+          "text": "欢迎持续关注我们下辈。"
+        }
+      },
+      "issues": [
+        {
+          "code": "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY",
+          "points": 7
+        },
+        {
+          "code": "NO_RECORDED_ANALYSIS_INTERVAL",
+          "note": "Equal timestamps prove no positive analysis interval is recorded; they alone do not prove analysis did not happen."
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    }
+  ],
+  "issue_counts": {
+    "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE": 25,
+    "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES": 25,
+    "TIME_NOT_CITED_SEGMENT_RANGE": 13,
+    "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER": 3,
+    "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY": 78,
+    "NO_RECORDED_ANALYSIS_INTERVAL": 78
+  }
+}

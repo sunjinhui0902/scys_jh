@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_7ace1d24442d99c9",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "6101cae9a5ced68c40903787d049a092722ab4e58e72f816801fac5306fe8298",
+  "started_at": "2026-10-16T04:46:28.637269+08:00",
+  "finished_at": "2026-10-16T04:46:28.637269+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_7ace1d24442d99c9_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000256",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：基督教神学导论",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十分钟讲解阿里斯特基督教神学导论。",
+      "叙事节点（s000043）：第一部分追踪历史，",
+      "叙事节点（s000085）：而有些问题，",
+      "叙事节点（s000127）：现代时期的人在问当一切都可以被怀疑的时候，",
+      "叙事节点（s000169）：麦格拉斯这些跨学科的背景到底给了他什么不一样的东西？",
+      "叙事节点（s000211）：那这部书到底给了我们什么？",
+      "叙事节点（s000253）：经典之所以是经典，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "基督教神学导论",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十分钟讲解阿里斯特基督教神学导论。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十分钟讲解阿里斯特基督教神学导论。",
+      "start_s": 0.35,
+      "end_s": 3.19
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000043",
+      "quote": "第一部分追踪历史，",
+      "start_s": 101.85,
+      "end_s": 103.195
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000256",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 573.08,
+      "end_s": 574.825
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十分钟讲解阿里斯特基督教神学导论。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000043",
+      "quote": "第一部分追踪历史，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000256",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十分钟讲解阿里斯特基督教神学导论。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

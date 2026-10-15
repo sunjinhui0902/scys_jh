@@ -1,0 +1,70 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_f47a13f215121591",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.655618+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "深度思想拆解：二律背反",
+    "category": "深度社科/思想哲学",
+    "mentioned_books": [
+      "二律背反"
+    ],
+    "recommended_book": "二律背反",
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "为什么理性在追问终极问题时，",
+      "start_s": 0.41,
+      "end_s": 2.67,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "总分总结构：开篇提出重大时代命题或认知误区 -> 分阶段拆解经典文本内在逻辑 -> 结合当代人心理内耗进行反思 -> 创作者走心自白并预告下期。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000040",
+      "quote": "诉诸无限回溯的不可能性。",
+      "start_s": 97.43,
+      "end_s": 99.475
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000199",
+      "quote": "下本书见。",
+      "start_s": 528.64,
+      "end_s": 529.305,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约264.72秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约527.439秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "为什么理性在追问终极问题时，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000040",
+      "quote": "诉诸无限回溯的不可能性。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000199",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "失去壳的海龟",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\失去壳的海龟\\第338集｜二律背反，同一个问题，两种完全相反的答案，竟然都能逻辑自洽——这就是二律背反#哲学#认知#西方哲学#二律背反 #康德 #纯粹理性批判 #哲学悖论 #认知边界 #先验辩证.mp4",
+  "source_sha256": "2cf57918395209386ccabe019bf50f675a8eaab21db968165425d86e4bdcad82"
+}

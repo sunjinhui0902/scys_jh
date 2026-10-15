@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_9b4af995d6505fc2",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "752d64ee7b0cc9802225ea1112f61e3d6c7c60b1dd4f26891505b2504bd28b4f",
+  "started_at": "2026-10-16T04:46:47.445482+08:00",
+  "finished_at": "2026-10-16T04:46:47.445482+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_9b4af995d6505fc2_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000200",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：圆明园兽首？敦煌壁画？都不是。真正排第一的那件，明朝编的22",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道中国流失到海外最珍贵的文物是哪一件吗？",
+      "叙事节点（s000034）：手有吹笛子的，",
+      "叙事节点（s000067）：那得多疼。",
+      "叙事节点（s000100）：见证了一千六百年的中国绘画记忆。",
+      "叙事节点（s000133）：在这些年，",
+      "叙事节点（s000166）：二零二一年一尊龙门石窟佛手从美国回归十万尊佛像被盗的头，",
+      "叙事节点（s000199）：第一条视频就是下一集点个关注，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国流失到海外最珍贵的文物是哪一件吗？",
+      "start_s": 0.05,
+      "end_s": 3.57
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000034",
+      "quote": "手有吹笛子的，",
+      "start_s": 86.86,
+      "end_s": 89.565
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000200",
+      "quote": "看看谁才是中国流失海外最珍贵的文物。",
+      "start_s": 608.77,
+      "end_s": 611.715
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国流失到海外最珍贵的文物是哪一件吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000034",
+      "quote": "手有吹笛子的，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000200",
+      "quote": "看看谁才是中国流失海外最珍贵的文物。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

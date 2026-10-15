@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_4f4d5d796acb8bf2",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "1037b87abcad1605134dad692059d21de86867a7bf27137527a5c1a6752e361b",
+  "started_at": "2026-10-16T04:46:47.272885+08:00",
+  "finished_at": "2026-10-16T04:46:47.272885+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_4f4d5d796acb8bf2_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000220",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：从像路由器的西周青铜五柱器，到集体跪了两千年的青铜俑，再到人",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上集，",
+      "叙事节点（s000037）：发音各不相同，",
+      "叙事节点（s000073）：是研究先秦时期祭祀等礼仪活动的重要食物遗存。",
+      "叙事节点（s000109）：来自高邮龙求装遗址新石器时代文物九只，",
+      "叙事节点（s000145）：长三十五厘米，",
+      "叙事节点（s000181）：他们是有趣的泥。",
+      "叙事节点（s000217）：如果让你从这十件显眼包里选一件带回家，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "咱们看了五件表情管理失败的显眼包，",
+      "start_s": 0.41,
+      "end_s": 3.27
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000037",
+      "quote": "发音各不相同，",
+      "start_s": 102.48,
+      "end_s": 103.955
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000220",
+      "quote": "我等你。",
+      "start_s": 603.54,
+      "end_s": 603.97
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000002",
+      "quote": "咱们看了五件表情管理失败的显眼包，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000037",
+      "quote": "发音各不相同，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000220",
+      "quote": "我等你。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

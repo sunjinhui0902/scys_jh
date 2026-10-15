@@ -1,0 +1,68 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_4f4d5d796acb8bf2",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.577245+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：从像路由器的西周青铜五柱器，到集体跪了两千年的青铜俑，再到人",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "咱们看了五件表情管理失败的显眼包，",
+      "start_s": 0.41,
+      "end_s": 3.27,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000045",
+      "quote": "有学者从他的形状向甲骨文的纸质推测，",
+      "start_s": 125.99,
+      "end_s": 129.634
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000220",
+      "quote": "我等你。",
+      "start_s": 603.54,
+      "end_s": 603.97,
+      "is_commercial": false,
+      "note": "口播结尾以关注、分享或情感号召为主；未发现直接挂载可购买商品链接的实质入口。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约301.999秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约601.998秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000002",
+      "quote": "咱们看了五件表情管理失败的显眼包，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000045",
+      "quote": "有学者从他的形状向甲骨文的纸质推测，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000220",
+      "quote": "我等你。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\从像路由器的西周青铜五柱器，到集体跪了两千年的青铜俑，再到人头鱼身的镇墓神兽——这些造型奇特的文物，每一件都在问你同一个问题：你猜我是干什么用的？_#人物故事 #.mp4",
+  "source_sha256": "1037b87abcad1605134dad692059d21de86867a7bf27137527a5c1a6752e361b"
+}

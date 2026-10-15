@@ -1,0 +1,48 @@
+{
+  "batch_id": "text_17",
+  "kind": "text",
+  "started_at": "2026-10-16T04:46:48.173312+08:00",
+  "finished_at": "2026-10-16T04:46:48.220240+08:00",
+  "inputs": [
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\tasks\\text_17.json",
+      "sha256": "f2fb2169766591ad0787b226fbaa6562391f1cfc9f5e89817b9a076127f4530a"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_10265caa1174ccfd_u001.json",
+      "sha256": "7a64f8edd59554b6a6e085c3efc0b9b51bd6f39d731d5712bafeebc7aa79f160"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_10265caa1174ccfd_u002.json",
+      "sha256": "81ed26fb085573305c8e99f760d5dd24d8a01a0354a8b3740c85a0e488741a03"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_b503588bf897195f_u001.json",
+      "sha256": "35a0303292cfc26070d3046aadab6700d37d1d0f54b4422a9905bfd461346894"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_f3dd15cb2a3da32c_u001.json",
+      "sha256": "e4a567ca75aba91bebdeff0d0057941ab297588fe9a39c4d5914634a4b47c633"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_17\\v_10265caa1174ccfd.json",
+      "sha256": "d518c2705b923ab1182b6ea27435f948d2ec9c4079bb49bf78bf3533dd514646"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_17\\v_b503588bf897195f.json",
+      "sha256": "686803d16967519a86f3d1a1f4c3ad3bfe85f047968a544bd4c4ee6eb5ff7f27"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_17\\v_f3dd15cb2a3da32c.json",
+      "sha256": "938ad79497c9938ad396b8e4c104232ebd03fd31f9fe048330bce2ceea89fca7"
+    }
+  ],
+  "unresolved": [
+    {
+      "video_id": "v_b503588bf897195f",
+      "issue": "帧内作者字样为钱穆，ASR开头有钱目/钱木等同音写法；原文不改，派生字段更正须标注帧证据，未做逐字听核"
+    }
+  ]
+}

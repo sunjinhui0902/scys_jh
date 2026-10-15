@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_7199f8033bb838af",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "e6ff486d702bc71ce622d5493dd8a6d3058efb91738236dbd0ce31bac5194129",
+  "started_at": "2026-10-16T04:46:47.749368+08:00",
+  "finished_at": "2026-10-16T04:46:47.749368+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_7199f8033bb838af_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000291",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：真正适合带家人去的地方不用出国。从青海湖的三色带到凤凰古城的",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道最该带家人去一次的地方是哪儿吗？",
+      "叙事节点（s000049）：慢慢过渡的颜色，",
+      "叙事节点（s000097）：灯光倒映在水面上。",
+      "叙事节点（s000145）：黄果树为什么适合带家人？",
+      "叙事节点（s000193）：屋顶连着屋顶，",
+      "叙事节点（s000241）：像是从棉花堆里长出来的一根根柱子，",
+      "叙事节点（s000289）：下一集已经同步更新了点，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道最该带家人去一次的地方是哪儿吗？",
+      "start_s": 0.11,
+      "end_s": 5.07
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000049",
+      "quote": "慢慢过渡的颜色，",
+      "start_s": 126.02,
+      "end_s": 127.7
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000291",
+      "quote": "就是咱们接着接前五名。",
+      "start_s": 707.25,
+      "end_s": 711.275
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道最该带家人去一次的地方是哪儿吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000049",
+      "quote": "慢慢过渡的颜色，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000291",
+      "quote": "就是咱们接着接前五名。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

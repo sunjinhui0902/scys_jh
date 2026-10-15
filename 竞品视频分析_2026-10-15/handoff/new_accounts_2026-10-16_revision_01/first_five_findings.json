@@ -1,0 +1,332 @@
+{
+  "reviewed_at": "2026-10-16T07:43:30+08:00",
+  "rows": [
+    {
+      "path": "text_01/v_368ff8bc9b9527ea.json",
+      "kind": "text",
+      "video_id": "v_368ff8bc9b9527ea",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_368ff8bc9b9527ea_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000272",
+          "start_ms": 724960,
+          "end_ms": 726845,
+          "text": "比你在家开暖气还舒坦。"
+        }
+      },
+      "issues": [
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000001",
+          "claimed": [
+            0.46,
+            5.56
+          ],
+          "actual": [
+            0.07,
+            5.25
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000004",
+          "claimed": [
+            11.0,
+            15.0
+          ],
+          "actual": [
+            9.33,
+            13.39
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000271",
+          "claimed": [
+            720.0,
+            724.0
+          ],
+          "actual": [
+            721.68,
+            724.355
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_5d5e6d383a0f923f.json",
+      "kind": "text",
+      "video_id": "v_5d5e6d383a0f923f",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_REVIEW",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 7,
+        "quote_pass": 7,
+        "matching_time_ranges": 2,
+        "expected_unit_ids": [
+          "v_5d5e6d383a0f923f_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000207",
+          "start_ms": 484400,
+          "end_ms": 487105,
+          "text": "欢迎持续关注我们下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000013",
+          "claimed": [
+            32.0,
+            36.5
+          ],
+          "actual": [
+            37.02,
+            41.64
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_9f185f433a49579e.json",
+      "kind": "text",
+      "video_id": "v_9f185f433a49579e",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 7,
+        "quote_pass": 7,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_9f185f433a49579e_u001",
+          "v_9f185f433a49579e_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000501",
+          "start_ms": 1111690,
+          "end_ms": 1112355,
+          "text": "下本书见。"
+        }
+      },
+      "issues": [
+        {
+          "code": "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER",
+          "analysis_finished": "2026-10-16T04:43:45+08:00",
+          "completion_finished": "2026-10-16T04:41:37.198791+08:00"
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000001",
+          "claimed": [
+            0.44,
+            4.5
+          ],
+          "actual": [
+            0.34,
+            3.88
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000004",
+          "claimed": [
+            12.0,
+            16.0
+          ],
+          "actual": [
+            8.64,
+            11.24
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000501",
+          "claimed": [
+            1110.0,
+            1112.539
+          ],
+          "actual": [
+            1111.69,
+            1112.355
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_cd6edb76157fc255.json",
+      "kind": "text",
+      "video_id": "v_cd6edb76157fc255",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 6,
+        "quote_pass": 6,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_cd6edb76157fc255_u001"
+        ],
+        "expected_tail": {
+          "segment_id": "s000310",
+          "start_ms": 781800,
+          "end_ms": 785295,
+          "text": "这趟旅途就直了。"
+        }
+      },
+      "issues": [
+        {
+          "code": "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER",
+          "analysis_finished": "2026-10-16T04:42:45+08:00",
+          "completion_finished": "2026-10-16T04:41:37.198791+08:00"
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000003",
+          "claimed": [
+            3.0,
+            8.0
+          ],
+          "actual": [
+            5.09,
+            9.55
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000004",
+          "claimed": [
+            8.0,
+            10.5
+          ],
+          "actual": [
+            10.51,
+            12.49
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000308",
+          "claimed": [
+            776.0,
+            780.0
+          ],
+          "actual": [
+            775.21,
+            778.05
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    },
+    {
+      "path": "text_01/v_fc3786ad66dc77e3.json",
+      "kind": "text",
+      "video_id": "v_fc3786ad66dc77e3",
+      "pass": true,
+      "errors": [],
+      "A_status": "AI_OK",
+      "tests": {
+        "coverage_declaration_matches": true,
+        "quote_checks": 7,
+        "quote_pass": 7,
+        "matching_time_ranges": 0,
+        "expected_unit_ids": [
+          "v_fc3786ad66dc77e3_u001",
+          "v_fc3786ad66dc77e3_u002"
+        ],
+        "expected_tail": {
+          "segment_id": "s000497",
+          "start_ms": 1002270,
+          "end_ms": 1002975,
+          "text": "我们下本书。"
+        }
+      },
+      "issues": [
+        {
+          "code": "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER",
+          "analysis_finished": "2026-10-16T04:42:00+08:00",
+          "completion_finished": "2026-10-16T04:41:37.198791+08:00"
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.hook",
+          "segment_id": "s000001",
+          "claimed": [
+            0.44,
+            3.7
+          ],
+          "actual": [
+            0.33,
+            2.57
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.bridge",
+          "segment_id": "s000002",
+          "claimed": [
+            3.7,
+            7.0
+          ],
+          "actual": [
+            3.05,
+            5.51
+          ]
+        },
+        {
+          "code": "TIME_NOT_CITED_SEGMENT_RANGE",
+          "field": "fields.cta",
+          "segment_id": "s000497",
+          "claimed": [
+            999.0,
+            1003.0
+          ],
+          "actual": [
+            1002.27,
+            1002.975
+          ]
+        }
+      ],
+      "review_status": "AI_REVIEW"
+    }
+  ],
+  "batch_issue_counts": {
+    "GENERIC_FRAME_DESCRIPTION_WITHOUT_SPECIFIC_EVIDENCE": 25,
+    "MOTION_NOT_PROVABLE_FROM_STATIC_FRAMES": 25,
+    "TIME_NOT_CITED_SEGMENT_RANGE": 13,
+    "ANALYSIS_FINISH_AFTER_COMPLETION_MARKER": 3,
+    "EVENLY_SAMPLED_SEGMENTS_NOT_SEMANTIC_SUMMARY": 78,
+    "NO_RECORDED_ANALYSIS_INTERVAL": 78
+  },
+  "unchanged_originals": true,
+  "accepted_text": 0,
+  "accepted_deep": 0
+}

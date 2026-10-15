@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_8ea3bdec43adefd7",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "e4f114a8ae1f4e69e0590f8f354fcdd284bd08e5821031227121bfda9736fe63",
+  "started_at": "2026-10-16T04:46:47.472932+08:00",
+  "finished_at": "2026-10-16T04:46:47.472932+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_8ea3bdec43adefd7_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000224",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：故宫十个不为人知的秘密，从门钉数量暗藏生死规矩，到金水河弯成",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上一集咱们讲了故宫五个，",
+      "叙事节点（s000038）：八、不用杨树酒，",
+      "叙事节点（s000075）：龙椅就摆在正中间龙椅。",
+      "叙事节点（s000112）：或者发出异常响动，",
+      "叙事节点（s000149）：每个院落的地面也不是纯平的，",
+      "叙事节点（s000186）：可您琢磨琢磨六百年前修的排水系统，",
+      "叙事节点（s000223）：转个发，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "上一集咱们讲了故宫五个，",
+      "start_s": 0.05,
+      "end_s": 1.79
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000038",
+      "quote": "八、不用杨树酒，",
+      "start_s": 95.29,
+      "end_s": 97.685
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000224",
+      "quote": "咱们下一期接着聊。",
+      "start_s": 577.59,
+      "end_s": 579.225
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "上一集咱们讲了故宫五个，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000038",
+      "quote": "八、不用杨树酒，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000224",
+      "quote": "咱们下一期接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

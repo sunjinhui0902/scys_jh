@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_3b5e02e2296f859a",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "cff7c04d895891485cf0b23e14bee9e63bc478b4cecfa65303245ce5cec2d1c0",
+  "started_at": "2026-10-16T04:46:47.459958+08:00",
+  "finished_at": "2026-10-16T04:46:47.459958+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_3b5e02e2296f859a_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000199",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：“为什么越想做自己",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：萨特为什么越想做自己，",
+      "叙事节点（s000034）：外祖父剪掉了她漂亮的金色卷发，",
+      "叙事节点（s000067）：把你变成一个任由平判的物体。",
+      "叙事节点（s000100）：作为一个女人，",
+      "叙事节点（s000133）：从标签怎样解释，",
+      "叙事节点（s000166）：所以，",
+      "叙事节点（s000199）：下本书见。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "“为什么越想做自己",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "萨特为什么越想做自己，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "萨特为什么越想做自己，",
+      "start_s": 0.34,
+      "end_s": 2.34
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000034",
+      "quote": "外祖父剪掉了她漂亮的金色卷发，",
+      "start_s": 68.27,
+      "end_s": 70.515
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000199",
+      "quote": "下本书见。",
+      "start_s": 426.56,
+      "end_s": 427.135
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "萨特为什么越想做自己，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000034",
+      "quote": "外祖父剪掉了她漂亮的金色卷发，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000199",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "萨特为什么越想做自己，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

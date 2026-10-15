@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_aaa7253ec7413328",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "4026bba137cc8d5e24b2fd9c8197b52a57c79cd508d5b04a4afb08b4ac9b5904",
+  "started_at": "2026-10-16T04:46:47.953901+08:00",
+  "finished_at": "2026-10-16T04:46:47.953901+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_aaa7253ec7413328_u001",
+      "v_aaa7253ec7413328_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000371",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：人的行为",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十三分钟讲解米塞斯人的行为。",
+      "叙事节点（s000062）：你要建立更完善的计量模型。",
+      "叙事节点（s000123）：因为他的前提是规划者比所有人都更了解什么。",
+      "叙事节点（s000184）：协调人类的活动。",
+      "叙事节点（s000245）：没有可看得见的国民，",
+      "叙事节点（s000306）：如果你看到这里还没有划走，",
+      "叙事节点（s000367）：这才是我把这条文案改了五遍，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "人的行为",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十三分钟讲解米塞斯人的行为。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解米塞斯人的行为。",
+      "start_s": 0.31,
+      "end_s": 2.43
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000062",
+      "quote": "你要建立更完善的计量模型。",
+      "start_s": 132.75,
+      "end_s": 134.705
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000371",
+      "quote": "下本书见。",
+      "start_s": 892.62,
+      "end_s": 893.225
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解米塞斯人的行为。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000062",
+      "quote": "你要建立更完善的计量模型。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000371",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解米塞斯人的行为。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

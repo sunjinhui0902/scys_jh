@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_4be8e3025bc509bf",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "9a2f8b15f9b98daf22b15888080273ad8a4dfbe98998fea6aa75c5bf75f28acf",
+  "started_at": "2026-10-16T04:46:47.560063+08:00",
+  "finished_at": "2026-10-16T04:46:47.560063+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_4be8e3025bc509bf_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000184",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：故宫里没有一个厕所，地砖比黄金还贵，角楼精美绝伦却没有图纸，",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道故宫最不可思议的秘密是什么吗？",
+      "叙事节点（s000031）：故宫的宫殿挨得很近。",
+      "叙事节点（s000061）：前后烧制药七百二十天，",
+      "叙事节点（s000091）：只有别的房间一半大算半间。",
+      "叙事节点（s000121）：每只猫都做了绝育和防疫，",
+      "叙事节点（s000151）：这么一座结构极其复杂的建筑，",
+      "叙事节点（s000181）：干干净净，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道故宫最不可思议的秘密是什么吗？",
+      "start_s": 0.11,
+      "end_s": 3.27
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000031",
+      "quote": "故宫的宫殿挨得很近。",
+      "start_s": 94.78,
+      "end_s": 96.535
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000184",
+      "quote": "就是咱们接着接前五个秘密。",
+      "start_s": 479.67,
+      "end_s": 483.865
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道故宫最不可思议的秘密是什么吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000031",
+      "quote": "故宫的宫殿挨得很近。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000184",
+      "quote": "就是咱们接着接前五个秘密。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

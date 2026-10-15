@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_0f9d69c591d2a5e5",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "194de54432fb7ece5da4a04789dde3636160b3ccd2b5510662e8da47f427a3b2",
+  "started_at": "2026-10-16T04:46:47.431937+08:00",
+  "finished_at": "2026-10-16T04:46:47.431937+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_0f9d69c591d2a5e5_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000346",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：沈氏玄空学",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十一分钟讲解沈竹仍沈氏悬空学。",
+      "叙事节点（s000058）：故意悬空二字代之。",
+      "叙事节点（s000115）：书中最引人入胜的部分是关于九星的非福九颗星一白二黑三碧四绿，",
+      "叙事节点（s000172）：所以你也不能永远盯着同一个地方，",
+      "叙事节点（s000229）：互为条件。",
+      "叙事节点（s000286）：他的态度多么坦荡。",
+      "叙事节点（s000343）：也许你曾是他某个时空节点里最亮的那颗星，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "沈氏玄空学",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十一分钟讲解沈竹仍沈氏悬空学。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十一分钟讲解沈竹仍沈氏悬空学。",
+      "start_s": 0.41,
+      "end_s": 3.17
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000058",
+      "quote": "故意悬空二字代之。",
+      "start_s": 142.04,
+      "end_s": 143.88
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000346",
+      "quote": "下本书见。",
+      "start_s": 801.44,
+      "end_s": 802.085
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十一分钟讲解沈竹仍沈氏悬空学。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000058",
+      "quote": "故意悬空二字代之。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000346",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十一分钟讲解沈竹仍沈氏悬空学。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

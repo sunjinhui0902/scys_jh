@@ -1,0 +1,68 @@
+{
+  "batch_id": "text_01",
+  "kind": "text",
+  "started_at": "2026-10-16T04:41:37.138981+08:00",
+  "finished_at": "2026-10-16T04:41:37.198791+08:00",
+  "inputs": [
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\tasks\\text_01.json",
+      "sha256": "72c22635c1ae6c5d2f3526c7276483fca3376bb15939688289d1c7c12fbf63eb"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_5d5e6d383a0f923f_u001.json",
+      "sha256": "a6d66f27bfec28b8c7f6af96d58729ce1181f73708831a869bf5d83224373382"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_368ff8bc9b9527ea_u001.json",
+      "sha256": "fde53cbbbcceaaf72996543ee6e4dd372b3f7067065304506f3bb4c80d30b3d5"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_fc3786ad66dc77e3_u001.json",
+      "sha256": "f2d1ffc5de513d125cbaf78965fea9d00074c6c2213d549b0f40dfa173bbfa20"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_fc3786ad66dc77e3_u002.json",
+      "sha256": "cc34562bb3d35f69befd8f0d240edddee9aaaf1ff453fae864f5b9597a4c15e1"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_cd6edb76157fc255_u001.json",
+      "sha256": "24dc06adfeea4e02fe4091f5ba516f063c15c48aa3c5ba4da3fbc654f14b5ae1"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_9f185f433a49579e_u001.json",
+      "sha256": "1693cee2665a1e113e8252720a6bec103fb0b1b7c6ae9b588cd650f060b6a34e"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\text_units\\v_9f185f433a49579e_u002.json",
+      "sha256": "cf6c162ad814024a3356d5d7841fe259972f4d7bf2191ad0023eeafac9519e38"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_01\\v_5d5e6d383a0f923f.json",
+      "sha256": "7b541b4099839a8ff6351c8d469fe1cd482dcd3fe6d9998aa33f14616734049b"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_01\\v_368ff8bc9b9527ea.json",
+      "sha256": "ad442881868f31a6ffe85212b2dc12bac7c476725ca141979a7fdb1a16a602a9"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_01\\v_fc3786ad66dc77e3.json",
+      "sha256": "4249fe22a8d000d141ab4d5a92b29af0b639437f7644b743dc3f2b35d3aac6ae"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_01\\v_cd6edb76157fc255.json",
+      "sha256": "65ba34defd416eaee07c0c59736a3b85c3c30a22d796460e22e135bd6a0d4e4c"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\new_accounts_2026-10-16\\text_01\\v_9f185f433a49579e.json",
+      "sha256": "bfe2dc1de13986281a47ac2e540650ff1553ab7fea3432f8c332eb0c99b4200f"
+    }
+  ],
+  "unresolved": [
+    {
+      "video_id": "v_5d5e6d383a0f923f",
+      "issue": "ASR开头识别为钱目，依据视频帧标注为钱穆，未逐字听核；无实体书购买转化指标"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_fa9448dfccdd4269",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "9526c15a3399e3417aecde699053a87b4e5e3998110da0e439763e90a5b8caeb",
+  "started_at": "2026-10-16T04:46:47.642973+08:00",
+  "finished_at": "2026-10-16T04:46:47.642973+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_fa9448dfccdd4269_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000213",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：穷通宝鉴",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：八分钟讲解，",
+      "叙事节点（s000036）：徐乐武反复研读此书，",
+      "叙事节点（s000071）：被称为子平之模范。",
+      "叙事节点（s000106）：层次分明，",
+      "叙事节点（s000141）：余春台和徐乐无两代学者，",
+      "叙事节点（s000176）：他们用最通俗的语言，",
+      "叙事节点（s000211）：我是小海龟。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "穷通宝鉴",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "八分钟讲解，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "八分钟讲解，",
+      "start_s": 0.31,
+      "end_s": 1.11
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000036",
+      "quote": "徐乐武反复研读此书，",
+      "start_s": 73.01,
+      "end_s": 74.87
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000213",
+      "quote": "下本书见。",
+      "start_s": 480.55,
+      "end_s": 481.205
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "八分钟讲解，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000036",
+      "quote": "徐乐武反复研读此书，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000213",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "八分钟讲解，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

@@ -9,8 +9,8 @@ def read(p):return json.loads(Path(p).read_text(encoding='utf-8'))
 def rows(p):return [json.loads(s) for s in Path(p).read_text(encoding='utf-8').splitlines() if s]
 def main():
     at=now();jobpath=R/'manifest'/f'{BATCH}_job.json';job=read(jobpath);new=rows(B/'manifest/manifest.jsonl')
-    if job.get('verified_text_semantic',0) or job.get('verified_representative_deep',0):
-        raise RuntimeError('Base-only recorder: A results have been accepted; adapt an integration recorder rather than resetting verified counts')
+    if job.get('review_completed_at') or job.get('verified_text_semantic',0) or job.get('verified_representative_deep',0):
+        raise RuntimeError('Base-only recorder: A results have been reviewed or accepted; use the review integration recorder rather than resetting statuses')
     job['inventory']=read(B/'manifest/inventory_complete.json')
     stats=read(B/'manifest/statistics_summary.json');qa=read(B/'manifest/input_qa.json');book=read(B/'manifest/workbook_export.json')
     source=read(B/'manifest/source_integrity.json');resume=read(B/'manifest/resume_test_result.json');plan=read(H/'batch_plan.json')

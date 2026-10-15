@@ -1,0 +1,78 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_cd6edb76157fc255",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "91fc39c734cad6d9531883ff9b3a744cfab0613830dbd0f6a128b90cc511f4d6",
+  "started_at": "2026-10-16T04:42:00+08:00",
+  "finished_at": "2026-10-16T04:42:45+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_cd6edb76157fc255_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000310",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "国内藏在水边的十大人间仙境（下集：前五名水景秘境盘点）",
+    "category": "旅行地理/自然风光",
+    "story_points": [
+      "接上集盘点国内藏在水边的仙境，从第十到第六过渡到前五名",
+      "逐一展开前五名极具视觉治愈力与避世感的水边胜景",
+      "描绘水波、晨雾、倒影与林木交织的极致自然画卷",
+      "强调避开商业化景区人挤人的拥堵，追求纯粹宁静的自然相处体验",
+      "鼓励中老年人放下日常繁杂焦虑，带上伴侣出行静心发呆"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000003",
+      "quote": "上次咱们盘点国内藏在水边的十大人间仙境。",
+      "start_s": 3.0,
+      "end_s": 8.0
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000004",
+      "quote": "从第十讲到第六，",
+      "start_s": 8.0,
+      "end_s": 10.5
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000308",
+      "quote": "十个地方挑一处带上老伴出发，",
+      "start_s": 776.0,
+      "end_s": 780.0
+    },
+    "reusable_method": "水系美学沉浸描写 + 避开人流的隐秘感提炼 + '发呆即是治愈'的低压力旅行心理建设 + 银发伴侣情感召唤收尾。",
+    "original_topic_angles": [
+      "结合《大美中国：江河湖泊篇》，制作'中国最治愈的十处静水秘境地图'，从画面到地理知识全方位展示",
+      "水润名城：从中国古代水利与城池选址（如都江堰与成都、西湖与杭州）切入大美中国地理人文"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000003",
+      "quote": "上次咱们盘点国内藏在水边的十大人间仙境。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000004",
+      "quote": "从第十讲到第六，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000308",
+      "quote": "十个地方挑一处带上老伴出发，",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无实际视频静态帧印证具体地名风光",
+    "无书籍带货或直接商品链接，纯属风光旅行生活内容"
+  ],
+  "status": "AI_OK"
+}

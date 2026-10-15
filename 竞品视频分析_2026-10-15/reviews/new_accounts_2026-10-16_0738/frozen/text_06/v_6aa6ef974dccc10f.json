@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_6aa6ef974dccc10f",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "ddf8d585fbf8191f11bc2d0484738f9daab8b7ba94a40c765c209dc4dc5a3987",
+  "started_at": "2026-10-16T04:46:47.343097+08:00",
+  "finished_at": "2026-10-16T04:46:47.343097+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_6aa6ef974dccc10f_u001",
+      "v_6aa6ef974dccc10f_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000411",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：晨与夜",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：如果有一本书，",
+      "叙事节点（s000069）：重复之下的变化，",
+      "叙事节点（s000137）：是送别孩子后屋子的空旷，",
+      "叙事节点（s000205）：他做着他必须做的事，",
+      "叙事节点（s000273）：但它变得完整福色，",
+      "叙事节点（s000341）：书中许多段落都像海面下的潜流，",
+      "叙事节点（s000409）：我在这里，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "晨与夜",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "如果有一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "如果有一本书，",
+      "start_s": 0.45,
+      "end_s": 1.35
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000069",
+      "quote": "重复之下的变化，",
+      "start_s": 164.51,
+      "end_s": 165.835
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000411",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 970.12,
+      "end_s": 972.095
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "如果有一本书，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000069",
+      "quote": "重复之下的变化，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000411",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "如果有一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

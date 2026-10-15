@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_64ba721585f53252",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "9df8f73fa255954cf42ef5687d3aeb6f6d5cea39ee564069a96c72b860e31aa9",
+  "started_at": "2026-10-16T04:46:47.670519+08:00",
+  "finished_at": "2026-10-16T04:46:47.670519+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_64ba721585f53252_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000489",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：金刚经：“应无所住",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十五分钟讲解鸠摩罗什金刚经。",
+      "叙事节点（s000082）：恭喜你，",
+      "叙事节点（s000163）：经理说的很清楚，",
+      "叙事节点（s000244）：心也一样。",
+      "叙事节点（s000325）：自己给自己造世界，",
+      "叙事节点（s000406）：因为你知道空性不是虚无，",
+      "叙事节点（s000487）：感兴趣的朋友可以关注一下，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "金刚经：“应无所住",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十五分钟讲解鸠摩罗什金刚经。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解鸠摩罗什金刚经。",
+      "start_s": 0.23,
+      "end_s": 2.55
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000082",
+      "quote": "恭喜你，",
+      "start_s": 175.86,
+      "end_s": 176.48
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000489",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 963.92,
+      "end_s": 965.75
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解鸠摩罗什金刚经。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000082",
+      "quote": "恭喜你，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000489",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解鸠摩罗什金刚经。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

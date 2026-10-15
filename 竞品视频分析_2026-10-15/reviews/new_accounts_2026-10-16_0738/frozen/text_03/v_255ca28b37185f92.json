@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_255ca28b37185f92",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "f9d7e73e4a4bfd4d89e552f948defd6156a7bd139e3c733638521da5b0ff64d1",
+  "started_at": "2026-10-16T04:46:47.175729+08:00",
+  "finished_at": "2026-10-16T04:46:47.175729+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_255ca28b37185f92_u001",
+      "v_255ca28b37185f92_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000465",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：红的自传·丈夫之美",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：今天我们来讲二零二六年诺贝尔文学奖得主安妮卡森的代表作，",
+      "叙事节点（s000078）：不渲染情绪，",
+      "叙事节点（s000155）：他有一个漠不关心的母亲，",
+      "叙事节点（s000232）：谈论爱情，",
+      "叙事节点（s000309）：这是一段关于被定义与自我命名的故事。",
+      "叙事节点（s000386）：而是同一件事的两面，",
+      "叙事节点（s000463）：我是小海龟，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "红的自传·丈夫之美",
+        "relation": "recommended",
+        "segment_id": "s000002",
+        "evidence_quote": "红的自传丈夫之美。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "今天我们来讲二零二六年诺贝尔文学奖得主安妮卡森的代表作，",
+      "start_s": 0.33,
+      "end_s": 5.19
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000078",
+      "quote": "不渲染情绪，",
+      "start_s": 184.86,
+      "end_s": 185.905
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000465",
+      "quote": "下本书见。",
+      "start_s": 982.05,
+      "end_s": 982.645
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "今天我们来讲二零二六年诺贝尔文学奖得主安妮卡森的代表作，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000078",
+      "quote": "不渲染情绪，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000465",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000002",
+      "quote": "红的自传丈夫之美。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

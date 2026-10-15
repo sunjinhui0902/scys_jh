@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_0a4577db9c6cff5b",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "8797642a7b6c69f1109bea8c91911b5e0d3b886cd3b3f2e12e80f20ca4357c23",
+  "started_at": "2026-10-16T04:46:47.846270+08:00",
+  "finished_at": "2026-10-16T04:46:47.846270+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_0a4577db9c6cff5b_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000292",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：道学入门",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：有一本书，",
+      "叙事节点（s000049）：涵盖哲学的道家、宗教学的道教，",
+      "叙事节点（s000097）：这个系统几乎天地人之道，",
+      "叙事节点（s000145）：但前一虫为实体，",
+      "叙事节点（s000193）：他出版了单道法诀十二讲分数自身阴阳清净单法、虚空阴阳丹、法西派单法等三家四派修炼体系，",
+      "叙事节点（s000241）：普世文明，",
+      "叙事节点（s000289）：但它可能是一本让你清醒的书。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "道学入门",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "有一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "有一本书，",
+      "start_s": 0.25,
+      "end_s": 0.83
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000049",
+      "quote": "涵盖哲学的道家、宗教学的道教，",
+      "start_s": 117.99,
+      "end_s": 120.46
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000292",
+      "quote": "下本书见。",
+      "start_s": 753.94,
+      "end_s": 754.545
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "有一本书，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000049",
+      "quote": "涵盖哲学的道家、宗教学的道教，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000292",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "有一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

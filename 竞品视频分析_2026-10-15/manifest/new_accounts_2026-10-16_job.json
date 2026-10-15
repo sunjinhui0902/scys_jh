@@ -1,7 +1,7 @@
 {
   "schema_version": "new-account-scheduled-job-1.0",
   "batch_id": "new_accounts_2026-10-16",
-  "status": "A_HANDED_OFF",
+  "status": "REVIEWED_REPAIR_PENDING",
   "recorded_at": "2026-10-16T00:23:26+08:00",
   "not_before": "2026-10-16T03:10:00+08:00",
   "timezone": "Asia/Shanghai",
@@ -54,10 +54,10 @@
   "review_delay_hours": 3,
   "review_due_at": "2026-10-16T07:37:08+08:00",
   "review_automation_id": "07-38-a",
-  "review_schedule_status": "ACTIVE_VERIFIED",
-  "review_completed_at": null,
-  "can_continue": null,
-  "received_A_final_files": 0,
+  "review_schedule_status": "PAUSED_VERIFIED",
+  "review_completed_at": "2026-10-16T07:53:12+08:00",
+  "can_continue": false,
+  "received_A_final_files": 133,
   "verified_text_semantic": 0,
   "verified_representative_deep": 0,
   "scope": {
@@ -71,7 +71,7 @@
     "historical_317_text_backlog_auto_launched": false
   },
   "trigger_received_at": "2026-10-16T03:10:15+08:00",
-  "updated_at": "2026-10-16T04:44:23+08:00",
+  "updated_at": "2026-10-16T07:53:12+08:00",
   "inventory": {
     "scanned_at": "2026-10-16T03:12:42+08:00",
     "source_files": 83,
@@ -97,7 +97,7 @@
   "local_frames": 332,
   "new_candidates": 25,
   "handoff_ready_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\new_accounts_2026-10-16\\READY.json",
-  "workbook_sha256": "f7ee9689de77c8a9237ed48d72a01cc205c25203df525cdddcede84a87367140",
+  "workbook_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f",
   "local_qa_report": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\new_accounts_2026-10-16_基础处理与交接验收.md",
   "review_scheduled_for": "2026-10-16T07:38:00+08:00",
   "A_conversation_title": "Fuye 竞品分析新批次执行",
@@ -115,5 +115,33 @@
     "timestamp_definition": "time of independently observed successful submission and Working state; no exact inference duration claimed",
     "other_conversations_not_interrupted": true,
     "system_network_prompt_not_acted_on": true
-  }
+  },
+  "continuation_decision": "No expansion; five text-only revisions permitted and handed off",
+  "received_A_text_files": 83,
+  "received_A_deep_files": 25,
+  "reviewed_text_files": 83,
+  "reviewed_deep_files": 25,
+  "review_text_status": "AI_REVIEW",
+  "review_deep_status": "AI_REVIEW",
+  "review_report": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\new_accounts_2026-10-16_0738_A审核报告.md",
+  "review_decisions": "D:\\fuye\\竞品视频分析_2026-10-15\\reviews\\new_accounts_2026-10-16_0738\\decisions.json",
+  "repair_handoff": {
+    "observed_at": "2026-10-16T07:47:26+08:00",
+    "status": "SENT_AND_WORKING",
+    "conversation_id": "02686876-a1ab-4069-82fb-a44bf3183aeb",
+    "conversation_title": "Fuye 竞品分析新批次执行",
+    "project": "fuye",
+    "method": "Computer Use @oai/sky native UI",
+    "user_message_visible": true,
+    "working_visible": true,
+    "scope": "Exactly first five text-only revisions; stop after delivery",
+    "output_subbatch": "revision_text_01",
+    "automatic_next_review_created": false
+  },
+  "repair_scope": "Only revision_text_01, five videos; stop after delivery",
+  "next_automatic_review": null,
+  "review_automation_status": "PAUSED",
+  "review_automation_pause_observed_at": "2026-10-16T07:54:24+08:00",
+  "can_expand": false,
+  "can_repair": true
 }

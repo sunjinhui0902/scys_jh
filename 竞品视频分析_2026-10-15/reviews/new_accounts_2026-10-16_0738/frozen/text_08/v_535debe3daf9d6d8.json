@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_535debe3daf9d6d8",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "1d8b1177ba32fe798ff46203603bf714715d3cd3e6a99ff0348c53b2db8f37bd",
+  "started_at": "2026-10-16T04:46:47.506686+08:00",
+  "finished_at": "2026-10-16T04:46:47.506686+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_535debe3daf9d6d8_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000208",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：故宫里最震撼的不是清明上河图，不是翠玉白菜，而是那些'人做出",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：您知道故宫里最震撼人的是什么吗？",
+      "叙事节点（s000035）：古籍里叫无间诛县，",
+      "叙事节点（s000069）：尾线四十几根一厘米，",
+      "叙事节点（s000103）：宋人雕玉不用，",
+      "叙事节点（s000137）：烧完之后，",
+      "叙事节点（s000171）：没有图纸，",
+      "叙事节点（s000205）：进入主页。"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "您知道故宫里最震撼人的是什么吗？",
+      "start_s": 0.07,
+      "end_s": 2.87
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000035",
+      "quote": "古籍里叫无间诛县，",
+      "start_s": 96.81,
+      "end_s": 98.745
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000208",
+      "quote": "到底能做出什么？",
+      "start_s": 555.77,
+      "end_s": 557.035
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "您知道故宫里最震撼人的是什么吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000035",
+      "quote": "古籍里叫无间诛县，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000208",
+      "quote": "到底能做出什么？",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

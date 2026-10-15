@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_cc8397da3c3f0c8a",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "adafff5cd094f44506dac0248922a14830464421f0194d802198624e9576d2de",
+  "started_at": "2026-10-16T04:46:47.942942+08:00",
+  "finished_at": "2026-10-16T04:46:47.942942+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_cc8397da3c3f0c8a_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000245",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：马踏飞燕在废铜堆里躺了好几年，太阳神鸟差一铲子就被碾进渣土场",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道中国最离奇经历的十件国宝是哪一件吗？",
+      "叙事节点（s000041）：有人跟他提了一嘴，",
+      "叙事节点（s000081）：后来他他被选为中国文化遗产标志，",
+      "叙事节点（s000121）：威风凛凛。",
+      "叙事节点（s000161）：商朝工匠一次铸成的东西，",
+      "叙事节点（s000201）：清明上河图差点就在这场混乱中被撕烂或者丢掉。",
+      "叙事节点（s000241）：下一集已经同步更新，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国最离奇经历的十件国宝是哪一件吗？",
+      "start_s": 0.05,
+      "end_s": 3.45
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000041",
+      "quote": "有人跟他提了一嘴，",
+      "start_s": 93.53,
+      "end_s": 95.055
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000245",
+      "quote": "看看中国到底丢了什么。",
+      "start_s": 655.12,
+      "end_s": 656.865
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国最离奇经历的十件国宝是哪一件吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000041",
+      "quote": "有人跟他提了一嘴，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000245",
+      "quote": "看看中国到底丢了什么。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

@@ -1,0 +1,68 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_2be39eef1514e89b",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.321717+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：故宫里有一座近两米高的自鸣钟，每到整点楼阁门自己打开，小人走",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "咱们聊了雕漆盘严丝徒、玉龙炉、珐琅炉青铜尊这集直接揭开谜底，",
+      "start_s": 0.43,
+      "end_s": 9.21,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000057",
+      "quote": "让两百多年前的机械再次活了过来。",
+      "start_s": 137.41,
+      "end_s": 140.645
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000284",
+      "quote": "咱们下回接着聊。",
+      "start_s": 747.65,
+      "end_s": 749.015,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约374.539秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约747.077秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000002",
+      "quote": "咱们聊了雕漆盘严丝徒、玉龙炉、珐琅炉青铜尊这集直接揭开谜底，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000057",
+      "quote": "让两百多年前的机械再次活了过来。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000284",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\故宫里有一座近两米高的自鸣钟，每到整点楼阁门自己打开，小人走出敲钟奏乐。里面藏着七套机械系统，历时五年打造，两百多年后依旧能运转。还有一块五吨重的玉山，数百.mp4",
+  "source_sha256": "7738b2dfe08535374ed6221311c5f1c3cf3cce0bfb56ab82e02ac86c41a6b129"
+}

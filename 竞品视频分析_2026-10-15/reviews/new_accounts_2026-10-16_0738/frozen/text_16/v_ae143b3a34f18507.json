@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_ae143b3a34f18507",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "c73ff26ca5f364f9081ca99409ac815bf3fa1c96b2586f98e9bc7b35417fb7f6",
+  "started_at": "2026-10-16T04:46:48.095103+08:00",
+  "finished_at": "2026-10-16T04:46:48.095103+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_ae143b3a34f18507_u001",
+      "v_ae143b3a34f18507_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000425",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：基督教神学导论",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十六分钟讲解麦格拉斯基督教神学导论。",
+      "叙事节点（s000071）：最诚实的理性是知道自己何时该停下来，",
+      "叙事节点（s000141）：那是他最初的发现理性，",
+      "叙事节点（s000211）：永远要有。",
+      "叙事节点（s000281）：而是开始认真的、诚实的一笔一笔的绘制悬崖之外，",
+      "叙事节点（s000351）：二、最沉重的启示，",
+      "叙事节点（s000421）：把它带回家，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "基督教神学导论",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十六分钟讲解麦格拉斯基督教神学导论。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十六分钟讲解麦格拉斯基督教神学导论。",
+      "start_s": 0.3,
+      "end_s": 3.18
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000071",
+      "quote": "最诚实的理性是知道自己何时该停下来，",
+      "start_s": 174.42,
+      "end_s": 177.76
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000425",
+      "quote": "下本书见。",
+      "start_s": 1033.03,
+      "end_s": 1033.695
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十六分钟讲解麦格拉斯基督教神学导论。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000071",
+      "quote": "最诚实的理性是知道自己何时该停下来，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000425",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十六分钟讲解麦格拉斯基督教神学导论。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

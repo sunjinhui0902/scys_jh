@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_ff3ea70e28828a27",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "7ce4bb7ba5ad8d9a923e108b10882bd51b5dcbb42c0146f146ef5a9a23852b24",
+  "started_at": "2026-10-16T04:46:48.017633+08:00",
+  "finished_at": "2026-10-16T04:46:48.017633+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_ff3ea70e28828a27_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000341",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：相术",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十四分钟讲解正同相术有一本书，",
+      "叙事节点（s000057）：那你仔细想想，",
+      "叙事节点（s000113）：这不是替橡树辩护。",
+      "叙事节点（s000169）：绝大部分是四库全书子部数数类所未曾收录的，",
+      "叙事节点（s000225）：你不需要在信和不信之间做选择，",
+      "叙事节点（s000281）：比如荀子的批判，",
+      "叙事节点（s000337）：剩下的你自己去看，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "相术",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十四分钟讲解正同相术有一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解正同相术有一本书，",
+      "start_s": 0.36,
+      "end_s": 2.66
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000057",
+      "quote": "那你仔细想想，",
+      "start_s": 157.43,
+      "end_s": 158.465
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000341",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 850.39,
+      "end_s": 852.435
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解正同相术有一本书，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000057",
+      "quote": "那你仔细想想，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000341",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解正同相术有一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

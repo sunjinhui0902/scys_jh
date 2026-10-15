@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_9914a4b5d84ec970",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "a4c20c11c1fd0e4beee0bc5d9d48a4b0cfb8d13f4a2ab8917841ec9232612c17",
+  "started_at": "2026-10-16T04:46:47.288033+08:00",
+  "finished_at": "2026-10-16T04:46:47.288033+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_9914a4b5d84ec970_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000136",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：他人即地狱",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：为什么夺回目光的主权，",
+      "叙事节点（s000023）：三个鬼魂被关进一间没有镜子的密室，",
+      "叙事节点（s000045）：因为你潜意识里觉得他人的目光是可以被操纵的，",
+      "叙事节点（s000067）：因为自我和他人都是主体，",
+      "叙事节点（s000089）：萨特所说，",
+      "叙事节点（s000111）：以及对被否定的恐惧，",
+      "叙事节点（s000133）：活出属于你自己的绝对清醒与自由。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "他人即地狱",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "为什么夺回目光的主权，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "为什么夺回目光的主权，",
+      "start_s": 0.31,
+      "end_s": 1.83
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000023",
+      "quote": "三个鬼魂被关进一间没有镜子的密室，",
+      "start_s": 53.64,
+      "end_s": 56.26
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000136",
+      "quote": "下本书见。",
+      "start_s": 320.79,
+      "end_s": 321.455
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "为什么夺回目光的主权，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000023",
+      "quote": "三个鬼魂被关进一间没有镜子的密室，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000136",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "为什么夺回目光的主权，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

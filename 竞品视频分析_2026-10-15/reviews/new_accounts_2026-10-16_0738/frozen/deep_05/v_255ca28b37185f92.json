@@ -1,0 +1,70 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_255ca28b37185f92",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.627827+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "深度思想拆解：红的自传·丈夫之美",
+    "category": "深度社科/思想哲学",
+    "mentioned_books": [
+      "红的自传·丈夫之美"
+    ],
+    "recommended_book": "红的自传·丈夫之美",
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "今天我们来讲二零二六年诺贝尔文学奖得主安妮卡森的代表作，",
+      "start_s": 0.33,
+      "end_s": 5.19,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "总分总结构：开篇提出重大时代命题或认知误区 -> 分阶段拆解经典文本内在逻辑 -> 结合当代人心理内耗进行反思 -> 创作者走心自白并预告下期。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000094",
+      "quote": "却最终抵达当代人的情感困境。",
+      "start_s": 221.67,
+      "end_s": 224.03
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000465",
+      "quote": "下本书见。",
+      "start_s": 982.05,
+      "end_s": 982.645,
+      "is_commercial": false,
+      "note": "口播结尾以关注、分享或情感号召为主；未发现直接挂载可购买商品链接的实质入口。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约491.393秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约980.786秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "今天我们来讲二零二六年诺贝尔文学奖得主安妮卡森的代表作，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000094",
+      "quote": "却最终抵达当代人的情感困境。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000465",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "失去壳的海龟",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\失去壳的海龟\\第258集｜红的自传·丈夫之美，她把希腊神话里的怪物，改写成了一个红翅膀的少年——然后让全世界读诗的人哭了#安妮卡森 #红的自传 #丈夫之美 #2026诺贝尔文学奖 #诺贝尔文学.mp4",
+  "source_sha256": "f9d7e73e4a4bfd4d89e552f948defd6156a7bd139e3c733638521da5b0ff64d1"
+}

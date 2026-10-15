@@ -1,0 +1,68 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_92afd56d4cbb2493",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.445281+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：从2400年前缠了16条龙的鼓座，到薄如纸页的4000年黑陶",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "上一集咱们聊了诛文，",
+      "start_s": 0.05,
+      "end_s": 1.71,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000053",
+      "quote": "御手这辆车一共三千多个零件，",
+      "start_s": 160.41,
+      "end_s": 163.595
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000264",
+      "quote": "咱们下回接着聊。",
+      "start_s": 750.03,
+      "end_s": 751.775,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约375.931秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约749.863秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "上一集咱们聊了诛文，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000053",
+      "quote": "御手这辆车一共三千多个零件，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000264",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\从2400年前缠了16条龙的鼓座，到薄如纸页的4000年黑陶杯，再到比欧洲早1800年的汉代铜卡尺，件件都让专家挠头。而排在榜首的战国水晶杯，放进商场货架没人能认出它是古物。十.mp4",
+  "source_sha256": "69dce9276c8c5451ba62106dbf7c4a041639862fcb18bca910086cf126023d6b"
+}

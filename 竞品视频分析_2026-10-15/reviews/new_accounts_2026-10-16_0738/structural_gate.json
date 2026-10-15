@@ -1,0 +1,2465 @@
+{
+  "review_id": "new_accounts_2026-10-16_0738",
+  "observed_at": "2026-10-16T07:39:48+08:00",
+  "status": "STRUCTURAL_ONLY",
+  "completion_gates": [
+    {
+      "path": "COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "summary",
+      "started_at": "2026-10-16T04:49:19.900393+08:00",
+      "finished_at": "2026-10-16T04:49:19.999111+08:00",
+      "input_count": 248,
+      "output_count": 132
+    },
+    {
+      "path": "deep_01/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "deep",
+      "started_at": "2026-10-16T04:48:16.278316+08:00",
+      "finished_at": "2026-10-16T04:48:16.362390+08:00",
+      "input_count": 31,
+      "output_count": 5
+    },
+    {
+      "path": "deep_02/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "deep",
+      "started_at": "2026-10-16T04:48:16.363608+08:00",
+      "finished_at": "2026-10-16T04:48:16.442257+08:00",
+      "input_count": 33,
+      "output_count": 5
+    },
+    {
+      "path": "deep_03/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "deep",
+      "started_at": "2026-10-16T04:48:16.443407+08:00",
+      "finished_at": "2026-10-16T04:48:16.526734+08:00",
+      "input_count": 33,
+      "output_count": 5
+    },
+    {
+      "path": "deep_04/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "deep",
+      "started_at": "2026-10-16T04:48:16.529181+08:00",
+      "finished_at": "2026-10-16T04:48:16.609249+08:00",
+      "input_count": 32,
+      "output_count": 5
+    },
+    {
+      "path": "deep_05/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "deep",
+      "started_at": "2026-10-16T04:48:16.612066+08:00",
+      "finished_at": "2026-10-16T04:48:16.678290+08:00",
+      "input_count": 32,
+      "output_count": 5
+    },
+    {
+      "path": "text_01/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:41:37.138981+08:00",
+      "finished_at": "2026-10-16T04:41:37.198791+08:00",
+      "input_count": 8,
+      "output_count": 5
+    },
+    {
+      "path": "text_02/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:28.600220+08:00",
+      "finished_at": "2026-10-16T04:46:28.661487+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_03/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.125607+08:00",
+      "finished_at": "2026-10-16T04:46:47.187106+08:00",
+      "input_count": 8,
+      "output_count": 5
+    },
+    {
+      "path": "text_04/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.189457+08:00",
+      "finished_at": "2026-10-16T04:46:47.255373+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_05/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.256169+08:00",
+      "finished_at": "2026-10-16T04:46:47.325104+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_06/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.326129+08:00",
+      "finished_at": "2026-10-16T04:46:47.397636+08:00",
+      "input_count": 7,
+      "output_count": 5
+    },
+    {
+      "path": "text_07/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.400057+08:00",
+      "finished_at": "2026-10-16T04:46:47.470362+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_08/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.472135+08:00",
+      "finished_at": "2026-10-16T04:46:47.544932+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_09/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.545981+08:00",
+      "finished_at": "2026-10-16T04:46:47.624746+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_10/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.625918+08:00",
+      "finished_at": "2026-10-16T04:46:47.718197+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_11/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.720167+08:00",
+      "finished_at": "2026-10-16T04:46:47.802926+08:00",
+      "input_count": 7,
+      "output_count": 5
+    },
+    {
+      "path": "text_12/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.804182+08:00",
+      "finished_at": "2026-10-16T04:46:47.869740+08:00",
+      "input_count": 6,
+      "output_count": 5
+    },
+    {
+      "path": "text_13/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.872287+08:00",
+      "finished_at": "2026-10-16T04:46:47.940510+08:00",
+      "input_count": 7,
+      "output_count": 5
+    },
+    {
+      "path": "text_14/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:47.941870+08:00",
+      "finished_at": "2026-10-16T04:46:48.015699+08:00",
+      "input_count": 8,
+      "output_count": 5
+    },
+    {
+      "path": "text_15/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:48.016628+08:00",
+      "finished_at": "2026-10-16T04:46:48.091141+08:00",
+      "input_count": 9,
+      "output_count": 5
+    },
+    {
+      "path": "text_16/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:48.093785+08:00",
+      "finished_at": "2026-10-16T04:46:48.172198+08:00",
+      "input_count": 11,
+      "output_count": 5
+    },
+    {
+      "path": "text_17/COMPLETED.json",
+      "pass": true,
+      "errors": [],
+      "kind": "text",
+      "started_at": "2026-10-16T04:46:48.173312+08:00",
+      "finished_at": "2026-10-16T04:46:48.220240+08:00",
+      "input_count": 5,
+      "output_count": 3
+    }
+  ],
+  "video_gates": [
+    {
+      "path": "deep_01/v_2be39eef1514e89b.json",
+      "kind": "deep",
+      "video_id": "v_2be39eef1514e89b",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_01/v_38056006fbf46638.json",
+      "kind": "deep",
+      "video_id": "v_38056006fbf46638",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_01/v_76be786067862904.json",
+      "kind": "deep",
+      "video_id": "v_76be786067862904",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_01/v_ad944b26480f2d8b.json",
+      "kind": "deep",
+      "video_id": "v_ad944b26480f2d8b",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_01/v_db13a0a34de523f4.json",
+      "kind": "deep",
+      "video_id": "v_db13a0a34de523f4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_02/v_17f0c21059230af2.json",
+      "kind": "deep",
+      "video_id": "v_17f0c21059230af2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_02/v_33f1e4063c99a716.json",
+      "kind": "deep",
+      "video_id": "v_33f1e4063c99a716",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_02/v_9b4af995d6505fc2.json",
+      "kind": "deep",
+      "video_id": "v_9b4af995d6505fc2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_02/v_9f185f433a49579e.json",
+      "kind": "deep",
+      "video_id": "v_9f185f433a49579e",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_02/v_d4c74c1dc35fd3e7.json",
+      "kind": "deep",
+      "video_id": "v_d4c74c1dc35fd3e7",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_03/v_10265caa1174ccfd.json",
+      "kind": "deep",
+      "video_id": "v_10265caa1174ccfd",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_03/v_30ab5bb2ea001aea.json",
+      "kind": "deep",
+      "video_id": "v_30ab5bb2ea001aea",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_03/v_92afd56d4cbb2493.json",
+      "kind": "deep",
+      "video_id": "v_92afd56d4cbb2493",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_03/v_cc8397da3c3f0c8a.json",
+      "kind": "deep",
+      "video_id": "v_cc8397da3c3f0c8a",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_03/v_fc3786ad66dc77e3.json",
+      "kind": "deep",
+      "video_id": "v_fc3786ad66dc77e3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_04/v_0f9d69c591d2a5e5.json",
+      "kind": "deep",
+      "video_id": "v_0f9d69c591d2a5e5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_04/v_2306120bb0b29be4.json",
+      "kind": "deep",
+      "video_id": "v_2306120bb0b29be4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_04/v_3ed9e1106acc15f8.json",
+      "kind": "deep",
+      "video_id": "v_3ed9e1106acc15f8",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_04/v_4f4d5d796acb8bf2.json",
+      "kind": "deep",
+      "video_id": "v_4f4d5d796acb8bf2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_04/v_f5f330e99bb6bcd1.json",
+      "kind": "deep",
+      "video_id": "v_f5f330e99bb6bcd1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_05/v_255ca28b37185f92.json",
+      "kind": "deep",
+      "video_id": "v_255ca28b37185f92",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_05/v_8ea3bdec43adefd7.json",
+      "kind": "deep",
+      "video_id": "v_8ea3bdec43adefd7",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_05/v_a8a9f9dc511b9853.json",
+      "kind": "deep",
+      "video_id": "v_a8a9f9dc511b9853",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_05/v_cd6edb76157fc255.json",
+      "kind": "deep",
+      "video_id": "v_cd6edb76157fc255",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "deep_05/v_f47a13f215121591.json",
+      "kind": "deep",
+      "video_id": "v_f47a13f215121591",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_01/v_368ff8bc9b9527ea.json",
+      "kind": "text",
+      "video_id": "v_368ff8bc9b9527ea",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_01/v_5d5e6d383a0f923f.json",
+      "kind": "text",
+      "video_id": "v_5d5e6d383a0f923f",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_01/v_9f185f433a49579e.json",
+      "kind": "text",
+      "video_id": "v_9f185f433a49579e",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_01/v_cd6edb76157fc255.json",
+      "kind": "text",
+      "video_id": "v_cd6edb76157fc255",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_01/v_fc3786ad66dc77e3.json",
+      "kind": "text",
+      "video_id": "v_fc3786ad66dc77e3",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_02/v_249bc02b484fc719.json",
+      "kind": "text",
+      "video_id": "v_249bc02b484fc719",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_02/v_7ace1d24442d99c9.json",
+      "kind": "text",
+      "video_id": "v_7ace1d24442d99c9",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_02/v_7efe414380952566.json",
+      "kind": "text",
+      "video_id": "v_7efe414380952566",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_02/v_98f75a1acaea5c52.json",
+      "kind": "text",
+      "video_id": "v_98f75a1acaea5c52",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_02/v_b133ac8fb205de0d.json",
+      "kind": "text",
+      "video_id": "v_b133ac8fb205de0d",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_03/v_17f0c21059230af2.json",
+      "kind": "text",
+      "video_id": "v_17f0c21059230af2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_03/v_255ca28b37185f92.json",
+      "kind": "text",
+      "video_id": "v_255ca28b37185f92",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_03/v_3e3873deeb6c8d7e.json",
+      "kind": "text",
+      "video_id": "v_3e3873deeb6c8d7e",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_03/v_7bc646162220f8e7.json",
+      "kind": "text",
+      "video_id": "v_7bc646162220f8e7",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_03/v_db13a0a34de523f4.json",
+      "kind": "text",
+      "video_id": "v_db13a0a34de523f4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_04/v_2306120bb0b29be4.json",
+      "kind": "text",
+      "video_id": "v_2306120bb0b29be4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_04/v_277bc3d78abb6ee9.json",
+      "kind": "text",
+      "video_id": "v_277bc3d78abb6ee9",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_04/v_76b65d4cc4baa4f7.json",
+      "kind": "text",
+      "video_id": "v_76b65d4cc4baa4f7",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_04/v_92afd56d4cbb2493.json",
+      "kind": "text",
+      "video_id": "v_92afd56d4cbb2493",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_04/v_cbb3ad669fcfbba1.json",
+      "kind": "text",
+      "video_id": "v_cbb3ad669fcfbba1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_05/v_4f4d5d796acb8bf2.json",
+      "kind": "text",
+      "video_id": "v_4f4d5d796acb8bf2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_05/v_8b41cd4017b43c59.json",
+      "kind": "text",
+      "video_id": "v_8b41cd4017b43c59",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_05/v_9914a4b5d84ec970.json",
+      "kind": "text",
+      "video_id": "v_9914a4b5d84ec970",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_05/v_f47a13f215121591.json",
+      "kind": "text",
+      "video_id": "v_f47a13f215121591",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_05/v_fe586626fea2b1e4.json",
+      "kind": "text",
+      "video_id": "v_fe586626fea2b1e4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_06/v_2e02bd2be61f0d6d.json",
+      "kind": "text",
+      "video_id": "v_2e02bd2be61f0d6d",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_06/v_5e4bd31ad730ff67.json",
+      "kind": "text",
+      "video_id": "v_5e4bd31ad730ff67",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_06/v_6aa6ef974dccc10f.json",
+      "kind": "text",
+      "video_id": "v_6aa6ef974dccc10f",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_06/v_8064b34009bba1d8.json",
+      "kind": "text",
+      "video_id": "v_8064b34009bba1d8",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_06/v_aeab3bc4712a27c4.json",
+      "kind": "text",
+      "video_id": "v_aeab3bc4712a27c4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_07/v_0f9d69c591d2a5e5.json",
+      "kind": "text",
+      "video_id": "v_0f9d69c591d2a5e5",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_07/v_3b5e02e2296f859a.json",
+      "kind": "text",
+      "video_id": "v_3b5e02e2296f859a",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_07/v_9b4af995d6505fc2.json",
+      "kind": "text",
+      "video_id": "v_9b4af995d6505fc2",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_07/v_a3bd76ce44483897.json",
+      "kind": "text",
+      "video_id": "v_a3bd76ce44483897",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_07/v_d4c74c1dc35fd3e7.json",
+      "kind": "text",
+      "video_id": "v_d4c74c1dc35fd3e7",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_08/v_2be39eef1514e89b.json",
+      "kind": "text",
+      "video_id": "v_2be39eef1514e89b",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_08/v_535debe3daf9d6d8.json",
+      "kind": "text",
+      "video_id": "v_535debe3daf9d6d8",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_08/v_8ea3bdec43adefd7.json",
+      "kind": "text",
+      "video_id": "v_8ea3bdec43adefd7",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_08/v_d1c2ac4f2d71153a.json",
+      "kind": "text",
+      "video_id": "v_d1c2ac4f2d71153a",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_08/v_ece59171b2d74e28.json",
+      "kind": "text",
+      "video_id": "v_ece59171b2d74e28",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_09/v_4be8e3025bc509bf.json",
+      "kind": "text",
+      "video_id": "v_4be8e3025bc509bf",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_09/v_7c8bdf178c13ccee.json",
+      "kind": "text",
+      "video_id": "v_7c8bdf178c13ccee",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_09/v_a8a9f9dc511b9853.json",
+      "kind": "text",
+      "video_id": "v_a8a9f9dc511b9853",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_09/v_f2936927de841d82.json",
+      "kind": "text",
+      "video_id": "v_f2936927de841d82",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_09/v_ff66999e727495b1.json",
+      "kind": "text",
+      "video_id": "v_ff66999e727495b1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_10/v_45523d41084c1dfe.json",
+      "kind": "text",
+      "video_id": "v_45523d41084c1dfe",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_10/v_64ba721585f53252.json",
+      "kind": "text",
+      "video_id": "v_64ba721585f53252",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_10/v_ad944b26480f2d8b.json",
+      "kind": "text",
+      "video_id": "v_ad944b26480f2d8b",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_10/v_ef4cb6d438651ccf.json",
+      "kind": "text",
+      "video_id": "v_ef4cb6d438651ccf",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_10/v_fa9448dfccdd4269.json",
+      "kind": "text",
+      "video_id": "v_fa9448dfccdd4269",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_11/v_33f1e4063c99a716.json",
+      "kind": "text",
+      "video_id": "v_33f1e4063c99a716",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_11/v_7199f8033bb838af.json",
+      "kind": "text",
+      "video_id": "v_7199f8033bb838af",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_11/v_7e282e82c16ff21e.json",
+      "kind": "text",
+      "video_id": "v_7e282e82c16ff21e",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_11/v_e55cdcc6396cb15e.json",
+      "kind": "text",
+      "video_id": "v_e55cdcc6396cb15e",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_11/v_f63315a861608ed4.json",
+      "kind": "text",
+      "video_id": "v_f63315a861608ed4",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_12/v_0a4577db9c6cff5b.json",
+      "kind": "text",
+      "video_id": "v_0a4577db9c6cff5b",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_12/v_3ed9e1106acc15f8.json",
+      "kind": "text",
+      "video_id": "v_3ed9e1106acc15f8",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_12/v_9ca608cbe701f27c.json",
+      "kind": "text",
+      "video_id": "v_9ca608cbe701f27c",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_12/v_c110f20742e7bf64.json",
+      "kind": "text",
+      "video_id": "v_c110f20742e7bf64",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_12/v_e296bf0afb5c1ab0.json",
+      "kind": "text",
+      "video_id": "v_e296bf0afb5c1ab0",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_13/v_30ab5bb2ea001aea.json",
+      "kind": "text",
+      "video_id": "v_30ab5bb2ea001aea",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_13/v_38056006fbf46638.json",
+      "kind": "text",
+      "video_id": "v_38056006fbf46638",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_13/v_76be786067862904.json",
+      "kind": "text",
+      "video_id": "v_76be786067862904",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_13/v_b27db8ad24d44b64.json",
+      "kind": "text",
+      "video_id": "v_b27db8ad24d44b64",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_13/v_ca16a281f181b54b.json",
+      "kind": "text",
+      "video_id": "v_ca16a281f181b54b",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_14/v_2f0e25053eef097c.json",
+      "kind": "text",
+      "video_id": "v_2f0e25053eef097c",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_14/v_7d2b26fa20a69875.json",
+      "kind": "text",
+      "video_id": "v_7d2b26fa20a69875",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_14/v_aaa7253ec7413328.json",
+      "kind": "text",
+      "video_id": "v_aaa7253ec7413328",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_14/v_cc8397da3c3f0c8a.json",
+      "kind": "text",
+      "video_id": "v_cc8397da3c3f0c8a",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_14/v_f4a8f176c6f73910.json",
+      "kind": "text",
+      "video_id": "v_f4a8f176c6f73910",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_15/v_3a5a0b8253b7fd6f.json",
+      "kind": "text",
+      "video_id": "v_3a5a0b8253b7fd6f",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_15/v_5cbbc93d14301400.json",
+      "kind": "text",
+      "video_id": "v_5cbbc93d14301400",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_15/v_73fe295c18ecf289.json",
+      "kind": "text",
+      "video_id": "v_73fe295c18ecf289",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_15/v_ebbf44d69331baee.json",
+      "kind": "text",
+      "video_id": "v_ebbf44d69331baee",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_15/v_ff3ea70e28828a27.json",
+      "kind": "text",
+      "video_id": "v_ff3ea70e28828a27",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_16/v_31abd177485f569a.json",
+      "kind": "text",
+      "video_id": "v_31abd177485f569a",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_16/v_8d79edb642ab8843.json",
+      "kind": "text",
+      "video_id": "v_8d79edb642ab8843",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_16/v_a9c57eabcd7c9a22.json",
+      "kind": "text",
+      "video_id": "v_a9c57eabcd7c9a22",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_16/v_ae143b3a34f18507.json",
+      "kind": "text",
+      "video_id": "v_ae143b3a34f18507",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_16/v_f5f330e99bb6bcd1.json",
+      "kind": "text",
+      "video_id": "v_f5f330e99bb6bcd1",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_17/v_10265caa1174ccfd.json",
+      "kind": "text",
+      "video_id": "v_10265caa1174ccfd",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_17/v_b503588bf897195f.json",
+      "kind": "text",
+      "video_id": "v_b503588bf897195f",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "path": "text_17/v_f3dd15cb2a3da32c.json",
+      "kind": "text",
+      "video_id": "v_f3dd15cb2a3da32c",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/account_summary.json",
+      "size": 5145,
+      "mtime_ns": 1792097359979728300,
+      "sha256": "aef9fbcb560918531ae732c70054fc224511da76fd0b5b01f0d6e25e44f72f5e"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/COMPLETED.json",
+      "size": 88520,
+      "mtime_ns": 1792097360000679400,
+      "sha256": "d7d93de0ff1ee13d2a43c3a6a4342abf0af7824fb574f4926487db28458019c8"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_01/COMPLETED.json",
+      "size": 8644,
+      "mtime_ns": 1792097296363022200,
+      "sha256": "11a0d94ff0ff65c3d2d66dd0ba1c2386ac657c8e8bf8947d459abe52486e8394"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_01/v_2be39eef1514e89b.json",
+      "size": 3606,
+      "mtime_ns": 1792097296323011800,
+      "sha256": "00843c017ab293fad8c59f779c13864b72f2596c367b4ea1afd367a644bfb6dc"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_01/v_38056006fbf46638.json",
+      "size": 3327,
+      "mtime_ns": 1792097296305505900,
+      "sha256": "d30a7c895082f0bb1781e30a0ec67e78b1c0c81e293cbc7180196199f9907e83"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_01/v_76be786067862904.json",
+      "size": 3384,
+      "mtime_ns": 1792097296338014200,
+      "sha256": "a4920e86e27a42c22fc698aba3138be7d894538a8ed64e24f44621102d136439"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_01/v_ad944b26480f2d8b.json",
+      "size": 3528,
+      "mtime_ns": 1792097296289500900,
+      "sha256": "55e0f90e8464a5f42cb22970354d4f7377b8ec3f2a056849f5017ce6ec277cca"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_01/v_db13a0a34de523f4.json",
+      "size": 3557,
+      "mtime_ns": 1792097296353013300,
+      "sha256": "78297adeb48fec0cf1fcb30e14c4061e7b0fba61921a5f3ebff2ec6aba48a354"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_02/COMPLETED.json",
+      "size": 9111,
+      "mtime_ns": 1792097296442587700,
+      "sha256": "5d3d6c945eeae35e9f7f6ec5efd23f32a6df2b1d7ad726264b4c3a306eaae34e"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_02/v_17f0c21059230af2.json",
+      "size": 3360,
+      "mtime_ns": 1792097296396154500,
+      "sha256": "291fade0a28cc8dda209c272afaafb42ee2e96ad59850d6b6c9472762a27511f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_02/v_33f1e4063c99a716.json",
+      "size": 3395,
+      "mtime_ns": 1792097296430229300,
+      "sha256": "9aded6e29b38c0becb3b061c0a03ba30ce60e1cd4f412605d1741c8a78b433c0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_02/v_9b4af995d6505fc2.json",
+      "size": 3604,
+      "mtime_ns": 1792097296381539100,
+      "sha256": "5b47a80cbab89d989ae910342796dfae7d1977432333a67acbbccb0995303f5b"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_02/v_9f185f433a49579e.json",
+      "size": 3402,
+      "mtime_ns": 1792097296366028200,
+      "sha256": "c74fe6f9da32d576fff3a85981fe88fcb3934cf58d318dbd39326df8708ba06c"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_02/v_d4c74c1dc35fd3e7.json",
+      "size": 3591,
+      "mtime_ns": 1792097296413480000,
+      "sha256": "4c9e25d774d6e565562fc685185c4a6d78624da7c821fd52c385f40bc54310e2"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_03/COMPLETED.json",
+      "size": 9112,
+      "mtime_ns": 1792097296528233100,
+      "sha256": "d6f92654262c6650c0e56c652d2a67482c5c012c65a29821898a7488fe3cbf03"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_03/v_10265caa1174ccfd.json",
+      "size": 3477,
+      "mtime_ns": 1792097296493894200,
+      "sha256": "b059e103ea287794b5f15dfa3ee16878ca023dd165c9179ffe1e28bcde1e131b"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_03/v_30ab5bb2ea001aea.json",
+      "size": 3483,
+      "mtime_ns": 1792097296513077600,
+      "sha256": "af9e027d1de525baf628499c6d7b3c700b282e916ea93dec2ccbf44c1d8ca94a"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_03/v_92afd56d4cbb2493.json",
+      "size": 3456,
+      "mtime_ns": 1792097296445587100,
+      "sha256": "6ae9a890a07dc1b452342588b1c715b223c83618ddb513512e73c10fc859a2ab"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_03/v_cc8397da3c3f0c8a.json",
+      "size": 3476,
+      "mtime_ns": 1792097296476895400,
+      "sha256": "42805fff40e05f17df8f570f01be1e7670d76f948820420b21c98a2a4ce30bd0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_03/v_fc3786ad66dc77e3.json",
+      "size": 3415,
+      "mtime_ns": 1792097296462904300,
+      "sha256": "dc5dc75a88c3065a7ba43445889d7a35e6e4e6dca260dc55224763de58747143"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_04/COMPLETED.json",
+      "size": 8877,
+      "mtime_ns": 1792097296610589200,
+      "sha256": "62693033019c8e173c32438e1fe82094139c41cb32443ecfb2d2ab58869279b5"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_04/v_0f9d69c591d2a5e5.json",
+      "size": 3360,
+      "mtime_ns": 1792097296564700100,
+      "sha256": "23a2f2b7ef9b16f10215f31d6af47063bd94b2f470892cfbf16932f95c1c6ed1"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_04/v_2306120bb0b29be4.json",
+      "size": 3581,
+      "mtime_ns": 1792097296596580500,
+      "sha256": "4dd148c72fc5f06b59234cc994da2cfe85a03f607149623bde3649e3b68935b6"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_04/v_3ed9e1106acc15f8.json",
+      "size": 3597,
+      "mtime_ns": 1792097296549553600,
+      "sha256": "5c52703cb39261957c9ae888cbcbb619c7c240abf3c2fb6949fd368bca2b5468"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_04/v_4f4d5d796acb8bf2.json",
+      "size": 3477,
+      "mtime_ns": 1792097296577573500,
+      "sha256": "d28fc255739043672d1bb8f4a26dd8794b7f17c62f8d63e97e58018058e520fe"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_04/v_f5f330e99bb6bcd1.json",
+      "size": 3341,
+      "mtime_ns": 1792097296532245400,
+      "sha256": "24c432cb6ac8495ac10299f950ad398600943f403587589c811564ea6647baba"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_05/COMPLETED.json",
+      "size": 8877,
+      "mtime_ns": 1792097296679618500,
+      "sha256": "76a46003b60fc8abf2f9d1ffebe1626126a78be3a76111c506388952ea0990f0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_05/v_255ca28b37185f92.json",
+      "size": 3525,
+      "mtime_ns": 1792097296628100000,
+      "sha256": "b27ca105dae80dd1a1498c00ec84b447a12c50190096bfaefab3d9b174afcb92"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_05/v_8ea3bdec43adefd7.json",
+      "size": 3431,
+      "mtime_ns": 1792097296643098000,
+      "sha256": "0d29ef23c3201ba7ccbe3b8e711e6a3d94b933d11261c45810810b03c811ffc5"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_05/v_a8a9f9dc511b9853.json",
+      "size": 3462,
+      "mtime_ns": 1792097296667103800,
+      "sha256": "89ad4b1cf5bed12cff414a6b6e5e4b704f808f7c5e830c527e9f6f34d81804b9"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_05/v_cd6edb76157fc255.json",
+      "size": 3161,
+      "mtime_ns": 1792097296614586200,
+      "sha256": "49761383e1cee1e4c238b3926b4e1546107bdf8211fc6ef344f8ff4b893b6cb8"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/deep_05/v_f47a13f215121591.json",
+      "size": 3426,
+      "mtime_ns": 1792097296655098500,
+      "sha256": "f7ab1e92e585a9beea2db250f42f4ce7a71f1a46f89b2c679c0484c614890c51"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_01/COMPLETED.json",
+      "size": 3386,
+      "mtime_ns": 1792096897199132300,
+      "sha256": "53fb74d96d4be646d794db39b7408e8a542e545fa3a6b973ab4d7a74b9a13dd4"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_01/v_368ff8bc9b9527ea.json",
+      "size": 3141,
+      "mtime_ns": 1792096897153575100,
+      "sha256": "ad442881868f31a6ffe85212b2dc12bac7c476725ca141979a7fdb1a16a602a9"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_01/v_5d5e6d383a0f923f.json",
+      "size": 4206,
+      "mtime_ns": 1792096897140259900,
+      "sha256": "7b541b4099839a8ff6351c8d469fe1cd482dcd3fe6d9998aa33f14616734049b"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_01/v_9f185f433a49579e.json",
+      "size": 3899,
+      "mtime_ns": 1792096897188891600,
+      "sha256": "bfe2dc1de13986281a47ac2e540650ff1553ab7fea3432f8c332eb0c99b4200f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_01/v_cd6edb76157fc255.json",
+      "size": 2900,
+      "mtime_ns": 1792096897176038100,
+      "sha256": "65ba34defd416eaee07c0c59736a3b85c3c30a22d796460e22e135bd6a0d4e4c"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_01/v_fc3786ad66dc77e3.json",
+      "size": 3922,
+      "mtime_ns": 1792096897164937500,
+      "sha256": "4249fe22a8d000d141ab4d5a92b29af0b639437f7644b743dc3f2b35d3aac6ae"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_02/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097188662832600,
+      "sha256": "a925e0e79df23538080fba5347590a79f24e60d221c0cb827801a1a5cd1fdb0c"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_02/v_249bc02b484fc719.json",
+      "size": 3095,
+      "mtime_ns": 1792097188621326900,
+      "sha256": "00d5e37caeced517e1d889eb82791b42acf6414377d46f1eaa88918b3a253e6f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_02/v_7ace1d24442d99c9.json",
+      "size": 3419,
+      "mtime_ns": 1792097188636832900,
+      "sha256": "42dc4f18efc0c81f15a45c7bcb1e00ba5ac1570ee8f061ea1b4d136268c4f599"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_02/v_7efe414380952566.json",
+      "size": 2903,
+      "mtime_ns": 1792097188601427600,
+      "sha256": "9b12e74ffc680a55ff86894c1cd8a293d8cc005bf772d28890f14e42eedbe38d"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_02/v_98f75a1acaea5c52.json",
+      "size": 3616,
+      "mtime_ns": 1792097188613249700,
+      "sha256": "b03f19e4b92f0512430b5bc23f62429719a3a5533bbec41b18f6f3e0dd3b7097"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_02/v_b133ac8fb205de0d.json",
+      "size": 2945,
+      "mtime_ns": 1792097188647833200,
+      "sha256": "b2b535fadd51ee5aefe6e401c6b76bbfb112dd0d2db72930d6446437a9771546"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_03/COMPLETED.json",
+      "size": 3200,
+      "mtime_ns": 1792097207188442400,
+      "sha256": "d42ce9d0ced235f2bae36b04240f715c680c729a591fa8d8fd86a0b12c7426ce"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_03/v_17f0c21059230af2.json",
+      "size": 3210,
+      "mtime_ns": 1792097207126855100,
+      "sha256": "51952cadea0ee2500b29482083ec5133ab94ecf7ce72499ce23096418d467960"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_03/v_255ca28b37185f92.json",
+      "size": 3367,
+      "mtime_ns": 1792097207175754700,
+      "sha256": "890798b996010ee100738af515ec660c6a031f3c9bfdaf490c10e7fdcb12bd69"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_03/v_3e3873deeb6c8d7e.json",
+      "size": 3152,
+      "mtime_ns": 1792097207138865900,
+      "sha256": "8f2df05b2ba3d23cfb24e22f8955bb1d9c1562eecbd88d7be8678999e1d4ee0f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_03/v_7bc646162220f8e7.json",
+      "size": 3540,
+      "mtime_ns": 1792097207149272100,
+      "sha256": "aaa9f1d8b0e1eda3f45b23049fd8b43ae1817c4ff0f84a4c620212f2aea0f4c7"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_03/v_db13a0a34de523f4.json",
+      "size": 3091,
+      "mtime_ns": 1792097207163015500,
+      "sha256": "60db8d4005872120fc274cafe5b43aed58aa01e12cce5b0aa0f4258f4fb9ec1e"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_04/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207255220800,
+      "sha256": "1e677794ccf29e23d973db81fad1bd287373262773994150740b5f7b3f4d8e89"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_04/v_2306120bb0b29be4.json",
+      "size": 3403,
+      "mtime_ns": 1792097207234714400,
+      "sha256": "9ad488c4365bae2b9bad1c8ec493a75971d58114ed24bfb6aa7b8a883d8cf8a6"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_04/v_277bc3d78abb6ee9.json",
+      "size": 3175,
+      "mtime_ns": 1792097207248221100,
+      "sha256": "871b7e62c1cb528363234585b7755d03f7042c80d6618e8e0e3bb0e4bb978d39"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_04/v_76b65d4cc4baa4f7.json",
+      "size": 3530,
+      "mtime_ns": 1792097207208415900,
+      "sha256": "dfc89e329ee494c0bc18f8528659cce7cdeb74b6349e319a525571e8738a68a1"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_04/v_92afd56d4cbb2493.json",
+      "size": 2799,
+      "mtime_ns": 1792097207220983200,
+      "sha256": "9c9e1609bac0959f570281dfc34e8e36b2fa06f72a5b9f6baf6690b70b351d9d"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_04/v_cbb3ad669fcfbba1.json",
+      "size": 3443,
+      "mtime_ns": 1792097207189948700,
+      "sha256": "caa2e580e28d7a04d6050f2d3a6e5553883cd469729245737c54492bb56f16db"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_05/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207325080200,
+      "sha256": "9a70f915548bf8a03c90bcabf1ea5a429f8d9a3c0ac762a770ebea9c32a5e558"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_05/v_4f4d5d796acb8bf2.json",
+      "size": 3013,
+      "mtime_ns": 1792097207273220700,
+      "sha256": "b4ea232bc24321ccfc619a626069f8e3362a005b9e6fdffe17d9cddd1335322d"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_05/v_8b41cd4017b43c59.json",
+      "size": 3199,
+      "mtime_ns": 1792097207257221500,
+      "sha256": "248f77f0ef903aecfcb660b34a991b97eea3c0c39298a16dcae3b16f383dbd62"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_05/v_9914a4b5d84ec970.json",
+      "size": 3308,
+      "mtime_ns": 1792097207288254700,
+      "sha256": "d707d97a7cd2ab4382bd70ff4b948a8fdca7f97748d0cf3248c92f1569251225"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_05/v_f47a13f215121591.json",
+      "size": 3242,
+      "mtime_ns": 1792097207313969000,
+      "sha256": "8a73d94668f3ccd56aadd59fe596a296699fe54967b52fe61666c6e6b3699e6d"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_05/v_fe586626fea2b1e4.json",
+      "size": 3060,
+      "mtime_ns": 1792097207303801600,
+      "sha256": "759a265789d840209e975f7e3b4c7d403dfd3f8880307a1c0723afb0d54e14a7"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_06/COMPLETED.json",
+      "size": 2967,
+      "mtime_ns": 1792097207398645700,
+      "sha256": "30316400e18d7d60617086ebb5d3d2b8730d7cb8df7bdc271a291637cb286c21"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_06/v_2e02bd2be61f0d6d.json",
+      "size": 3084,
+      "mtime_ns": 1792097207356624200,
+      "sha256": "fe4050d59192450aacfdc5bdeab201a29a1f498dc17e76f003aa334b48302862"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_06/v_5e4bd31ad730ff67.json",
+      "size": 3309,
+      "mtime_ns": 1792097207374973300,
+      "sha256": "76106eb2bb99985bd0f1266958d5bfa9ee326601aa11dd4a9d6870614ca15897"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_06/v_6aa6ef974dccc10f.json",
+      "size": 3198,
+      "mtime_ns": 1792097207343536900,
+      "sha256": "b7d6f87757982b6d4736493efb544745e8b2b20ed283ad4afb06c07c57f910bc"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_06/v_8064b34009bba1d8.json",
+      "size": 3064,
+      "mtime_ns": 1792097207382023500,
+      "sha256": "e63989c55466a456f5667978d2c62ad9e3933f959b536ea9a4f3b0f67772c6ce"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_06/v_aeab3bc4712a27c4.json",
+      "size": 2939,
+      "mtime_ns": 1792097207327080500,
+      "sha256": "4f2482e5b258bc05acbfe631615bc91ab9032713a69596b2f00863c0ec0e1eb6"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_07/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207470745000,
+      "sha256": "90c5db903d08e546a3b63d81b4d39457150e6c3c64868bd721f40e6fad3e1e82"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_07/v_0f9d69c591d2a5e5.json",
+      "size": 3343,
+      "mtime_ns": 1792097207431569900,
+      "sha256": "9101eb7de5abc2a96353fec97687ae616e1687af45f589582278977958c5d14d"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_07/v_3b5e02e2296f859a.json",
+      "size": 3231,
+      "mtime_ns": 1792097207460114000,
+      "sha256": "fe20ee0fcd6b6b55ba7212aadc254a8c2e3a473ec012bca1cb2750a835f3b305"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_07/v_9b4af995d6505fc2.json",
+      "size": 3161,
+      "mtime_ns": 1792097207445806700,
+      "sha256": "dd6c3bc9465be81e9f5a70e9edd98677ae3b174977883e369f1afd1741202950"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_07/v_a3bd76ce44483897.json",
+      "size": 3301,
+      "mtime_ns": 1792097207401478800,
+      "sha256": "69275ed02d8af56705c574d084873ac0b0add16765ee3285e049610b97a12a47"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_07/v_d4c74c1dc35fd3e7.json",
+      "size": 3121,
+      "mtime_ns": 1792097207417075200,
+      "sha256": "188335cac0c12498052f17170fb958e81c9e2a9fc84a8486424f5a2f950ef385"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_08/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207544783900,
+      "sha256": "d9de03d7b040f81b31ce335c96889893f4186e1ed8f1a87350ba8117d382b516"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_08/v_2be39eef1514e89b.json",
+      "size": 3040,
+      "mtime_ns": 1792097207532154600,
+      "sha256": "b42f41db97587220ec500bc5b67cd8a06d7248e4f1ea1bfeaff43fff8d52bcc8"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_08/v_535debe3daf9d6d8.json",
+      "size": 2956,
+      "mtime_ns": 1792097207506783500,
+      "sha256": "d98cb507d56f99327b00f6ba516fe774b60fbd3ea3557cac41ae11dad30bf487"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_08/v_8ea3bdec43adefd7.json",
+      "size": 2988,
+      "mtime_ns": 1792097207472815400,
+      "sha256": "3a25995f064aae4584c88867e13f767a600c1904398d7ffd407c7a8394f26f34"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_08/v_d1c2ac4f2d71153a.json",
+      "size": 3258,
+      "mtime_ns": 1792097207524964500,
+      "sha256": "fa90c2b1198351c3e11a74d8f4a8627e13d9b9d99d4bbbc9330f089eb15f54c3"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_08/v_ece59171b2d74e28.json",
+      "size": 3344,
+      "mtime_ns": 1792097207491279700,
+      "sha256": "643fddec1ca70cc75a31a225c043cc093bd3b5ada20efc249f9c3c6e4049f7e0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_09/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207625103200,
+      "sha256": "9c2e54c6373f1dd240966667aa09cfdfb8e2fca8c2354c6fde278147704a698f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_09/v_4be8e3025bc509bf.json",
+      "size": 3084,
+      "mtime_ns": 1792097207559601400,
+      "sha256": "f0ba664630ddfac71c25f7503b217dc6b00e1786bdda4f4c6c006b633f5d73eb"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_09/v_7c8bdf178c13ccee.json",
+      "size": 3113,
+      "mtime_ns": 1792097207546783700,
+      "sha256": "b63b2cedd251b6689f26bb444647a09883c56930bb440802e23ee9e3569012ee"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_09/v_a8a9f9dc511b9853.json",
+      "size": 3368,
+      "mtime_ns": 1792097207576027200,
+      "sha256": "8024bfbf0b41b98e34e2e0851eecffaa087640087a86cb111d659e807be8f6b0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_09/v_f2936927de841d82.json",
+      "size": 3402,
+      "mtime_ns": 1792097207607677600,
+      "sha256": "a280e9b280cf3bbf70bcef9b097bbb20bf8ff32fe86950065c193bdf77210434"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_09/v_ff66999e727495b1.json",
+      "size": 2949,
+      "mtime_ns": 1792097207590103600,
+      "sha256": "dcf41e850186f6cc398ec6c900dc72ae2db927f1b68d94670465a1e396bd7011"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_10/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207719301200,
+      "sha256": "c8c6a51b98607603ac4588662d9bebf6dd5486743af4f9dfab788e5706c1650b"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_10/v_45523d41084c1dfe.json",
+      "size": 3042,
+      "mtime_ns": 1792097207628186400,
+      "sha256": "9c247d64480a5145e4d2f4ce55e178049af03e85dd457bcc81b40db13234692d"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_10/v_64ba721585f53252.json",
+      "size": 3255,
+      "mtime_ns": 1792097207670646500,
+      "sha256": "f335de62d2948bbcad712c46e69cba0888db025691000a0d6c954814f1fcb4d5"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_10/v_ad944b26480f2d8b.json",
+      "size": 2968,
+      "mtime_ns": 1792097207659540300,
+      "sha256": "c60c0d73a0d28723a2943e61d0115944a4a500b453ffc46672676ee52145ba45"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_10/v_ef4cb6d438651ccf.json",
+      "size": 3153,
+      "mtime_ns": 1792097207702753000,
+      "sha256": "27a7d1b327066e546e47425fc3aeaf56f18247c2010fd8ec36e76bf0aced0db8"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_10/v_fa9448dfccdd4269.json",
+      "size": 3095,
+      "mtime_ns": 1792097207642688800,
+      "sha256": "44c6753cf4bd76cbb8eeed6219c4c65c4687e73c8ad74f02dd277281ce536906"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_11/COMPLETED.json",
+      "size": 3214,
+      "mtime_ns": 1792097207802964400,
+      "sha256": "322f9ca9144ae4e28418d9d27c9ff804ebf4c183f7662068e1425f1e60b948cf"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_11/v_33f1e4063c99a716.json",
+      "size": 3352,
+      "mtime_ns": 1792097207721306500,
+      "sha256": "18a9fed2cda04a3adbfdf8e4f902fe36b6d273de05249d0c8b240cd1bdeaaae8"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_11/v_7199f8033bb838af.json",
+      "size": 3069,
+      "mtime_ns": 1792097207749346500,
+      "sha256": "9a3918f8fc6540189dfd5614937ea1a4a78de8fb6f7833338950507b97882701"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_11/v_7e282e82c16ff21e.json",
+      "size": 3448,
+      "mtime_ns": 1792097207765848600,
+      "sha256": "7a4093c571fdd398b306485182ac487c862c4790b86e83aa93a844d5e1627236"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_11/v_e55cdcc6396cb15e.json",
+      "size": 3049,
+      "mtime_ns": 1792097207783141000,
+      "sha256": "f09eaf3467829009c4340c2c0e34a11447e7b997ba6a3e29acee8388ea670b45"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_11/v_f63315a861608ed4.json",
+      "size": 3530,
+      "mtime_ns": 1792097207793958700,
+      "sha256": "3ad8891cbffe192331f8fe3272ee6fa806f2a455cf3b5d6a3f3858454649429b"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_12/COMPLETED.json",
+      "size": 2734,
+      "mtime_ns": 1792097207871036400,
+      "sha256": "246b0cd53aa959e62e97aa58ff2deea9d3023cff8a1cf4cc101a476f774ea004"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_12/v_0a4577db9c6cff5b.json",
+      "size": 3247,
+      "mtime_ns": 1792097207846719400,
+      "sha256": "8062ffd87435795e699aaa83ccf92e2c40f8fbd0bcc6cc63a5bbf29d3d157525"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_12/v_3ed9e1106acc15f8.json",
+      "size": 3200,
+      "mtime_ns": 1792097207855828200,
+      "sha256": "285c6d723897b0259aa32817c1705dfe729d6c7fb6f02c6aee6a2ef45e9386ad"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_12/v_9ca608cbe701f27c.json",
+      "size": 3077,
+      "mtime_ns": 1792097207804965500,
+      "sha256": "db45fc4f38ac0d9cbf9f0d366caff1b0b3f82dc90ab5fcb9a990a54257516e0f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_12/v_c110f20742e7bf64.json",
+      "size": 3275,
+      "mtime_ns": 1792097207819955800,
+      "sha256": "be7c6bfd356f0ff4b6f9a1d5535c9026096fd7c421d8bf935e5ca12d1bb4b9e2"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_12/v_e296bf0afb5c1ab0.json",
+      "size": 3016,
+      "mtime_ns": 1792097207832812400,
+      "sha256": "bebdcd5139def97a3747f09237b83391359c8fafcbd060cba9f85b4930d93bf1"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_13/COMPLETED.json",
+      "size": 2967,
+      "mtime_ns": 1792097207941106100,
+      "sha256": "6fcb46384cae12c982529aab4457da966aae5f30c7c60458b9b12d4045f1256a"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_13/v_30ab5bb2ea001aea.json",
+      "size": 2978,
+      "mtime_ns": 1792097207914108600,
+      "sha256": "91cd7ed364662d4e77c16918ff50b64b7130fee538372cc62bdc007736aba4ac"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_13/v_38056006fbf46638.json",
+      "size": 3101,
+      "mtime_ns": 1792097207927097400,
+      "sha256": "6e769788c2e15b2bbafc7d81ab6bc90de31dab295cdbfba39bbb6192c2b26bed"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_13/v_76be786067862904.json",
+      "size": 3345,
+      "mtime_ns": 1792097207873036400,
+      "sha256": "1175fab02d8b68c0b4df6f31e82cc155d06b4b4c11f6a2bf0da121c65d5d6d71"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_13/v_b27db8ad24d44b64.json",
+      "size": 3071,
+      "mtime_ns": 1792097207889430400,
+      "sha256": "8b59993161d866d12f720d92349152afaad970bb9d43c88977cc1d0ea84d6f82"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_13/v_ca16a281f181b54b.json",
+      "size": 3613,
+      "mtime_ns": 1792097207904165700,
+      "sha256": "f3f608574e647421306d6ad1f186b3c25cc327309b659aa766a95a0eb6c00a68"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_14/COMPLETED.json",
+      "size": 3200,
+      "mtime_ns": 1792097208016280000,
+      "sha256": "17247ccb67a46d3434252292354c019f4ce044a96bde49c779127c8c55166804"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_14/v_2f0e25053eef097c.json",
+      "size": 3053,
+      "mtime_ns": 1792097207970659200,
+      "sha256": "c110fafba0a008fd1a5e5a79baf33c8cf4220435685e595ce725ce2f01bd0399"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_14/v_7d2b26fa20a69875.json",
+      "size": 3275,
+      "mtime_ns": 1792097207987253900,
+      "sha256": "dc666fa921dca5116adfede9f43927ccd3d43293951829f22009923cebbe890e"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_14/v_aaa7253ec7413328.json",
+      "size": 3351,
+      "mtime_ns": 1792097207953596300,
+      "sha256": "c76a2ae27b683a0a7bb8ede7a711a48e4f91546503f67210df2ee057e8c753d0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_14/v_cc8397da3c3f0c8a.json",
+      "size": 3120,
+      "mtime_ns": 1792097207944455700,
+      "sha256": "40ab378df1ae82b934d9add18216e8115ac64be2baf107f979379ab32e11ebe7"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_14/v_f4a8f176c6f73910.json",
+      "size": 3329,
+      "mtime_ns": 1792097208003279500,
+      "sha256": "1824bb7d2038cb80ce0ee9577fb91f83b658fb66974222c6c7ecedf3ad934249"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_15/COMPLETED.json",
+      "size": 3433,
+      "mtime_ns": 1792097208092774900,
+      "sha256": "a86346d6514854f8ce39c24e06cff9138609a463ca0ec0b3a3ea1a2e81afab82"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_15/v_3a5a0b8253b7fd6f.json",
+      "size": 3181,
+      "mtime_ns": 1792097208064159600,
+      "sha256": "382c2b9740b88eabeca07315f30558d3c687e9bdf93ed8dde0613995278b92da"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_15/v_5cbbc93d14301400.json",
+      "size": 3402,
+      "mtime_ns": 1792097208032478800,
+      "sha256": "96e2e69e21792863340dfba27e479b16695dad650a6e8abde266ad0a63cd8a1f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_15/v_73fe295c18ecf289.json",
+      "size": 3296,
+      "mtime_ns": 1792097208074865800,
+      "sha256": "4a1aacaf7f50f534d440ce50da3f313e068744274eaff3aab894f4258007f626"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_15/v_ebbf44d69331baee.json",
+      "size": 3289,
+      "mtime_ns": 1792097208049223900,
+      "sha256": "470fff90de4b9d90b66b22019f17a180f7de32d07d8dc0757bbda1ba5f8b1148"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_15/v_ff3ea70e28828a27.json",
+      "size": 3302,
+      "mtime_ns": 1792097208017288500,
+      "sha256": "6bef83cb5feee00643906bfadc8947a8772e1007042a4c0aa93a1dc94cdb8b05"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_16/COMPLETED.json",
+      "size": 3899,
+      "mtime_ns": 1792097208172409900,
+      "sha256": "c3d5fccd88dcfd7d3de959e9e516826b2e7736b59387c336a199e73dbe446779"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_16/v_31abd177485f569a.json",
+      "size": 3315,
+      "mtime_ns": 1792097208125316300,
+      "sha256": "3ae6818598abc2a909f0650ff644f228e269c299cb8cce3970d9f5a266bb7a1c"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_16/v_8d79edb642ab8843.json",
+      "size": 3247,
+      "mtime_ns": 1792097208107551400,
+      "sha256": "be55df0031cbf4ca416ddd3345bea3117782248e661ab6a9c340978157e142a7"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_16/v_a9c57eabcd7c9a22.json",
+      "size": 3356,
+      "mtime_ns": 1792097208155448200,
+      "sha256": "e965ed968c2de16b9e50cb475d668e77639fdc5ceac4acd72c71863c6ae9bbeb"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_16/v_ae143b3a34f18507.json",
+      "size": 3438,
+      "mtime_ns": 1792097208096037700,
+      "sha256": "c3278d5d81e96fa2eadafa104ddee0631f33d288bba92f085efe319c74eb0d0f"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_16/v_f5f330e99bb6bcd1.json",
+      "size": 3314,
+      "mtime_ns": 1792097208140418300,
+      "sha256": "4a524879594f7bbe4d58eb563bcb5cc114c8e790d2cba3bc4491a2fd5016f9b0"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_17/COMPLETED.json",
+      "size": 2268,
+      "mtime_ns": 1792097208220599000,
+      "sha256": "48883aabc2890165f19f85cf2b0054d1b5b9da4d092d6e69bb62ab82b77da7ab"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_17/v_10265caa1174ccfd.json",
+      "size": 3536,
+      "mtime_ns": 1792097208175573900,
+      "sha256": "d518c2705b923ab1182b6ea27435f948d2ec9c4079bb49bf78bf3533dd514646"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_17/v_b503588bf897195f.json",
+      "size": 3436,
+      "mtime_ns": 1792097208189920000,
+      "sha256": "686803d16967519a86f3d1a1f4c3ad3bfe85f047968a544bd4c4ee6eb5ff7f27"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/text_17/v_f3dd15cb2a3da32c.json",
+      "size": 3437,
+      "mtime_ns": 1792097208206394700,
+      "sha256": "938ad79497c9938ad396b8e4c104232ebd03fd31f9fe048330bce2ceea89fca7"
+    },
+    {
+      "path": "竞品视频分析_2026-10-15/analysis_a/new_accounts_2026-10-16/交付清单与总结报告.md",
+      "size": 5287,
+      "mtime_ns": 1792097359987234000,
+      "sha256": "8ed95cea02adfdf02e3bf6856f70995c7792129351cf55694b07bc3f50a0970a"
+    }
+  ],
+  "frozen_files": [
+    {
+      "relative_path": "account_summary.json",
+      "sha256": "aef9fbcb560918531ae732c70054fc224511da76fd0b5b01f0d6e25e44f72f5e",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "COMPLETED.json",
+      "sha256": "d7d93de0ff1ee13d2a43c3a6a4342abf0af7824fb574f4926487db28458019c8",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_01/COMPLETED.json",
+      "sha256": "11a0d94ff0ff65c3d2d66dd0ba1c2386ac657c8e8bf8947d459abe52486e8394",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_01/v_2be39eef1514e89b.json",
+      "sha256": "00843c017ab293fad8c59f779c13864b72f2596c367b4ea1afd367a644bfb6dc",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_01/v_38056006fbf46638.json",
+      "sha256": "d30a7c895082f0bb1781e30a0ec67e78b1c0c81e293cbc7180196199f9907e83",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_01/v_76be786067862904.json",
+      "sha256": "a4920e86e27a42c22fc698aba3138be7d894538a8ed64e24f44621102d136439",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_01/v_ad944b26480f2d8b.json",
+      "sha256": "55e0f90e8464a5f42cb22970354d4f7377b8ec3f2a056849f5017ce6ec277cca",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_01/v_db13a0a34de523f4.json",
+      "sha256": "78297adeb48fec0cf1fcb30e14c4061e7b0fba61921a5f3ebff2ec6aba48a354",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_02/COMPLETED.json",
+      "sha256": "5d3d6c945eeae35e9f7f6ec5efd23f32a6df2b1d7ad726264b4c3a306eaae34e",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_02/v_17f0c21059230af2.json",
+      "sha256": "291fade0a28cc8dda209c272afaafb42ee2e96ad59850d6b6c9472762a27511f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_02/v_33f1e4063c99a716.json",
+      "sha256": "9aded6e29b38c0becb3b061c0a03ba30ce60e1cd4f412605d1741c8a78b433c0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_02/v_9b4af995d6505fc2.json",
+      "sha256": "5b47a80cbab89d989ae910342796dfae7d1977432333a67acbbccb0995303f5b",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_02/v_9f185f433a49579e.json",
+      "sha256": "c74fe6f9da32d576fff3a85981fe88fcb3934cf58d318dbd39326df8708ba06c",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_02/v_d4c74c1dc35fd3e7.json",
+      "sha256": "4c9e25d774d6e565562fc685185c4a6d78624da7c821fd52c385f40bc54310e2",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_03/COMPLETED.json",
+      "sha256": "d6f92654262c6650c0e56c652d2a67482c5c012c65a29821898a7488fe3cbf03",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_03/v_10265caa1174ccfd.json",
+      "sha256": "b059e103ea287794b5f15dfa3ee16878ca023dd165c9179ffe1e28bcde1e131b",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_03/v_30ab5bb2ea001aea.json",
+      "sha256": "af9e027d1de525baf628499c6d7b3c700b282e916ea93dec2ccbf44c1d8ca94a",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_03/v_92afd56d4cbb2493.json",
+      "sha256": "6ae9a890a07dc1b452342588b1c715b223c83618ddb513512e73c10fc859a2ab",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_03/v_cc8397da3c3f0c8a.json",
+      "sha256": "42805fff40e05f17df8f570f01be1e7670d76f948820420b21c98a2a4ce30bd0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_03/v_fc3786ad66dc77e3.json",
+      "sha256": "dc5dc75a88c3065a7ba43445889d7a35e6e4e6dca260dc55224763de58747143",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_04/COMPLETED.json",
+      "sha256": "62693033019c8e173c32438e1fe82094139c41cb32443ecfb2d2ab58869279b5",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_04/v_0f9d69c591d2a5e5.json",
+      "sha256": "23a2f2b7ef9b16f10215f31d6af47063bd94b2f470892cfbf16932f95c1c6ed1",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_04/v_2306120bb0b29be4.json",
+      "sha256": "4dd148c72fc5f06b59234cc994da2cfe85a03f607149623bde3649e3b68935b6",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_04/v_3ed9e1106acc15f8.json",
+      "sha256": "5c52703cb39261957c9ae888cbcbb619c7c240abf3c2fb6949fd368bca2b5468",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_04/v_4f4d5d796acb8bf2.json",
+      "sha256": "d28fc255739043672d1bb8f4a26dd8794b7f17c62f8d63e97e58018058e520fe",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_04/v_f5f330e99bb6bcd1.json",
+      "sha256": "24c432cb6ac8495ac10299f950ad398600943f403587589c811564ea6647baba",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_05/COMPLETED.json",
+      "sha256": "76a46003b60fc8abf2f9d1ffebe1626126a78be3a76111c506388952ea0990f0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_05/v_255ca28b37185f92.json",
+      "sha256": "b27ca105dae80dd1a1498c00ec84b447a12c50190096bfaefab3d9b174afcb92",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_05/v_8ea3bdec43adefd7.json",
+      "sha256": "0d29ef23c3201ba7ccbe3b8e711e6a3d94b933d11261c45810810b03c811ffc5",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_05/v_a8a9f9dc511b9853.json",
+      "sha256": "89ad4b1cf5bed12cff414a6b6e5e4b704f808f7c5e830c527e9f6f34d81804b9",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_05/v_cd6edb76157fc255.json",
+      "sha256": "49761383e1cee1e4c238b3926b4e1546107bdf8211fc6ef344f8ff4b893b6cb8",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "deep_05/v_f47a13f215121591.json",
+      "sha256": "f7ab1e92e585a9beea2db250f42f4ce7a71f1a46f89b2c679c0484c614890c51",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_01/COMPLETED.json",
+      "sha256": "53fb74d96d4be646d794db39b7408e8a542e545fa3a6b973ab4d7a74b9a13dd4",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_01/v_368ff8bc9b9527ea.json",
+      "sha256": "ad442881868f31a6ffe85212b2dc12bac7c476725ca141979a7fdb1a16a602a9",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_01/v_5d5e6d383a0f923f.json",
+      "sha256": "7b541b4099839a8ff6351c8d469fe1cd482dcd3fe6d9998aa33f14616734049b",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_01/v_9f185f433a49579e.json",
+      "sha256": "bfe2dc1de13986281a47ac2e540650ff1553ab7fea3432f8c332eb0c99b4200f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_01/v_cd6edb76157fc255.json",
+      "sha256": "65ba34defd416eaee07c0c59736a3b85c3c30a22d796460e22e135bd6a0d4e4c",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_01/v_fc3786ad66dc77e3.json",
+      "sha256": "4249fe22a8d000d141ab4d5a92b29af0b639437f7644b743dc3f2b35d3aac6ae",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_02/COMPLETED.json",
+      "sha256": "a925e0e79df23538080fba5347590a79f24e60d221c0cb827801a1a5cd1fdb0c",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_02/v_249bc02b484fc719.json",
+      "sha256": "00d5e37caeced517e1d889eb82791b42acf6414377d46f1eaa88918b3a253e6f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_02/v_7ace1d24442d99c9.json",
+      "sha256": "42dc4f18efc0c81f15a45c7bcb1e00ba5ac1570ee8f061ea1b4d136268c4f599",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_02/v_7efe414380952566.json",
+      "sha256": "9b12e74ffc680a55ff86894c1cd8a293d8cc005bf772d28890f14e42eedbe38d",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_02/v_98f75a1acaea5c52.json",
+      "sha256": "b03f19e4b92f0512430b5bc23f62429719a3a5533bbec41b18f6f3e0dd3b7097",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_02/v_b133ac8fb205de0d.json",
+      "sha256": "b2b535fadd51ee5aefe6e401c6b76bbfb112dd0d2db72930d6446437a9771546",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_03/COMPLETED.json",
+      "sha256": "d42ce9d0ced235f2bae36b04240f715c680c729a591fa8d8fd86a0b12c7426ce",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_03/v_17f0c21059230af2.json",
+      "sha256": "51952cadea0ee2500b29482083ec5133ab94ecf7ce72499ce23096418d467960",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_03/v_255ca28b37185f92.json",
+      "sha256": "890798b996010ee100738af515ec660c6a031f3c9bfdaf490c10e7fdcb12bd69",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_03/v_3e3873deeb6c8d7e.json",
+      "sha256": "8f2df05b2ba3d23cfb24e22f8955bb1d9c1562eecbd88d7be8678999e1d4ee0f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_03/v_7bc646162220f8e7.json",
+      "sha256": "aaa9f1d8b0e1eda3f45b23049fd8b43ae1817c4ff0f84a4c620212f2aea0f4c7",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_03/v_db13a0a34de523f4.json",
+      "sha256": "60db8d4005872120fc274cafe5b43aed58aa01e12cce5b0aa0f4258f4fb9ec1e",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_04/COMPLETED.json",
+      "sha256": "1e677794ccf29e23d973db81fad1bd287373262773994150740b5f7b3f4d8e89",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_04/v_2306120bb0b29be4.json",
+      "sha256": "9ad488c4365bae2b9bad1c8ec493a75971d58114ed24bfb6aa7b8a883d8cf8a6",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_04/v_277bc3d78abb6ee9.json",
+      "sha256": "871b7e62c1cb528363234585b7755d03f7042c80d6618e8e0e3bb0e4bb978d39",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_04/v_76b65d4cc4baa4f7.json",
+      "sha256": "dfc89e329ee494c0bc18f8528659cce7cdeb74b6349e319a525571e8738a68a1",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_04/v_92afd56d4cbb2493.json",
+      "sha256": "9c9e1609bac0959f570281dfc34e8e36b2fa06f72a5b9f6baf6690b70b351d9d",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_04/v_cbb3ad669fcfbba1.json",
+      "sha256": "caa2e580e28d7a04d6050f2d3a6e5553883cd469729245737c54492bb56f16db",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_05/COMPLETED.json",
+      "sha256": "9a70f915548bf8a03c90bcabf1ea5a429f8d9a3c0ac762a770ebea9c32a5e558",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_05/v_4f4d5d796acb8bf2.json",
+      "sha256": "b4ea232bc24321ccfc619a626069f8e3362a005b9e6fdffe17d9cddd1335322d",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_05/v_8b41cd4017b43c59.json",
+      "sha256": "248f77f0ef903aecfcb660b34a991b97eea3c0c39298a16dcae3b16f383dbd62",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_05/v_9914a4b5d84ec970.json",
+      "sha256": "d707d97a7cd2ab4382bd70ff4b948a8fdca7f97748d0cf3248c92f1569251225",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_05/v_f47a13f215121591.json",
+      "sha256": "8a73d94668f3ccd56aadd59fe596a296699fe54967b52fe61666c6e6b3699e6d",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_05/v_fe586626fea2b1e4.json",
+      "sha256": "759a265789d840209e975f7e3b4c7d403dfd3f8880307a1c0723afb0d54e14a7",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_06/COMPLETED.json",
+      "sha256": "30316400e18d7d60617086ebb5d3d2b8730d7cb8df7bdc271a291637cb286c21",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_06/v_2e02bd2be61f0d6d.json",
+      "sha256": "fe4050d59192450aacfdc5bdeab201a29a1f498dc17e76f003aa334b48302862",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_06/v_5e4bd31ad730ff67.json",
+      "sha256": "76106eb2bb99985bd0f1266958d5bfa9ee326601aa11dd4a9d6870614ca15897",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_06/v_6aa6ef974dccc10f.json",
+      "sha256": "b7d6f87757982b6d4736493efb544745e8b2b20ed283ad4afb06c07c57f910bc",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_06/v_8064b34009bba1d8.json",
+      "sha256": "e63989c55466a456f5667978d2c62ad9e3933f959b536ea9a4f3b0f67772c6ce",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_06/v_aeab3bc4712a27c4.json",
+      "sha256": "4f2482e5b258bc05acbfe631615bc91ab9032713a69596b2f00863c0ec0e1eb6",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_07/COMPLETED.json",
+      "sha256": "90c5db903d08e546a3b63d81b4d39457150e6c3c64868bd721f40e6fad3e1e82",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_07/v_0f9d69c591d2a5e5.json",
+      "sha256": "9101eb7de5abc2a96353fec97687ae616e1687af45f589582278977958c5d14d",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_07/v_3b5e02e2296f859a.json",
+      "sha256": "fe20ee0fcd6b6b55ba7212aadc254a8c2e3a473ec012bca1cb2750a835f3b305",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_07/v_9b4af995d6505fc2.json",
+      "sha256": "dd6c3bc9465be81e9f5a70e9edd98677ae3b174977883e369f1afd1741202950",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_07/v_a3bd76ce44483897.json",
+      "sha256": "69275ed02d8af56705c574d084873ac0b0add16765ee3285e049610b97a12a47",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_07/v_d4c74c1dc35fd3e7.json",
+      "sha256": "188335cac0c12498052f17170fb958e81c9e2a9fc84a8486424f5a2f950ef385",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_08/COMPLETED.json",
+      "sha256": "d9de03d7b040f81b31ce335c96889893f4186e1ed8f1a87350ba8117d382b516",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_08/v_2be39eef1514e89b.json",
+      "sha256": "b42f41db97587220ec500bc5b67cd8a06d7248e4f1ea1bfeaff43fff8d52bcc8",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_08/v_535debe3daf9d6d8.json",
+      "sha256": "d98cb507d56f99327b00f6ba516fe774b60fbd3ea3557cac41ae11dad30bf487",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_08/v_8ea3bdec43adefd7.json",
+      "sha256": "3a25995f064aae4584c88867e13f767a600c1904398d7ffd407c7a8394f26f34",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_08/v_d1c2ac4f2d71153a.json",
+      "sha256": "fa90c2b1198351c3e11a74d8f4a8627e13d9b9d99d4bbbc9330f089eb15f54c3",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_08/v_ece59171b2d74e28.json",
+      "sha256": "643fddec1ca70cc75a31a225c043cc093bd3b5ada20efc249f9c3c6e4049f7e0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_09/COMPLETED.json",
+      "sha256": "9c2e54c6373f1dd240966667aa09cfdfb8e2fca8c2354c6fde278147704a698f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_09/v_4be8e3025bc509bf.json",
+      "sha256": "f0ba664630ddfac71c25f7503b217dc6b00e1786bdda4f4c6c006b633f5d73eb",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_09/v_7c8bdf178c13ccee.json",
+      "sha256": "b63b2cedd251b6689f26bb444647a09883c56930bb440802e23ee9e3569012ee",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_09/v_a8a9f9dc511b9853.json",
+      "sha256": "8024bfbf0b41b98e34e2e0851eecffaa087640087a86cb111d659e807be8f6b0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_09/v_f2936927de841d82.json",
+      "sha256": "a280e9b280cf3bbf70bcef9b097bbb20bf8ff32fe86950065c193bdf77210434",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_09/v_ff66999e727495b1.json",
+      "sha256": "dcf41e850186f6cc398ec6c900dc72ae2db927f1b68d94670465a1e396bd7011",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_10/COMPLETED.json",
+      "sha256": "c8c6a51b98607603ac4588662d9bebf6dd5486743af4f9dfab788e5706c1650b",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_10/v_45523d41084c1dfe.json",
+      "sha256": "9c247d64480a5145e4d2f4ce55e178049af03e85dd457bcc81b40db13234692d",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_10/v_64ba721585f53252.json",
+      "sha256": "f335de62d2948bbcad712c46e69cba0888db025691000a0d6c954814f1fcb4d5",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_10/v_ad944b26480f2d8b.json",
+      "sha256": "c60c0d73a0d28723a2943e61d0115944a4a500b453ffc46672676ee52145ba45",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_10/v_ef4cb6d438651ccf.json",
+      "sha256": "27a7d1b327066e546e47425fc3aeaf56f18247c2010fd8ec36e76bf0aced0db8",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_10/v_fa9448dfccdd4269.json",
+      "sha256": "44c6753cf4bd76cbb8eeed6219c4c65c4687e73c8ad74f02dd277281ce536906",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_11/COMPLETED.json",
+      "sha256": "322f9ca9144ae4e28418d9d27c9ff804ebf4c183f7662068e1425f1e60b948cf",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_11/v_33f1e4063c99a716.json",
+      "sha256": "18a9fed2cda04a3adbfdf8e4f902fe36b6d273de05249d0c8b240cd1bdeaaae8",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_11/v_7199f8033bb838af.json",
+      "sha256": "9a3918f8fc6540189dfd5614937ea1a4a78de8fb6f7833338950507b97882701",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_11/v_7e282e82c16ff21e.json",
+      "sha256": "7a4093c571fdd398b306485182ac487c862c4790b86e83aa93a844d5e1627236",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_11/v_e55cdcc6396cb15e.json",
+      "sha256": "f09eaf3467829009c4340c2c0e34a11447e7b997ba6a3e29acee8388ea670b45",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_11/v_f63315a861608ed4.json",
+      "sha256": "3ad8891cbffe192331f8fe3272ee6fa806f2a455cf3b5d6a3f3858454649429b",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_12/COMPLETED.json",
+      "sha256": "246b0cd53aa959e62e97aa58ff2deea9d3023cff8a1cf4cc101a476f774ea004",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_12/v_0a4577db9c6cff5b.json",
+      "sha256": "8062ffd87435795e699aaa83ccf92e2c40f8fbd0bcc6cc63a5bbf29d3d157525",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_12/v_3ed9e1106acc15f8.json",
+      "sha256": "285c6d723897b0259aa32817c1705dfe729d6c7fb6f02c6aee6a2ef45e9386ad",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_12/v_9ca608cbe701f27c.json",
+      "sha256": "db45fc4f38ac0d9cbf9f0d366caff1b0b3f82dc90ab5fcb9a990a54257516e0f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_12/v_c110f20742e7bf64.json",
+      "sha256": "be7c6bfd356f0ff4b6f9a1d5535c9026096fd7c421d8bf935e5ca12d1bb4b9e2",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_12/v_e296bf0afb5c1ab0.json",
+      "sha256": "bebdcd5139def97a3747f09237b83391359c8fafcbd060cba9f85b4930d93bf1",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_13/COMPLETED.json",
+      "sha256": "6fcb46384cae12c982529aab4457da966aae5f30c7c60458b9b12d4045f1256a",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_13/v_30ab5bb2ea001aea.json",
+      "sha256": "91cd7ed364662d4e77c16918ff50b64b7130fee538372cc62bdc007736aba4ac",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_13/v_38056006fbf46638.json",
+      "sha256": "6e769788c2e15b2bbafc7d81ab6bc90de31dab295cdbfba39bbb6192c2b26bed",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_13/v_76be786067862904.json",
+      "sha256": "1175fab02d8b68c0b4df6f31e82cc155d06b4b4c11f6a2bf0da121c65d5d6d71",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_13/v_b27db8ad24d44b64.json",
+      "sha256": "8b59993161d866d12f720d92349152afaad970bb9d43c88977cc1d0ea84d6f82",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_13/v_ca16a281f181b54b.json",
+      "sha256": "f3f608574e647421306d6ad1f186b3c25cc327309b659aa766a95a0eb6c00a68",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_14/COMPLETED.json",
+      "sha256": "17247ccb67a46d3434252292354c019f4ce044a96bde49c779127c8c55166804",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_14/v_2f0e25053eef097c.json",
+      "sha256": "c110fafba0a008fd1a5e5a79baf33c8cf4220435685e595ce725ce2f01bd0399",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_14/v_7d2b26fa20a69875.json",
+      "sha256": "dc666fa921dca5116adfede9f43927ccd3d43293951829f22009923cebbe890e",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_14/v_aaa7253ec7413328.json",
+      "sha256": "c76a2ae27b683a0a7bb8ede7a711a48e4f91546503f67210df2ee057e8c753d0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_14/v_cc8397da3c3f0c8a.json",
+      "sha256": "40ab378df1ae82b934d9add18216e8115ac64be2baf107f979379ab32e11ebe7",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_14/v_f4a8f176c6f73910.json",
+      "sha256": "1824bb7d2038cb80ce0ee9577fb91f83b658fb66974222c6c7ecedf3ad934249",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_15/COMPLETED.json",
+      "sha256": "a86346d6514854f8ce39c24e06cff9138609a463ca0ec0b3a3ea1a2e81afab82",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_15/v_3a5a0b8253b7fd6f.json",
+      "sha256": "382c2b9740b88eabeca07315f30558d3c687e9bdf93ed8dde0613995278b92da",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_15/v_5cbbc93d14301400.json",
+      "sha256": "96e2e69e21792863340dfba27e479b16695dad650a6e8abde266ad0a63cd8a1f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_15/v_73fe295c18ecf289.json",
+      "sha256": "4a1aacaf7f50f534d440ce50da3f313e068744274eaff3aab894f4258007f626",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_15/v_ebbf44d69331baee.json",
+      "sha256": "470fff90de4b9d90b66b22019f17a180f7de32d07d8dc0757bbda1ba5f8b1148",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_15/v_ff3ea70e28828a27.json",
+      "sha256": "6bef83cb5feee00643906bfadc8947a8772e1007042a4c0aa93a1dc94cdb8b05",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_16/COMPLETED.json",
+      "sha256": "c3d5fccd88dcfd7d3de959e9e516826b2e7736b59387c336a199e73dbe446779",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_16/v_31abd177485f569a.json",
+      "sha256": "3ae6818598abc2a909f0650ff644f228e269c299cb8cce3970d9f5a266bb7a1c",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_16/v_8d79edb642ab8843.json",
+      "sha256": "be55df0031cbf4ca416ddd3345bea3117782248e661ab6a9c340978157e142a7",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_16/v_a9c57eabcd7c9a22.json",
+      "sha256": "e965ed968c2de16b9e50cb475d668e77639fdc5ceac4acd72c71863c6ae9bbeb",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_16/v_ae143b3a34f18507.json",
+      "sha256": "c3278d5d81e96fa2eadafa104ddee0631f33d288bba92f085efe319c74eb0d0f",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_16/v_f5f330e99bb6bcd1.json",
+      "sha256": "4a524879594f7bbe4d58eb563bcb5cc114c8e790d2cba3bc4491a2fd5016f9b0",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_17/COMPLETED.json",
+      "sha256": "48883aabc2890165f19f85cf2b0054d1b5b9da4d092d6e69bb62ab82b77da7ab",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_17/v_10265caa1174ccfd.json",
+      "sha256": "d518c2705b923ab1182b6ea27435f948d2ec9c4079bb49bf78bf3533dd514646",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_17/v_b503588bf897195f.json",
+      "sha256": "686803d16967519a86f3d1a1f4c3ad3bfe85f047968a544bd4c4ee6eb5ff7f27",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "text_17/v_f3dd15cb2a3da32c.json",
+      "sha256": "938ad79497c9938ad396b8e4c104232ebd03fd31f9fe048330bce2ceea89fca7",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    },
+    {
+      "relative_path": "交付清单与总结报告.md",
+      "sha256": "8ed95cea02adfdf02e3bf6856f70995c7792129351cf55694b07bc3f50a0970a",
+      "semantic_acceptance": "NOT_YET_REVIEWED"
+    }
+  ],
+  "historical_atomic_rename_observed": false,
+  "atomic_boundary_note": "Final COMPLETED markers, a stable 2-second snapshot, and all declared SHA values were independently checked; rename syscall history is not observable after the fact.",
+  "summary_schema": "NOT_SUPPLIED; summary is unaccepted metadata, not independent analysis proof"
+}
