@@ -1,4 +1,4 @@
-"""Private GitHub Release backups: deduplicated files, bounded ZIP parts, verified restore."""
+"""GitHub Release backups: deduplicated files, bounded ZIP parts, verified restore."""
 from __future__ import annotations
 import argparse
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -38,10 +38,10 @@ def gh(*args, capture=False):
     return p.stdout
 
 
-def assert_private():
-    info = json.loads(gh('repo','view',REPO,'--json','isPrivate,nameWithOwner',capture=True))
-    if info.get('isPrivate') is not True or info['nameWithOwner'] != REPO:
-        raise RuntimeError('Refusing to transfer personal files: repository identity/privacy mismatch')
+def assert_repository():
+    info = json.loads(gh('repo','view',REPO,'--json','visibility,nameWithOwner',capture=True))
+    if info.get('visibility') != 'PUBLIC' or info['nameWithOwner'] != REPO:
+        raise RuntimeError('Repository identity/visibility differs from the user-authorized public repository')
 
 
 def excluded(p):
@@ -102,7 +102,7 @@ def upload_one(tag,p):
 
 
 def pack(a):
-    assert_private() if a.upload else None
+    assert_repository() if a.upload else None
     if a.upload:
         # Never reuse a release tag: old manifests must remain reproducible.
         exists=subprocess.run(['gh','release','view',a.tag,'--repo',REPO],capture_output=True).returncode==0
@@ -196,7 +196,7 @@ def restore(a):
         p=safe_path(cache,x['name'])
         if not p.exists():
             if a.offline:raise FileNotFoundError(p)
-            assert_private()
+            assert_repository()
             gh('release','download',m['tag'],'--repo',REPO,'--pattern',x['name'],'--dir',cache)
         if p.stat().st_size!=x['size'] or digest(p)!=x['sha256']:raise RuntimeError(f'Archive checksum failed: {p.name}')
     complete=0

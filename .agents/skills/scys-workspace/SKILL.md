@@ -1,13 +1,13 @@
 ---
 name: scys-workspace
-description: 维护 scys_jh 个人视频工作台，处理 GitHub 私有同步、跨电脑恢复、环境检查和大文件备份；仅用于本项目。
+description: 维护 scys_jh 个人视频工作台，处理 GitHub 同步、跨电脑恢复、环境检查和大文件备份；仅用于本项目。
 ---
 
 # scys_jh 工作台维护
 
 先读仓库根目录 README.md；换电脑、恢复媒体或安装软件时再读 docs/换电脑与日常使用.md。
 
-使用 `scripts/doctor.py` 检查当前环境。路径均从项目根目录推导。GitHub 目标由 git remote 核实，当前约定 sunjinhui0902/scys_jh，必须 private。不可复制旧机令牌或 cookies；新机在浏览器重新登录。
+使用 `scripts/doctor.py` 检查当前环境。路径均从项目根目录推导。GitHub 目标由 git remote 核实，当前约定 sunjinhui0902/scys_jh，用户已于 2026-10-15 明确要求改为 PUBLIC；按此核对，未经用户再次要求不得改变可见性。不可复制旧机令牌或 cookies；新机在浏览器重新登录。
 
 日常同步先检查 git status，再用 `git pull --ff-only`。需要提交时检查实际差异，运行 `python scripts/check_secrets.py --staged`，只提交本任务改动。远端分叉停止自动合并并说明冲突。用户已授权的同步不重复索要确认；本技能本身不授予推送权限。
 

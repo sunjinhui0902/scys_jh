@@ -5,9 +5,10 @@ function Check-Exit { if ($LASTEXITCODE -ne 0) { throw "同步中止，退出码
 git status --short
 Check-Exit
 if ($Action -eq 'status') { exit 0 }
-$privacy = gh repo view --json isPrivate --jq '.isPrivate'
+$repositoryJson = gh repo view --json nameWithOwner,visibility
 Check-Exit
-if ($privacy -ne 'true') { throw '仓库不是私有状态，停止同步。' }
+$repository = $repositoryJson | ConvertFrom-Json
+if ($repository.nameWithOwner -ne 'sunjinhui0902/scys_jh' -or $repository.visibility -ne 'PUBLIC') { throw '仓库身份或公开状态与用户约定不符，停止同步。' }
 if ($Action -eq 'pull') {
     if (git status --porcelain) { throw '有未提交改动，请先保存并推送，避免覆盖。' }
     git pull --ff-only

@@ -2,9 +2,9 @@
 
 保存自己的视频号图书创作资料、原创选题、竞品分析、配音素材、视频工程和自动化脚本，供多台电脑持续更新。
 
-**私有仓库**：[sunjinhui0902/scys_jh](https://github.com/sunjinhui0902/scys_jh)  
+**公开仓库**：[sunjinhui0902/scys_jh](https://github.com/sunjinhui0902/scys_jh)  
 **开始使用**：[换电脑与日常使用](docs/换电脑与日常使用.md)  
-**大文件备份**：[私有恢复包](https://github.com/sunjinhui0902/scys_jh/releases)
+**大文件备份**：[恢复包](https://github.com/sunjinhui0902/scys_jh/releases)
 
 ## 快速开始
 
@@ -27,7 +27,7 @@
 | 04_自动化生产流水线 | 既有字幕、运镜、配音及剪映草稿脚本；已移除主要本机路径依赖 |
 | 00_对标与采集工具 | 既有下载器及使用说明，软件由恢复包取回；原始采集视频不上传 |
 | 01_配音与音色库、02_公共资产库 | 音色参数、试听、字体与视觉模板 |
-| [.agents/skills](.agents/skills) | 随项目迁移的视频号内容技能、私有仓库同步及恢复技能 |
+| [.agents/skills](.agents/skills) | 随项目迁移的视频号内容技能、仓库同步及恢复技能 |
 | scripts | 安装、环境检查、渲染、同步、备份恢复、历史路径迁移与凭据扫描 |
 
 ## 开发一个新视频
@@ -42,7 +42,7 @@
 
 ## 恢复与边界
 
-代码与资料使用 Git；成片、素材、软件使用同一私有仓库的 Release。`config/bundle-manifest.json` 对应可核对哈希的文件清单；需要全部已备份结果时运行 `scripts/bundle.py restore --group all`。
+代码与资料使用 Git；成片、素材、软件使用同一仓库的 Release。`config/bundle-manifest.json` 对应可核对哈希的文件清单；需要全部已备份结果时运行 `scripts/bundle.py restore --group all`。
 
 仓库不保存密码、Cookie、OAuth 状态、机器指纹和机器专属证书。新电脑需要安装登录微信、剪映、Codex 等桌面应用。第三方在线服务及历史 ASR 依赖需在新机验证；打包完成不等于所有旧脚本都已端到端运行。
 
@@ -51,3 +51,5 @@
 按用户要求：**采集的原始视频不上传**，可重建的提取音频和模型缓存也不上传；本机原文件保留。
 
 迁移验证与使用限制见 [打包验收报告](docs/打包验收报告.md)。
+
+仓库已按用户要求于 2026-10-15 改为公开，现有内容、提交历史和 Release 附件可公开访问；每天 06:00 的同步继续排除原视频与凭据。
