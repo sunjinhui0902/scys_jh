@@ -3,6 +3,7 @@
 保存自己的视频号图书创作资料、原创选题、竞品分析、配音素材、视频工程和自动化脚本，供多台电脑持续更新。
 
 **公开仓库**：[sunjinhui0902/scys_jh](https://github.com/sunjinhui0902/scys_jh)  
+**内容创作入口**：[纠偏与文档导航](docs/内容纠偏与文档导航.md) · [15城新版口播](03_视频成片与工程/15城纠偏稿_2026-10-16_v2/15城完整口播.md)
 **开始使用**：[换电脑与日常使用](docs/换电脑与日常使用.md)  
 **大文件备份**：[恢复包](https://github.com/sunjinhui0902/scys_jh/releases)
 
@@ -20,6 +21,7 @@
 
 | 位置 | 内容 |
 |---|---|
+| [短视频全流程实战经验与生产SOP](短视频全流程实战经验与生产SOP.md) | 当前规范入口；旧版经验归档，技术参数按实际样片核对 |
 | [05_爆款知识库与复盘](05_爆款知识库与复盘/README.md) | 钩子与引书结构、选题排期、SOP、试做稿、发布复盘表、既有课程知识库 |
 | [竞品文案与原创选题库](竞品视频分析_2026-10-15/content_library/开始使用.md) | 全量文案参考、30条原创选题及结构资料 |
 | [竞品视频分析](竞品视频分析_2026-10-15/README.md) | 分阶段分析、转写、分段、聚类、报告和表格 |
@@ -32,7 +34,7 @@
 
 ## 开发一个新视频
 
-先从原创选题库选题，再复制修改 `config/storyboard.example.json`，指定图片、配音和镜头时长：
+先从15城新版或原创选题库选定一条，按带货内容标准试读和配图，再复制修改 `config/storyboard.example.json`，指定图片、配音和镜头时长：
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/render.py config/storyboard.example.json --output .local/示例预览.mp4

@@ -15,6 +15,7 @@ BASE = ROOT / "05_爆款知识库与复盘"
 QUICK = BASE / "参考图书拆解_2026-10-15"
 CITY = BASE / "15城专题拆解_2026-10-15"
 OUT = BASE / "城市与图书知识库"
+CORRECTION = ROOT / "03_视频成片与工程/15城纠偏稿_2026-10-16_v2"
 GROUPS = {
     "城市空间与秩序": ["北京", "西安", "洛阳", "南京", "承德"],
     "石窟艺术与交流": ["大同", "洛阳", "敦煌"],
@@ -79,7 +80,7 @@ def build() -> dict[Path, str]:
     for b in manifest["books"]:
         record("book:" + b["id"], "book", TITLES[b["id"]], CITY / "来源与范围.json", b["id"],
                status="targeted_reading", local_pdf=b["file"], source_sha256=b["sha256"],
-               selected_pdf_pages=b["selected_pdf_pages"])
+               selected_pdf_pages=b["selected_pdf_pages"], role="background_reference")
     for s in manifest["official_sources"]:
         record("source:" + s["id"], "source", s["title"], CITY / "来源与范围.json", s["id"],
                status="checked_at_source_date", url=s["url"], checked_on=s["checked_on"])
@@ -103,8 +104,20 @@ def build() -> dict[Path, str]:
     draft = QUICK / "03_三条原创口播与分镜.md"
     for n, city in enumerate(["平遥", "大同", "苏州"], 1):
         record(f"script:quick:{n:02}", "script", f"{city}原创口播与分镜", draft,
-               f"{n:02}", city, "read_aloud_draft", section=f"## {n:02}｜{city}")
-    assert len({r["id"] for r in records}) == len(records) == 225
+               f"{n:02}", city, "historical_reference_draft_use_v2_for_commerce", section=f"## {n:02}｜{city}")
+    for n, item in enumerate(lines(CORRECTION / "脚本索引.jsonl"), 1):
+        record("correction:" + item["id"], "script", item["title"], CORRECTION / "脚本索引.jsonl",
+               item["id"], item["city"], item["status"], source_line=n,
+               batch="content_correction_20261016_v2", product_id=item["product_id"],
+               script_file=item["script_path"], subtitle_file=item["subtitle_path"],
+               production_card=item["production_card"], actual_seconds=item["actual_seconds"],
+               product_sku_status=item["product_sku_status"], images_status=item["images_status"])
+    for n, item in enumerate(lines(CORRECTION / "后台事实台账.jsonl"), 1):
+        record("correction:" + item["id"], "fact", item["mechanism"], CORRECTION / "后台事实台账.jsonl",
+               item["id"], item["city"], "mechanism_supported_by_listed_sources", source_line=n,
+               evidence=item["sources"], historical_locators=item["historical_locators"],
+               editorial_decision=item["editorial_decision"])
+    assert len({r["id"] for r in records}) == len(records) == 255
     for r in records:
         assert (ROOT / r["source_file"]).is_file(), r["source_file"]
         if "source_line" in r:
@@ -113,16 +126,18 @@ def build() -> dict[Path, str]:
             assert r["source_id"] in [item.get(k) for k in ("id", "city_id", "topic_id", "fact_id")]
     page("检索索引.jsonl", "\n".join(json.dumps(r, ensure_ascii=False) for r in records))
     status_counts = dict(collections.Counter(f["status"] for f in facts))
-    source_files = sorted([p for folder in (QUICK, CITY) for p in folder.rglob("*") if p.is_file()])
+    source_files = sorted([p for folder in (QUICK, CITY, CORRECTION) for p in folder.rglob("*")
+                           if p.is_file() and p.suffix in {".md", ".txt", ".json", ".jsonl", ".csv"}
+                           and p.name != "纠偏检查.json"])
     inventory = [dict(file=rel(p), sha256=digest(p), bytes=p.stat().st_size) for p in source_files]
-    page("归档清单.json", json.dumps(dict(schema_version=1, organized_on="2026-10-15",
-         scope="两批参考图书拆解的分类索引；历史原件保留原位", counts=dict(books=4, city_dossiers=15,
+    page("归档清单.json", json.dumps(dict(schema_version=2, organized_on="2026-10-16",
+         scope="两批参考图书研究与独立v2纠偏稿索引；历史证据保留原位", counts=dict(books=4, city_dossiers=15,
          fact_records=75, fact_status=status_counts, current_topic_records=90, historical_topic_records=20,
          topic_records_not_deduplicated=110, original_read_aloud_drafts=3, city_openings=15,
-         search_records=225, source_files=len(inventory)),
+         corrected_read_aloud_drafts=15, corrected_mechanism_records=15,
+         search_records=255, source_files=len(inventory)),
          sources=inventory, exclusions=["原PDF、OCR全文与页面图像不入公开库", "不计入竞品分析验收数量"],
-         local_related=dict(path="03_视频成片与工程/15城文案与配图_75张_2026-10-15/15城文案与配图",
-         status="linked_only_not_reviewed_or_uploaded_in_this_archive")), ensure_ascii=False, indent=2))
+         local_related=dict(path=rel(CORRECTION), status="scripts_and_shot_plans_no_generated_media")), ensure_ascii=False, indent=2))
     csv_buffer = io.StringIO(newline="")
     writer = csv.DictWriter(csv_buffer, fieldnames=["file", "sha256", "bytes"], lineterminator="\n")
     writer.writeheader(); writer.writerows(inventory)
@@ -130,7 +145,7 @@ def build() -> dict[Path, str]:
 
     page("README.md", f"""# 城市与图书知识库
 
-服务本项目历史文化类视频号图书内容：按城市找问题，按主题串系列，按事实ID回查来源，再写原创口播与安排画面。组织日期：2026-10-15。
+服务本项目历史文化类视频号图书内容。更新：2026-10-16。写稿先读{lk('带货内容标准', BASE / '09_带货内容执行标准.md')}与{lk('15城v2口播及制作卡', CORRECTION / 'README.md')}；本库承担事实和原书检索。
 
 ## 分类入口
 
@@ -141,7 +156,7 @@ def build() -> dict[Path, str]:
 | 03 跨城主题 | 城市空间、石窟、水与山水、商业网络、文化传承 | [按主题查](03_跨城主题/README.md) |
 | 04 事实依据 | 75条事实记录：50官方支持、21书页支持、4限定或差异 | [事实状态与入口](04_事实依据/README.md) |
 | 05 视频选题 | 90条15城候选题＋20张首轮选题卡 | [选题索引](05_视频选题/README.md) |
-| 06 文案与素材 | 3条原创试读稿、15段城市开场；关联本机图文包 | [写稿与素材入口](06_文案与素材/README.md) |
+| 06 文案与素材 | 当前15条纠偏稿与75项镜头需求；历史3稿和15段开场 | [写稿与素材入口](06_文案与素材/README.md) |
 | 07 方法与核验 | 复用步骤、GitHub技能选型、核验问题与复盘入口 | [使用与维护](07_方法与核验/README.md) |
 
 两批原件保持原位；本目录承担分类和检索，来源路径与文件指纹记入[归档清单](归档清单.json)及[资料总目录](资料总目录.csv)。110是两批选题记录数，尚未去重；15段开场不计作完整稿；目录定位与OCR数量不计作精读数量。
@@ -150,14 +165,14 @@ def build() -> dict[Path, str]:
 
 1. 进入城市档案，选一个观众问题；也可从主题专题选一组城市。
 2. 从90题中选择 `Cxx-Txx`，取该城事实 `Cxx-Fxx`，按需回到原书页或官方资料。
-3. 用一个发现写完整口播，参考3条试读稿的结构；实际引书对应真实在售版本和内页。
+3. 优先从v2取对应城市的完整口播与制作卡，讲清一个机制；B01～B04留后台，引书从前台商品方向选择。
 4. 安排实景、中文图示和必要署名，试读后确定时长；发布表现回填项目既有复盘表。
 
 研究资料、候选题、试读稿与素材包分别保留自己的状态。现有题目没有本批播放或成交实测，不能称为已验证爆款。
 
 ## 直接检索
 
-[检索索引.jsonl](检索索引.jsonl)含225条来源索引，支持城市、主题、类型、编号及标题检索。每条保留原文件、记录编号与适用状态；书页证据保留页码与原件指纹。
+[检索索引.jsonl](检索索引.jsonl)含255条来源索引（历史225条＋v2的15稿与15机制记录），支持城市、主题、类型、编号及标题检索。每条保留原文件、记录编号与适用状态；书页证据保留页码与原件指纹。
 
 在项目根目录使用已有Python环境：
 
@@ -167,14 +182,14 @@ python scripts/build_reference_knowledge.py --search 石窟 --kind topic
 python scripts/build_reference_knowledge.py --search C03-F01 --kind fact
 ```
 
-上述搜索只读。以后增加批次时，先扩展整理脚本的来源配置，再重建目录；当前脚本只覆盖已列明的两批。校验命令：`python scripts/build_reference_knowledge.py --check`。
+上述搜索只读。新增来源先扩展脚本配置；当前覆盖两批研究与v2纠偏稿。校验命令：`python scripts/build_reference_knowledge.py --check`。
 
 ## 历史批次
 
 - {lk('参考图书首轮拆解', QUICK / 'README.md')}：四书定位、20张卡、3条试读稿与技能选型。
 - {lk('15城专题拆解', CITY / 'README.md')}：逐城详细总结、75条事实、90题、跨城试做建议。
 
-原PDF与OCR缓存留在本机，公开仓库保存原创分析、简短事实定位与索引。其他工程中尚未验收的文案和媒体仅关联路径，未纳入本次同步包。
+原PDF与OCR缓存留在本机，公开仓库保存原创分析、简短事实定位与索引。v2为试读稿与配图方案，尚无本轮配音和媒体成品。
 """)
     name = "01_书目与来源/README.md"
     rows = "\n".join(f"| {b['id']} | {TITLES[b['id']]} | {b['pages']} | {len(b['selected_pdf_pages'])} |" for b in manifest["books"])
@@ -239,6 +254,8 @@ python scripts/build_reference_knowledge.py --search C03-F01 --kind fact
 
 75条事实：50条官方支持限定判断，21条书页支持，4条保留限定或差异。全部保留在{lk('原事实台账', CITY / '事实台账.jsonl', name)}；支持范围随记录保存，不能把一条已核事实扩展成整篇稿件已核。
 
+v2另外有15条机制记录，见{lk('纠偏稿后台台账', CORRECTION / '后台事实台账.md', name)}。它们按新稿使用范围记录，与历史75条可能重叠，不相加为90条唯一史实。
+
 | 城市 | 事实编号 | 官方支持 | 书页支持 | 限定或差异 |
 | --- | --- | ---: | ---: | ---: |
 {chr(10).join(fact_rows)}
@@ -275,13 +292,19 @@ python scripts/build_reference_knowledge.py --search C03-F01 --kind fact
 {old_rows}
 """)
     name = "06_文案与素材/README.md"
-    local = ROOT / "03_视频成片与工程/15城文案与配图_75张_2026-10-15/15城文案与配图"
+    local = ROOT / "03_视频成片与工程/15城文案配图_2026-10-15"
     openings = "\n\n".join(f"- **{c['city']}**：{lk('城市开场及画面建议', ROOT / c['file'], name)}。" for c in cities)
     page(name, f"""# 文案与素材入口
 
-## 原创试读稿
+## 当前生产稿
 
-{lk('平遥、大同、苏州：3条完整口播与分镜', draft, name)}。按原批次为试读稿，目标时长尚未以配音校准，镜头是素材需求；引书段对应研究参考书，实际带货版本要另外对照。
+{lk('15城v2：完整口播、逐句字幕与五镜制作卡', CORRECTION / 'README.md', name)}。15条试读稿、390句字幕、75项镜头需求；后台事实单列，新图和配音尚未生成。配音计时后再输出SRT。
+
+{lk('双层书目与15城映射', BASE / '10_双层书目与15城映射.md', name)}：研究书B01～B04不再作为口播收尾商品。
+
+## 历史研究稿
+
+{lk('平遥、大同、苏州：3条原口播与分镜', draft, name)}。保留研究时点原貌；引书对应参考书，新生产改用v2，不直接用旧结尾带货。
 
 ## 15城开场与画面方向
 
@@ -293,7 +316,7 @@ python scripts/build_reference_knowledge.py --search C03-F01 --kind fact
 
 {lk('15城文案与配图：开始使用', local / '开始使用.md', name)}；{lk('15城完整文案', local / '15城完整文案.md', name)}；{lk('图片来源总表', local / '图片来源总表.csv', name)}。
 
-本轮仅确认入口文件存在并关联目录。该包说明称含15份完整口播、60张实景和15张AI氛围图；这些是包内声明，本次没有逐条审稿、逐图复核许可或验证图文对应，也未将其文案、媒体和恢复包纳入本次提交。此入口依赖本机已有文件，跨电脑应以该生产工程独立交付记录为准。
+旧包文案与默认图序已被v2接替。本轮看过三张总预览图中的75张缩略图，按当前主题列出可用旧图与缺图；未重审全部高清细节和许可。旧媒体仍由原工程与恢复包管理，v2本轮只交文字及镜头方案。
 
 研究批次的3条稿、15段开场和此生产包分开计数。图像授权、署名、AI标识、真实SKU与试读时长在选定素材和稿件后按实际内容核对。
 """)
@@ -307,7 +330,7 @@ python scripts/build_reference_knowledge.py --search C03-F01 --kind fact
 - {lk('参考图书到视频号 Skill', ROOT / '.agents/skills/reference-book-to-video/SKILL.md', name)}：检索、回原页、写稿和证据边界。
 - {lk('视频号图书内容 Skill', ROOT / '.agents/skills/wechat-channels-book-commerce/SKILL.md', name)}：口播、分镜、商品衔接及发布检查。
 - {lk('GitHub技能选型与复用记录', QUICK / '04_GitHub技能选型与复用.md', name)}：保留首轮选型结果，外部仓库状态与许可不因本次归档重新确认。
-- {lk('说书式口播写法', BASE / '07_说书式口播写法.md', name)}：项目现有方法；归档时工作区文件，维护与同步由原任务负责。
+- {lk('说书式口播写法', BASE / '07_说书式口播写法.md', name)}与{lk('带货内容标准', BASE / '09_带货内容执行标准.md', name)}：当前写作方法，机制讲清、证据留后台。
 - {lk('短片生产SOP', BASE / '03_短片生产SOP.md', name)}、{lk('发布复盘表', BASE / '04_发布复盘表.csv', name)}：沿用现有生产与反馈入口。
 
 ## 核验优先级
@@ -321,7 +344,7 @@ python scripts/build_reference_knowledge.py --search C03-F01 --kind fact
 3. 用 `--check` 验证索引与源记录一致，再按项目约定只同步该次任务结果。原PDF、OCR全文、页面图和媒体遵循各自存储约定。
 4. 新开场、完整稿、配音、成片、发布与反馈分别计数；只有实际数据支持时才归纳表现。
 
-本次只增加知识库分类、检索和路由，没有改变原批次事实状态、竞品验收数量或既有试做工程。
+当前索引纳入两批研究与v2修订稿，原批次事实状态、竞品验收数量和既有试做工程保留。
 """)
     return outputs
 
@@ -352,12 +375,12 @@ def main():
             print("STALE", rel(p))
         if changed:
             raise SystemExit(1)
-        print(f"OK: {len(outputs)} files; 225 records; source IDs and paths valid")
+        print(f"OK: {len(outputs)} files; 255 records; source IDs and paths valid")
         return
     for path, content in outputs.items():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(content, encoding="utf-8", newline="\n")
-    print(f"Organized {len(outputs)} files; changed {len(changed)}; 225 source-linked records")
+    print(f"Organized {len(outputs)} files; changed {len(changed)}; 255 source-linked records")
 
 
 if __name__ == "__main__":
