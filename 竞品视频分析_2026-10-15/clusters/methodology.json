@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-10-15T09:15:51+08:00",
+  "population": "SHA256-canonical transcripts only; all source paths retained separately",
+  "normalization": "lowercase alphanumeric; supported equal-length book aliases applied only in derived comparison text",
+  "full_vectorizer": {
+    "analyzer": "char",
+    "ngram_range": [
+      2,
+      4
+    ],
+    "min_df": 2,
+    "max_features": 70000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "opening_vectorizer": {
+    "first_normalized_characters": 100,
+    "analyzer": "char",
+    "ngram_range": [
+      2,
+      4
+    ],
+    "min_df": 1,
+    "max_features": 40000,
+    "sublinear_tf": true
+  },
+  "thresholds": {
+    "FULL_TEXT": "cosine>=.76 and shorter/longer length>=.6 and ordered SequenceMatcher ratio>=.65",
+    "OPENING": "opening cosine>=.8, both >=25 normalized characters",
+    "STORY_PASSAGE": "longest contiguous normalized common substring>=80 and (cosine>=.45 or common/shorter>=.3)"
+  },
+  "cluster_method": "connected components per edge type; transitive membership does not imply all pairs meet threshold",
+  "passage_caveat": "Common paragraph may be a generic CTA; semantic story identity requires A/manual review"
+}

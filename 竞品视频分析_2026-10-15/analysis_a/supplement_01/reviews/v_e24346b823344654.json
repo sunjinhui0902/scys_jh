@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_e24346b823344654",
+  "account": "开卷读书",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\开卷读书\\好好珍惜，珍惜身体，珍惜眼前人，珍惜生活的每一天。送别刘欢老师，歌声犹在，斯人远去。#情感#刘欢#智慧人生#人生感悟#珍惜.mp4",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T11:45:00+08:00",
+  "status": "AI_REVIEW",
+  "fields": {
+    "theme": "素材声称名人离世引发的世事无常与健康反思",
+    "category": "情感/人生感悟/健康认知",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "target_audience": "中老年退休群体、关注健康与人生意义的中年受众",
+    "hook": {
+      "text_0_3s": "刘欢老师走了，享年六十三岁。",
+      "full_hook_text": "刘欢老师走了，享年六十三岁。听到这个消息，我简直不敢相信，怎么一个好好的人说走就走了呢？毕竟才退休三年啊，",
+      "hook_type": "社会名人离世震撼/痛点扎心反思",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文字卡片结合黑白纪实人物照/自然风光画面"
+    },
+    "narrative_structure": "素材声称名人离世切入（未经新闻事实核查，仅为素材文案事实） ➔ 细数近年名家离去 ➔ 倡导活在当下与健康平安",
+    "bridge": {
+      "has_bridge": false,
+      "text": "无（未出现向具体实体书籍或商品购买的过渡话术）",
+      "start_time_s": null,
+      "end_time_s": null,
+      "transition_type": "无"
+    },
+    "cta": {
+      "has_cta": false,
+      "text": "最后祝愿屏幕前的每一个人幸福、健康、平安。",
+      "start_time_s": null,
+      "end_time_s": null,
+      "cta_type": "情感祝愿与关注点赞互动"
+    },
+    "product_value": {
+      "explicit_claims": "无商业产品销售",
+      "ai_inferred_value": "提供生命沉淀的情绪共鸣与善待身体的心理慰藉"
+    },
+    "visual_and_audio": {
+      "visual_type": "黑白/彩色历史照片平移缩放 + 大字字幕排版",
+      "book_appearance": "无图书露出",
+      "subtitle_style": "白色加粗描边居中字幕",
+      "audio_style": "温缓深沉男声/女声配音，搭配舒缓抒情背景音乐"
+    },
+    "reusable_template_insights": {
+      "template_name": "中老年生命感悟与健康警醒模板",
+      "core_logic": "沉重事实/扎心真相开头 ➔ 拆解名利虚妄与身体第一 ➔ 引起强烈共情 ➔ 祝福收尾",
+      "performance_disclaimer": "无平台商业指标支持，仅作情感向文案结构参考"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": false,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_e24346b823344654.aligned.json"
+  },
+  "limitations": "素材声称的内容涉嫌自媒体虚构名人离世信息，不可作为原创事实依据；仅作为情感唤醒型结构对照。",
+  "review_response": [
+    {
+      "issue": "名人逝世叙事未核实，不能作为原创事实依据",
+      "action_taken": "明确标注为素材声称，保留 AI_REVIEW 状态，明确原创红线约束",
+      "supporting_evidence": "转录文本0~3s声称刘欢老师离去；属于未经核实的素材文本",
+      "unresolved_items": "事实真实性存疑，保持待核风控状态"
+    }
+  ]
+}

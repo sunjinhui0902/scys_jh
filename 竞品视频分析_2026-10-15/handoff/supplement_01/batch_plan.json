@@ -1,0 +1,1217 @@
+{
+  "schema_version": "supplement_plan_1.0",
+  "batch_id": "supplement_01",
+  "prepared_at": "2026-10-15T13:58:16+08:00",
+  "status": "PREPARED_NOT_ANALYZED",
+  "scope": "V4流程的可选补充批次；原25条保留。新10条完成后累计35条，超过原默认20～30条；复制执行指令才启动补充分析。",
+  "new_video_count": 10,
+  "review_video_count": 5,
+  "permission_scope": "Does not add upload/API/model permissions; retain previously confirmed input scope and quota.",
+  "new_videos": [
+    {
+      "video_id": "v_2ad33b07cfad615d",
+      "account": "破局书屋",
+      "duration_s": 291.152993,
+      "source_sha256": "710890c84428e7cdf5cb73208c485d2a23ce31b5a5cbc0edd9e9a448aecf77cf",
+      "all_source_mappings": [
+        {
+          "video_id": "v_2ad33b07cfad615d",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\说话是一门慢慢积累的学问，见的人越多越能体会其中的分寸。#职场#人际交往.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d",
+      "reason": "补齐TEXT_01795f4877与HOOK_01795f4877：饭局发言情境→表达练习→借阅结尾；与已分析的对话类模板比较新增价值。",
+      "book_candidates": [
+        "把话说的恰到好处"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "TEXT_01795f4877",
+        "HOOK_01795f4877",
+        "PASSAGE_80e0cc5036"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_2ad33b07cfad615d.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792025757008621500,
+          "sha256": "a1b8497835c63dab921f37ce609c1bd40405d7b5edb1418f4ca5d3edfbe93608"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\input.json",
+          "size": 1478,
+          "mtime_ns": 1792025757008621500,
+          "sha256": "44e006bf49e936492cdbe73fd3eb26e3501c636b7e8449e0dde39956ddaaa409"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\transcript.txt",
+          "size": 4274,
+          "mtime_ns": 1792025757007635400,
+          "sha256": "51e056466e2c7f2bba0c52d0cebc045b4b02ff1143bab4a74a5e323695eb1d3b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_2ad33b07cfad615d.aligned.json",
+          "size": 29456,
+          "mtime_ns": 1792025756958737000,
+          "sha256": "d541295d69a844d98da9c6d1f9e6520858fba879b39e41940b02e5559caaf893"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_2ad33b07cfad615d.json",
+          "size": 54855,
+          "mtime_ns": 1792025756920341400,
+          "sha256": "88339c4a33166a9a725647dfd812ac8263a8105e7880223f320d570cf74918dd"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\frames\\01_1.000s.jpg",
+          "size": 124007,
+          "mtime_ns": 1792025757004619000,
+          "sha256": "8d1f0fc134d49ca411eb0f527399cfc50867a341e63bc497460665c5fa6fdda5"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\frames\\02_5.000s.jpg",
+          "size": 99127,
+          "mtime_ns": 1792025757005621500,
+          "sha256": "f630d617dd357ef257538d7ce3fc56522f63d8a1ae86f0d22e46130e406b1f06"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\frames\\03_145.576s.jpg",
+          "size": 119777,
+          "mtime_ns": 1792025757006621900,
+          "sha256": "a2f34b7ff8775ade3fea1fe8842324baa3827c9ae0b0506c3f2cd775a72c52a4"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2ad33b07cfad615d\\frames\\04_289.153s.jpg",
+          "size": 124665,
+          "mtime_ns": 1792025757006621900,
+          "sha256": "d603f8ae3ebc373404d5111fcd0fe4bef7cc79b1b2c03fe12da8acf2582606d3"
+        }
+      ]
+    },
+    {
+      "video_id": "v_325a2849484e6f15",
+      "account": "破局书屋",
+      "duration_s": 245.571995,
+      "source_sha256": "115b371b566a2cd6fa386c65a7a426f410b7666e9eb2b8ae69cb96c6e794a1e0",
+      "all_source_mappings": [
+        {
+          "video_id": "v_325a2849484e6f15",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\世事洞明皆学问，人情达练即文章。#情感共鸣#家庭婚姻.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15",
+      "reason": "补齐TEXT_14748f9bf8与HOOK_d91c41a7b7：后备箱情境→解释话外意→荐书；仅研究结构，不照搬其处世建议。",
+      "book_candidates": [
+        "闲谈高手"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "TEXT_14748f9bf8",
+        "HOOK_d91c41a7b7",
+        "PASSAGE_8a6f1de607"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_325a2849484e6f15.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792025906556183900,
+          "sha256": "3c828c6aa2c22c6b95aa47f8ad4a3c9c7a259a2cc17178bfc4f449626472252e"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\input.json",
+          "size": 1448,
+          "mtime_ns": 1792025906555069300,
+          "sha256": "a0a79afa658123f606755dbaa7a139c5f114deb1b24ce4495ba68ec5ea4341b9"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\transcript.txt",
+          "size": 3908,
+          "mtime_ns": 1792025906554066200,
+          "sha256": "2c8dad0bd3d3f947559c16a2a4338915f504d0d9684516c6cbbcdc6a7602acf7"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_325a2849484e6f15.aligned.json",
+          "size": 27997,
+          "mtime_ns": 1792025906508594200,
+          "sha256": "bf7f2bcf7ffc2b393fc2163f2d7b8f65541349e479a067469a714b3d8e50fe5c"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_325a2849484e6f15.json",
+          "size": 49559,
+          "mtime_ns": 1792025906470592900,
+          "sha256": "70050211acd85501936562c8bbd5ab9f8b52e860f5420cd7ce4379476435451a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\frames\\01_1.000s.jpg",
+          "size": 135558,
+          "mtime_ns": 1792025906550068500,
+          "sha256": "eafe5b034db2adf325ddd1d0b49ee562c3f21329a9676840f365befb34b68303"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\frames\\02_5.000s.jpg",
+          "size": 132522,
+          "mtime_ns": 1792025906551068600,
+          "sha256": "bcd3f4d753722a5fb5a0d8ea39f37f4efe5897b0b04c31682c23e95754d8af6a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\frames\\03_122.786s.jpg",
+          "size": 131557,
+          "mtime_ns": 1792025906552068600,
+          "sha256": "2dc8eca74b4cdf0c4b36b265879d9be5f960b5edd07a11a60d2c2f1c27ab3da9"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_325a2849484e6f15\\frames\\04_243.572s.jpg",
+          "size": 167013,
+          "mtime_ns": 1792025906553069300,
+          "sha256": "1fe526f2febf9e5f655c87b67538f20a69dfb0517bbfe434d63ee77656cb1244"
+        }
+      ]
+    },
+    {
+      "video_id": "v_f43b6f1228c21749",
+      "account": "破局书屋",
+      "duration_s": 213.25,
+      "source_sha256": "8b3e45386feb3b20fe35c5b1952f40eae24c333411e06c1bdb5dafecf8084fad",
+      "all_source_mappings": [
+        {
+          "video_id": "v_f43b6f1228c21749",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\培养孩子正确的财商思维，会存钱、会花钱、学赚钱，是一生的礼物。#育儿经验分享#财商启蒙#培养孩子的消费观.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749",
+      "reason": "补齐TEXT_914c67a0da：亲子购物问答→经济学/财商读物；正式书名待确认，价值主张不得当作已证实效果。",
+      "book_candidates": [],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "TEXT_914c67a0da",
+        "PASSAGE_914c67a0da"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_f43b6f1228c21749.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792026083022528800,
+          "sha256": "fd02b0582498a753caaa3ad73ec02863deefd49c887dd522d53b525d9d0f7d11"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\input.json",
+          "size": 1519,
+          "mtime_ns": 1792026083021199300,
+          "sha256": "9d22e342eab7b9bdc5ed588344b7c6cfe1c388ab82055461c4c267f688066eba"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\transcript.txt",
+          "size": 3293,
+          "mtime_ns": 1792026083021199300,
+          "sha256": "230110776b247454f0c95da346a5ff451c5803cbd57ae51e43e7d2ac51bb9e42"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_f43b6f1228c21749.aligned.json",
+          "size": 18905,
+          "mtime_ns": 1792026082971042100,
+          "sha256": "d0006d71e5c9deb6598f67460b6380fe57d4a373c4774f080884d5308cce6041"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_f43b6f1228c21749.json",
+          "size": 43117,
+          "mtime_ns": 1792026082943766900,
+          "sha256": "8de88ca648dbe729e62ead4b6865a96c06bfb9a2ae4cb40b2d288febb69fb37d"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\frames\\01_1.000s.jpg",
+          "size": 207577,
+          "mtime_ns": 1792026083017196100,
+          "sha256": "55f411704e181f549e6faadff0cded7da153d8dc5d0d36cf79a396ef05dac099"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\frames\\02_5.000s.jpg",
+          "size": 217648,
+          "mtime_ns": 1792026083017196100,
+          "sha256": "533bcfde2255f3694193870314d59364b3aa840e49325b1cebf9c73d507697c5"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\frames\\03_106.625s.jpg",
+          "size": 308328,
+          "mtime_ns": 1792026083019202500,
+          "sha256": "1fe5c3ddf15268ce6a624be8d428e85d3dd696cb77cedacda5544432964b76ee"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_f43b6f1228c21749\\frames\\04_211.250s.jpg",
+          "size": 289957,
+          "mtime_ns": 1792026083020197300,
+          "sha256": "1b1b2ce53a4ce81b33265170c2dcc2e9c75daa8e54a3f54cbd1fea9a627dd201"
+        }
+      ]
+    },
+    {
+      "video_id": "v_b2bbecb4fc6ef0e9",
+      "account": "破局书屋",
+      "duration_s": 290.850998,
+      "source_sha256": "7e20be820fb13312de472edfa274b0d87d923f3b5e61871b13b70cdb79f30c39",
+      "all_source_mappings": [
+        {
+          "video_id": "v_b2bbecb4fc6ef0e9",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\#高情商#说话技巧#人情世故#职场#人际交往.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9",
+      "reason": "补齐TEXT_fa51f98c2b与HOOK_fa51f98c2b：供应商对接连续场景→引书；检查是否只是既有模板换情节。",
+      "book_candidates": [
+        "把话说的恰到好处"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "TEXT_fa51f98c2b",
+        "HOOK_fa51f98c2b",
+        "PASSAGE_d3c4616a37"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_b2bbecb4fc6ef0e9.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792025806116975700,
+          "sha256": "b1e02827879c0085f56a5e127fc573e26075ef6ddcfd937175c838c2ef610518"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\input.json",
+          "size": 1430,
+          "mtime_ns": 1792025806116464800,
+          "sha256": "f2fc9d216349b3b4fa5766a4f31f8d4a2cf0ec11ed1acf9f49d5d35c40f989e3"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\transcript.txt",
+          "size": 4001,
+          "mtime_ns": 1792025806115157700,
+          "sha256": "e8a242141b45d41c24b605ed4014d6a3302f48f41de1d9d3ef5d712cc9388c34"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_b2bbecb4fc6ef0e9.aligned.json",
+          "size": 27411,
+          "mtime_ns": 1792025806064940600,
+          "sha256": "83fab5933cad9eff69a9b189f55e1358cb178a4a3a19acf7dc4cfcc0212e13cb"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_b2bbecb4fc6ef0e9.json",
+          "size": 51331,
+          "mtime_ns": 1792025806034120700,
+          "sha256": "83133c6c70d33cb799110aebebcaba02da57c4514eeeec566fcd17038165039f"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\frames\\01_1.000s.jpg",
+          "size": 137140,
+          "mtime_ns": 1792025806110938200,
+          "sha256": "9c40f65f032f03f9b73d1063f6ae7b15dc0269a34d89b69e3787bda404e67f22"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\frames\\02_5.000s.jpg",
+          "size": 111564,
+          "mtime_ns": 1792025806111948600,
+          "sha256": "711e34d4d0e0886254c788ea9add290e5cdfb46930080052ce4d75297a3d22d1"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\frames\\03_145.425s.jpg",
+          "size": 81497,
+          "mtime_ns": 1792025806112950700,
+          "sha256": "c42cc1060f8cfd5dcbeffe8048be653362351c110af3c4643c8dec6490be96c9"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_b2bbecb4fc6ef0e9\\frames\\04_288.851s.jpg",
+          "size": 109469,
+          "mtime_ns": 1792025806113951200,
+          "sha256": "d8b8b86e104ed0d6ee8ed5cd4f13d1e9207c50169ca9fade62e10bd51dd2fd4b"
+        }
+      ]
+    },
+    {
+      "video_id": "v_74a64cf3aca9595d",
+      "account": "破局书屋",
+      "duration_s": 166.485011,
+      "source_sha256": "a0620635abcc48b4c8e5b51314ba95a1523c6bd7a8660a5fd49fddd457281f9e",
+      "all_source_mappings": [
+        {
+          "video_id": "v_74a64cf3aca9595d",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\#职场#高情商#说话技巧(1).mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d",
+      "reason": "补齐TEXT_61825f8623：较短的场景问答合集→荐书；与长剧情样本比较引书位置和推荐方式。",
+      "book_candidates": [
+        "把话说的恰到好处"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "TEXT_61825f8623",
+        "PASSAGE_d3c4616a37"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_74a64cf3aca9595d.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792026178531127100,
+          "sha256": "32ff2755ba752f1dedbf2f7eb90b0690be454d97a127db26adea0e31e8063754"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\input.json",
+          "size": 1405,
+          "mtime_ns": 1792026178530126500,
+          "sha256": "17ed7089307d8ccd507c9ffcb3bceb4a48da22c5d249953977cf0ef41298c045"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\transcript.txt",
+          "size": 2549,
+          "mtime_ns": 1792026178528126100,
+          "sha256": "907ede1bcad0b2c06a0ead996c319f3672f571f2fd0e654e00516d889b4e4764"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_74a64cf3aca9595d.aligned.json",
+          "size": 16806,
+          "mtime_ns": 1792026178484598700,
+          "sha256": "7b60b92e0b0f606119d96eefea551b274e8e8898a99088b72c75086cb502698b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_74a64cf3aca9595d.json",
+          "size": 32702,
+          "mtime_ns": 1792026178450559700,
+          "sha256": "ced2affac168a213cf6ec6db748bf42d1be7659209434d4552cae68e15dbb374"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\frames\\01_1.000s.jpg",
+          "size": 230680,
+          "mtime_ns": 1792026178524123700,
+          "sha256": "4bffd0194db22692111f57e20cd75e39840bd2be73ec9e570c71f4ba3d5f6b0e"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\frames\\02_5.000s.jpg",
+          "size": 224014,
+          "mtime_ns": 1792026178525124400,
+          "sha256": "bdec633873618b19b12f58cd5a6c3c304d38dc74a48d3efbfa2a8f6575c6452d"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\frames\\03_83.243s.jpg",
+          "size": 309469,
+          "mtime_ns": 1792026178526126200,
+          "sha256": "a1e9dfaae1e8e5ebcef3d60ca11a22ce044e0321c22d33145c77843da3130a62"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_74a64cf3aca9595d\\frames\\04_164.485s.jpg",
+          "size": 288579,
+          "mtime_ns": 1792026178528126100,
+          "sha256": "1d463ef672850f43bcb5864a11ba814e50e3f618035be04466deb98ad93fec5e"
+        }
+      ]
+    },
+    {
+      "video_id": "v_d66d5d68290f0e95",
+      "account": "破局书屋",
+      "duration_s": 221.679002,
+      "source_sha256": "620f3e2da7106132319460202bb771c4db41144f87e82fcca7be881bf70ad5d6",
+      "all_source_mappings": [
+        {
+          "video_id": "v_d66d5d68290f0e95",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\会说话是优势，会回话才是本事 如何做到一开口就让别人喜欢你#高情商#说话技巧#人际交往.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95",
+      "reason": "补齐TEXT_c47727307b：场景问答合集的另一全文簇；若仅换句/拼接或沿用相同荐书尾段，明确判为低增量。",
+      "book_candidates": [
+        "闲谈高手"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "TEXT_c47727307b",
+        "PASSAGE_d3c4616a37"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_d66d5d68290f0e95.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792026053711321300,
+          "sha256": "d06820cc9c4a20f6ae87a9ea23395006bf81bfbd61476f3a7ecd65f47a83b002"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\input.json",
+          "size": 1494,
+          "mtime_ns": 1792026053709885300,
+          "sha256": "35e9de3e89801f47070cbb48724932879aef37496986e7c1956450ad0dd24ba7"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\transcript.txt",
+          "size": 3395,
+          "mtime_ns": 1792026053709885300,
+          "sha256": "ee03cb3549c2a55d171eed8317ea678500642258c1d9a92164034ef83d901e10"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_d66d5d68290f0e95.aligned.json",
+          "size": 22943,
+          "mtime_ns": 1792026053663595300,
+          "sha256": "cf027bdcca7bbb43191d487627b71b8aa16acffa0fa02d04b252df04ba29e0d3"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_d66d5d68290f0e95.json",
+          "size": 43531,
+          "mtime_ns": 1792026053633767100,
+          "sha256": "d7a54dffc334b275c17af5bc1f516a02d1eee5c0774a7df6ff454d853eb057ce"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\frames\\01_1.000s.jpg",
+          "size": 139236,
+          "mtime_ns": 1792026053706809500,
+          "sha256": "ce68272d2fba9e3e5388d4ce5a4b6495b9d606cc285609b905eb47635fbfa71a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\frames\\02_5.000s.jpg",
+          "size": 131538,
+          "mtime_ns": 1792026053707871500,
+          "sha256": "ee75a280f648d8f287249762491c46ecc1c00412591633a3738cbff694f4a0dc"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\frames\\03_110.840s.jpg",
+          "size": 161788,
+          "mtime_ns": 1792026053707871500,
+          "sha256": "7c9b5e1e1dc269be3d2e4b9c767d72015898d8ab91d9d3a3f1ed40cbc6614983"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_d66d5d68290f0e95\\frames\\04_219.679s.jpg",
+          "size": 262240,
+          "mtime_ns": 1792026053708879200,
+          "sha256": "f80c37cc97ef207d1722c41ab196f89684590efeaf906f8121b7a9910854f93f"
+        }
+      ]
+    },
+    {
+      "video_id": "v_4ed4d46352185f2f",
+      "account": "林睿读书&书在橱窗",
+      "duration_s": 432.262993,
+      "source_sha256": "74240d8fb56d6de25c39c69e1a44c43304f6b77d4331199d435ac9c8b3724c91",
+      "all_source_mappings": [
+        {
+          "video_id": "v_4ed4d46352185f2f",
+          "account": "林睿读书&书在橱窗",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\闽越国被汉武帝迁民焚城，只剩城村汉城遗址。夜郎国留下“夜郎自大”，却无人知其如何消失。巴国尚武，却消失在川东群山。滇国青铜精美，却被历史抹去名字。古徐国千年.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f",
+      "reason": "未覆盖书名候选对照：史记/山海经出现在历史叙述中，区分引用典籍、阅读推荐和实际购物；历史内容本身未核实。",
+      "book_candidates": [
+        "史记",
+        "山海经"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_4ed4d46352185f2f.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792024505144986300,
+          "sha256": "0f977b8a728a93a2cc1ad6e426be3de9792b319e64cb08bb4f41303f8682562a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\input.json",
+          "size": 1634,
+          "mtime_ns": 1792024505143975900,
+          "sha256": "b9ed926eb7fd638e5cca644fe66dcc8c8a828d1ae61cbd8b5a2a2d0a00dd5f4f"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\transcript.txt",
+          "size": 4886,
+          "mtime_ns": 1792024505142483500,
+          "sha256": "69fbf662839836be1716cb60d718cbfba45b909973defc2af09a14f31a8c81dd"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_4ed4d46352185f2f.aligned.json",
+          "size": 27070,
+          "mtime_ns": 1792024505088451200,
+          "sha256": "dba147c509b753a6574cf7d47d42426425caf5f43b0ef88d32f5830038d04eb9"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_4ed4d46352185f2f.json",
+          "size": 64848,
+          "mtime_ns": 1792024505048834300,
+          "sha256": "2969709c4571674fff6322628fa43d94fe221dfdb665e957be6e3911072b1ad5"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\frames\\01_1.000s.jpg",
+          "size": 75586,
+          "mtime_ns": 1792024505139295800,
+          "sha256": "7911aa6f38709805a37e0334b4be095818224a56aadcc0e4134ff4a73f40393d"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\frames\\02_5.000s.jpg",
+          "size": 108908,
+          "mtime_ns": 1792024505140300700,
+          "sha256": "6a7746b00b4ccf5b42b30852f6f5e2a708436e0a29054cc648095b7f3e33aff3"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\frames\\03_216.131s.jpg",
+          "size": 126456,
+          "mtime_ns": 1792024505141302900,
+          "sha256": "a6f512bd2ad58fc3815dddc78ae79cd4a230a8ace4f4a38842f809b40e9cfaf2"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_4ed4d46352185f2f\\frames\\04_430.263s.jpg",
+          "size": 108190,
+          "mtime_ns": 1792024505142483500,
+          "sha256": "a1603f92872f4246553f82b04b7bfcbecd30b697fdc982e352c16bd7d1f923b3"
+        }
+      ]
+    },
+    {
+      "video_id": "v_38eb65b8de747391",
+      "account": "文汇书香苑",
+      "duration_s": 451.241379,
+      "source_sha256": "c0cf28ff62263d3d84dc28618fbc2e4689354671373db6b783cbddce8326c688",
+      "all_source_mappings": [
+        {
+          "video_id": "v_38eb65b8de747391",
+          "account": "文汇书香苑",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\文汇书香苑\\钱学森_爽文编剧都不敢这么写：他的一生，比爽文还爽  #钱学森 #历史人物 #科学家 #物理学家_#爱国科学家 #两弹一星 #中国航天之父 #国之脊梁.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391",
+      "reason": "跨账号及候选误判对照：钱学森叙事；核对“对答如流”是否普通词语，实际引书是否国之脊梁，避免把词频当书籍销售。",
+      "book_candidates": [
+        "对答如流",
+        "国之脊梁"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_38eb65b8de747391.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792024362261741600,
+          "sha256": "088013eb632e1d786a7e6a41d94abb27d48074e94cee0bab795f4f993beb068b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\input.json",
+          "size": 1569,
+          "mtime_ns": 1792024362260741800,
+          "sha256": "6a9ce26c3720be8abe1a6a7ca4db8d5ed91865f04a957fc9286a869ea62a0e4b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\transcript.txt",
+          "size": 5280,
+          "mtime_ns": 1792024362259731300,
+          "sha256": "66fe055e1cba65cd10da3659e36c8de228af319469464f7d9dd6f01b92dbbb87"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_38eb65b8de747391.aligned.json",
+          "size": 31188,
+          "mtime_ns": 1792024362203937600,
+          "sha256": "ab1eebf02ab388989ffe1cb946922c408e4d608c397f6b3c0bed12b996064f8a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_38eb65b8de747391.json",
+          "size": 69471,
+          "mtime_ns": 1792024362169408200,
+          "sha256": "79048f7f3b9f4f42874569783440f5a16c4959b38337a9311760c124ac5a04b2"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\frames\\01_1.000s.jpg",
+          "size": 197841,
+          "mtime_ns": 1792024362256039100,
+          "sha256": "648727fb8dc1978967e5668fb41637ce0abf1c03b4a4163e27d4b5f6401c6115"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\frames\\02_5.000s.jpg",
+          "size": 188910,
+          "mtime_ns": 1792024362257409500,
+          "sha256": "1b0c9e911a9d2204aa906176e966db199a0104144c1029e230be415b85c880a2"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\frames\\03_225.621s.jpg",
+          "size": 99911,
+          "mtime_ns": 1792024362258418900,
+          "sha256": "f6c7590366cdb2751a72922b541fd7f8fcf5bac101cbb2b2a6dbd07246483af2"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_38eb65b8de747391\\frames\\04_449.241s.jpg",
+          "size": 138496,
+          "mtime_ns": 1792024362259731300,
+          "sha256": "c7b6a07c8a293e8cc768b90dcf8d79739162fc23cd9d9e20bf9e2949d7a7deda"
+        }
+      ]
+    },
+    {
+      "video_id": "v_7e0d1a4f77167eb4",
+      "account": "赵健的读书日记",
+      "duration_s": 154.645011,
+      "source_sha256": "7c27c965dd8003d48e0362661c06e85c17668ba589fe9385f9b6108dafae5db6",
+      "all_source_mappings": [
+        {
+          "video_id": "v_7e0d1a4f77167eb4",
+          "account": "赵健的读书日记",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\赵健的读书日记\\诸君，如果你很年轻就懂得灰度思维，那你将会成为家族里第一个跳出二元陷阱、看清世界本来模样的人，你会发现，其实身边的每一个人都没有绝对的好坏与对错，只是处在不.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4",
+      "reason": "未覆盖书名候选对照：道德经引用与认知表达；检验是否缺少实际荐书/购物环节，名人引语均须保留未核实属性。",
+      "book_candidates": [
+        "道德经"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_7e0d1a4f77167eb4.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792026170718313800,
+          "sha256": "2ac44c258444197e78c8a2aeef131a9d547acdcff290b96cbf82ac73958f4bb0"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\input.json",
+          "size": 1624,
+          "mtime_ns": 1792026170717095700,
+          "sha256": "9e9833b92125735e72b251631caab50ec070a6fea62af16b959ebf3c41587288"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\transcript.txt",
+          "size": 2486,
+          "mtime_ns": 1792026170716094600,
+          "sha256": "02b47fcf04add4c499fe2e124700aa891e85c0bad3cef058f56a220fa1cf6121"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_7e0d1a4f77167eb4.aligned.json",
+          "size": 14699,
+          "mtime_ns": 1792026170673175200,
+          "sha256": "4f785684bfc06b0fac0e9c11df4ec747b814269318da2462f1d8812efe5a57bb"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_7e0d1a4f77167eb4.json",
+          "size": 32254,
+          "mtime_ns": 1792026170644055600,
+          "sha256": "11607e2700b3cf7f93b680602e2a5e842c6a8686a18fe310a1728cc79f8c4bc8"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\frames\\01_1.000s.jpg",
+          "size": 115027,
+          "mtime_ns": 1792026170713092600,
+          "sha256": "7f4067879c693024e93c14f674ec9d66c2b517dbdbf3b9678834be56b7b70298"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\frames\\02_5.000s.jpg",
+          "size": 108802,
+          "mtime_ns": 1792026170714099000,
+          "sha256": "b9fd7dac4ac633ed106fb142c2ca7cca2563e42a0352ddc9dcc207f38623ce76"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\frames\\03_77.323s.jpg",
+          "size": 117474,
+          "mtime_ns": 1792026170714099000,
+          "sha256": "290d504e2fc87d12629e7cefe8c7be477f4b9d9dc37325bdad91f06ba7b62aee"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e0d1a4f77167eb4\\frames\\04_152.645s.jpg",
+          "size": 105902,
+          "mtime_ns": 1792026170715094900,
+          "sha256": "2840dbcdc6f7dea89b01a8adbc7bec51ffcce9c074259b4d36cd3c562b443f7a"
+        }
+      ]
+    },
+    {
+      "video_id": "v_5ae6f6253ad7b999",
+      "account": "林睿读书&书在橱窗",
+      "duration_s": 365.133991,
+      "source_sha256": "eea43ba9fdd37e7c48d41a4b01130d95baf38d6906b4d7d78b47a3ee06d0d9c2",
+      "all_source_mappings": [
+        {
+          "video_id": "v_5ae6f6253ad7b999",
+          "account": "林睿读书&书在橱窗",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\圆明园兽首走散了一百六十多年却还有五尊下落不明，敦煌几万卷经书被一箱一箱搬走却连清单都列不全，女史箴图被切成三段钉在木板上再也拼不回原样。从被锁进外国皇宫到.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999",
+      "reason": "未覆盖主题对照：博物馆/文物流失叙事；书名可能仅在标题标签中，核对实际Bridge与CTA；作为T03/T05的适用边界对照，不强行计作第二来源。",
+      "book_candidates": [
+        "人一生要看的100个博物馆"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_5ae6f6253ad7b999.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792025422613019100,
+          "sha256": "eb44652812e81d3bc805e1363aad96b6493463bfae8d6d07f337cc8c40b51bac"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\input.json",
+          "size": 1634,
+          "mtime_ns": 1792025422612018400,
+          "sha256": "0e0595972705e2da7e3060045f6ab510ab00538d3a252ce5488f726e367047e1"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\transcript.txt",
+          "size": 4052,
+          "mtime_ns": 1792025422611021800,
+          "sha256": "c8cbc9cd9e80b9418e03b4d438d8fcb856cb5eb4b70346cefd8c75b490e5cb31"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_5ae6f6253ad7b999.aligned.json",
+          "size": 22833,
+          "mtime_ns": 1792025422569379400,
+          "sha256": "76caba9ba666da3f00a350290c296396ffeac904e537cf87e3b5a8519c1eff94"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_5ae6f6253ad7b999.json",
+          "size": 53532,
+          "mtime_ns": 1792025422535518100,
+          "sha256": "46909e80d321b4121a2d219070894b2956a70ffab17ed5e49277d1fd0abef47b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\frames\\01_1.000s.jpg",
+          "size": 66037,
+          "mtime_ns": 1792025422608019900,
+          "sha256": "8ca449f115185d77ece6a2cc289445c5313458315306c8533021ffeb3da54d3a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\frames\\02_5.000s.jpg",
+          "size": 73765,
+          "mtime_ns": 1792025422608019900,
+          "sha256": "e7218493d46ee27f8cc4967b6a5cb4b9e33fb924d4db21287896320fe863dedc"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\frames\\03_182.567s.jpg",
+          "size": 87866,
+          "mtime_ns": 1792025422609020100,
+          "sha256": "a327390bc4805b06925111eb753b181cf85636e2ad49732d7352a4e821561326"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_5ae6f6253ad7b999\\frames\\04_363.134s.jpg",
+          "size": 110629,
+          "mtime_ns": 1792025422610024700,
+          "sha256": "9ef0a5ff7268e6c5cf7ca1551a851de70dfba77ccd6d3db594f2d508d1cabd75"
+        }
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "video_id": "v_183328bf0ee8b458",
+      "account": "破局书屋",
+      "duration_s": 240.370998,
+      "source_sha256": "71bac8a6ac2cac68029b942b7af49b930ac91028828225e869456182e06bfba4",
+      "all_source_mappings": [
+        {
+          "video_id": "v_183328bf0ee8b458",
+          "account": "破局书屋",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\知人情，懂世故，人生路更开阔。#人情世故#人际交往#说话技巧#高情商.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458",
+      "reason": "按可验证输入重做：撤回无证明的native_video/完整声音结论；120.185秒帧是饭局人物，不能作为书封或出版社证据；没有真实封面证据则填未知。",
+      "book_candidates": [
+        "闲谈高手"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [
+        "PASSAGE_d3c4616a37"
+      ],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\reviews\\v_183328bf0ee8b458.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\READY.json",
+          "size": 179,
+          "mtime_ns": 1791995134285968700,
+          "sha256": "5bd6e8b77cf06134d0cc5f3e6d9d3ee30e8a7c76ec5319d0bcd1da2667c4ee42"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\input.json",
+          "size": 1325,
+          "mtime_ns": 1791995134285968700,
+          "sha256": "475e079b54d0506e1390a8bb64fd353a99bda42377ec965ba2fea47471f929fc"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\transcript.txt",
+          "size": 3528,
+          "mtime_ns": 1791995134281969400,
+          "sha256": "5d1bf0258132dfadfff5f2a38ecfe9a4cffe3e248bbdfb652292449c5c8f009c"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_183328bf0ee8b458.aligned.json",
+          "size": 23097,
+          "mtime_ns": 1791995114350527700,
+          "sha256": "3c2f6212a298dc1670dcde966bad729f68c237b542c8fd8a4e28fda1adc14cfc"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_183328bf0ee8b458.json",
+          "size": 125230,
+          "mtime_ns": 1791994957548817500,
+          "sha256": "95518f83a8c5a6fbb8bee459664707190896af7630a3ceef0cf5c1f2f8e1f472"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\frames\\01_1.000s.jpg",
+          "size": 212968,
+          "mtime_ns": 1791995134282973200,
+          "sha256": "b692ef62b57c87ee52c20f68f5dea21b9e377c61a3875592492e59c04182a3e2"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\frames\\02_5.000s.jpg",
+          "size": 193141,
+          "mtime_ns": 1791995134283974300,
+          "sha256": "1e19721e76ccdceeaad9716d62a67a639e6a7b8d34e6b1816524ab435f34f6fd"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\frames\\03_120.185s.jpg",
+          "size": 218407,
+          "mtime_ns": 1791995134283974300,
+          "sha256": "71878402a5b909d733b64c91e0034e5628b15a5d3ced64a2b8cd9889c4bc8c9a"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_183328bf0ee8b458\\frames\\04_238.371s.jpg",
+          "size": 287531,
+          "mtime_ns": 1791995134284972000,
+          "sha256": "4dee2a41217b06429b7cc558fb5a8d05d04c236ba40c8e68ba5feb4072364835"
+        }
+      ]
+    },
+    {
+      "video_id": "v_30cc827b5d5dd936",
+      "account": "赵健的读书日记",
+      "duration_s": 179.7,
+      "source_sha256": "82c4af0018bf92bb5c792a703d720853ab56fc079944fdddbaa56c71e855935c",
+      "all_source_mappings": [
+        {
+          "video_id": "v_30cc827b5d5dd936",
+          "account": "赵健的读书日记",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\赵健的读书日记\\一位97岁的老人，依然在坚守这家一百多岁的旧书店，这是我见过最孤独的书店，我想把他的故事告诉所有爱书人，文学山房旧书店，江澄波老爷爷#读书 #旧书店 #阅读 #温情 #治愈.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936",
+      "reason": "按文本+实际截图限定结论：120秒实帧为题字特写，不能据此声称老人伏案写字；撤回无输入链证明的完整音画结论。",
+      "book_candidates": [
+        "四库全书"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\reviews\\v_30cc827b5d5dd936.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\READY.json",
+          "size": 179,
+          "mtime_ns": 1791995134302972500,
+          "sha256": "6f725e25d2ebd0e59659093d52bac4fe0e88b28268433146147ec1406ecd42e0"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\input.json",
+          "size": 1475,
+          "mtime_ns": 1791995134301971700,
+          "sha256": "07c4c6397a7bcd2f5d21b8bbb1cdd309a8acefc291b3ddca73d2174b544c3144"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\transcript.txt",
+          "size": 2660,
+          "mtime_ns": 1791995134299972600,
+          "sha256": "af25a1e079cadfe173ca0690d2e13fadab10bfb419f3afb7c824f5b6e046ecdb"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_30cc827b5d5dd936.aligned.json",
+          "size": 14754,
+          "mtime_ns": 1791995114352639300,
+          "sha256": "5df61c919c29d0054e83b508e5c6e27262cdc6e7f82fb2991ef32b8b57994e94"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_30cc827b5d5dd936.json",
+          "size": 93422,
+          "mtime_ns": 1791994969095811500,
+          "sha256": "c89b60735098e6b916c3c45ef4e535896f788ce06448a487a6ba8d294fe3bcf6"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\frames\\01_1.000s.jpg",
+          "size": 176288,
+          "mtime_ns": 1791995134299972600,
+          "sha256": "318a6bc98aac38798d16c4530998eae3cc3439892aed8f819a1855db4cd08145"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\frames\\02_5.000s.jpg",
+          "size": 173421,
+          "mtime_ns": 1791995134300973300,
+          "sha256": "0945df5031ec9b3f258bdd7e0f88452c338d4ff0b3d71069182320c7c1b50793"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\frames\\03_89.850s.jpg",
+          "size": 186081,
+          "mtime_ns": 1791995134300973300,
+          "sha256": "68fd06099c052504e1452417eb2ff7153073eb1c64788862bb8b1c07eae1e829"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_30cc827b5d5dd936\\frames\\04_177.700s.jpg",
+          "size": 130418,
+          "mtime_ns": 1791995134300973300,
+          "sha256": "0e6146e5a9b360b8c710277cbf7ced1a476760d3e1532edfe9853bb434650aaf"
+        }
+      ]
+    },
+    {
+      "video_id": "v_7e9d12d17d945cb4",
+      "account": "林睿读书&书在橱窗",
+      "duration_s": 420.931995,
+      "source_sha256": "d51ea30680fa2a029ef9650a185b1ecfe1520de63cccef5f327d8267bed88745",
+      "all_source_mappings": [
+        {
+          "video_id": "v_7e9d12d17d945cb4",
+          "account": "林睿读书&书在橱窗",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\《资治通鉴》告诉您_人生所有的不幸，都是因_为你的单纯，不是坏人害你，是你自己太实在#资治通鉴 #历史故事 #人生智慧.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4",
+      "reason": "按文本+实际截图限定结论：撤回缺证据的茶水等画面细节与完整声音结论；无需重做MP4能力测试。",
+      "book_candidates": [
+        "资治通鉴"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\reviews\\v_7e9d12d17d945cb4.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\READY.json",
+          "size": 179,
+          "mtime_ns": 1791995134239518200,
+          "sha256": "3390e72aa4af436d0a65ea152fbc9b947bedbc0679892cc50d53779854d8d4a7"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\input.json",
+          "size": 1420,
+          "mtime_ns": 1791995134239011500,
+          "sha256": "4227a6ff9ef7a411101e9834c9b23a996bf3578c08854ab231e3c73cf638e9c9"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\transcript.txt",
+          "size": 4994,
+          "mtime_ns": 1791995134235658900,
+          "sha256": "151fcb738c452a1543ae41dcc01932d085fff50579063566ae39bc384807f866"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_7e9d12d17d945cb4.aligned.json",
+          "size": 34114,
+          "mtime_ns": 1791995114345388200,
+          "sha256": "6c90369dfed6488d02a13a7e3d6c128c50cb5f13097d6f511aaed7a29c5cbbf8"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_7e9d12d17d945cb4.json",
+          "size": 177940,
+          "mtime_ns": 1791994940135730700,
+          "sha256": "2d770b5035be5c4b8a87fd0c5e587b95557816939133e94896f14d686e1be5cd"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\frames\\01_1.000s.jpg",
+          "size": 225582,
+          "mtime_ns": 1791995134236663700,
+          "sha256": "45a1e32a6d2f9b0d7c139ddde923303f253ef761f68142fa3de41a4861771f6b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\frames\\02_5.000s.jpg",
+          "size": 225908,
+          "mtime_ns": 1791995134236663700,
+          "sha256": "51db3c2457942064c6432284a2446ebacc33a6a93a022f56c9876ed33accb1d4"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\frames\\03_210.466s.jpg",
+          "size": 331312,
+          "mtime_ns": 1791995134237663000,
+          "sha256": "493ea6cccafc6a2e42bf6941881891aa517b0c19d3bc8f18e9b46200c72db999"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_7e9d12d17d945cb4\\frames\\04_418.932s.jpg",
+          "size": 251288,
+          "mtime_ns": 1791995134237663000,
+          "sha256": "48623ad4e43d91850f5f485d947a3550a19f6e65f3b1b49d925007b0a0ed561d"
+        }
+      ]
+    },
+    {
+      "video_id": "v_2a38fc92b95504f3",
+      "account": "开卷读书",
+      "duration_s": 200.177007,
+      "source_sha256": "8c18867470362123b04ae46cc73588c1262863157ff7418f7643b0fdbcde18e3",
+      "all_source_mappings": [
+        {
+          "video_id": "v_2a38fc92b95504f3",
+          "account": "开卷读书",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\开卷读书\\敬一丹老师，一路走好。时代少了一位温柔有力量的记录者，感谢您曾温暖过亿万观众，陪伴几代人走过春夏秋冬。#情感#人生感悟#智慧人生#敬一丹#一路走好.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3",
+      "reason": "名人逝世叙事未核实：仅记录素材声称与表达结构，明确不作为原创事实依据；保留AI_REVIEW，不要求为了结案而寻找或编造佐证。",
+      "book_candidates": [
+        "黄帝内经"
+      ],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\reviews\\v_2a38fc92b95504f3.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792026108208068700,
+          "sha256": "3aa7b97e9b9084ecc3bd097645810ac7a13530283724944dd68045ae299cb229"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\input.json",
+          "size": 1583,
+          "mtime_ns": 1792026108207067900,
+          "sha256": "7f80e411578c946df1cd75c1c2a800db4d1220791e4384803ec16db66e52dbe9"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\transcript.txt",
+          "size": 2840,
+          "mtime_ns": 1792026108206070800,
+          "sha256": "dbf743498a6e609691d0534b90d2ddac731de0404bb92f53e57eb594fa01ecbc"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_2a38fc92b95504f3.aligned.json",
+          "size": 18875,
+          "mtime_ns": 1792026108164068100,
+          "sha256": "3529a376f7d1054a6b6935d28c3db686e91c54d5f4dbecdc85a9342fe5f4ff44"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_2a38fc92b95504f3.json",
+          "size": 36411,
+          "mtime_ns": 1792026108135719600,
+          "sha256": "c803de538db85c4bf2fa0dc2e730326f242e25fdde16ab9162924388dad8b6f1"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\frames\\01_1.000s.jpg",
+          "size": 98837,
+          "mtime_ns": 1792026108202068600,
+          "sha256": "e0411a8b70c33b94f0086bfea71039e63725261aac3eb810018d092928ae4901"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\frames\\02_5.000s.jpg",
+          "size": 195070,
+          "mtime_ns": 1792026108203070700,
+          "sha256": "b5872367aaa7959d746322481ddb7649af413c17a4aefc53718833561abaa63d"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\frames\\03_100.089s.jpg",
+          "size": 118079,
+          "mtime_ns": 1792026108204070400,
+          "sha256": "f73454ccd50b0367b66f82f840fb8a09b457661fdb935b2608bb28d2f2306df2"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_2a38fc92b95504f3\\frames\\04_198.177s.jpg",
+          "size": 80431,
+          "mtime_ns": 1792026108205067600,
+          "sha256": "bb3b03e1f45dbb9aec4d4dacfc0eeca4ea4e4706df624ee345db534fba7e4592"
+        }
+      ]
+    },
+    {
+      "video_id": "v_e24346b823344654",
+      "account": "开卷读书",
+      "duration_s": 163.44381,
+      "source_sha256": "3f441bd2918c4f0aebd3672dd2a275a470e7412c00429fc0d4cd661e02301205",
+      "all_source_mappings": [
+        {
+          "video_id": "v_e24346b823344654",
+          "account": "开卷读书",
+          "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\开卷读书\\好好珍惜，珍惜身体，珍惜眼前人，珍惜生活的每一天。送别刘欢老师，歌声犹在，斯人远去。#情感#刘欢#智慧人生#人生感悟#珍惜.mp4"
+        }
+      ],
+      "handoff_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654",
+      "reason": "名人逝世叙事未核实：仅记录素材声称与表达结构，明确不作为原创事实依据；保留AI_REVIEW，不要求为了结案而寻找或编造佐证。",
+      "book_candidates": [],
+      "book_candidates_are_not_confirmed_products": true,
+      "cluster_ids": [],
+      "expected_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\reviews\\v_e24346b823344654.json",
+      "input_snapshot": [
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\READY.json",
+          "size": 298,
+          "mtime_ns": 1792026177144833300,
+          "sha256": "485f2bfa024879c0328c0494c8bd172bbe19b4e3a00c5de95a4c5cd06ce652ee"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\input.json",
+          "size": 1544,
+          "mtime_ns": 1792026177143833300,
+          "sha256": "9d73fffe0cf0e969dff7ded175a3528f644fd1be5e34f1af6c8a87c77d47310f"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\transcript.txt",
+          "size": 2030,
+          "mtime_ns": 1792026177142819200,
+          "sha256": "f98d1b897eb1f051cf30c05a49d00bb9afd5644b57bc9f3470e0596b48c892e3"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_e24346b823344654.aligned.json",
+          "size": 12503,
+          "mtime_ns": 1792026177095535000,
+          "sha256": "39a94c72c81777e274d94901e09691b494f57b3baabc6169c2e738a303b204af"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_e24346b823344654.json",
+          "size": 26172,
+          "mtime_ns": 1792026177070507900,
+          "sha256": "4c496f513a6f5be2617a381a2f8790a4e49a27e3133f966238cdeb7a9dd65911"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\frames\\01_1.000s.jpg",
+          "size": 80187,
+          "mtime_ns": 1792026177141534500,
+          "sha256": "cf370e0eb31bd3656af5a197b037b880fe28cee2af179b849cf13e9aa1cd9ca7"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\frames\\02_5.000s.jpg",
+          "size": 79973,
+          "mtime_ns": 1792026177141534500,
+          "sha256": "fd66c60e58d7074b116b383fdefdabc75e107dff410fa39c6b1cb00f43292070"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\frames\\03_81.722s.jpg",
+          "size": 76759,
+          "mtime_ns": 1792026177141534500,
+          "sha256": "b3a0a72a8748ed84caa2a89a78181d4579d8444712c2c78a20cba642aa44039b"
+        },
+        {
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\v_e24346b823344654\\frames\\04_161.444s.jpg",
+          "size": 85852,
+          "mtime_ns": 1792026177142819200,
+          "sha256": "a803e66757ef92964521e470098da160871e8f0baa3fdc154432b77ca6a08f25"
+        }
+      ]
+    }
+  ],
+  "cluster_membership_coverage": {
+    "TEXT": {
+      "total": 9,
+      "selected_before": 3,
+      "selected_after_if_new_batch_completed": 9,
+      "note": "Membership coverage only; does not establish semantic novelty or statistical representativeness."
+    },
+    "HOOK": {
+      "total": 5,
+      "selected_before": 2,
+      "selected_after_if_new_batch_completed": 5,
+      "note": "Membership coverage only; does not establish semantic novelty or statistical representativeness."
+    },
+    "PASSAGE": {
+      "total": 10,
+      "selected_before": 5,
+      "selected_after_if_new_batch_completed": 7,
+      "note": "Membership coverage only; does not establish semantic novelty or statistical representativeness."
+    }
+  },
+  "account_counts": {
+    "破局书屋": 6,
+    "林睿读书&书在橱窗": 2,
+    "文汇书香苑": 1,
+    "赵健的读书日记": 1
+  },
+  "schema_path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\analysis_schema.json"
+}

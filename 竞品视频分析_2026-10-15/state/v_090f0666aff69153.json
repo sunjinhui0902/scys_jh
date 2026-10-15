@@ -1,0 +1,55 @@
+{
+  "video_id": "v_090f0666aff69153",
+  "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\赵健的读书日记\\沿着运河读中国.mp4",
+  "account": "赵健的读书日记",
+  "started_at": "2026-10-15T07:38:46+08:00",
+  "status": "HANDOFF_READY",
+  "steps": {
+    "audio": {
+      "status": "OK",
+      "at": "2026-10-15T07:38:53+08:00",
+      "elapsed_s": 7.125,
+      "error": null
+    },
+    "frame_1": {
+      "status": "OK",
+      "at": "2026-10-15T07:38:53+08:00",
+      "elapsed_s": 0.25,
+      "error": null
+    },
+    "frame_2": {
+      "status": "OK",
+      "at": "2026-10-15T07:38:53+08:00",
+      "elapsed_s": 0.2970000000204891,
+      "error": null
+    },
+    "frame_3": {
+      "status": "OK",
+      "at": "2026-10-15T07:38:54+08:00",
+      "elapsed_s": 0.31200000003445894,
+      "error": null
+    },
+    "frame_4": {
+      "status": "OK",
+      "at": "2026-10-15T07:38:54+08:00",
+      "elapsed_s": 0.3279999999795109,
+      "error": null
+    },
+    "asr": {
+      "status": "OK",
+      "elapsed_s": 605.390000000014,
+      "resume_wall_s": 289.8279999999795,
+      "attempts": 1,
+      "at": "2026-10-15T07:50:10+08:00",
+      "chunks": 20
+    }
+  },
+  "chunk_progress": {
+    "done": 20,
+    "total": 20,
+    "at": "2026-10-15T07:50:09+08:00"
+  },
+  "alignment_status": "TOKEN_ALIGNED",
+  "handoff_ready_at": "2026-10-15T07:50:10+08:00",
+  "tool_versions_reference": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase2_runtime.json"
+}

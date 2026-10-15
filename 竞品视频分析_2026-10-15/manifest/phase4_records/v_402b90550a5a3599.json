@@ -1,0 +1,145 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_402b90550a5a3599",
+  "account": "赵健的读书日记",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\赵健的读书日记\\你敢信吗，9月3号，汽车开始不需要人了，特斯拉Cybercab即将在美国奥斯汀发布量产，它最疯狂的地方是什么？没有方向盘，没有油门，没有刹车踏板，但是比这个更疯狂的是，它.mp4",
+  "input_sha256": "017cbf7a912ae162c610de29f60849bc93707e3fdf2be607d3466248bf38e82d",
+  "policy_sha256": "24219bde9e81da8033c3c4b6a20d0b4a2f808c41ed71439de85e0e27061f02b0",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_OK",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "所导入文字、模型估计时间与实际4帧；不代表全片音画、史实、商品真伪或营销效果验证",
+  "normalized": {
+    "theme": "无人驾驶时代来临与人类未来命运的哲学思考",
+    "category": "前沿科技/人文地理/时代思考",
+    "mentioned_books": [],
+    "recommended_book": "无明确推荐",
+    "hook_text": "你敢信吗九月三号汽车开始",
+    "hook_type": "前沿认知反常识/未来已来震撼",
+    "narrative_structure": "9月3日汽车不需要人开局 ➔ 描述无人出租车在武汉落地与机器人的飞速迭代 ➔ 思考当AI替代一切人类该何去何从 ➔ 金句收尾",
+    "target_audience": "推断：高知群体、深度阅读爱好者、关注科技变革与时代趋势的中青年群体",
+    "product_value": {
+      "explicit_claims": "无直接商品带货",
+      "ai_inferred_value": "提升时代前瞻眼界与哲学思考深度"
+    },
+    "reusable_template_insights": {
+      "template_name": "高知人文思辨与时代观察模板",
+      "core_logic": "从前沿重大事件切入（无人驾驶上路） ➔ 展开哲学与人文反思（技术与人性的关系） ➔ 提炼意蕴深远金句（未来已来，想象力停在昨天） ➔ 唤醒思考",
+      "performance_disclaimer": "无商业变现数据，代表知识博主个人IP树立与高粘性内容范本"
+    },
+    "bridge": {
+      "present": false,
+      "start_s": null,
+      "end_s": null,
+      "text": "无明确引书推荐",
+      "type": "无"
+    },
+    "cta": {
+      "present": false,
+      "start_s": null,
+      "end_s": null,
+      "text": "无明确购物促单",
+      "type": "无"
+    },
+    "closing_behavior_A": "有一天你突然回头发现，未来已经到了，只不过我们的想象力还停留在昨天。",
+    "visual_and_audio": {
+      "visual_type": "人物出镜与书店/城市/汽车或图表画面",
+      "subtitle_style": "白色黑描边为主",
+      "book_appearance": "书店/阅读相关画面不等于具体在售商品",
+      "audio_style": "无法确认（文字+四帧不能评估完整配音/音乐）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_402b90550a5a3599\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_402b90550a5a3599\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 152.636,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_402b90550a5a3599\\03_152.636s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 303.273,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_402b90550a5a3599\\04_303.273s.jpg"
+        }
+      ],
+      "review_method": "Codex实际查看全部4帧；仅证实所见画面，不推断全片/音频"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_402b90550a5a3599",
+    "account": "赵健的读书日记",
+    "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\赵健的读书日记\\你敢信吗，9月3号，汽车开始不需要人了，特斯拉Cybercab即将在美国奥斯汀发布量产，它最疯狂的地方是什么？没有方向盘，没有油门，没有刹车踏板，但是比这个更疯狂的是，它.mp4",
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T11:49:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "无人驾驶时代来临与人类未来命运的哲学思考",
+      "category": "前沿科技/人文地理/时代思考",
+      "mentioned_books": [],
+      "recommended_book": null,
+      "target_audience": "高知群体、深度阅读爱好者、关注科技变革与时代趋势的中青年群体",
+      "hook": {
+        "text_0_3s": "你敢信吗？九月三号汽车开始不需要人了。",
+        "full_hook_text": "你敢信吗？九月三号汽车开始不需要人了。特斯拉cyber cub在这一天，美国奥斯汀发布量产。它最疯狂的地方是什么？",
+        "hook_type": "前沿认知反常识/未来已来震撼",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "博主赵健实景口播结合科技未来感画面"
+      },
+      "narrative_structure": "9月3日汽车不需要人开局 ➔ 描述无人出租车在武汉落地与机器人的飞速迭代 ➔ 思考当AI替代一切人类该何去何从 ➔ 金句收尾",
+      "bridge": {
+        "has_bridge": false,
+        "text": "无",
+        "start_time_s": null,
+        "end_time_s": null,
+        "transition_type": "无"
+      },
+      "cta": {
+        "has_cta": false,
+        "text": "有一天你突然回头发现，未来已经到了，只不过我们的想象力还停留在昨天。",
+        "start_time_s": null,
+        "end_time_s": null,
+        "cta_type": "无"
+      },
+      "product_value": {
+        "explicit_claims": "无直接商品带货",
+        "ai_inferred_value": "提升时代前瞻眼界与哲学思考深度"
+      },
+      "visual_and_audio": {
+        "visual_type": "真人口播出镜 + 城市人文航拍 + 实地走访",
+        "book_appearance": "无图书强推，偶有博主手持书籍背景",
+        "subtitle_style": "极简白色细描边字幕",
+        "audio_style": "富有磁性、充满书卷气与少年感的原声真人口播，背景配舒缓钢琴曲"
+      },
+      "reusable_template_insights": {
+        "template_name": "高知人文思辨与时代观察模板",
+        "core_logic": "从前沿重大事件切入（无人驾驶上路） ➔ 展开哲学与人文反思（技术与人性的关系） ➔ 提炼意蕴深远金句（未来已来，想象力停在昨天） ➔ 唤醒思考",
+        "performance_disclaimer": "无商业变现数据，代表知识博主个人IP树立与高粘性内容范本"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": false,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_402b90550a5a3599.aligned.json"
+    },
+    "limitations": "知识型IP内容输出，非直接带货脚本。"
+  },
+  "corrections": [
+    "0～3秒字段按本地词级时间戳重建；A原摘录单独保留",
+    "音频与完整镜头判断收回，静态画面按实际4帧核对"
+  ],
+  "unresolved_issues": [],
+  "evidence_checks": {},
+  "imported_at": "2026-10-15T13:30:57+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\v_402b90550a5a3599.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase4_input_snapshot\\v_402b90550a5a3599.json"
+}

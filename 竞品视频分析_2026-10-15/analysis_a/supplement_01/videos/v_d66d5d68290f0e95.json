@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_d66d5d68290f0e95",
+  "account": "破局书屋",
+  "source_video_path": {
+    "video_id": "v_d66d5d68290f0e95",
+    "account": "破局书屋",
+    "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\会说话是优势，会回话才是本事 如何做到一开口就让别人喜欢你#高情商#说话技巧#人际交往.mp4"
+  },
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T14:30:00+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "饭局劝酒与职场应对话术（混剪版）",
+    "category": "职场/说话技巧",
+    "mentioned_books": [
+      "闲谈高手"
+    ],
+    "recommended_book": "闲谈高手",
+    "target_audience": "职场人群",
+    "hook": {
+      "text_0_3s": "不喝就是看不起我领导，",
+      "full_hook_text": "不喝就是看不起我领导，我不是看不起您，我是看不起病，这鸭子是好鸭子，",
+      "hook_type": "劝酒冲突",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文本卡片或情景短剧截图"
+    },
+    "narrative_structure": "同v_183328bf0ee8b458与v_74a64cf3aca9595d同稿",
+    "bridge": {
+      "has_bridge": true,
+      "text": "推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。",
+      "start_time_s": 150.0,
+      "end_time_s": 165.0,
+      "transition_type": "直白引书"
+    },
+    "cta": {
+      "has_cta": true,
+      "text": "但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+      "start_time_s": 166.0,
+      "end_time_s": 175.0,
+      "cta_type": "直购"
+    },
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "visual_and_audio": {
+      "visual_type": "根据提供截图与转录分析",
+      "book_appearance": "未在固定截图中确认书封细节，标为待核",
+      "subtitle_style": "描边大字居中下字幕",
+      "audio_style": "依据转录确认口播内容"
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": true,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_d66d5d68290f0e95.aligned.json"
+  },
+  "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+  "incremental_findings": {
+    "comparison_video_ids": [
+      "v_183328bf0ee8b458",
+      "v_74a64cf3aca9595d"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "确认为同一系列同稿复用，无任何增量结构。",
+    "evidence": "词级文本与配音完全重合。"
+  }
+}

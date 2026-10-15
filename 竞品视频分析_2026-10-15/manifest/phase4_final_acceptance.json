@@ -1,0 +1,65 @@
+{
+  "at": "2026-10-15T13:44:13+08:00",
+  "project_status": "PARTIAL",
+  "phase4_integration_status": "PASS",
+  "files": 332,
+  "sha_unique_contents": 317,
+  "local_success_paths": 332,
+  "basic_frames": 1328,
+  "ready_packages": 332,
+  "deep_json_loaded": 25,
+  "schema_pass": 25,
+  "ai_ok": 20,
+  "ai_review": 5,
+  "ai_pending_outside_deep_scope": 307,
+  "templates_loaded": 5,
+  "research_usable_templates": 4,
+  "template_drafts_pending_evidence": 1,
+  "pending_records": [
+    {
+      "video_id": "v_183328bf0ee8b458",
+      "account": "破局书屋",
+      "issues": [
+        "A声称native_video，实际工具输入链与完整声音能力仍未独立证实；已补查所声称的指定时刻画面",
+        "A所标封面证据帧实际为饭局人物；出版社/封面字样尚无该帧支持"
+      ]
+    },
+    {
+      "video_id": "v_2a38fc92b95504f3",
+      "account": "开卷读书",
+      "issues": [
+        "素材含本项目未核实的名人逝世叙事；不能作为真实新闻或原创事实依据"
+      ]
+    },
+    {
+      "video_id": "v_30cc827b5d5dd936",
+      "account": "赵健的读书日记",
+      "issues": [
+        "A声称native_video，实际工具输入链与完整声音能力仍未独立证实；已补查所声称的指定时刻画面"
+      ]
+    },
+    {
+      "video_id": "v_7e9d12d17d945cb4",
+      "account": "林睿读书&书在橱窗",
+      "issues": [
+        "A声称native_video，实际工具输入链与完整声音能力仍未独立证实；已补查所声称的指定时刻画面"
+      ]
+    },
+    {
+      "video_id": "v_e24346b823344654",
+      "account": "开卷读书",
+      "issues": [
+        "素材含本项目未核实的名人逝世叙事；不能作为真实新闻或原创事实依据"
+      ]
+    }
+  ],
+  "source_unchanged": 332,
+  "A_files_unchanged": 28,
+  "import_resume_test": "PASS",
+  "export_resume_test": "PASS",
+  "previous_ASR_chunks_unchanged": "20/20",
+  "hyperlinks_checked": 3346,
+  "workbook_sha256": "15034249cab1bddd720d47003f5aabffe0aa2da47eca92fe388e2ec153428a3e",
+  "render_process_exit_code": 3221226505,
+  "scope_note": "AI_OK is limited to checked imported text/model timestamps/static frames, with permitted unknown fields. ASR word accuracy, factual truth, full audio and sales performance are not claimed verified."
+}

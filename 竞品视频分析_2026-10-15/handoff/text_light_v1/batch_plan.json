@@ -1,0 +1,3154 @@
+{
+  "schema_version": "text-light-plan-1.0",
+  "created_at": "2026-10-15T14:08:40+08:00",
+  "scope": "317份独立文字稿的全量轻量语义标注；不新增全量视频拆解",
+  "status": "AI_PENDING",
+  "source_paths": 332,
+  "unique_videos": 317,
+  "raw_text_characters": 528453,
+  "core_text_characters": 528134,
+  "unit_count": 328,
+  "batch_count": 38,
+  "long_video_ids": [
+    "v_090f0666aff69153",
+    "v_87b84a0307f1a9d6"
+  ],
+  "priority": "旅行地理书名规则候选→锦绣千秋录/林睿→其余账号；仅排序，不排除任何账号",
+  "videos": [
+    {
+      "video_id": "v_14fbacb5fb09ed50",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_14fbacb5fb09ed50_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_14fbacb5fb09ed50.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2a12e49667774dc0",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_2a12e49667774dc0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2a12e49667774dc0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_305f7cf8cb28eb61",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_305f7cf8cb28eb61_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_305f7cf8cb28eb61.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5ddb5a8ad7ccdb86",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_5ddb5a8ad7ccdb86_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5ddb5a8ad7ccdb86.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d19a3c26e0716883",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_d19a3c26e0716883_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d19a3c26e0716883.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5a1f4e863379cd2e",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_5a1f4e863379cd2e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5a1f4e863379cd2e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_794a2b8ce8d2ca0b",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_794a2b8ce8d2ca0b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_794a2b8ce8d2ca0b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7fa3a84d41edebb9",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_7fa3a84d41edebb9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7fa3a84d41edebb9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8dd105b9b996aea3",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_8dd105b9b996aea3_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8dd105b9b996aea3.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_92529a7c361c461e",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_92529a7c361c461e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_92529a7c361c461e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ac516db0b5dced62",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_ac516db0b5dced62_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ac516db0b5dced62.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b0c1a76023be08b1",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_b0c1a76023be08b1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b0c1a76023be08b1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e131f0a2f28e29a1",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_e131f0a2f28e29a1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e131f0a2f28e29a1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_eb6c6f0c8993fb48",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_eb6c6f0c8993fb48_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_eb6c6f0c8993fb48.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_002792061fd566b1",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_002792061fd566b1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_002792061fd566b1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_01240cafd3ecb0d6",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_01240cafd3ecb0d6_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_01240cafd3ecb0d6.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_09b6883498b9cb68",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_09b6883498b9cb68_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_09b6883498b9cb68.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0a693c094eb3ed78",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_0a693c094eb3ed78_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0a693c094eb3ed78.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0be6e344334f9dd4",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_0be6e344334f9dd4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0be6e344334f9dd4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_15779fc77ad73396",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_15779fc77ad73396_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_15779fc77ad73396.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1f708899e25bcbd1",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_1f708899e25bcbd1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1f708899e25bcbd1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_209edbff0b6b4db9",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_209edbff0b6b4db9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_209edbff0b6b4db9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_21fb6a2ddb3553d0",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_21fb6a2ddb3553d0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_21fb6a2ddb3553d0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_36c4c9338c258e24",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_36c4c9338c258e24_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_36c4c9338c258e24.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3a99cb8f56df9807",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_3a99cb8f56df9807_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3a99cb8f56df9807.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3c999cc0540ce2a7",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_3c999cc0540ce2a7_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3c999cc0540ce2a7.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_40dfda49e2ded977",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_40dfda49e2ded977_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_40dfda49e2ded977.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_425471a33eb1c977",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_425471a33eb1c977_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_425471a33eb1c977.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_437a713b9e8f4623",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_437a713b9e8f4623_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_437a713b9e8f4623.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_4ed4d46352185f2f",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_4ed4d46352185f2f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_4ed4d46352185f2f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_4fef7d308fa53d59",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_4fef7d308fa53d59_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_4fef7d308fa53d59.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_50948fbc811aec3b",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_50948fbc811aec3b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_50948fbc811aec3b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_54305777bc2e5896",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_54305777bc2e5896_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_54305777bc2e5896.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5ae6f6253ad7b999",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_5ae6f6253ad7b999_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5ae6f6253ad7b999.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_63829a063cf7908d",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_63829a063cf7908d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_63829a063cf7908d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_70e6e9669f26de22",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_70e6e9669f26de22_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_70e6e9669f26de22.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7e9d12d17d945cb4",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_7e9d12d17d945cb4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7e9d12d17d945cb4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_801c9248f1d13659",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_801c9248f1d13659_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_801c9248f1d13659.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_87049fb430a5dbb6",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_87049fb430a5dbb6_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_87049fb430a5dbb6.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_88a813fea8e7a4cc",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_88a813fea8e7a4cc_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_88a813fea8e7a4cc.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_91daf49276265978",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_91daf49276265978_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_91daf49276265978.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9de6118d7cf4db22",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_9de6118d7cf4db22_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9de6118d7cf4db22.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9f097e286011c72c",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_9f097e286011c72c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9f097e286011c72c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_acdf28603fafbffb",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_acdf28603fafbffb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_acdf28603fafbffb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b199dcc6960a2707",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_b199dcc6960a2707_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b199dcc6960a2707.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b1fe724ccf0f613f",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_b1fe724ccf0f613f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b1fe724ccf0f613f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b5a70a0074b9ac7e",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_b5a70a0074b9ac7e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b5a70a0074b9ac7e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b9e2a55ffcca9398",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_b9e2a55ffcca9398_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b9e2a55ffcca9398.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bd18b2e06ff50fb9",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_bd18b2e06ff50fb9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bd18b2e06ff50fb9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bed28937e07fccd1",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_bed28937e07fccd1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bed28937e07fccd1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_cf0219a18522dec5",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_cf0219a18522dec5_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_cf0219a18522dec5.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d3f3bf3980928b72",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_d3f3bf3980928b72_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d3f3bf3980928b72.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_dd0d990eb31f1cb5",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_dd0d990eb31f1cb5_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_dd0d990eb31f1cb5.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_de64f528f862c6ae",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_de64f528f862c6ae_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_de64f528f862c6ae.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_dfbf7a88a8e72055",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_dfbf7a88a8e72055_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_dfbf7a88a8e72055.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e2e204dd2bba93f2",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_e2e204dd2bba93f2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e2e204dd2bba93f2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ea0f263fd6138758",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_ea0f263fd6138758_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ea0f263fd6138758.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ef9bbef5144a2b1b",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_ef9bbef5144a2b1b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ef9bbef5144a2b1b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ff6e806d833b26e0",
+      "account": "林睿读书&书在橱窗",
+      "unit_ids": [
+        "v_ff6e806d833b26e0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ff6e806d833b26e0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_02cae841d1a72b7c",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_02cae841d1a72b7c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_02cae841d1a72b7c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0aec66ddf2b372c0",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_0aec66ddf2b372c0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0aec66ddf2b372c0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1043581b585fd72d",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_1043581b585fd72d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1043581b585fd72d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_158f32a208d4e3c0",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_158f32a208d4e3c0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_158f32a208d4e3c0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1d871674fe185072",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_1d871674fe185072_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1d871674fe185072.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_27d8bb6abb47e0c6",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_27d8bb6abb47e0c6_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_27d8bb6abb47e0c6.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2c5841ec9d341753",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_2c5841ec9d341753_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2c5841ec9d341753.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_332b3a33025e2e43",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_332b3a33025e2e43_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_332b3a33025e2e43.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3c6e3ef7c207a723",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_3c6e3ef7c207a723_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3c6e3ef7c207a723.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6333be0a867d3d45",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_6333be0a867d3d45_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6333be0a867d3d45.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_694c5c6c2ec99ce8",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_694c5c6c2ec99ce8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_694c5c6c2ec99ce8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_849c3889a3d48662",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_849c3889a3d48662_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_849c3889a3d48662.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a25671a38d9e43ae",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_a25671a38d9e43ae_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a25671a38d9e43ae.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a7626c5b80217c24",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_a7626c5b80217c24_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a7626c5b80217c24.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bd810018c2f27767",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_bd810018c2f27767_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bd810018c2f27767.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c11293bda31d14a7",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_c11293bda31d14a7_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c11293bda31d14a7.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_cc091a347d058e1f",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_cc091a347d058e1f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_cc091a347d058e1f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d00cee56eff9e90d",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_d00cee56eff9e90d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d00cee56eff9e90d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_dd4c5a445ff91a4d",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_dd4c5a445ff91a4d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_dd4c5a445ff91a4d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f2b712193f42f6d1",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_f2b712193f42f6d1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f2b712193f42f6d1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f72848ff9c5f770d",
+      "account": "锦绣千秋录",
+      "unit_ids": [
+        "v_f72848ff9c5f770d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f72848ff9c5f770d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_01a85a83850f17f9",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_01a85a83850f17f9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_01a85a83850f17f9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0c32f109b4bed469",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_0c32f109b4bed469_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0c32f109b4bed469.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0d7063ebdebe4b24",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_0d7063ebdebe4b24_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0d7063ebdebe4b24.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0f9247ca7295ef7c",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_0f9247ca7295ef7c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0f9247ca7295ef7c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1b6ba4fc13a7b7d4",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_1b6ba4fc13a7b7d4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1b6ba4fc13a7b7d4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2236f6f5efae33a2",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_2236f6f5efae33a2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2236f6f5efae33a2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_287f201bf68589de",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_287f201bf68589de_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_287f201bf68589de.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_292f228ab1734fe8",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_292f228ab1734fe8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_292f228ab1734fe8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2a38fc92b95504f3",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_2a38fc92b95504f3_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2a38fc92b95504f3.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2abd361a036a65a4",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_2abd361a036a65a4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2abd361a036a65a4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3286a76f4015e1bf",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_3286a76f4015e1bf_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3286a76f4015e1bf.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_382dec811dde5c56",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_382dec811dde5c56_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_382dec811dde5c56.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3d80f9903fe22eba",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_3d80f9903fe22eba_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3d80f9903fe22eba.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_451c49d2a1ebc624",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_451c49d2a1ebc624_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_451c49d2a1ebc624.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_48279f930f48f815",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_48279f930f48f815_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_48279f930f48f815.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_49c2f4884487a110",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_49c2f4884487a110_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_49c2f4884487a110.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_4f611c2538eab168",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_4f611c2538eab168_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_4f611c2538eab168.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_570b8411c5558885",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_570b8411c5558885_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_570b8411c5558885.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5d94d970ddc0378d",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_5d94d970ddc0378d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5d94d970ddc0378d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5f546ec8b5aa8d38",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_5f546ec8b5aa8d38_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5f546ec8b5aa8d38.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_644c125addeae7be",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_644c125addeae7be_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_644c125addeae7be.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6bcd950143d7a69f",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_6bcd950143d7a69f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6bcd950143d7a69f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6e009150e56d9d29",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_6e009150e56d9d29_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6e009150e56d9d29.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_825fb6ca950ff189",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_825fb6ca950ff189_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_825fb6ca950ff189.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8749e016f0a3db3a",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_8749e016f0a3db3a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8749e016f0a3db3a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_962b045efa9655c2",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_962b045efa9655c2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_962b045efa9655c2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9bf7bcc03e16b686",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_9bf7bcc03e16b686_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9bf7bcc03e16b686.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a0cf9403370aae7f",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_a0cf9403370aae7f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a0cf9403370aae7f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a30928001a4a8aea",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_a30928001a4a8aea_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a30928001a4a8aea.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a89d73a8d7bfd69d",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_a89d73a8d7bfd69d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a89d73a8d7bfd69d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b7c63511ba473347",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_b7c63511ba473347_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b7c63511ba473347.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bbca39c553be65b8",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_bbca39c553be65b8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bbca39c553be65b8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bd7d966628f217c3",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_bd7d966628f217c3_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bd7d966628f217c3.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c23141e296f377e5",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_c23141e296f377e5_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c23141e296f377e5.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c62f98a34ebbc633",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_c62f98a34ebbc633_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c62f98a34ebbc633.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_cadffdbb9192cfc9",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_cadffdbb9192cfc9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_cadffdbb9192cfc9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d06c4879a2c152ce",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_d06c4879a2c152ce_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d06c4879a2c152ce.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d31709868d45e41a",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_d31709868d45e41a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d31709868d45e41a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d6a356e3bb0a942e",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_d6a356e3bb0a942e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d6a356e3bb0a942e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_daffee56df913e3a",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_daffee56df913e3a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_daffee56df913e3a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_dd6b86dafcd63a2d",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_dd6b86dafcd63a2d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_dd6b86dafcd63a2d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_defe780041963a62",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_defe780041963a62_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_defe780041963a62.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e24346b823344654",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_e24346b823344654_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e24346b823344654.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e86a2daa08b28b02",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_e86a2daa08b28b02_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e86a2daa08b28b02.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f692e799abad97b4",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_f692e799abad97b4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f692e799abad97b4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fa49ccc90326e05e",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_fa49ccc90326e05e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fa49ccc90326e05e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fae397f32afce779",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_fae397f32afce779_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fae397f32afce779.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fc6909c15c1177fa",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_fc6909c15c1177fa_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fc6909c15c1177fa.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fd5392a7d3c5c104",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_fd5392a7d3c5c104_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fd5392a7d3c5c104.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fe8e733e3d08e16f",
+      "account": "开卷读书",
+      "unit_ids": [
+        "v_fe8e733e3d08e16f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fe8e733e3d08e16f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0225e71719275a3e",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_0225e71719275a3e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0225e71719275a3e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_067c1c1d8aa6c49d",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_067c1c1d8aa6c49d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_067c1c1d8aa6c49d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0a3c17f15ee2bfb2",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_0a3c17f15ee2bfb2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0a3c17f15ee2bfb2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0ac04558a0b201d0",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_0ac04558a0b201d0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0ac04558a0b201d0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0b4fe2503841c930",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_0b4fe2503841c930_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0b4fe2503841c930.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1108c2ede33e9394",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1108c2ede33e9394_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1108c2ede33e9394.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1129e03ac0ecf7a8",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1129e03ac0ecf7a8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1129e03ac0ecf7a8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_14cd34bc9dfbf0fb",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_14cd34bc9dfbf0fb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_14cd34bc9dfbf0fb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1b225d87255676fa",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1b225d87255676fa_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1b225d87255676fa.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1b23700d23e01086",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1b23700d23e01086_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1b23700d23e01086.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1c3a47f2eb6e852b",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1c3a47f2eb6e852b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1c3a47f2eb6e852b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1ceae1131ac714ed",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1ceae1131ac714ed_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1ceae1131ac714ed.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1dc5b31f6ce02387",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_1dc5b31f6ce02387_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1dc5b31f6ce02387.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_21f58ae8ccf2ac26",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_21f58ae8ccf2ac26_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_21f58ae8ccf2ac26.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_24c0064bbdf2ff5f",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_24c0064bbdf2ff5f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_24c0064bbdf2ff5f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_276035124ad947a4",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_276035124ad947a4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_276035124ad947a4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_288404df23ed46a2",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_288404df23ed46a2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_288404df23ed46a2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_29b87f19019347e7",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_29b87f19019347e7_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_29b87f19019347e7.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2dd2488b04507c8f",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_2dd2488b04507c8f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2dd2488b04507c8f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2fe34883cba71ae1",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_2fe34883cba71ae1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2fe34883cba71ae1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_333c0b46ef6256fc",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_333c0b46ef6256fc_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_333c0b46ef6256fc.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3706898b9468c498",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_3706898b9468c498_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3706898b9468c498.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_378fc52ecb005cce",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_378fc52ecb005cce_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_378fc52ecb005cce.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_38eb65b8de747391",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_38eb65b8de747391_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_38eb65b8de747391.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3b605f84d647c9a0",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_3b605f84d647c9a0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3b605f84d647c9a0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3cc58547e4d20c73",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_3cc58547e4d20c73_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3cc58547e4d20c73.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_4199ac07662b73e2",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_4199ac07662b73e2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_4199ac07662b73e2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_4d1bc3ed519e0994",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_4d1bc3ed519e0994_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_4d1bc3ed519e0994.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_560ac5ec2c5746f1",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_560ac5ec2c5746f1_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_560ac5ec2c5746f1.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5ab745923f1d56a7",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_5ab745923f1d56a7_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5ab745923f1d56a7.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5f64c2cbaf66c973",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_5f64c2cbaf66c973_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5f64c2cbaf66c973.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6db04c8b0034e816",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_6db04c8b0034e816_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6db04c8b0034e816.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_729eadbae4888843",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_729eadbae4888843_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_729eadbae4888843.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7967c21e0878bcb8",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_7967c21e0878bcb8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7967c21e0878bcb8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7d8477f6d742b9b9",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_7d8477f6d742b9b9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7d8477f6d742b9b9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8523cb0b5d61787a",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_8523cb0b5d61787a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8523cb0b5d61787a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8802249238f121f5",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_8802249238f121f5_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8802249238f121f5.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8a0ef669cfb1a547",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_8a0ef669cfb1a547_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8a0ef669cfb1a547.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_98f5df8545bbe3b4",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_98f5df8545bbe3b4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_98f5df8545bbe3b4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9cc06d12631d6884",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_9cc06d12631d6884_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9cc06d12631d6884.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ae8e034d880048bf",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_ae8e034d880048bf_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ae8e034d880048bf.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_afd4090179833071",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_afd4090179833071_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_afd4090179833071.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b173ac18b0371a42",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b173ac18b0371a42_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b173ac18b0371a42.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b3a37409c7955af4",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b3a37409c7955af4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b3a37409c7955af4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b3dccdafdb88d8a8",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b3dccdafdb88d8a8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b3dccdafdb88d8a8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b46d6662109eb97e",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b46d6662109eb97e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b46d6662109eb97e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b5d32493ae572b03",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b5d32493ae572b03_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b5d32493ae572b03.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b6edef1a6d54291a",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b6edef1a6d54291a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b6edef1a6d54291a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b8c97ac01651049f",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_b8c97ac01651049f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b8c97ac01651049f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bbc826285634ad42",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_bbc826285634ad42_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bbc826285634ad42.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c126307886cf0805",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c126307886cf0805_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c126307886cf0805.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c44a594675438138",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c44a594675438138_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c44a594675438138.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c4e5ed7f3e99330b",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c4e5ed7f3e99330b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c4e5ed7f3e99330b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c5a603255b951b19",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c5a603255b951b19_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c5a603255b951b19.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c6b400f861b51614",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c6b400f861b51614_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c6b400f861b51614.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c809825a54509d6e",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c809825a54509d6e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c809825a54509d6e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c8d5125464df0e61",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c8d5125464df0e61_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c8d5125464df0e61.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c93dd57c844ff532",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_c93dd57c844ff532_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c93dd57c844ff532.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_cce780c335dff84c",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_cce780c335dff84c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_cce780c335dff84c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d0c04a2af8ad5223",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_d0c04a2af8ad5223_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d0c04a2af8ad5223.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d42fb74734d22a7b",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_d42fb74734d22a7b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d42fb74734d22a7b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_de00087cd0f362d7",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_de00087cd0f362d7_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_de00087cd0f362d7.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_dfc401eb3c58695b",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_dfc401eb3c58695b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_dfc401eb3c58695b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e088f3c45c96789c",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_e088f3c45c96789c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e088f3c45c96789c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_eaf6c8ea1aac9864",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_eaf6c8ea1aac9864_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_eaf6c8ea1aac9864.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_eb3d5396705c9094",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_eb3d5396705c9094_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_eb3d5396705c9094.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ef0c4e61b567a541",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_ef0c4e61b567a541_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ef0c4e61b567a541.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ef3ff63b4ef80a06",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_ef3ff63b4ef80a06_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ef3ff63b4ef80a06.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f1443739b13b024f",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_f1443739b13b024f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f1443739b13b024f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f1ccaa57653cd78f",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_f1ccaa57653cd78f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f1ccaa57653cd78f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f80e9c7bc712ea91",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_f80e9c7bc712ea91_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f80e9c7bc712ea91.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fb07bcb46e2752c2",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_fb07bcb46e2752c2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fb07bcb46e2752c2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fcc25656a7e0e573",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_fcc25656a7e0e573_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fcc25656a7e0e573.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fd77d44acd3e3105",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_fd77d44acd3e3105_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fd77d44acd3e3105.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fe3918e76ed3fd8d",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_fe3918e76ed3fd8d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fe3918e76ed3fd8d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fef2893617317e67",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_fef2893617317e67_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fef2893617317e67.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ffec9edc11440c95",
+      "account": "文汇书香苑",
+      "unit_ids": [
+        "v_ffec9edc11440c95_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ffec9edc11440c95.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_06af657ac35dd3a7",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_06af657ac35dd3a7_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_06af657ac35dd3a7.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0a1a4516178db3f0",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_0a1a4516178db3f0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0a1a4516178db3f0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_183328bf0ee8b458",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_183328bf0ee8b458_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_183328bf0ee8b458.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_21b2bbf5e4976bdb",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_21b2bbf5e4976bdb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_21b2bbf5e4976bdb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_21d3f634e16fbf34",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_21d3f634e16fbf34_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_21d3f634e16fbf34.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2ad33b07cfad615d",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_2ad33b07cfad615d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2ad33b07cfad615d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2d45499f73600475",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_2d45499f73600475_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2d45499f73600475.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_31eededcad0ac57f",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_31eededcad0ac57f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_31eededcad0ac57f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_325a2849484e6f15",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_325a2849484e6f15_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_325a2849484e6f15.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3299545e93c3d39e",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_3299545e93c3d39e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3299545e93c3d39e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_37f6c3c5c4c27fd4",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_37f6c3c5c4c27fd4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_37f6c3c5c4c27fd4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_387eb517596b0385",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_387eb517596b0385_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_387eb517596b0385.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3891e7924038d9f2",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_3891e7924038d9f2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3891e7924038d9f2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_38c8fc48799ea7a4",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_38c8fc48799ea7a4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_38c8fc48799ea7a4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_53189cd46f764216",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_53189cd46f764216_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_53189cd46f764216.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_546665fe45b7f450",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_546665fe45b7f450_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_546665fe45b7f450.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_59fd41e03e7a878f",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_59fd41e03e7a878f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_59fd41e03e7a878f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_5bc153fc172fe58c",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_5bc153fc172fe58c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_5bc153fc172fe58c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_61abd978ec06a646",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_61abd978ec06a646_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_61abd978ec06a646.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_62c6c0ccea3e81e2",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_62c6c0ccea3e81e2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_62c6c0ccea3e81e2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_69c02cb2fece702a",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_69c02cb2fece702a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_69c02cb2fece702a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6a205508c9a02558",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_6a205508c9a02558_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6a205508c9a02558.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6b4b6362c573a87a",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_6b4b6362c573a87a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6b4b6362c573a87a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7119c0d0f32c119a",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_7119c0d0f32c119a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7119c0d0f32c119a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_72981e8ccac3d4d8",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_72981e8ccac3d4d8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_72981e8ccac3d4d8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_734ec81ff3d7343f",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_734ec81ff3d7343f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_734ec81ff3d7343f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_74a64cf3aca9595d",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_74a64cf3aca9595d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_74a64cf3aca9595d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_77dd58c635bcd9ad",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_77dd58c635bcd9ad_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_77dd58c635bcd9ad.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7895546933c47e17",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_7895546933c47e17_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7895546933c47e17.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7c9d47c6f0bcb117",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_7c9d47c6f0bcb117_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7c9d47c6f0bcb117.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_886b895da27e66f2",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_886b895da27e66f2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_886b895da27e66f2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8b46188e8a3e2826",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_8b46188e8a3e2826_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8b46188e8a3e2826.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_8e2a21428ff0f46b",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_8e2a21428ff0f46b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_8e2a21428ff0f46b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_919ec11f532d97b9",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_919ec11f532d97b9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_919ec11f532d97b9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_924d362231d77d6a",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_924d362231d77d6a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_924d362231d77d6a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9d1072a5cda6796c",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_9d1072a5cda6796c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9d1072a5cda6796c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9f31c8588d232002",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_9f31c8588d232002_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9f31c8588d232002.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_aae3644f7965b918",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_aae3644f7965b918_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_aae3644f7965b918.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b0b6a297a846159f",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_b0b6a297a846159f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b0b6a297a846159f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b1d211336b0f5ebb",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_b1d211336b0f5ebb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b1d211336b0f5ebb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b2bbecb4fc6ef0e9",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_b2bbecb4fc6ef0e9_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b2bbecb4fc6ef0e9.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b48dbbef32c8eadc",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_b48dbbef32c8eadc_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b48dbbef32c8eadc.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b732dc1bab9b46b2",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_b732dc1bab9b46b2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b732dc1bab9b46b2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bea79c5f09be337b",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_bea79c5f09be337b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bea79c5f09be337b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c0f6d3cc3afed407",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_c0f6d3cc3afed407_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c0f6d3cc3afed407.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c3a892a3cf5094cc",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_c3a892a3cf5094cc_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c3a892a3cf5094cc.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c58c58689d57b3cb",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_c58c58689d57b3cb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c58c58689d57b3cb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ca658fdf2e49e804",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_ca658fdf2e49e804_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ca658fdf2e49e804.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_cb04492a54362efd",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_cb04492a54362efd_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_cb04492a54362efd.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_cd9315d5561d0128",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_cd9315d5561d0128_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_cd9315d5561d0128.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d66d5d68290f0e95",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_d66d5d68290f0e95_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d66d5d68290f0e95.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_d8a71a2f9cff7170",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_d8a71a2f9cff7170_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_d8a71a2f9cff7170.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e2d64be04a47c5b4",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_e2d64be04a47c5b4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e2d64be04a47c5b4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e6b3d7c4a64b59f4",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_e6b3d7c4a64b59f4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e6b3d7c4a64b59f4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_eaa1f34d8a000b69",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_eaa1f34d8a000b69_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_eaa1f34d8a000b69.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f43b6f1228c21749",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_f43b6f1228c21749_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f43b6f1228c21749.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f531fac7d333139d",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_f531fac7d333139d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f531fac7d333139d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f7b40bd22571fb3d",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_f7b40bd22571fb3d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f7b40bd22571fb3d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fd5b9d55019a6363",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_fd5b9d55019a6363_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fd5b9d55019a6363.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fdc54f807b359bf0",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_fdc54f807b359bf0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fdc54f807b359bf0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fe40c7adb68b182d",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_fe40c7adb68b182d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fe40c7adb68b182d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_fe68dbaa6d9e6330",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_fe68dbaa6d9e6330_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_fe68dbaa6d9e6330.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ff22473748c22b5f",
+      "account": "破局书屋",
+      "unit_ids": [
+        "v_ff22473748c22b5f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ff22473748c22b5f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_01e7670a1c02143a",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_01e7670a1c02143a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_01e7670a1c02143a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_023eca959e8ced08",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_023eca959e8ced08_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_023eca959e8ced08.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_06cb6232b96b1c9c",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_06cb6232b96b1c9c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_06cb6232b96b1c9c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_090f0666aff69153",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_090f0666aff69153_u01",
+        "v_090f0666aff69153_u02",
+        "v_090f0666aff69153_u03",
+        "v_090f0666aff69153_u04",
+        "v_090f0666aff69153_u05"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_090f0666aff69153.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_0d39c6dc7d4087f4",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_0d39c6dc7d4087f4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_0d39c6dc7d4087f4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_11b8c843eb271da0",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_11b8c843eb271da0_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_11b8c843eb271da0.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1534b93d7bdf060c",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_1534b93d7bdf060c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1534b93d7bdf060c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1585b3e630e4669a",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_1585b3e630e4669a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1585b3e630e4669a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_1e726e474dd83c30",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_1e726e474dd83c30_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_1e726e474dd83c30.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_23840da6f15a7908",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_23840da6f15a7908_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_23840da6f15a7908.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2d5f761aabb8d5ac",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_2d5f761aabb8d5ac_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2d5f761aabb8d5ac.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_2f5c9fca5b6ca022",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_2f5c9fca5b6ca022_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_2f5c9fca5b6ca022.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_30cc827b5d5dd936",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_30cc827b5d5dd936_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_30cc827b5d5dd936.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_324d0ac456d72656",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_324d0ac456d72656_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_324d0ac456d72656.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_34a16819ec77feb4",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_34a16819ec77feb4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_34a16819ec77feb4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_38a9aa6c85ba92e8",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_38a9aa6c85ba92e8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_38a9aa6c85ba92e8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_3d98bb20973b2c1b",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_3d98bb20973b2c1b_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_3d98bb20973b2c1b.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_401910a7503af68e",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_401910a7503af68e_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_401910a7503af68e.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_402b90550a5a3599",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_402b90550a5a3599_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_402b90550a5a3599.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_46fc8acb83470518",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_46fc8acb83470518_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_46fc8acb83470518.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_4e5ac4f844cfdd7a",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_4e5ac4f844cfdd7a_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_4e5ac4f844cfdd7a.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_65b3ae1e4d673cf6",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_65b3ae1e4d673cf6_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_65b3ae1e4d673cf6.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_6d23100c98e5cd9d",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_6d23100c98e5cd9d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_6d23100c98e5cd9d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_71f506d9b21d8c43",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_71f506d9b21d8c43_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_71f506d9b21d8c43.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7bcb4e0b2af8d1aa",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_7bcb4e0b2af8d1aa_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7bcb4e0b2af8d1aa.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7e0d1a4f77167eb4",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_7e0d1a4f77167eb4_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7e0d1a4f77167eb4.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_7fcb57a01fcf6046",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_7fcb57a01fcf6046_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_7fcb57a01fcf6046.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_815050b57cdc9eb8",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_815050b57cdc9eb8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_815050b57cdc9eb8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_87b84a0307f1a9d6",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_87b84a0307f1a9d6_u01",
+        "v_87b84a0307f1a9d6_u02",
+        "v_87b84a0307f1a9d6_u03",
+        "v_87b84a0307f1a9d6_u04",
+        "v_87b84a0307f1a9d6_u05",
+        "v_87b84a0307f1a9d6_u06",
+        "v_87b84a0307f1a9d6_u07",
+        "v_87b84a0307f1a9d6_u08"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_87b84a0307f1a9d6.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_94919cc1dd04b49f",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_94919cc1dd04b49f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_94919cc1dd04b49f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9e1d7750c78c69e8",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_9e1d7750c78c69e8_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9e1d7750c78c69e8.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_9eb25043ec7535d2",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_9eb25043ec7535d2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_9eb25043ec7535d2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a07355c385ad1f94",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_a07355c385ad1f94_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a07355c385ad1f94.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_a4374858226b6926",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_a4374858226b6926_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_a4374858226b6926.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_abf33f113a520cdb",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_abf33f113a520cdb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_abf33f113a520cdb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_b9f5e9bc1128d82f",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_b9f5e9bc1128d82f_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_b9f5e9bc1128d82f.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_bbfa54f94f503347",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_bbfa54f94f503347_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_bbfa54f94f503347.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c11af1fb830ad64c",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_c11af1fb830ad64c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c11af1fb830ad64c.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c32c7ef65630bbdb",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_c32c7ef65630bbdb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c32c7ef65630bbdb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_c948e1f6874a7d75",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_c948e1f6874a7d75_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_c948e1f6874a7d75.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ce94862cd553c656",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_ce94862cd553c656_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ce94862cd553c656.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_ded14fb8b91974eb",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_ded14fb8b91974eb_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_ded14fb8b91974eb.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e09a24638160e02d",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_e09a24638160e02d_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e09a24638160e02d.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_e24e8bbd60d71cee",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_e24e8bbd60d71cee_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_e24e8bbd60d71cee.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f2d6942885baf7fa",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_f2d6942885baf7fa_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f2d6942885baf7fa.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f56f8c0f869bdde2",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_f56f8c0f869bdde2_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f56f8c0f869bdde2.json",
+      "status": "AI_PENDING"
+    },
+    {
+      "video_id": "v_f959190bccab511c",
+      "account": "赵健的读书日记",
+      "unit_ids": [
+        "v_f959190bccab511c_u01"
+      ],
+      "expected_video_output": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1\\videos\\v_f959190bccab511c.json",
+      "status": "AI_PENDING"
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "text_b001",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b001.json",
+      "sha256": "43ba3b4500607f2fc553ad136e55dc2f2f6626d98cc501588b9dd250c6359fb9",
+      "unit_count": 8,
+      "core_characters": 15712
+    },
+    {
+      "batch_id": "text_b002",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b002.json",
+      "sha256": "c95b56d2964fd33a0ba085570f3ef8e17335859a94d2bd94fdbfdfe58903fb75",
+      "unit_count": 8,
+      "core_characters": 17572
+    },
+    {
+      "batch_id": "text_b003",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b003.json",
+      "sha256": "ac2ea6503552d1ebf078802095712bfe1c9422fd2524c3802d8757f1d3a768d1",
+      "unit_count": 9,
+      "core_characters": 16494
+    },
+    {
+      "batch_id": "text_b004",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b004.json",
+      "sha256": "ff718eac62e1ff54652898005d3ec4524eda8ef867d72eb8e6250b6179a466ea",
+      "unit_count": 10,
+      "core_characters": 15443
+    },
+    {
+      "batch_id": "text_b005",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b005.json",
+      "sha256": "ba45b0eee0180c84ed7336c59583174d27229ed73b7a7e4c7e7fb4134293cad1",
+      "unit_count": 10,
+      "core_characters": 16766
+    },
+    {
+      "batch_id": "text_b006",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b006.json",
+      "sha256": "548088d1f582d0b5ee2a9fe18ae39b7f05890094321e59b241957851b4751c55",
+      "unit_count": 10,
+      "core_characters": 16894
+    },
+    {
+      "batch_id": "text_b007",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b007.json",
+      "sha256": "a59c5c483f667d190bdf9482a3eb2742e277c5ec42fc6de872e146452f6e0753",
+      "unit_count": 10,
+      "core_characters": 16234
+    },
+    {
+      "batch_id": "text_b008",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b008.json",
+      "sha256": "2d8708d3e69fcd8be2586a65d264507ff54ab409c7e85bcdaadfb15193063fbc",
+      "unit_count": 10,
+      "core_characters": 17823
+    },
+    {
+      "batch_id": "text_b009",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b009.json",
+      "sha256": "be9f1fc2c35deb3ade56c3f8658f910680536b73cf49e2c724a82d2f53db1b92",
+      "unit_count": 10,
+      "core_characters": 9895
+    },
+    {
+      "batch_id": "text_b010",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b010.json",
+      "sha256": "5c52eeeb96e5c30b76bb4c6e3681c43ebdf7d85ee93c5cafda3f975ce4867f8f",
+      "unit_count": 10,
+      "core_characters": 3738
+    },
+    {
+      "batch_id": "text_b011",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b011.json",
+      "sha256": "8e02d7edf73604aa285ca14ec82e44a36d43e740b02bea444bffe4238c05657f",
+      "unit_count": 10,
+      "core_characters": 1862
+    },
+    {
+      "batch_id": "text_b012",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b012.json",
+      "sha256": "a802ca46e12739f2d5bf84281cadd7303f65d77f75a4a6e07c5ceb584a0c01a8",
+      "unit_count": 10,
+      "core_characters": 2049
+    },
+    {
+      "batch_id": "text_b013",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b013.json",
+      "sha256": "91c6e16b6ff9d5f83bec9ddbd717aa9b2464c1f6b4b07642cae1dbf1d8dfe20b",
+      "unit_count": 10,
+      "core_characters": 2534
+    },
+    {
+      "batch_id": "text_b014",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b014.json",
+      "sha256": "31bc9be459dbe1710cc6f7dd1181f294384ba9a4b725fcf87b80233a57a09e34",
+      "unit_count": 10,
+      "core_characters": 10255
+    },
+    {
+      "batch_id": "text_b015",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b015.json",
+      "sha256": "c6e5f41b5febc055317003e9b702df5258d949f90a6a38a5337043aeb418b10b",
+      "unit_count": 10,
+      "core_characters": 17561
+    },
+    {
+      "batch_id": "text_b016",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b016.json",
+      "sha256": "eda4aac26fdf87eed7b2b750c08a2a1d62ecc9d5102c0759c5cd3e637b5d4f7c",
+      "unit_count": 9,
+      "core_characters": 16260
+    },
+    {
+      "batch_id": "text_b017",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b017.json",
+      "sha256": "cda5e9a2633fa27b3cdf2647ba7636efcf3ee0b2b96cfb19c20fd160acc1ebae",
+      "unit_count": 10,
+      "core_characters": 17686
+    },
+    {
+      "batch_id": "text_b018",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b018.json",
+      "sha256": "d3cc82ecca49f271949766441e68badf8e3f74a8bbdb1c4c27c8cd76f6b1e058",
+      "unit_count": 9,
+      "core_characters": 17001
+    },
+    {
+      "batch_id": "text_b019",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b019.json",
+      "sha256": "5487ec8a7f0069b7bb1ad1febdc72af5dc4a47db58251fba772e490e5cb95f0b",
+      "unit_count": 10,
+      "core_characters": 16439
+    },
+    {
+      "batch_id": "text_b020",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b020.json",
+      "sha256": "5f7c060acf649fa627a3ec671b3c020ef535e392ff86f7b7afcadf8337f575df",
+      "unit_count": 10,
+      "core_characters": 17466
+    },
+    {
+      "batch_id": "text_b021",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b021.json",
+      "sha256": "3e2ee067a633df90975a3b39801ce9ef392a52840aef5271719a94be86153f8d",
+      "unit_count": 10,
+      "core_characters": 17058
+    },
+    {
+      "batch_id": "text_b022",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b022.json",
+      "sha256": "0362d365c3bf4d12e44ce2b8e8229d535f56137614fa477491a2d00b9643b990",
+      "unit_count": 10,
+      "core_characters": 9859
+    },
+    {
+      "batch_id": "text_b023",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b023.json",
+      "sha256": "1f4f1ef00650c62456a80a52fee39f98efcc1647c920b73ba3e0af677b355a4d",
+      "unit_count": 10,
+      "core_characters": 12566
+    },
+    {
+      "batch_id": "text_b024",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b024.json",
+      "sha256": "cda29178682bb0e4edf845a92b46b70ce6b3d00ff41cab058c65a855498953cb",
+      "unit_count": 10,
+      "core_characters": 6868
+    },
+    {
+      "batch_id": "text_b025",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b025.json",
+      "sha256": "2f514e936e38d0a88517c10f11fa72d6d368d0d7014db4cde5bec0290f1ba852",
+      "unit_count": 10,
+      "core_characters": 15416
+    },
+    {
+      "batch_id": "text_b026",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b026.json",
+      "sha256": "59317ad099caccf24728c403e3a45c588f34323bbccca421537195e5cd552328",
+      "unit_count": 10,
+      "core_characters": 8687
+    },
+    {
+      "batch_id": "text_b027",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b027.json",
+      "sha256": "adc8af286e2d5de3499fc069536e704c67ad7719372bbf0ca1d640846b1f2403",
+      "unit_count": 10,
+      "core_characters": 14414
+    },
+    {
+      "batch_id": "text_b028",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b028.json",
+      "sha256": "788e55b8ee9641fa2eb4b88c7aa3c46f22e8fd9f61887edc864de306cd0770e0",
+      "unit_count": 10,
+      "core_characters": 16471
+    },
+    {
+      "batch_id": "text_b029",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b029.json",
+      "sha256": "8036227258a585e1d8abc473e0c72a9996894dbbda4fafd99a6972d7f5de2fb8",
+      "unit_count": 3,
+      "core_characters": 17972
+    },
+    {
+      "batch_id": "text_b030",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b030.json",
+      "sha256": "c4efdf78782c533447623544bf81e3f8991ae25aead4787858cd368c26446f3a",
+      "unit_count": 5,
+      "core_characters": 16580
+    },
+    {
+      "batch_id": "text_b031",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b031.json",
+      "sha256": "45c319cf5fd8ab7b649b6c1802fa510848be9cff857b77971855115a432ffd12",
+      "unit_count": 6,
+      "core_characters": 14030
+    },
+    {
+      "batch_id": "text_b032",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b032.json",
+      "sha256": "6dc1631177e04b119d6d741457d9ca64f8534ba7011b5b32169fb951a67e5859",
+      "unit_count": 10,
+      "core_characters": 17599
+    },
+    {
+      "batch_id": "text_b033",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b033.json",
+      "sha256": "53c20bb41dae857b6d0f9a23d5e4be4753bb99ac3382d2bcaee08d7c20a2262f",
+      "unit_count": 6,
+      "core_characters": 17869
+    },
+    {
+      "batch_id": "text_b034",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b034.json",
+      "sha256": "5ae088586e8f08e04eb1036f7c888043876103047cd92b02daaf8f26396d3c96",
+      "unit_count": 3,
+      "core_characters": 17976
+    },
+    {
+      "batch_id": "text_b035",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b035.json",
+      "sha256": "9751312ee27814a28aa40f87a37570ee9210adbc77fb4ceb641b83c93b246cd5",
+      "unit_count": 3,
+      "core_characters": 17985
+    },
+    {
+      "batch_id": "text_b036",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b036.json",
+      "sha256": "dc3f9735e4777e3487723a835956d3f20c7aa1dfb9d9b790846191c64c1ef04c",
+      "unit_count": 9,
+      "core_characters": 17801
+    },
+    {
+      "batch_id": "text_b037",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b037.json",
+      "sha256": "1fcaae38d87fc8196b97fc53ef989fff1252bf812dc12bd4e82f6a18e714d9e2",
+      "unit_count": 6,
+      "core_characters": 16904
+    },
+    {
+      "batch_id": "text_b038",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\text_light_v1\\batches\\text_b038.json",
+      "sha256": "4cbba39f472cc7324718eca7bec92b8dac25133e490e0d0e2ff863cc21126a82",
+      "unit_count": 4,
+      "core_characters": 6395
+    }
+  ],
+  "no_new_external_upload_permission": true,
+  "input_includes_video_audio_frames": false,
+  "output_root": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\text_light_v1"
+}

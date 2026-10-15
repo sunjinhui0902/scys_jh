@@ -1,0 +1,178 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_183328bf0ee8b458",
+  "account": "破局书屋",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\知人情，懂世故，人生路更开阔。#人情世故#人际交往#说话技巧#高情商.mp4",
+  "input_sha256": "e23a7892e562a2f1a19c036517c496a2a795ed32dc00a65d1d0ff727ef805d4e",
+  "policy_sha256": "24219bde9e81da8033c3c4b6a20d0b4a2f808c41ed71439de85e0e27061f02b0",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_REVIEW",
+  "input_mode_declared": "native_video",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "所导入文字、模型估计时间与实际4帧；不代表全片音画、史实、商品真伪或营销效果验证",
+  "normalized": {
+    "theme": "职场人情世故与饭局高情商应对话术",
+    "category": "职场/情商/人际交往",
+    "mentioned_books": [
+      "闲谈高手"
+    ],
+    "recommended_book": "闲谈高手",
+    "hook_text": "不喝就是看不起我领导",
+    "hook_type": "痛点冲突/饭局劝酒反常识神回复",
+    "narrative_structure": "连续十几个短平快的职场刁难与高情商接话场景（劝酒、挑刺、试探、礼物、迟到等）➔ 矛盾化解引发同桌鼓掌 ➔ 同事请教如何做到 ➔ 引出实操工具书",
+    "target_audience": "推断：职场新人、害怕社交/不会说话/不善言辞的职场人士",
+    "product_value": {
+      "explicit_claims": "场景化手把手教学（直接给出高情商回答模板）、每天看两页、一解心开",
+      "ai_inferred_value": "低认知负荷的字典式工具书，提供即学即用的情绪价值与职场安全感"
+    },
+    "reusable_template_insights": {
+      "template_name": "情景反弹逆袭型图书带货模板",
+      "core_logic": "极限痛点场景密集演练（3~5个神回复拉满爽感） ➔ 角色发问‘你怎么这么会’ ➔ 掏出红宝书展示内页实拍 ➔ 承诺‘学会一招就能用’促单"
+    },
+    "bridge": {
+      "present": true,
+      "start_s": 169.45,
+      "end_s": 187.745,
+      "text": "你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本闲谈高手，这个世界上谁都不会拒绝那些会说话会来事的人。假如你不爱说话，不爱争辩，也不爱出门，甚至闲惧社交，推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。",
+      "type": "剧情式提问转折：通过配角对主角话术能力的由衷佩服，自然抛出答案引出书籍",
+      "source": "本地ASR可读分段（模型估计时间，未逐句耳听）"
+    },
+    "cta": {
+      "present": true,
+      "start_s": 225.45,
+      "end_s": 240.245,
+      "text": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+      "type": "信任背书与拿回去看促单：强调真实内容一模一样、降低门槛（学会三分即可）、消除决策顾虑",
+      "source": "本地ASR可读分段（模型估计时间，未逐句耳听）"
+    },
+    "closing_behavior_A": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+    "visual_and_audio": {
+      "visual_type": "人物情景演绎（所见帧有AI生成标识）与图书画面",
+      "subtitle_style": "黄色黑描边字幕，底部有生成内容提示",
+      "book_appearance": "120.185秒帧为饭局人物，非书封；238.371秒帧为书内页",
+      "audio_style": "AI_PENDING（需声音/配乐听核）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_183328bf0ee8b458\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_183328bf0ee8b458\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 120.185,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_183328bf0ee8b458\\03_120.185s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 238.371,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_183328bf0ee8b458\\04_238.371s.jpg"
+        }
+      ],
+      "review_method": "Codex实际查看全部4帧；仅证实所见画面，不推断全片/音频"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_183328bf0ee8b458",
+    "account": "破局书屋",
+    "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\知人情，懂世故，人生路更开阔。#人情世故#人际交往#说话技巧#高情商.mp4",
+    "input_mode": "native_video",
+    "analyzed_at": "2026-10-15T01:05:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "职场人情世故与饭局高情商应对话术",
+      "category": "职场/情商/人际交往",
+      "mentioned_books": [
+        "闲谈高手"
+      ],
+      "recommended_book": "闲谈高手",
+      "target_audience": "职场新人、害怕社交/不会说话/不善言辞的职场人士",
+      "hook": {
+        "text_0_3s": "不喝就是看不起我，",
+        "hook_type": "痛点冲突/饭局劝酒反常识神回复",
+        "time_range": "00:00.09 - 00:06.89",
+        "visual_hook": "AI写实微短剧职场饭局，年轻女白领面对老年领导劝酒，从容机智应对",
+        "full_hook_text": "不喝就是看不起我，领导，我不是看不起您，我是看不起病，",
+        "time_range_0_3s": "00:00.09 - 00:02.05"
+      },
+      "narrative_structure": "连续十几个短平快的职场刁难与高情商接话场景（劝酒、挑刺、试探、礼物、迟到等）➔ 矛盾化解引发同桌鼓掌 ➔ 同事请教如何做到 ➔ 引出实操工具书",
+      "bridge": {
+        "has_bridge": true,
+        "text": "小图啊，你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本《闲谈高手》，这个世界上谁都不会拒绝那些会说话会来事的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交，推荐你读完这本《闲谈高手》，让你轻松摆平各种社交场合。",
+        "start_time_s": 169.45,
+        "end_time_s": 187.75,
+        "transition_type": "剧情式提问转折：通过配角对主角话术能力的由衷佩服，自然抛出答案引出书籍"
+      },
+      "cta": {
+        "has_cta": true,
+        "text": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+        "start_time_s": 225.45,
+        "end_time_s": 240.25,
+        "cta_type": "信任背书与拿回去看促单：强调真实内容一模一样、降低门槛（学会三分即可）、消除决策顾虑"
+      },
+      "product_value": {
+        "explicit_claims": "场景化手把手教学（直接给出高情商回答模板）、每天看两页、一解心开",
+        "ai_inferred_value": "低认知负荷的字典式工具书，提供即学即用的情绪价值与职场安全感"
+      },
+      "visual_and_audio": {
+        "visual_type": "AI写实微短剧情景演绎 + 真人手翻书实拍",
+        "book_appearance": "169秒起女主角手持实体书封《闲谈高手》（红黑白配色），188秒~240秒真人手持圆珠笔划线逐页翻看内页排版",
+        "subtitle_style": "黄字纯黑描边居中下字幕",
+        "audio_style": "多角色拟真配音，环境轻快音效，每段神回复后伴有欢快笑声与热烈掌声"
+      },
+      "reusable_template_insights": {
+        "template_name": "情景反弹逆袭型图书带货模板",
+        "core_logic": "极限痛点场景密集演练（3~5个神回复拉满爽感） ➔ 角色发问‘你怎么这么会’ ➔ 掏出红宝书展示内页实拍 ➔ 承诺‘学会一招就能用’促单"
+      }
+    },
+    "evidence": {
+      "book_cover_verified": true,
+      "book_title_on_cover": "闲谈高手",
+      "publisher_on_cover": "中国友谊出版公司",
+      "exact_timestamps_source": "segments/v_183328bf0ee8b458.aligned.json",
+      "cover_frame": "handoff/v_183328bf0ee8b458/frames/03_120.185s.jpg",
+      "inner_page_time": "188s - 240s"
+    },
+    "limitations": "本地未包含平台商品橱窗点击量与成交数据，仅能从视频视听与文案本身验证带货逻辑。"
+  },
+  "corrections": [
+    "0～3秒字段按本地词级时间戳重建；A原摘录单独保留"
+  ],
+  "unresolved_issues": [
+    "A声称native_video，实际工具输入链与完整声音能力仍未独立证实；已补查所声称的指定时刻画面",
+    "A所标封面证据帧实际为饭局人物；出版社/封面字样尚无该帧支持"
+  ],
+  "evidence_checks": {
+    "bridge": {
+      "A_start_s": 169.45,
+      "A_end_s": 187.75,
+      "A_quote": "小图啊，你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本《闲谈高手》，这个世界上谁都不会拒绝那些会说话会来事的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交，推荐你读完这本《闲谈高手》，让你轻松摆平各种社交场合。",
+      "A_quote_coverage_in_imported_window": 0.9596,
+      "actual_imported": {
+        "start_s": 169.45,
+        "end_s": 187.745,
+        "text": "你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本闲谈高手，这个世界上谁都不会拒绝那些会说话会来事的人。假如你不爱说话，不爱争辩，也不爱出门，甚至闲惧社交，推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。"
+      }
+    },
+    "cta": {
+      "A_start_s": 225.45,
+      "A_end_s": 240.25,
+      "A_quote": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+      "A_quote_coverage_in_imported_window": 1.0,
+      "actual_imported": {
+        "start_s": 225.45,
+        "end_s": 240.245,
+        "text": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。"
+      }
+    }
+  },
+  "imported_at": "2026-10-15T13:30:57+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\v_183328bf0ee8b458.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase4_input_snapshot\\v_183328bf0ee8b458.json"
+}

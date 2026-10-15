@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_2a38fc92b95504f3",
+  "account": "开卷读书",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\开卷读书\\敬一丹老师，一路走好。时代少了一位温柔有力量的记录者，感谢您曾温暖过亿万观众，陪伴几代人走过春夏秋冬。#情感#人生感悟#智慧人生#敬一丹#一路走好.mp4",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T11:45:00+08:00",
+  "status": "AI_REVIEW",
+  "fields": {
+    "theme": "素材声称名人逝世引发的人生无常与有无哲学感悟",
+    "category": "情感/人生感悟/健康认知",
+    "mentioned_books": [
+      "黄帝内经"
+    ],
+    "recommended_book": null,
+    "target_audience": "中老年退休群体、关注健康与人生意义的中年受众",
+    "hook": {
+      "text_0_3s": "靳一丹走了，享年七十一岁。",
+      "full_hook_text": "靳一丹走了，享年七十一岁。今早醒来，突然看到这个新闻，我心里咯噔一下，以为是假消息。明明就在三月还参加了他的读者见面会。",
+      "hook_type": "社会名人离世震撼/痛点扎心反思",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文字卡片结合黑白纪实人物照/自然风光画面"
+    },
+    "narrative_structure": "素材声称名人离世切入（未经新闻事实核查，仅为素材文案事实） ➔ 探讨有与无的哲学 ➔ 引用黄帝内经概念倡导善待自己",
+    "bridge": {
+      "has_bridge": false,
+      "text": "无（未出现向具体实体书籍或商品购买的过渡话术）",
+      "start_time_s": null,
+      "end_time_s": null,
+      "transition_type": "无"
+    },
+    "cta": {
+      "has_cta": false,
+      "text": "愿屏幕前的你我从此不负时光，珍惜善待每一天。",
+      "start_time_s": null,
+      "end_time_s": null,
+      "cta_type": "情感祝愿与关注点赞互动"
+    },
+    "product_value": {
+      "explicit_claims": "无商业产品销售",
+      "ai_inferred_value": "提供生命沉淀的情绪共鸣与善待身体的心理慰藉"
+    },
+    "visual_and_audio": {
+      "visual_type": "黑白/彩色历史照片平移缩放 + 大字字幕排版",
+      "book_appearance": "无图书露出",
+      "subtitle_style": "白色加粗描边居中字幕",
+      "audio_style": "温缓深沉男声/女声配音，搭配舒缓抒情背景音乐"
+    },
+    "reusable_template_insights": {
+      "template_name": "中老年生命感悟与健康警醒模板",
+      "core_logic": "沉重事实/扎心真相开头 ➔ 拆解名利虚妄与身体第一 ➔ 引起强烈共情 ➔ 祝福收尾",
+      "performance_disclaimer": "无平台商业指标支持，仅作情感向文案结构参考"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": false,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_2a38fc92b95504f3.aligned.json"
+  },
+  "limitations": "素材声称的内容涉嫌未核实的名人虚构信息，不可作为原创生产事实依据；仅分析其结构。",
+  "review_response": [
+    {
+      "issue": "名人逝世叙事未核实，不能作为原创事实依据",
+      "action_taken": "明确标注为素材声称，保留 AI_REVIEW 状态，加入原创生产事实风控免责限制",
+      "supporting_evidence": "转录文本0~3s声称靳一丹离世；该文案属于自媒体常见吸睛手法",
+      "unresolved_items": "新闻事实真实性存疑（属于素材客观属性，不为结案虚构证明）"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "rendered_at": "2026-10-15T01:22:42.097Z",
+  "engine": "@oai/artifact-tool import+render",
+  "outputs": [
+    {
+      "sheet": "01_视频总览",
+      "range": "A1:M10",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\01_视频总览.png"
+    },
+    {
+      "sheet": "02_带货脚本拆解",
+      "range": "A1:H10",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\02_带货脚本拆解.png"
+    },
+    {
+      "sheet": "03_视觉模板",
+      "range": "A1:J10",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\03_视觉模板.png"
+    },
+    {
+      "sheet": "04_账号对标与高频规律",
+      "range": "A1:H12",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\04_账号对标与高频规律.png"
+    },
+    {
+      "sheet": "05_原创带货模板库",
+      "range": "A1:J7",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\05_原创带货模板库.png"
+    },
+    {
+      "sheet": "06_异常待复核",
+      "range": "A1:F10",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\06_异常待复核.png"
+    },
+    {
+      "sheet": "07_口径与运行摘要",
+      "range": "A1:C16",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\07_口径与运行摘要.png"
+    },
+    {
+      "sheet": "01_视频总览",
+      "range": "N107:W109",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\workbook_previews\\01_候选原因.png"
+    }
+  ],
+  "status": "PASS",
+  "reviewed_at": "2026-10-15T09:24:14+08:00",
+  "reviewer": "Codex",
+  "sheets_visually_reviewed": 7,
+  "additional_candidate_reason_preview_reviewed": true,
+  "observations": "Readable Chinese headers, appropriate summary wrapping, evidence links, visible pending status; candidate reason detail inspected. Original source platform IDs validated in XLSX directly.",
+  "render_process_exit_code": 1,
+  "render_engine_limitations": [
+    "Artifact render process returned exit code 1 after completing all awaited renders and PNG validation; all eight PNGs independently decoded with Pillow and actually viewed. Cause of shutdown code not established.",
+    "Artifact preview coerces long numeric platform ID strings to scientific notation; actual XLSX values are exact string cells with text format, independently compared to manifest. Preview is not the ID evidence source."
+  ]
+}

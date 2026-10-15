@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "V4 Antigravity per-video analysis",
+  "type": "object",
+  "required": ["schema_version", "video_id", "input_mode", "analyzed_at", "status", "fields", "evidence", "limitations"],
+  "properties": {
+    "schema_version": {"type": "string"},
+    "video_id": {"type": "string", "pattern": "^v_[0-9a-f]{16}$"},
+    "input_mode": {"enum": ["native_video", "text_plus_frames", "text_only"]},
+    "analyzed_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["AI_OK", "AI_REVIEW", "AI_PENDING", "COMPLETE"]},
+    "fields": {
+      "type": "object",
+      "required": ["theme", "category", "mentioned_books", "recommended_book", "hook", "narrative_structure", "bridge", "cta", "visual_and_audio"],
+      "properties": {
+        "theme": {"type": "string"},
+        "category": {"type": "string"},
+        "mentioned_books": {"type": "array", "items": {"type": "string"}},
+        "recommended_book": {"type": ["string", "null"]},
+        "hook": {"type": "object"},
+        "narrative_structure": {"type": "string"},
+        "bridge": {"type": "object"},
+        "cta": {"type": "object"},
+        "visual_and_audio": {"type": "object"}
+      }
+    },
+    "evidence": {"type": ["object", "array"]},
+    "limitations": {"type": ["string", "array"]}
+  },
+  "description": "Schema is only a structural gate. Codex separately validates identity, local evidence paths, time bounds, genuine 0-3 second speech, and unsupported claims. Do not treat schema success as content verification."
+}

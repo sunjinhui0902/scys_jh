@@ -1,0 +1,76 @@
+{
+  "at": "2026-10-15T09:17:05+08:00",
+  "files": 332,
+  "accounts": {
+    "开卷读书": {
+      "files": 65,
+      "OK": 65
+    },
+    "文汇书香苑": {
+      "files": 77,
+      "OK": 77
+    },
+    "林睿读书&书在橱窗": {
+      "files": 50,
+      "OK": 50
+    },
+    "破局书屋": {
+      "files": 63,
+      "OK": 63
+    },
+    "赵健的读书日记": {
+      "files": 47,
+      "OK": 47
+    },
+    "锦绣千秋录": {
+      "files": 30,
+      "OK": 30
+    }
+  },
+  "asr_status_counts": {
+    "OK": 332
+  },
+  "ready_packages": 332,
+  "verified_jpegs": 1328,
+  "token_aligned_files": 332,
+  "coarse_aligned_files": 0,
+  "source_hash_unchanged": 332,
+  "resume_test_passed": true,
+  "database_opened_this_phase": false,
+  "database_metadata_unchanged_this_phase": true,
+  "run_wall_seconds_including_restart_test": 5423.9529999999795,
+  "failures": [],
+  "analysis_summary": {
+    "at": "2026-10-15T09:16:07+08:00",
+    "canonical_transcripts": 317,
+    "total_paths": 332,
+    "exact_clusters": 15,
+    "extra_exact_duplicates": 15,
+    "text_clusters": 9,
+    "opening_clusters": 5,
+    "passage_clusters": 10,
+    "similarity_pairs": 124,
+    "cross_account_pairs": 0,
+    "candidate_count": 25,
+    "candidate_accounts": {
+      "开卷读书": 4,
+      "文汇书香苑": 4,
+      "林睿读书&书在橱窗": 4,
+      "破局书屋": 4,
+      "赵健的读书日记": 4,
+      "锦绣千秋录": 5
+    },
+    "ai_schema_valid": 3,
+    "ai_ok": 0,
+    "ai_review": 3
+  },
+  "status": "PASS",
+  "asr_quality_flagged_paths": 1,
+  "acceptance_scope": "Phase 2 local processing only",
+  "project_status": "PARTIAL",
+  "derived_files_bytes": 4248451067,
+  "paid_api_calls": 0,
+  "cost_scope": "No paid API calls; electricity and device depreciation not measured. Existing local model/environment disk not included in derived_files_bytes.",
+  "text_pair_review_count": 21,
+  "pair_review_scope": "Direct comparison of actual ASR excerpts, openings/endings and source transcript paths in tool outputs; not a human user review or audio listening audit"
+}

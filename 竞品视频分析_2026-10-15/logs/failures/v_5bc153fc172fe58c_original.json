@@ -1,0 +1,30 @@
+{
+  "video_id": "v_5bc153fc172fe58c",
+  "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\每天学点高情商说话技巧，让你的路越走越宽#高情商#说话技巧#人情世故.mp4",
+  "account": "破局书屋",
+  "started_at": "2026-10-15T09:03:57+08:00",
+  "status": "LOCAL_FAILED",
+  "steps": {
+    "audio": {
+      "status": "OK",
+      "at": "2026-10-15T09:03:58+08:00",
+      "elapsed_s": 0.45400000002700835,
+      "error": null
+    },
+    "frame_1": {
+      "status": "OK",
+      "at": "2026-10-15T09:03:58+08:00",
+      "elapsed_s": 0.125,
+      "error": null
+    },
+    "frame_2": {
+      "status": "OK",
+      "at": "2026-10-15T09:03:58+08:00",
+      "elapsed_s": 0.125,
+      "error": null
+    }
+  },
+  "error": "[WinError 5] 拒绝访问。: 'D:\\\\fuye\\\\竞品视频分析_2026-10-15\\\\state\\\\v_5bc153fc172fe58c.json.tmp' -> 'D:\\\\fuye\\\\竞品视频分析_2026-10-15\\\\state\\\\v_5bc153fc172fe58c.json'",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\sample_run.py\", line 103, in process_local\n    mark(state_path, state, f\"frame_{idx}\", \"OK\", time.monotonic() - t)\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\sample_run.py\", line 66, in mark\n    atomic_json(state_path, state)\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\pipeline.py\", line 35, in atomic_json\n    os.replace(tmp, path)\nPermissionError: [WinError 5] 拒绝访问。: 'D:\\\\fuye\\\\竞品视频分析_2026-10-15\\\\state\\\\v_5bc153fc172fe58c.json.tmp' -> 'D:\\\\fuye\\\\竞品视频分析_2026-10-15\\\\state\\\\v_5bc153fc172fe58c.json'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\phase2_run.py\", line 126, in worker\n    plan=json.loads((R/'manifest/phase2_plan.json').read_text(encoding='utf-8'));lookup={x['video_id']:x for x in items()}\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\sample_run.py\", line 105, in process_local\n    mark(state_path, state, f\"frame_{idx}\", \"FAILED\", time.monotonic() - t, str(exc))\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\sample_run.py\", line 66, in mark\n    atomic_json(state_path, state)\n  File \"D:\\fuye\\竞品视频分析_2026-10-15\\pipeline.py\", line 35, in atomic_json\n    os.replace(tmp, path)\nPermissionError: [WinError 5] 拒绝访问。: 'D:\\\\fuye\\\\竞品视频分析_2026-10-15\\\\state\\\\v_5bc153fc172fe58c.json.tmp' -> 'D:\\\\fuye\\\\竞品视频分析_2026-10-15\\\\state\\\\v_5bc153fc172fe58c.json'\n",
+  "failed_at": "2026-10-15T09:03:58+08:00"
+}

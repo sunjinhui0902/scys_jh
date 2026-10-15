@@ -1,0 +1,37 @@
+{
+  "at": "2026-10-15T09:24:14+08:00",
+  "status": "PASS",
+  "scope": "Phase 2 local baseline and seven-sheet basic workbook only",
+  "project_status": "PARTIAL",
+  "source_files": 332,
+  "sha_unique_contents": 317,
+  "asr_generated_or_sha_reused_paths": 332,
+  "verified_jpegs": 1328,
+  "ready_packages": 332,
+  "candidate_count": 25,
+  "candidate_accounts": {
+    "开卷读书": 4,
+    "文汇书香苑": 4,
+    "林睿读书&书在橱窗": 4,
+    "破局书屋": 4,
+    "赵健的读书日记": 4,
+    "锦绣千秋录": 5
+  },
+  "candidate_total_hours": 2.904921098888889,
+  "ai_ok": 0,
+  "ai_review": 3,
+  "unfinished_ai_fields": "AI_PENDING",
+  "text_pair_review_count": 21,
+  "word_accuracy_not_claimed": true,
+  "source_integrity_reference": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase2_source_integrity.json",
+  "workbook_reference": "D:\\fuye\\竞品视频分析_2026-10-15\\阅见生活_竞品视频分析_终版.xlsx",
+  "workbook_sha256": "63758ed86bd3c57615da0160a805f8d80664aefac436facecbb951970a38c546",
+  "workbook_hyperlinks_checked": 3184,
+  "asr_tail_review_pending": [
+    "v_2fe34883cba71ae1"
+  ],
+  "render_engine_limitations": [
+    "Artifact render process returned exit code 1 after completing all awaited renders and PNG validation; all eight PNGs independently decoded with Pillow and actually viewed. Cause of shutdown code not established.",
+    "Artifact preview coerces long numeric platform ID strings to scientific notation; actual XLSX values are exact string cells with text format, independently compared to manifest. Preview is not the ID evidence source."
+  ]
+}

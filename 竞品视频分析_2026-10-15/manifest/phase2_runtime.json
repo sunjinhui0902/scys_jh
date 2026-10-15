@@ -1,0 +1,28 @@
+{
+  "captured_at": "2026-10-15T08:11:02.138529+08:00",
+  "python": "3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]",
+  "funasr": "1.4.16",
+  "torch": "2.14.1",
+  "ffmpeg": "ffmpeg version 9.0.2-essentials_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "workers": 3,
+  "cpu_threads_per_worker": 4,
+  "models_local_only": true,
+  "network_api_calls": 0,
+  "models": [
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\models\\models\\iic--speech_seaco_paraformer_large_asr_nat-zh-cn-16k-common-vocab8404-pytorch\\snapshots\\master\\model.pt",
+      "size_bytes": 989763045,
+      "sha256": "3d491689244ec5dfbf9170ef3827c358aa10f1f20e42a7c59e15e688647946d1"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\models\\models\\iic--speech_fsmn_vad_zh-cn-16k-common-pytorch\\snapshots\\master\\model.pt",
+      "size_bytes": 1721366,
+      "sha256": "b3be75be477f0780277f3bae0fe489f48718f585f3a6e45d7dd1fbb1a4255fc5"
+    },
+    {
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\models\\models\\iic--punc_ct-transformer_cn-en-common-vocab471067-large\\snapshots\\master\\model.pt",
+      "size_bytes": 1125507622,
+      "sha256": "7176cae922a872e130e6b88aef9a1153581711baf79c9124c7c95be383cd6f81"
+    }
+  ]
+}

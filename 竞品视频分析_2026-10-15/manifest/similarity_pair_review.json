@@ -1,0 +1,377 @@
+{
+  "at": "2026-10-15T09:16:17+08:00",
+  "reviewer": "Codex",
+  "review_mode": "Direct comparison of actual ASR excerpts, openings/endings and source transcript paths in tool outputs; not a human user review or audio listening audit",
+  "random_seed": 20261015,
+  "random_pairs": 20,
+  "additional_account_coverage_pairs": 1,
+  "final_pairs_reviewed": 21,
+  "final_pair_population": 124,
+  "status": "PASS",
+  "scope": "Text relation labels only; story semantics/ASR wording/native video interpretation remain pending",
+  "corrections": [
+    {
+      "left": "v_b0b6a297a846159f",
+      "right": "v_fe40c7adb68b182d",
+      "old": "FULL_TEXT + STORY_PASSAGE",
+      "new": [
+        "STORY_PASSAGE"
+      ],
+      "ordered_match_ratio": 0.49912,
+      "reason": "Common book/CTA tail over-weighted by global bag of ngrams; sequential match only about half the text"
+    },
+    {
+      "left": "v_3299545e93c3d39e",
+      "right": "v_919ec11f532d97b9",
+      "old": "FULL_TEXT + STORY_PASSAGE",
+      "new": [
+        "STORY_PASSAGE"
+      ],
+      "ordered_match_ratio": 0.5,
+      "reason": "Common book/CTA tail over-weighted by global bag of ngrams; sequential match only about half the text"
+    }
+  ],
+  "records": [
+    {
+      "review_number": 1,
+      "left": "v_c3a892a3cf5094cc",
+      "right": "v_d66d5d68290f0e95",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你",
+        "right_quote": "让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_c3a892a3cf5094cc.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_d66d5d68290f0e95.txt"
+      }
+    },
+    {
+      "review_number": 2,
+      "left": "v_7c9d47c6f0bcb117",
+      "right": "v_eaa1f34d8a000b69",
+      "kinds": [
+        "FULL_TEXT",
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "不同引入，项目签约/夸奖回应场景及荐书段大量重合；顺序匹配约0.699，保留全文相似，不称完全同稿。",
+      "evidence": {
+        "left_quote": "要是有时间一起吃个饭，李总邀请，那肯定有时间。行，那项目的事儿，咱们明天再聊。王姐，刚才项目不是都已经谈好了吗？合同都准备签了，李总怎么突然又说要考虑你自己想想刚才说什么了，我也没说什么啊。李总夸我，我就是谦虚了一下，总",
+        "right_quote": "要是有时间一起吃个饭，李总邀请，那肯定有时间。行，那项目的事儿，咱们明天再聊。王姐，刚才项目不是都已经谈好了吗？合同都准备签了，李总怎么突然又说要考虑，你自己想想刚才说什么了，我也没说什么啊。李总夸我，我就是谦虚了一下，",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_7c9d47c6f0bcb117.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_eaa1f34d8a000b69.txt"
+      }
+    },
+    {
+      "review_number": 3,
+      "left": "v_d66d5d68290f0e95",
+      "right": "v_fdc54f807b359bf0",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "同类饭局开头与相同闲谈高手荐书段；顺序匹配约0.633，已从全文降为段落。",
+      "evidence": {
+        "left_quote": "你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本闲谈高手，这个世界上谁都不会拒绝，那些会说话、会来事儿的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交。推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你",
+        "right_quote": "你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本闲谈高手，这个世界上谁都不会拒绝，那些会说话、会来事儿的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交。推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_d66d5d68290f0e95.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_fdc54f807b359bf0.txt"
+      }
+    },
+    {
+      "review_number": 4,
+      "left": "v_72981e8ccac3d4d8",
+      "right": "v_ff22473748c22b5f",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊",
+        "right_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_72981e8ccac3d4d8.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_ff22473748c22b5f.txt"
+      }
+    },
+    {
+      "review_number": 5,
+      "left": "v_7119c0d0f32c119a",
+      "right": "v_d66d5d68290f0e95",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用放心拿回去看/一句一句教等促单段；开头不同，不能当成同故事。",
+      "evidence": {
+        "left_quote": "场景之下应该怎么说。书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家",
+        "right_quote": "场景之下应该怎么说。书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_7119c0d0f32c119a.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_d66d5d68290f0e95.txt"
+      }
+    },
+    {
+      "review_number": 6,
+      "left": "v_825fb6ca950ff189",
+      "right": "v_fe8e733e3d08e16f",
+      "kinds": [
+        "FULL_TEXT",
+        "OPENING"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "父母、伴侣、孩子与爱自己文案几乎逐句相同，仅少数字词与标点不同，保留全文/开头相似。",
+      "evidence": {
+        "left_quote": "的锋芒。朋友看不到你一路走来的跌跌撞撞，能够完完整整见证你人生。每个阶段的从来都只有你自己。所以你还有什么理由不好好深爱自己呢",
+        "right_quote": "的锋芒，朋友看不到你一路走来的跌跌撞撞，能够完完整整见证你人生每个阶段的，从来都只有你自己。所以你还有什么理由不好好深爱自己呢",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_825fb6ca950ff189.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_fe8e733e3d08e16f.txt"
+      }
+    },
+    {
+      "review_number": 7,
+      "left": "v_74a64cf3aca9595d",
+      "right": "v_919ec11f532d97b9",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里，有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都",
+        "right_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_74a64cf3aca9595d.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_919ec11f532d97b9.txt"
+      }
+    },
+    {
+      "review_number": 8,
+      "left": "v_74a64cf3aca9595d",
+      "right": "v_c3a892a3cf5094cc",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里，有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都",
+        "right_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_74a64cf3aca9595d.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_c3a892a3cf5094cc.txt"
+      }
+    },
+    {
+      "review_number": 9,
+      "left": "v_546665fe45b7f450",
+      "right": "v_b2bbecb4fc6ef0e9",
+      "kinds": [
+        "FULL_TEXT",
+        "OPENING",
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "供应商项目故事与荐书结尾大段相同，左侧多一段前置口号；保留全文/开头相似。",
+      "evidence": {
+        "left_quote": "不会说。我父母从小就让我看这本把话说的恰到好处。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交推荐你读完这本把话说的恰到好处，让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的",
+        "right_quote": "不会说。我父母从小就让我看这本把话说的恰到好处。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交推荐你读完这本把话说的恰到好处，让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_546665fe45b7f450.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_b2bbecb4fc6ef0e9.txt"
+      }
+    },
+    {
+      "review_number": 10,
+      "left": "v_ca658fdf2e49e804",
+      "right": "v_e2d64be04a47c5b4",
+      "kinds": [
+        "FULL_TEXT",
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "后备箱茅台故事同一骨架，开头儿子/姑娘角色变化；全文与尾段相似成立，非文件完全重复。",
+      "evidence": {
+        "left_quote": "手把手的教我们不同的场景之下应该怎么说？书籍的内容和我现在展示的是一模一样的，你就放心拿回去看，就是一句一句的教你，这是我这几年来讲过的最简单的一本书。我觉得这书适合所有人，让你不管，在任何场合都能够轻松拿捏，所以强烈推",
+        "right_quote": "手把手的教我们不同的场景之下应该怎么说？书籍的内容和我现在展示的是一模一样的，你就放心拿回去看，就是一句一句的教你，这是我这几年来讲过的最简单的一本书。我觉得这书适合所有人，让你不管，在任何场合都能够轻松拿捏，所以强烈推",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_ca658fdf2e49e804.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_e2d64be04a47c5b4.txt"
+      }
+    },
+    {
+      "review_number": 11,
+      "left": "v_b0c1a76023be08b1",
+      "right": "v_e131f0a2f28e29a1",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "古村落与秋日风光主题不同，共用大美中国引书段；仅段落复用。",
+      "evidence": {
+        "left_quote": "我翻到一本书，正好解决这个问题，叫大美中国人一生要去的一百零一个地方。他把全中国最值得去的一百零一个地方挑出来，分成五块自然奇观，文明印记、烟火、人间秘境，寻踪，人间天堂。咱们今天聊的这些自然也都在里头，这些",
+        "right_quote": "我翻到一本书正好解决这个问题，叫大美中国人一生要去的一百零一个地方。他把全中国最值得去的一百零一个地方挑出来，分成五块自然奇观，文明印记、烟火人间秘境，寻踪人间天堂。咱们今天聊的这些自然也都在里头，这些",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_b0c1a76023be08b1.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_e131f0a2f28e29a1.txt"
+      }
+    },
+    {
+      "review_number": 12,
+      "left": "v_b0b6a297a846159f",
+      "right": "v_fe40c7adb68b182d",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "不同情境引入，共用闲谈高手荐书段；顺序匹配约0.499，已从全文降为段落。",
+      "evidence": {
+        "left_quote": "这个世界上谁都不会拒绝，那些会说话，会来事儿的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交，推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。",
+        "right_quote": "这个世界上谁都不会拒绝，那些会说话、会来事儿的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交。推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_b0b6a297a846159f.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_fe40c7adb68b182d.txt"
+      }
+    },
+    {
+      "review_number": 13,
+      "left": "v_c3a892a3cf5094cc",
+      "right": "v_ff22473748c22b5f",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏",
+        "right_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_c3a892a3cf5094cc.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_ff22473748c22b5f.txt"
+      }
+    },
+    {
+      "review_number": 14,
+      "left": "v_72981e8ccac3d4d8",
+      "right": "v_74a64cf3aca9595d",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊",
+        "right_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里，有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_72981e8ccac3d4d8.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_74a64cf3aca9595d.txt"
+      }
+    },
+    {
+      "review_number": 15,
+      "left": "v_38c8fc48799ea7a4",
+      "right": "v_7119c0d0f32c119a",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用社交场合价值及促单尾段；开头不同，不推断同故事。",
+      "evidence": {
+        "left_quote": "场景之下，应该怎么说？书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合。但凡学会三分，你就能把人际关系拿捏的死死的，这本书真的可以帮助到大家",
+        "right_quote": "场景之下应该怎么说。书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_38c8fc48799ea7a4.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_7119c0d0f32c119a.txt"
+      }
+    },
+    {
+      "review_number": 16,
+      "left": "v_72981e8ccac3d4d8",
+      "right": "v_b0b6a297a846159f",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你",
+        "right_quote": "让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_72981e8ccac3d4d8.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_b0b6a297a846159f.txt"
+      }
+    },
+    {
+      "review_number": 17,
+      "left": "v_919ec11f532d97b9",
+      "right": "v_fe40c7adb68b182d",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交。推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面",
+        "right_quote": "的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交。推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_919ec11f532d97b9.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_fe40c7adb68b182d.txt"
+      }
+    },
+    {
+      "review_number": 18,
+      "left": "v_38c8fc48799ea7a4",
+      "right": "v_fe40c7adb68b182d",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本闲谈高手，这个世界上谁都不会拒绝，那些会说话、会来事儿的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交，推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你",
+        "right_quote": "你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本闲谈高手，这个世界上谁都不会拒绝，那些会说话、会来事儿的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交。推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。你",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_38c8fc48799ea7a4.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_fe40c7adb68b182d.txt"
+      }
+    },
+    {
+      "review_number": 19,
+      "left": "v_d66d5d68290f0e95",
+      "right": "v_d8a71a2f9cff7170",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏",
+        "right_quote": "看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里有一句话，我特别欣赏，他，写的是面对别人夸你优秀时，你可以回，那是不优秀点，怎么能和你做朋友呢？当有人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_d66d5d68290f0e95.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_d8a71a2f9cff7170.txt"
+      }
+    },
+    {
+      "review_number": 20,
+      "left": "v_0a1a4516178db3f0",
+      "right": "v_c0f6d3cc3afed407",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "共用荐书价值/书中例句段，开头场景不同；保留公共段落复用，不据此判定同一故事。",
+      "evidence": {
+        "left_quote": "让你轻松摆平各种社交场合。你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里边，有一句话，我特别欣赏。他说，当对象给你发红包时，高情商回答，你是我致富道路上最大的功臣。当同事向你借钱，不想借时",
+        "right_quote": "让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。在这本书里边，有一句话，我特别欣赏。他说，当对象给你发红包时，高情商回答，你是我致富道路上最大的功臣。当同事向你借钱，不想借时",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_0a1a4516178db3f0.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_c0f6d3cc3afed407.txt"
+      }
+    },
+    {
+      "review_number": 21,
+      "left": "v_5ddb5a8ad7ccdb86",
+      "right": "v_d19a3c26e0716883",
+      "kinds": [
+        "STORY_PASSAGE"
+      ],
+      "decision": "KEEP_RECORDED_TEXT_RELATION",
+      "note": "自驾路线与公路盘点不同，共用365日日历书介绍；仅段落复用。",
+      "evidence": {
+        "left_quote": "我前阵子翻到一本叫三百六十五日走遍中国的日历书，左边一页是每个地方的实景大图，加一段五十来个字的冷知识，右边是日期记事夜，什么季节去哪座小城，走哪条路，看什么风景最合适，都给你安排好了。不是那种千篇一律的景点介绍，是帮你",
+        "right_quote": "我前阵子翻到一本叫三百六十五日走遍中国的日历书，左边一页是每个地方的实景大图，加一段五十来个字的冷知识，右边是日期记事夜，什么季节去哪座小城，走哪条路，看什么风景最合适，都给你安排好了。不是那种千篇一律的景点介绍，是帮你",
+        "left_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_5ddb5a8ad7ccdb86.txt",
+        "right_path": "D:\\fuye\\竞品视频分析_2026-10-15\\transcripts\\v_d19a3c26e0716883.txt"
+      }
+    }
+  ]
+}

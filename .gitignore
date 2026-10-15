@@ -4,6 +4,10 @@
 !.env.example
 *.pem
 *.key
+*.crt
+*.cer
+*.p12
+*.pfx
 *auth*qr*.png
 **/hardware_fingerprint.json
 **/config.yaml
@@ -35,6 +39,7 @@
 *.mp3
 *.wav
 *.flac
+*.flac
 *.jpg
 *.jpeg
 *.png
@@ -49,6 +54,7 @@
 *.bin
 *.db
 /00_对标与采集工具/DouK-Downloader/
+/00_对标与采集工具/视频号下载成果/
 /00_对标与采集工具/wx_channel/*
 !/00_对标与采集工具/wx_channel/README.md
 !/00_对标与采集工具/wx_channel/web/

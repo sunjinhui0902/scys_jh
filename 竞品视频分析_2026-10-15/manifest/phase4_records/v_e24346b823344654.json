@@ -1,0 +1,146 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_e24346b823344654",
+  "account": "开卷读书",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\开卷读书\\好好珍惜，珍惜身体，珍惜眼前人，珍惜生活的每一天。送别刘欢老师，歌声犹在，斯人远去。#情感#刘欢#智慧人生#人生感悟#珍惜.mp4",
+  "input_sha256": "00daa386b3a870797854cc228d23dd2a4842cec0c293b836f69e7b9d07b9e756",
+  "policy_sha256": "24219bde9e81da8033c3c4b6a20d0b4a2f808c41ed71439de85e0e27061f02b0",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_REVIEW",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "所导入文字、模型估计时间与实际4帧；不代表全片音画、史实、商品真伪或营销效果验证",
+  "normalized": {
+    "theme": "素材借未经本项目核实的逝世叙事引出生命感悟（分析对象表述，非事实确认）",
+    "category": "情感/人生感悟/健康认知",
+    "mentioned_books": [],
+    "recommended_book": "无明确推荐",
+    "hook_text": "刘欢老师走了享年六十三岁",
+    "hook_type": "社会名人离世震撼/痛点扎心反思",
+    "narrative_structure": "健康离世切入 ➔ 细数近年多位名家离去 ➔ 论述别等来日方长、健康第一 ➔ 祝愿屏幕前观众平安",
+    "target_audience": "推断：中老年退休群体、关注健康与人生意义的中年受众",
+    "product_value": {
+      "explicit_claims": "无商业产品销售",
+      "ai_inferred_value": "提供生命沉淀的情绪共鸣与善待身体的心理慰藉"
+    },
+    "reusable_template_insights": {
+      "template_name": "中老年生命感悟与健康警醒模板",
+      "core_logic": "沉重事实/扎心真相开头 ➔ 拆解名利虚妄与身体第一 ➔ 引起强烈共情 ➔ 祝福收尾",
+      "performance_disclaimer": "无平台商业指标支持，仅作情感向文案结构参考"
+    },
+    "bridge": {
+      "present": false,
+      "start_s": null,
+      "end_s": null,
+      "text": "无明确引书推荐",
+      "type": "无"
+    },
+    "cta": {
+      "present": false,
+      "start_s": null,
+      "end_s": null,
+      "text": "无明确购物促单",
+      "type": "无"
+    },
+    "closing_behavior_A": "最后祝愿屏幕前的每一个人幸福、健康、平安。",
+    "visual_and_audio": {
+      "visual_type": "人物口播式画面，部分肖像/文字覆盖；生成方式未独立核实",
+      "subtitle_style": "白字黑描边为主，部分黄字",
+      "book_appearance": "四帧未见商品书封（不推断全片无）",
+      "audio_style": "无法确认（文字+四帧不能评估完整配音/音乐）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_e24346b823344654\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_e24346b823344654\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 81.722,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_e24346b823344654\\03_81.722s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 161.444,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_e24346b823344654\\04_161.444s.jpg"
+        }
+      ],
+      "review_method": "Codex实际查看全部4帧；仅证实所见画面，不推断全片/音频"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_e24346b823344654",
+    "account": "开卷读书",
+    "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\开卷读书\\好好珍惜，珍惜身体，珍惜眼前人，珍惜生活的每一天。送别刘欢老师，歌声犹在，斯人远去。#情感#刘欢#智慧人生#人生感悟#珍惜.mp4",
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T11:45:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "借名人健康警示探讨世事无常与珍惜眼前人",
+      "category": "情感/人生感悟/健康认知",
+      "mentioned_books": [],
+      "recommended_book": null,
+      "target_audience": "中老年退休群体、关注健康与人生意义的中年受众",
+      "hook": {
+        "text_0_3s": "刘欢老师走了，享年六十三岁。",
+        "full_hook_text": "刘欢老师走了，享年六十三岁。听到这个消息，我简直不敢相信，怎么一个好好的人说走就走了呢？毕竟才退休三年啊，",
+        "hook_type": "社会名人离世震撼/痛点扎心反思",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "文字卡片结合黑白纪实人物照/自然风光画面"
+      },
+      "narrative_structure": "健康离世切入 ➔ 细数近年多位名家离去 ➔ 论述别等来日方长、健康第一 ➔ 祝愿屏幕前观众平安",
+      "bridge": {
+        "has_bridge": false,
+        "text": "无（未出现向具体实体书籍或商品购买的过渡话术）",
+        "start_time_s": null,
+        "end_time_s": null,
+        "transition_type": "无"
+      },
+      "cta": {
+        "has_cta": false,
+        "text": "最后祝愿屏幕前的每一个人幸福、健康、平安。",
+        "start_time_s": null,
+        "end_time_s": null,
+        "cta_type": "情感祝愿与关注点赞互动"
+      },
+      "product_value": {
+        "explicit_claims": "无商业产品销售",
+        "ai_inferred_value": "提供生命沉淀的情绪共鸣与善待身体的心理慰藉"
+      },
+      "visual_and_audio": {
+        "visual_type": "黑白/彩色历史照片平移缩放 + 大字字幕排版",
+        "book_appearance": "无图书露出",
+        "subtitle_style": "白色加粗描边居中字幕",
+        "audio_style": "温缓深沉男声/女声配音，搭配舒缓抒情背景音乐"
+      },
+      "reusable_template_insights": {
+        "template_name": "中老年生命感悟与健康警醒模板",
+        "core_logic": "沉重事实/扎心真相开头 ➔ 拆解名利虚妄与身体第一 ➔ 引起强烈共情 ➔ 祝福收尾",
+        "performance_disclaimer": "无平台商业指标支持，仅作情感向文案结构参考"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": false,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_e24346b823344654.aligned.json"
+    },
+    "limitations": "纯情感类内容，无电商转化链路。"
+  },
+  "corrections": [
+    "音频与完整镜头判断收回，静态画面按实际4帧核对"
+  ],
+  "unresolved_issues": [
+    "素材含本项目未核实的名人逝世叙事；不能作为真实新闻或原创事实依据"
+  ],
+  "evidence_checks": {},
+  "imported_at": "2026-10-15T13:30:33+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\v_e24346b823344654.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase4_input_snapshot\\v_e24346b823344654.json"
+}

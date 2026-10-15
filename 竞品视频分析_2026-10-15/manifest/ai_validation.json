@@ -1,0 +1,197 @@
+{
+  "at": "2026-10-15T09:16:07+08:00",
+  "schema_reference": "D:\\fuye\\竞品视频分析_2026-10-15\\handoff\\analysis_schema.json",
+  "records": [
+    {
+      "video_id": "v_183328bf0ee8b458",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\v_183328bf0ee8b458.json",
+      "sha256": "7386eeab84060ff4f98694126db0d266f6907deaef6b8772fa54b481d10b16f4",
+      "schema_valid": true,
+      "schema_errors": [],
+      "content_issues": [
+        "HOOK_0_3S_CONTAINS_AUDIO_AFTER_3S",
+        "NATIVE_VIDEO_CAPABILITY_IS_A_SELF_REPORT_NOT_INDEPENDENTLY_VERIFIED"
+      ],
+      "import_status": "AI_REVIEW",
+      "reported_status": "AI_OK",
+      "fields": {
+        "theme": "职场人情世故与饭局高情商应对话术",
+        "category": "职场/情商/人际交往",
+        "mentioned_books": [
+          "闲谈高手"
+        ],
+        "recommended_book": "闲谈高手",
+        "target_audience": "职场新人、害怕社交/不会说话/不善言辞的职场人士",
+        "hook": {
+          "text_0_3s": "不喝就是看不起我，领导，我不是看不起您，我是看不起病，",
+          "hook_type": "痛点冲突/饭局劝酒反常识神回复",
+          "time_range": "00:00.09 - 00:06.89",
+          "visual_hook": "AI写实微短剧职场饭局，年轻女白领面对老年领导劝酒，从容机智应对"
+        },
+        "narrative_structure": "连续十几个短平快的职场刁难与高情商接话场景（劝酒、挑刺、试探、礼物、迟到等）➔ 矛盾化解引发同桌鼓掌 ➔ 同事请教如何做到 ➔ 引出实操工具书",
+        "bridge": {
+          "has_bridge": true,
+          "text": "小图啊，你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本《闲谈高手》，这个世界上谁都不会拒绝那些会说话会来事的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交，推荐你读完这本《闲谈高手》，让你轻松摆平各种社交场合。",
+          "start_time_s": 169.45,
+          "end_time_s": 187.75,
+          "transition_type": "剧情式提问转折：通过配角对主角话术能力的由衷佩服，自然抛出答案引出书籍"
+        },
+        "cta": {
+          "has_cta": true,
+          "text": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+          "start_time_s": 225.45,
+          "end_time_s": 240.25,
+          "cta_type": "信任背书与拿回去看促单：强调真实内容一模一样、降低门槛（学会三分即可）、消除决策顾虑"
+        },
+        "product_value": {
+          "explicit_claims": "场景化手把手教学（直接给出高情商回答模板）、每天看两页、一解心开",
+          "ai_inferred_value": "低认知负荷的字典式工具书，提供即学即用的情绪价值与职场安全感"
+        },
+        "visual_and_audio": {
+          "visual_type": "AI写实微短剧情景演绎 + 真人手翻书实拍",
+          "book_appearance": "169秒起女主角手持实体书封《闲谈高手》（红黑白配色），188秒~240秒真人手持圆珠笔划线逐页翻看内页排版",
+          "subtitle_style": "黄字纯黑描边居中下字幕",
+          "audio_style": "多角色拟真配音，环境轻快音效，每段神回复后伴有欢快笑声与热烈掌声"
+        },
+        "reusable_template_insights": {
+          "template_name": "情景反弹逆袭型图书带货模板",
+          "core_logic": "极限痛点场景密集演练（3~5个神回复拉满爽感） ➔ 角色发问‘你怎么这么会’ ➔ 掏出红宝书展示内页实拍 ➔ 承诺‘学会一招就能用’促单"
+        }
+      },
+      "evidence": {
+        "book_cover_verified": true,
+        "book_title_on_cover": "闲谈高手",
+        "publisher_on_cover": "中国友谊出版公司",
+        "exact_timestamps_source": "segments/v_183328bf0ee8b458.aligned.json"
+      }
+    },
+    {
+      "video_id": "v_30cc827b5d5dd936",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\v_30cc827b5d5dd936.json",
+      "sha256": "610e4e0f3c6d12a149c3ae753ce758ac7692ce56b655f6a9f7216f9775c6c7aa",
+      "schema_valid": true,
+      "schema_errors": [],
+      "content_issues": [
+        "HOOK_0_3S_CONTAINS_AUDIO_AFTER_3S",
+        "NATIVE_VIDEO_CAPABILITY_IS_A_SELF_REPORT_NOT_INDEPENDENTLY_VERIFIED",
+        "UNSUPPORTED_PERFORMANCE_OR_ABSOLUTE_CLAIM"
+      ],
+      "import_status": "AI_REVIEW",
+      "reported_status": "AI_OK",
+      "fields": {
+        "theme": "百年旧书店与97岁古籍版本学家坚守的文化温情纪实",
+        "category": "人文纪实/文化传承/城市记忆",
+        "mentioned_books": [
+          "四库全书版本目录",
+          "珍贵宋代古籍"
+        ],
+        "recommended_book": null,
+        "target_audience": "深度阅读爱好者、文史学者、寻觅城市文化温情的中青年/中老年群体",
+        "hook": {
+          "text_0_3s": "你能想象吗？一位九十七岁的老人，依然在坚守着一家一百多年历史的旧书店。",
+          "hook_type": "悬念探访/情感共鸣型Hook（年龄与百年老店反差）",
+          "time_range": "00:00.00 - 00:05.50",
+          "visual_hook": "苏州老街绿荫下不起眼的百年旧书店门脸，老人在门口安坐"
+        },
+        "narrative_structure": "抛出反差开头（97岁老人守百年书店） ➔ 店铺环境白描（无空调、老风扇、油墨香） ➔ 老人身份传奇（光绪年间继承、古籍泰斗、背诵四库全书、学者如章太炎叶圣陶曾光顾） ➔ 文人墨客交往与金句（书店是城市的眉毛） ➔ 现场温情互动（老人题字‘九七老人江澄波’、对话活到老学到老） ➔ 人文呼吁",
+        "bridge": {
+          "has_bridge": false,
+          "text": "无（介绍书店只卖旧书及抢救古籍贡献，未指向具体售卖商品）",
+          "start_time_s": null,
+          "end_time_s": null,
+          "transition_type": "无"
+        },
+        "cta": {
+          "has_cta": false,
+          "text": "如果你下次来苏州，请记得看一看文学山房旧书店，看一看江澄波老爷爷。",
+          "start_time_s": 167.0,
+          "end_time_s": 179.7,
+          "cta_type": "人文打卡与城市记忆呼吁CTA（非电商转化）"
+        },
+        "product_value": {
+          "explicit_claims": "无",
+          "ai_inferred_value": "极其厚重的精神滋养、对传统文脉与坚守精神的深深敬意"
+        },
+        "visual_and_audio": {
+          "visual_type": "100% 高清现场纪实拍摄（门头空镜、古籍书架、宋版书内页翻阅特写、毛笔题字细节、双人对话访谈）",
+          "book_appearance": "大量珍稀古籍线装书实景堆叠露出",
+          "subtitle_style": "白字纯黑描边居中下字幕",
+          "audio_style": "博主赵健温暖温和的青年男声原声录制，背景配舒缓安静的钢琴弦乐，收录了现场微弱的电风扇声与老人吴语口音对谈"
+        },
+        "reusable_template_insights": {
+          "template_name": "寻访隐世匠人与文化空间纪实模板（高格调/强粘性）",
+          "core_logic": "极致反差的隐世人物 Hook ➔ 浸润式实景与细节特写 ➔ 传奇历史背书与大师渊源 ➔ 哲思金句升华（如城市眉毛论） ➔ 温暖道别"
+        }
+      },
+      "evidence": {
+        "is_commercial_video": false,
+        "book_title_on_cover": null,
+        "exact_timestamps_source": "segments/v_30cc827b5d5dd936.aligned.json"
+      }
+    },
+    {
+      "video_id": "v_7e9d12d17d945cb4",
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\v_7e9d12d17d945cb4.json",
+      "sha256": "8ef392dcb519672789ad21f099935b6c622302a6dd23e674194fa7f033253423",
+      "schema_valid": true,
+      "schema_errors": [],
+      "content_issues": [
+        "HOOK_0_3S_CONTAINS_AUDIO_AFTER_3S",
+        "NATIVE_VIDEO_CAPABILITY_IS_A_SELF_REPORT_NOT_INDEPENDENTLY_VERIFIED",
+        "UNSUPPORTED_PERFORMANCE_OR_ABSOLUTE_CLAIM"
+      ],
+      "import_status": "AI_REVIEW",
+      "reported_status": "AI_OK",
+      "fields": {
+        "theme": "历史权谋故事与处世防人智慧（刘思礼与李善长案例）",
+        "category": "历史/国学/处世哲学",
+        "mentioned_books": [
+          "资治通鉴"
+        ],
+        "recommended_book": null,
+        "target_audience": "中老年人、为人厚道单纯容易吃亏的人士、为人父母者",
+        "hook": {
+          "text_0_3s": "您有没有发现，这世上最冤的死法，不是坏人害你，是你自己太实在。",
+          "hook_type": "颠覆认知/共鸣警醒型Hook",
+          "time_range": "00:00.00 - 00:06.00",
+          "visual_hook": "水墨古风文人坐于书房案前沉思看书"
+        },
+        "narrative_structure": "提出核心反差（实在人往往死得冤） ➔ 案例一：唐代刘思礼轻信武懿宗许诺当宰相却被灭族 ➔ 案例二：明代李善长自恃老臣给亲戚求情被朱元璋满门抄斩 ➔ 总结提炼三条成年人处世法则 ➔ 劝诫升华（善良但不能不防人）",
+        "bridge": {
+          "has_bridge": false,
+          "text": "无（第8秒提及《资治通鉴》仅作为哲理背书，后续未引向任何实体书籍或购买链接）",
+          "start_time_s": null,
+          "end_time_s": null,
+          "transition_type": "无"
+        },
+        "cta": {
+          "has_cta": false,
+          "text": "这段话建议您点赞、收藏慢慢品。要是觉得在理，转发给您那个太实在的老朋友，或者转给孩子看看，咱可以不害人，但不能不防人。关注我，每天给您讲一段历史里的大智慧。咱们下回见。",
+          "start_time_s": 402.0,
+          "end_time_s": 420.93,
+          "cta_type": "纯内容传播CTA：点赞、收藏、转发熟人、关注博主"
+        },
+        "product_value": {
+          "explicit_claims": "无实体商品销售",
+          "ai_inferred_value": "提供高密度的情绪价值与认知护盾（看透人心险恶）"
+        },
+        "visual_and_audio": {
+          "visual_type": "连续AI国风水墨插画分镜（刘思礼密谈、朝堂惊变、李善长接旨、文人书房等）",
+          "book_appearance": "仅插画中案头放置线装书道具，无具体实体商品露出",
+          "subtitle_style": "黄字纯黑加重描边居中字幕",
+          "audio_style": "沉稳厚重成熟男声配音，慢节奏叙事，伴随悲怆古筝/二胡背景音乐"
+        },
+        "reusable_template_insights": {
+          "template_name": "历史权谋警世故事模板（高完播/强转发）",
+          "core_logic": "极具警醒感的扎心第一句 ➔ 两个正反对比极致历史案例 ➔ 提炼三条朗朗上口的生存金句 ➔ 引导转发给挚友或孩子"
+        }
+      },
+      "evidence": {
+        "is_commercial_video": false,
+        "book_title_on_cover": null,
+        "exact_timestamps_source": "segments/v_7e9d12d17d945cb4.aligned.json"
+      }
+    }
+  ],
+  "policy": "Do not alter A files. AI_REVIEW data kept out of finalized AI fields; pending fields are AI_PENDING."
+}

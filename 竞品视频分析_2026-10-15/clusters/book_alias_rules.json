@@ -1,0 +1,20 @@
+{
+  "status": "Candidate normalization only; original transcript unchanged",
+  "rules": {
+    "国之脊梁": [
+      "国之激烈",
+      "国之几两",
+      "国值脊梁"
+    ],
+    "人性的弱点": [
+      "人性弱点"
+    ],
+    "黄帝内经": [
+      "黄帝內经"
+    ],
+    "365日走遍中国": [
+      "三百六十五日走遍中国"
+    ]
+  },
+  "policy": "ASR alias alone is insufficient; require the canonical name in source title for supported normalization"
+}

@@ -1,0 +1,11 @@
+{
+  "video_id": "v_2fe34883cba71ae1",
+  "tail_start_s": 493,
+  "duration_s": 30.377,
+  "rms_dbfs": -39.5607545465,
+  "peak_dbfs": -21.86376968,
+  "zero_sample_fraction": 0.43450636995,
+  "method": "Read existing 16kHz PCM WAV samples; no upload/API",
+  "status": "REVIEW_PENDING",
+  "conclusion": "Nonzero low-volume tail; RMS alone cannot distinguish music from quiet speech. Last ASR text ends at492.615s; retain review flag, do not invent text or call pure silence."
+}

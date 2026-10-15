@@ -1,0 +1,272 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Whole-corpus text light analysis; independent from video deep analysis",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "record_kind",
+    "video_id",
+    "unit_ids",
+    "input_mode",
+    "input_sha256s",
+    "analyzed_at",
+    "status",
+    "all_assigned_text_read",
+    "fields",
+    "evidence",
+    "limitations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "text-light-output-1.0"
+    },
+    "record_kind": {
+      "enum": [
+        "unit",
+        "video"
+      ]
+    },
+    "video_id": {
+      "type": "string",
+      "pattern": "^v_[0-9a-f]{16}$"
+    },
+    "unit_ids": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "input_mode": {
+      "const": "text_only"
+    },
+    "input_sha256s": {
+      "type": "object",
+      "minProperties": 1
+    },
+    "analyzed_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "status": {
+      "enum": [
+        "AI_OK",
+        "AI_REVIEW",
+        "AI_PENDING"
+      ]
+    },
+    "all_assigned_text_read": {
+      "type": "boolean"
+    },
+    "fields": {
+      "type": "object",
+      "required": [
+        "theme",
+        "topic_tags",
+        "audience_inferred",
+        "books",
+        "opening",
+        "narrative_pattern",
+        "bridge",
+        "cta",
+        "value_claims",
+        "original_angles",
+        "risks",
+        "travel_relevance"
+      ],
+      "properties": {
+        "theme": {
+          "type": "string"
+        },
+        "topic_tags": {
+          "type": "array",
+          "maxItems": 5,
+          "items": {
+            "type": "string"
+          }
+        },
+        "audience_inferred": {
+          "type": "string"
+        },
+        "books": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "name_candidate",
+              "relation",
+              "evidence",
+              "source_scope"
+            ],
+            "properties": {
+              "name_candidate": {
+                "type": "string"
+              },
+              "relation": {
+                "enum": [
+                  "仅引用",
+                  "明确阅读推荐",
+                  "明确购物引导",
+                  "普通词误判",
+                  "未知"
+                ]
+              },
+              "source_scope": {
+                "enum": [
+                  "ASR",
+                  "仅标题",
+                  "ASR及标题"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "unit_id",
+                    "segment_ids",
+                    "quote"
+                  ],
+                  "properties": {
+                    "unit_id": {
+                      "type": "string"
+                    },
+                    "segment_ids": {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "type": "string"
+                      }
+                    },
+                    "quote": {
+                      "type": "string",
+                      "maxLength": 100
+                    },
+                    "start_ms": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    },
+                    "end_ms": {
+                      "type": [
+                        "number",
+                        "null"
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "opening": {
+          "type": "object",
+          "required": [
+            "quote",
+            "type",
+            "scope"
+          ],
+          "properties": {
+            "quote": {
+              "type": "string",
+              "maxLength": 100
+            },
+            "type": {
+              "type": "string"
+            },
+            "scope": {
+              "const": "文本开头摘录，不等于真实0～3秒音频钩子"
+            }
+          }
+        },
+        "narrative_pattern": {
+          "type": "string"
+        },
+        "bridge": {
+          "type": "object"
+        },
+        "cta": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "value_claims": {
+          "type": "array",
+          "items": {
+            "type": "object"
+          }
+        },
+        "original_angles": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string"
+          }
+        },
+        "risks": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "travel_relevance": {
+          "enum": [
+            "高",
+            "中",
+            "低",
+            "无法判断"
+          ]
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "unit_id",
+          "segment_ids",
+          "quote"
+        ],
+        "properties": {
+          "unit_id": {
+            "type": "string"
+          },
+          "segment_ids": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "quote": {
+            "type": "string",
+            "maxLength": 100
+          },
+          "start_ms": {
+            "type": [
+              "number",
+              "null"
+            ]
+          },
+          "end_ms": {
+            "type": [
+              "number",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "description": "Schema only checks structure. Codex must verify coverage, hashes, quotes/segment ownership, book relations, and unresolved factual claims before library import."
+}
