@@ -1,0 +1,245 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_2ad33b07cfad615d",
+  "account": "破局书屋",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\说话是一门慢慢积累的学问，见的人越多越能体会其中的分寸。#职场#人际交往.mp4",
+  "input_sha256": "fcc13e88a8d8e73c59132b6944519ce8f59b5cab19fd74e5f01054efaca0b345",
+  "policy_sha256": "66cf0b277c842c23ed3fc9424e4519f3fc73b3462718b230d2e068ff3460164a",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_OK",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "Codex核对全文ASR、模型时间及所见4帧；A读取截图的过程未证明；未验证全片声音、史实、SKU或效果",
+  "normalized": {
+    "theme": "职场应酬与领导饭局接话应对",
+    "category": "职场/人际交往",
+    "mentioned_books": [
+      "把话说的恰到好处"
+    ],
+    "recommended_book": "未知（口播候选：把话说的恰到好处；SKU/版本未核）",
+    "hook_text": "今天晚上李总组了个局陈总也会过去",
+    "hook_type": "职场饭局场景指派",
+    "narrative_structure": "饭局指派开局 ➔ 多个场景见招拆招 ➔ 借书对话结尾",
+    "target_audience": "推断：职场白领",
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    },
+    "bridge": {
+      "present": true,
+      "start_s": 192.19,
+      "end_s": 212.535,
+      "text": "是你到底是怎么练的？为什么别人突然给你一句话，你马上就知道该怎么接。其实我以前跟你一样不爱说话，也不知道怎么组织语言，一到这种场合就不知道应该说什么。后来我就经常看这本把话说的恰到好处。它里面就是一个场景，一个场景的告诉你，遇到不同的人不同的话应该怎么接。",
+      "type": "情境/故事转阅读推荐",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "cta": {
+      "present": true,
+      "start_s": 288.31,
+      "end_s": 291.015,
+      "text": "这本先借我看看，拿去吧，回去慢慢看。",
+      "type": "借阅剧情",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "closing_behavior_A": "这本先借我看看，拿去吧，回去慢慢看。",
+    "visual_and_audio": {
+      "visual_type": "人物情景演绎（所见帧有AI生成标识）与图书画面",
+      "subtitle_style": "黄色黑描边字幕，底部有生成内容提示",
+      "book_appearance": "末帧有书本/内页，正式商品信息未核实",
+      "audio_style": "无法确认（本轮依据文字/静帧，未听核音色、配乐或笑声掌声）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_2ad33b07cfad615d\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_2ad33b07cfad615d\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 145.576,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_2ad33b07cfad615d\\03_145.576s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 289.153,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_2ad33b07cfad615d\\04_289.153s.jpg"
+        }
+      ],
+      "review_method": "Codex逐条查看既有4帧；新10条40帧已查看；仅说明所见画面"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_2ad33b07cfad615d",
+    "account": "破局书屋",
+    "source_video_path": {
+      "video_id": "v_2ad33b07cfad615d",
+      "account": "破局书屋",
+      "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\说话是一门慢慢积累的学问，见的人越多越能体会其中的分寸。#职场#人际交往.mp4"
+    },
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T14:30:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "职场应酬与领导饭局接话应对",
+      "category": "职场/人际交往",
+      "mentioned_books": [
+        "闲谈高手类话术书"
+      ],
+      "recommended_book": "闲谈高手类话术书",
+      "target_audience": "职场白领",
+      "hook": {
+        "text_0_3s": "今天晚上李总组了个局陈，总也会过去。",
+        "full_hook_text": "今天晚上李总组了个局陈，总也会过去。琳琳小张，你俩跟我一起去。好的，王姐没问题。王姐，对了，今晚来的都是重要客户，",
+        "hook_type": "职场饭局场景指派",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "文本卡片或情景短剧截图"
+      },
+      "narrative_structure": "饭局指派开局 ➔ 多个场景见招拆招 ➔ 借书对话结尾",
+      "bridge": {
+        "has_bridge": true,
+        "text": "慢慢积累的多了，工作和生活里再碰到类似的场景，你就知道怎么接了。",
+        "start_time_s": 200.0,
+        "end_time_s": 215.0,
+        "transition_type": "软性剧情借书"
+      },
+      "cta": {
+        "has_cta": true,
+        "text": "这本先借我看看，拿去吧，回去慢慢看。",
+        "start_time_s": 216.0,
+        "end_time_s": 222.0,
+        "cta_type": "借书软推"
+      },
+      "product_value": {
+        "explicit_claims": "",
+        "ai_inferred_value": ""
+      },
+      "visual_and_audio": {
+        "visual_type": "根据提供截图与转录分析",
+        "book_appearance": "未在固定截图中确认书封细节，标为待核",
+        "subtitle_style": "描边大字居中下字幕",
+        "audio_style": "依据转录确认口播内容"
+      },
+      "reusable_template_insights": {
+        "template_name": "",
+        "core_logic": "",
+        "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": true,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_2ad33b07cfad615d.aligned.json"
+    },
+    "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+    "incremental_findings": {
+      "comparison_video_ids": [
+        "v_7c9d47c6f0bcb117"
+      ],
+      "new_hook": false,
+      "new_narrative": false,
+      "new_bridge": false,
+      "new_cta": false,
+      "new_visual": false,
+      "new_book_scenario": false,
+      "adds_new_usable_structure": false,
+      "reason": "属于同账号同类同质化稿件，与v_7c9d47c6f0bcb117完全一致，无新增结构。",
+      "evidence": "结尾同样为借书台词。"
+    }
+  },
+  "corrections": [
+    "音频与完整镜头判断收回，静态画面按实际4帧核对",
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留",
+    "A输入按可追溯文字限定；音色/原声/笑声掌声结论撤回，Codex静帧核查另列",
+    "Bridge/结尾按全文与实际分段重新定位，原A时间与引文另存",
+    "按引用/标题/阅读/借阅/商品入口分口径更正书名及CTA"
+  ],
+  "unresolved_issues": [],
+  "imported_at": "2026-10-15T17:31:18+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_2ad33b07cfad615d.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\supplement_01_input_snapshot\\videos\\v_2ad33b07cfad615d.json",
+  "raw_schema_errors": [],
+  "raw_identity_issues": [
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留"
+  ],
+  "A_input_mode_verified": "text_only",
+  "delivery_protocol": "A操作记录为直接写最终文件，原子交付未证明；本次完成清单哈希一致、两次稳定读取后由Codex原子冻结并按Schema校验再导入",
+  "analyzed_at_note": "A自报时间，不用于推算真实耗时；该批实际开始结束时间未提供",
+  "explicit_shopping_entry": false,
+  "soft_purchase_suggestion": false,
+  "incremental_findings_A": {
+    "comparison_video_ids": [
+      "v_7c9d47c6f0bcb117"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "属于同账号同类同质化稿件，与v_7c9d47c6f0bcb117完全一致，无新增结构。",
+    "evidence": "结尾同样为借书台词。"
+  },
+  "incremental_acceptance": "暂未见新的独立带货结构；保留引用/连载对照价值",
+  "A_original_window_checks": {
+    "bridge": {
+      "A_start_s": 200.0,
+      "A_end_s": 215.0,
+      "A_quote": "慢慢积累的多了，工作和生活里再碰到类似的场景，你就知道怎么接了。",
+      "A_quote_coverage_in_imported_window": 0.2069,
+      "actual_imported": {
+        "start_s": 197.72,
+        "end_s": 215.13,
+        "text": "其实我以前跟你一样不爱说话，也不知道怎么组织语言，一到这种场合就不知道应该说什么。后来我就经常看这本把话说的恰到好处。它里面就是一个场景，一个场景的告诉你，遇到不同的人不同的话应该怎么接。比如别人夸你优秀，你可以回，"
+      }
+    },
+    "cta": {
+      "A_start_s": 216.0,
+      "A_end_s": 222.0,
+      "A_quote": "这本先借我看看，拿去吧，回去慢慢看。",
+      "A_quote_coverage_in_imported_window": 0.0667,
+      "actual_imported": {
+        "start_s": 215.45,
+        "end_s": 224.605,
+        "text": "那是不优秀点儿，怎么能和你做朋友呢？当别人说你真聪明，你就回近朱者赤，和你在一起啊，熏都熏出来了当领导跟你说辛苦了，"
+      }
+    }
+  },
+  "evidence_checks": {
+    "bridge": {
+      "final_imported": {
+        "present": true,
+        "start_s": 192.19,
+        "end_s": 212.535,
+        "text": "是你到底是怎么练的？为什么别人突然给你一句话，你马上就知道该怎么接。其实我以前跟你一样不爱说话，也不知道怎么组织语言，一到这种场合就不知道应该说什么。后来我就经常看这本把话说的恰到好处。它里面就是一个场景，一个场景的告诉你，遇到不同的人不同的话应该怎么接。",
+        "type": "情境/故事转阅读推荐",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_2ad33b07cfad615d.aligned.json"
+    },
+    "cta": {
+      "final_imported": {
+        "present": true,
+        "start_s": 288.31,
+        "end_s": 291.015,
+        "text": "这本先借我看看，拿去吧，回去慢慢看。",
+        "type": "借阅剧情",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_2ad33b07cfad615d.aligned.json"
+    }
+  }
+}

@@ -1,8 +1,5 @@
 {
-  "at": "2026-10-15T13:40:39+08:00",
-  "input_digest": "1fa7062e64551b8f05dd33aea985cbafa08746f7da59d8d75ffb025ed775c8fd",
-  "output_sha256": "15034249cab1bddd720d47003f5aabffe0aa2da47eca92fe388e2ec153428a3e",
-  "workbook": "D:\\fuye\\竞品视频分析_2026-10-15\\阅见生活_竞品视频分析_终版.xlsx",
+  "status": "PASS",
   "sheets": [
     "01_视频总览",
     "02_带货脚本拆解",
@@ -12,16 +9,37 @@
     "06_异常待复核",
     "07_口径与运行摘要"
   ],
-  "rows": 332,
+  "source_rows": 332,
   "ai_status_counts": {
-    "AI_PENDING": 307,
-    "AI_REVIEW": 5,
-    "AI_OK": 20
+    "AI_PENDING": 297,
+    "AI_REVIEW": 4,
+    "AI_OK": 31
   },
-  "hyperlinks": 3346,
+  "local_hyperlinks": 3375,
+  "long_ids": "exact_text_pass",
   "formula_injection_scan": "PASS",
-  "long_platform_ids_exact_text": "PASS",
-  "status": "PASS",
-  "visual_qa_reference": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase4_visual_qa.json",
-  "scope": "Workbook structure, exact IDs, links, statuses, evidence and visual layout only; not full project acceptance"
+  "bridge_and_cta_normalized_quotes": "35条的有效区段均可从原ASR分段重建",
+  "visual_sheets_reviewed": 7,
+  "visual_images_verified": 9,
+  "recalculate_called": true,
+  "render_exit_code": 3221226505,
+  "render_limit": "9张图完成后Windows渲染进程异常退出；PNG与保存XLSX独立核验通过，不当作原生Excel交互验证",
+  "repeat_import_stdout": "{\"status\": \"RESUME_SKIP\", \"records_unchanged\": 15}",
+  "repeat_export_stdout": "EXPORT_RESUME_SKIP: workbook and validated inputs unchanged",
+  "repeat_run_hash_mtime_preserved": 17,
+  "workbook_sha256": "e445e3f8638fef5f5c5632272396ccbcfc240dcc9672180d7a254f11843c6519",
+  "current_policy_resume_checkpoints": 3,
+  "final_evidence_fields_match_normalized": true,
+  "reused_visual_views": 8,
+  "refreshed_visual_views": 1,
+  "cell_comparison": {
+    "changed_cells": [
+      [
+        "07_口径与运行摘要",
+        "B7"
+      ]
+    ],
+    "all_other_values_unchanged": true
+  },
+  "render_refresh_exit_code": 3221226505
 }

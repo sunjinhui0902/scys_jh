@@ -1,0 +1,5 @@
+# Handoff and evidence hashes are byte-based. Preserve the original bytes.
+# In particular, do not normalize CRLF in frozen JSON, ASR or A deliveries.
+* -text whitespace=cr-at-eol
+# Frozen source snapshots retain intentional Markdown line-break spaces too.
+/manifest/** -whitespace

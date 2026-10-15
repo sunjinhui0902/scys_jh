@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_74a64cf3aca9595d",
+  "account": "破局书屋",
+  "source_video_path": {
+    "video_id": "v_74a64cf3aca9595d",
+    "account": "破局书屋",
+    "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\#职场#高情商#说话技巧(1).mp4"
+  },
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T14:30:00+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "饭局劝酒与职场应对话术（短版）",
+    "category": "职场/说话技巧",
+    "mentioned_books": [
+      "闲谈高手"
+    ],
+    "recommended_book": "闲谈高手",
+    "target_audience": "职场人群",
+    "hook": {
+      "text_0_3s": "不喝就是看不起我，领导，",
+      "full_hook_text": "不喝就是看不起我，领导，我不是看不起您，我是看不起病，打这么多饭，",
+      "hook_type": "劝酒冲突",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文本卡片或情景短剧截图"
+    },
+    "narrative_structure": "不喝看不起我开局 ➔ 快速回怼 ➔ 卖书",
+    "bridge": {
+      "has_bridge": true,
+      "text": "推荐你读完这本闲谈高手，让你轻松摆平各种社交场合。",
+      "start_time_s": 45.0,
+      "end_time_s": 55.0,
+      "transition_type": "直白引书"
+    },
+    "cta": {
+      "has_cta": true,
+      "text": "但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+      "start_time_s": 56.0,
+      "end_time_s": 65.0,
+      "cta_type": "直购"
+    },
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "visual_and_audio": {
+      "visual_type": "根据提供截图与转录分析",
+      "book_appearance": "未在固定截图中确认书封细节，标为待核",
+      "subtitle_style": "描边大字居中下字幕",
+      "audio_style": "依据转录确认口播内容"
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": true,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_74a64cf3aca9595d.aligned.json"
+  },
+  "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+  "incremental_findings": {
+    "comparison_video_ids": [
+      "v_183328bf0ee8b458"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "为v_183328bf0ee8b458的删减版（同稿切片），无任何新结构。",
+    "evidence": "文本与原版前段及尾段一字不差。"
+  }
+}

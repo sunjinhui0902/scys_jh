@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_7e9d12d17d945cb4",
+  "account": "林睿读书&书在橱窗",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\《资治通鉴》告诉您_人生所有的不幸，都是因_为你的单纯，不是坏人害你，是你自己太实在#资治通鉴 #历史故事 #人生智慧.mp4",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T01:08:00+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "历史权谋故事与处世防人智慧（刘思礼与李善长案例）",
+    "category": "历史/国学/处世哲学",
+    "mentioned_books": [
+      "资治通鉴"
+    ],
+    "recommended_book": null,
+    "target_audience": "中老年人、为人厚道单纯容易吃亏的人士、为人父母者",
+    "hook": {
+      "text_0_3s": "您有没有发现，这世上最冤的死法？",
+      "hook_type": "颠覆认知/共鸣警醒型Hook",
+      "time_range": "00:00.00 - 00:06.00",
+      "visual_hook": "水墨古风文人坐于书房案前沉思看书",
+      "full_hook_text": "您有没有发现，这世上最冤的死法？不是坏人害你，是你自己太实在。",
+      "time_range_0_3s": "00:00.00 - 00:02.80"
+    },
+    "narrative_structure": "提出核心反差（实在人往往死得冤） ➔ 案例一：唐代刘思礼轻信武懿宗许诺当宰相却被灭族 ➔ 案例二：明代李善长自恃老臣给亲戚求情被朱元璋满门抄斩 ➔ 总结提炼三条成年人处世法则 ➔ 劝诫升华（善良但不能不防人）",
+    "bridge": {
+      "has_bridge": false,
+      "text": "无（第8秒提及《资治通鉴》仅作为哲理背书，后续未引向任何实体书籍或购买链接）",
+      "start_time_s": null,
+      "end_time_s": null,
+      "transition_type": "无"
+    },
+    "cta": {
+      "has_cta": false,
+      "text": "这段话建议您点赞、收藏慢慢品。要是觉得在理，转发给您那个太实在的老朋友，或者转给孩子看看，咱可以不害人，但不能不防人。关注我，每天给您讲一段历史里的大智慧。咱们下回见。",
+      "start_time_s": 402.0,
+      "end_time_s": 420.93,
+      "cta_type": "纯内容传播CTA：点赞、收藏、转发熟人、关注博主"
+    },
+    "product_value": {
+      "explicit_claims": "无实体商品销售",
+      "ai_inferred_value": "提供高密度的情绪价值与认知护盾（看透人心险恶）"
+    },
+    "visual_and_audio": {
+      "visual_type": "古风水墨插画人物画面",
+      "book_appearance": "插画中案头陈列线装书画卷，非商业实体图书露出",
+      "subtitle_style": "黄字纯黑描边居中字幕",
+      "audio_style": "沉稳叙事男声"
+    },
+    "reusable_template_insights": {
+      "template_name": "历史权谋警世故事模板（高完播/强转发）",
+      "core_logic": "极具警醒感的扎心第一句 ➔ 两个正反对比极致历史案例 ➔ 提炼三条朗朗上口的生存金句 ➔ 引导转发给挚友或孩子",
+      "performance_disclaimer": "无平台真实完播与互动指标，仅代表内容叙事结构特征"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": false,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_7e9d12d17d945cb4.aligned.json"
+  },
+  "limitations": "该视频为纯流量吸粉型视频，无带货闭环证据。",
+  "review_response": [
+    {
+      "issue": "原生视频自述存疑，水墨细节缺乏分秒截图证据",
+      "action_taken": "修正输入模式为 text_plus_frames；仅依据提供的4帧截图描述画面形式；撤回未由现有截图证实的连续镜头推断",
+      "supporting_evidence": "4帧截图均为固定插画场景；转录文本第8秒提及资治通鉴，无售书Bridge/CTA",
+      "unresolved_items": "无"
+    }
+  ]
+}

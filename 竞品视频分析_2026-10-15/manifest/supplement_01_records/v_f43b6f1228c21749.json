@@ -1,0 +1,249 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_f43b6f1228c21749",
+  "account": "破局书屋",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\培养孩子正确的财商思维，会存钱、会花钱、学赚钱，是一生的礼物。#育儿经验分享#财商启蒙#培养孩子的消费观.mp4",
+  "input_sha256": "17ca2e0a5a9e46fee98a2287b43d107245fce57ce271dce0ad1f73362e12db0a",
+  "policy_sha256": "66cf0b277c842c23ed3fc9424e4519f3fc73b3462718b230d2e068ff3460164a",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_REVIEW",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "Codex核对全文ASR、模型时间及所见4帧；A读取截图的过程未证明；未验证全片声音、史实、SKU或效果",
+  "normalized": {
+    "theme": "儿童商业财商启蒙与商场布局背后的经济学",
+    "category": "少儿财商/家庭教育/科普",
+    "mentioned_books": [
+      "写给孩子的漫画经济学"
+    ],
+    "recommended_book": "未知（口播候选：写给孩子的漫画经济学；SKU/版本未核）",
+    "hook_text": "妈妈为啥商场一楼全是化妆品珠宝",
+    "hook_type": "孩子生活好奇发问",
+    "narrative_structure": "生活提问→大人初答不足→孩子以阅读解释→漫画读物→家长共读/软购买建议",
+    "target_audience": "推断：注重孩子财商与思维培养的年轻家长",
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    },
+    "bridge": {
+      "present": true,
+      "start_s": 130.62,
+      "end_s": 143.445,
+      "text": "你们怎么什么都知道，我啥都不懂，这多亏了我。妈妈从小陪我看写给孩子的漫画经济学里面把这些商业模式全化成漫画故事了。一看就懂了。",
+      "type": "情境/故事转阅读推荐",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "cta": {
+      "present": true,
+      "start_s": 207.44,
+      "end_s": 213.065,
+      "text": "家里有孩子的，真的可以准备一套，每天陪孩子看一点，让孩子从小建立财商思维。",
+      "type": "软购买/共读建议",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "closing_behavior_A": "让孩子从小建立财商思维，家里有孩子的真的可以准备一套。",
+    "visual_and_audio": {
+      "visual_type": "人物情景演绎（所见帧有AI生成标识）与图书画面",
+      "subtitle_style": "黄色黑描边字幕，底部有生成内容提示",
+      "book_appearance": "末帧有书本/内页，正式商品信息未核实",
+      "audio_style": "无法确认（本轮依据文字/静帧，未听核音色、配乐或笑声掌声）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_f43b6f1228c21749\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_f43b6f1228c21749\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 106.625,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_f43b6f1228c21749\\03_106.625s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 211.25,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_f43b6f1228c21749\\04_211.250s.jpg"
+        }
+      ],
+      "review_method": "Codex逐条查看既有4帧；新10条40帧已查看；仅说明所见画面"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_f43b6f1228c21749",
+    "account": "破局书屋",
+    "source_video_path": {
+      "video_id": "v_f43b6f1228c21749",
+      "account": "破局书屋",
+      "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\培养孩子正确的财商思维，会存钱、会花钱、学赚钱，是一生的礼物。#育儿经验分享#财商启蒙#培养孩子的消费观.mp4"
+    },
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T14:30:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "儿童商业财商启蒙与商场布局背后的经济学",
+      "category": "少儿财商/家庭教育/科普",
+      "mentioned_books": [
+        "少儿财商绘本书籍"
+      ],
+      "recommended_book": "少儿财商绘本书籍",
+      "target_audience": "注重孩子财商与思维培养的年轻家长",
+      "hook": {
+        "text_0_3s": "妈妈为啥商场一楼全是化妆品、珠宝，",
+        "full_hook_text": "妈妈为啥商场一楼全是化妆品、珠宝，吃饭、看电影却都在顶楼，因为顶楼风景好，吃饭香一楼太吵了呗，这都讲不清楚孩子以后怎么学做生意。",
+        "hook_type": "孩子生活好奇发问",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "文本卡片或情景短剧截图"
+      },
+      "narrative_structure": "孩子提问商场一楼为什么全是化妆品珠宝 ➔ 母亲解释坪效与消费心理 ➔ 引出培养孩子财商意识的重要性 ➔ 推荐少儿财商书",
+      "bridge": {
+        "has_bridge": true,
+        "text": "从小培养孩子对金钱的认知和独立思考能力，家里有孩子的真的可以准备一套，每天陪孩子看一点。",
+        "start_time_s": 85.0,
+        "end_time_s": 105.0,
+        "transition_type": "亲子教育痛点桥接"
+      },
+      "cta": {
+        "has_cta": true,
+        "text": "让孩子从小建立财商思维，家里有孩子的真的可以准备一套。",
+        "start_time_s": 106.0,
+        "end_time_s": 118.0,
+        "cta_type": "家长亲子共读促单"
+      },
+      "product_value": {
+        "explicit_claims": "",
+        "ai_inferred_value": ""
+      },
+      "visual_and_audio": {
+        "visual_type": "根据提供截图与转录分析",
+        "book_appearance": "未在固定截图中确认书封细节，标为待核",
+        "subtitle_style": "描边大字居中下字幕",
+        "audio_style": "依据转录确认口播内容"
+      },
+      "reusable_template_insights": {
+        "template_name": "",
+        "core_logic": "",
+        "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": true,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_f43b6f1228c21749.aligned.json"
+    },
+    "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+    "incremental_findings": {
+      "comparison_video_ids": [
+        "v_21f58ae8ccf2ac26",
+        "v_183328bf0ee8b458"
+      ],
+      "new_hook": true,
+      "new_narrative": true,
+      "new_bridge": true,
+      "new_cta": true,
+      "new_visual": false,
+      "new_book_scenario": true,
+      "adds_new_usable_structure": true,
+      "reason": "形成了全新的【少儿生活现象与财商启蒙带货模板】：以儿童日常生活提问为Hook，拆解通俗商业常识，自然过渡到少儿财商/科普绘本，主打亲子教育与财商启蒙，属于全新可用结构。",
+      "evidence": "0~3s妈妈为啥商场一楼全是化妆品珠宝；结尾每天陪孩子看一点从小建立财商思维。"
+    }
+  },
+  "corrections": [
+    "音频与完整镜头判断收回，静态画面按实际4帧核对",
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留",
+    "A输入按可追溯文字限定；音色/原声/笑声掌声结论撤回，Codex静帧核查另列",
+    "Bridge/结尾按全文与实际分段重新定位，原A时间与引文另存",
+    "按引用/标题/阅读/借阅/商品入口分口径更正书名及CTA"
+  ],
+  "unresolved_issues": [
+    "实体商品正式书名、版本与书封待核；末帧为内页；经济学解释及教育效果仅为素材声称"
+  ],
+  "imported_at": "2026-10-15T17:30:14+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_f43b6f1228c21749.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\supplement_01_input_snapshot\\videos\\v_f43b6f1228c21749.json",
+  "raw_schema_errors": [],
+  "raw_identity_issues": [
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留"
+  ],
+  "A_input_mode_verified": "text_only",
+  "delivery_protocol": "A操作记录为直接写最终文件，原子交付未证明；本次完成清单哈希一致、两次稳定读取后由Codex原子冻结并按Schema校验再导入",
+  "analyzed_at_note": "A自报时间，不用于推算真实耗时；该批实际开始结束时间未提供",
+  "explicit_shopping_entry": false,
+  "soft_purchase_suggestion": true,
+  "incremental_findings_A": {
+    "comparison_video_ids": [
+      "v_21f58ae8ccf2ac26",
+      "v_183328bf0ee8b458"
+    ],
+    "new_hook": true,
+    "new_narrative": true,
+    "new_bridge": true,
+    "new_cta": true,
+    "new_visual": false,
+    "new_book_scenario": true,
+    "adds_new_usable_structure": true,
+    "reason": "形成了全新的【少儿生活现象与财商启蒙带货模板】：以儿童日常生活提问为Hook，拆解通俗商业常识，自然过渡到少儿财商/科普绘本，主打亲子教育与财商启蒙，属于全新可用结构。",
+    "evidence": "0~3s妈妈为啥商场一楼全是化妆品珠宝；结尾每天陪孩子看一点从小建立财商思维。"
+  },
+  "incremental_acceptance": "单样本结构草案，非已验证独立模板",
+  "A_original_window_checks": {
+    "bridge": {
+      "A_start_s": 85.0,
+      "A_end_s": 105.0,
+      "A_quote": "从小培养孩子对金钱的认知和独立思考能力，家里有孩子的真的可以准备一套，每天陪孩子看一点。",
+      "A_quote_coverage_in_imported_window": 0.1463,
+      "actual_imported": {
+        "start_s": 83.41,
+        "end_s": 106.875,
+        "text": "为什么说猪肉销量反而下降了？可能大家兜里没钱了吧，穷了就少吃肉呗。也可能跟附近工地开工少了有关工地跟猪肉有什么关系？比如工地食堂，原来每天要买不少肉开工，少了，吃饭的人少，采购也可能跟着减。不光是肉，蔬菜米面也可能受影响。一个地方的变化会连着影响别的生意。"
+      }
+    },
+    "cta": {
+      "A_start_s": 106.0,
+      "A_end_s": 118.0,
+      "A_quote": "让孩子从小建立财商思维，家里有孩子的真的可以准备一套。",
+      "A_quote_coverage_in_imported_window": 0.12,
+      "actual_imported": {
+        "start_s": 104.51,
+        "end_s": 119.965,
+        "text": "一个地方的变化会连着影响别的生意。这我确实没想到妈妈为什么牛奶是方盒子，可乐却是圆瓶子。厂家就是这么设计的，具体原因我也不太清楚。"
+      }
+    }
+  },
+  "evidence_checks": {
+    "bridge": {
+      "final_imported": {
+        "present": true,
+        "start_s": 130.62,
+        "end_s": 143.445,
+        "text": "你们怎么什么都知道，我啥都不懂，这多亏了我。妈妈从小陪我看写给孩子的漫画经济学里面把这些商业模式全化成漫画故事了。一看就懂了。",
+        "type": "情境/故事转阅读推荐",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_f43b6f1228c21749.aligned.json"
+    },
+    "cta": {
+      "final_imported": {
+        "present": true,
+        "start_s": 207.44,
+        "end_s": 213.065,
+        "text": "家里有孩子的，真的可以准备一套，每天陪孩子看一点，让孩子从小建立财商思维。",
+        "type": "软购买/共读建议",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_f43b6f1228c21749.aligned.json"
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_5ae6f6253ad7b999",
+  "account": "林睿读书&书在橱窗",
+  "source_video_path": {
+    "video_id": "v_5ae6f6253ad7b999",
+    "account": "林睿读书&书在橱窗",
+    "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\圆明园兽首走散了一百六十多年却还有五尊下落不明，敦煌几万卷经书被一箱一箱搬走却连清单都列不全，女史箴图被切成三段钉在木板上再也拼不回原样。从被锁进外国皇宫到.mp4"
+  },
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T14:30:00+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "流失海外顶级国宝文物大盘点",
+    "category": "文博/国宝文物/历史",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "target_audience": "文物历史爱好者",
+    "hook": {
+      "text_0_3s": "你知道吗？据联合国教科文组织不完全统计，",
+      "full_hook_text": "你知道吗？据联合国教科文组织不完全统计，全世界四十七个国家的两百一十八家博物馆里藏着一百六十七万件中国文物流散在民间的更是馆藏的十倍之多可。",
+      "hook_type": "联合国权威数据",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文本卡片或情景短剧截图"
+    },
+    "narrative_structure": "联合国流失文物数据Hook ➔ 细数流落异国顶级国宝 ➔ 制造第一名悬念 ➔ 连载引导",
+    "bridge": {
+      "has_bridge": false,
+      "text": "无",
+      "start_time_s": null,
+      "end_time_s": null,
+      "transition_type": "无"
+    },
+    "cta": {
+      "has_cta": true,
+      "text": "它是哪件？他凭什么排第一？下集马上更新，您先点个关注点开头像别走丢。",
+      "start_time_s": 260.0,
+      "end_time_s": 275.0,
+      "cta_type": "下集关注更新引导"
+    },
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "visual_and_audio": {
+      "visual_type": "根据提供截图与转录分析",
+      "book_appearance": "未在固定截图中确认书封细节，标为待核",
+      "subtitle_style": "描边大字居中下字幕",
+      "audio_style": "依据转录确认口播内容"
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": false,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_5ae6f6253ad7b999.aligned.json"
+  },
+  "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+  "incremental_findings": {
+    "comparison_video_ids": [
+      "v_d3f3bf3980928b72",
+      "v_5a1f4e863379cd2e"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "纯悬念连载文案，未见图书Bridge与CTA，无独立带货增量。",
+    "evidence": "末尾纯下集悬念，无图书橱窗或链接。"
+  }
+}

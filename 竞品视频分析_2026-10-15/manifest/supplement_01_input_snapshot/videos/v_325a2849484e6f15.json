@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_325a2849484e6f15",
+  "account": "破局书屋",
+  "source_video_path": {
+    "video_id": "v_325a2849484e6f15",
+    "account": "破局书屋",
+    "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\世事洞明皆学问，人情达练即文章。#情感共鸣#家庭婚姻.mp4"
+  },
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T14:30:00+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "职场潜规则与听懂领导暗示",
+    "category": "职场/为人处世",
+    "mentioned_books": [
+      "社交话术书籍"
+    ],
+    "recommended_book": "社交话术书籍",
+    "target_audience": "职场新人",
+    "hook": {
+      "text_0_3s": "小李，你把我后备箱里的茅台拿上去，领导的暗示，",
+      "full_hook_text": "小李，你把我后备箱里的茅台拿上去，领导的暗示，你能听得懂吗？没有啊，哎被偷你干什么？赵总，茅台都被偷了，你为什么不让我说呀？",
+      "hook_type": "领导暗示反常识",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文本卡片或情景短剧截图"
+    },
+    "narrative_structure": "拿茅台暗示开局 ➔ 拆解领导话外音 ➔ 推荐高情商书籍",
+    "bridge": {
+      "has_bridge": true,
+      "text": "这几年来讲过的最简单的一本书。我觉得这书适合所有人，让你不管在任何场合都能够轻松拿捏。",
+      "start_time_s": 110.0,
+      "end_time_s": 125.0,
+      "transition_type": "口播直推"
+    },
+    "cta": {
+      "has_cta": true,
+      "text": "所以强烈推荐。",
+      "start_time_s": 126.0,
+      "end_time_s": 130.0,
+      "cta_type": "口播强推"
+    },
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "visual_and_audio": {
+      "visual_type": "根据提供截图与转录分析",
+      "book_appearance": "未在固定截图中确认书封细节，标为待核",
+      "subtitle_style": "描边大字居中下字幕",
+      "audio_style": "依据转录确认口播内容"
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": true,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_325a2849484e6f15.aligned.json"
+  },
+  "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+  "incremental_findings": {
+    "comparison_video_ids": [
+      "v_183328bf0ee8b458"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "为职场潜规则拆解+话术书直推，属于模板1弱化变体，未产生独立新模板。",
+    "evidence": "桥段和结尾与破局书屋话术系列高度一致。"
+  }
+}

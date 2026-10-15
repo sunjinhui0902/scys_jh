@@ -1,0 +1,247 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_b2bbecb4fc6ef0e9",
+  "account": "破局书屋",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\#高情商#说话技巧#人情世故#职场#人际交往.mp4",
+  "input_sha256": "6088b70f77d37650f31f23c739e7d85bc94e24fcbe77674095784ce61ae2d9fc",
+  "policy_sha256": "66cf0b277c842c23ed3fc9424e4519f3fc73b3462718b230d2e068ff3460164a",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_OK",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "Codex核对全文ASR、模型时间及所见4帧；A读取截图的过程未证明；未验证全片声音、史实、SKU或效果",
+  "normalized": {
+    "theme": "职场对接推诿应对与高情商处世",
+    "category": "职场/人际交往",
+    "mentioned_books": [
+      "把话说的恰到好处",
+      "把事做的恰到好处"
+    ],
+    "recommended_book": "未知（口播候选：把话说的恰到好处；SKU/版本未核）",
+    "hook_text": "今天有个业务要和供应商那边对接我有",
+    "hook_type": "职场甩锅冲突",
+    "narrative_structure": "同事推甩业务冲突 ➔ 主角机智应对 ➔ 前辈授书",
+    "target_audience": "推断：职场青年",
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    },
+    "bridge": {
+      "present": true,
+      "start_s": 217.98,
+      "end_s": 242.634,
+      "text": "你这嘴皮子是咋练的呀？我总是嘴笨，反应慢一点，都不会说。我父母从小就让我看这本把话说的恰到好处。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交推荐你读完这本把话说的恰到好处，让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。",
+      "type": "情境/故事转阅读推荐",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "cta": {
+      "present": true,
+      "start_s": 289.15,
+      "end_s": 290.685,
+      "text": "林姐，我这就回去看。",
+      "type": "剧情阅读回应",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "closing_behavior_A": "好的林姐，我这就回去看。",
+    "visual_and_audio": {
+      "visual_type": "人物情景演绎（所见帧有AI生成标识）与图书画面",
+      "subtitle_style": "黄色黑描边字幕，底部有生成内容提示",
+      "book_appearance": "末帧有书本/内页，正式商品信息未核实",
+      "audio_style": "无法确认（本轮依据文字/静帧，未听核音色、配乐或笑声掌声）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_b2bbecb4fc6ef0e9\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_b2bbecb4fc6ef0e9\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 145.425,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_b2bbecb4fc6ef0e9\\03_145.425s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 288.851,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_b2bbecb4fc6ef0e9\\04_288.851s.jpg"
+        }
+      ],
+      "review_method": "Codex逐条查看既有4帧；新10条40帧已查看；仅说明所见画面"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_b2bbecb4fc6ef0e9",
+    "account": "破局书屋",
+    "source_video_path": {
+      "video_id": "v_b2bbecb4fc6ef0e9",
+      "account": "破局书屋",
+      "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\#高情商#说话技巧#人情世故#职场#人际交往.mp4"
+    },
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T14:30:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "职场对接推诿应对与高情商处世",
+      "category": "职场/人际交往",
+      "mentioned_books": [
+        "人情世故话术书"
+      ],
+      "recommended_book": "人情世故话术书",
+      "target_audience": "职场青年",
+      "hook": {
+        "text_0_3s": "今天有个业务要和供应商那边对接，我有别的事情要忙，",
+        "full_hook_text": "今天有个业务要和供应商那边对接，我有别的事情要忙，你俩就替我去一趟吧。好的，王姐保证完成任务哦。对了，供应商那边的陈姐可是个厉害角色，",
+        "hook_type": "职场甩锅冲突",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "文本卡片或情景短剧截图"
+      },
+      "narrative_structure": "同事推甩业务冲突 ➔ 主角机智应对 ➔ 前辈授书",
+      "bridge": {
+        "has_bridge": true,
+        "text": "说话恰到好处，但凡学会三分，你就能把人际关系拿捏的死死的。这套书真的可以帮助到你。",
+        "start_time_s": 130.0,
+        "end_time_s": 145.0,
+        "transition_type": "职场前辈授书"
+      },
+      "cta": {
+        "has_cta": true,
+        "text": "好的林姐，我这就回去看。",
+        "start_time_s": 146.0,
+        "end_time_s": 152.0,
+        "cta_type": "情景确认"
+      },
+      "product_value": {
+        "explicit_claims": "",
+        "ai_inferred_value": ""
+      },
+      "visual_and_audio": {
+        "visual_type": "根据提供截图与转录分析",
+        "book_appearance": "未在固定截图中确认书封细节，标为待核",
+        "subtitle_style": "描边大字居中下字幕",
+        "audio_style": "依据转录确认口播内容"
+      },
+      "reusable_template_insights": {
+        "template_name": "",
+        "core_logic": "",
+        "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": true,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_b2bbecb4fc6ef0e9.aligned.json"
+    },
+    "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+    "incremental_findings": {
+      "comparison_video_ids": [
+        "v_183328bf0ee8b458"
+      ],
+      "new_hook": false,
+      "new_narrative": false,
+      "new_bridge": false,
+      "new_cta": false,
+      "new_visual": false,
+      "new_book_scenario": false,
+      "adds_new_usable_structure": false,
+      "reason": "与v_183328bf0ee8b458话术完全一致，属模板1同质样本。",
+      "evidence": "台词完全复用学会三分把人际关系拿捏得死死的。"
+    }
+  },
+  "corrections": [
+    "0～3秒字段按本地词级时间戳重建；A原摘录单独保留",
+    "音频与完整镜头判断收回，静态画面按实际4帧核对",
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留",
+    "A输入按可追溯文字限定；音色/原声/笑声掌声结论撤回，Codex静帧核查另列",
+    "Bridge/结尾按全文与实际分段重新定位，原A时间与引文另存",
+    "按引用/标题/阅读/借阅/商品入口分口径更正书名及CTA"
+  ],
+  "unresolved_issues": [],
+  "imported_at": "2026-10-15T17:30:14+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_b2bbecb4fc6ef0e9.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\supplement_01_input_snapshot\\videos\\v_b2bbecb4fc6ef0e9.json",
+  "raw_schema_errors": [],
+  "raw_identity_issues": [
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留"
+  ],
+  "A_input_mode_verified": "text_only",
+  "delivery_protocol": "A操作记录为直接写最终文件，原子交付未证明；本次完成清单哈希一致、两次稳定读取后由Codex原子冻结并按Schema校验再导入",
+  "analyzed_at_note": "A自报时间，不用于推算真实耗时；该批实际开始结束时间未提供",
+  "explicit_shopping_entry": false,
+  "soft_purchase_suggestion": false,
+  "incremental_findings_A": {
+    "comparison_video_ids": [
+      "v_183328bf0ee8b458"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "与v_183328bf0ee8b458话术完全一致，属模板1同质样本。",
+    "evidence": "台词完全复用学会三分把人际关系拿捏得死死的。"
+  },
+  "incremental_acceptance": "暂未见新的独立带货结构；保留引用/连载对照价值",
+  "A_original_window_checks": {
+    "bridge": {
+      "A_start_s": 130.0,
+      "A_end_s": 145.0,
+      "A_quote": "说话恰到好处，但凡学会三分，你就能把人际关系拿捏的死死的。这套书真的可以帮助到你。",
+      "A_quote_coverage_in_imported_window": 0.1892,
+      "actual_imported": {
+        "start_s": 128.59,
+        "end_s": 144.87,
+        "text": "但您几句话就能把我们点透，真的得记一辈子。好好这话，我爱听来干了。琳琳。今天这桌菜合不合你胃口啊，饭菜是填饱肚子的，您讲的话才是充实脑子的。"
+      }
+    },
+    "cta": {
+      "A_start_s": 146.0,
+      "A_end_s": 152.0,
+      "A_quote": "好的林姐，我这就回去看。",
+      "A_quote_coverage_in_imported_window": 0.2,
+      "actual_imported": {
+        "start_s": 145.13,
+        "end_s": 152.57,
+        "text": "今天这顿饭不重要，能坐在这儿，听您说话才是真的赚大了。听听都听听这姑娘会说话，"
+      }
+    }
+  },
+  "evidence_checks": {
+    "bridge": {
+      "final_imported": {
+        "present": true,
+        "start_s": 217.98,
+        "end_s": 242.634,
+        "text": "你这嘴皮子是咋练的呀？我总是嘴笨，反应慢一点，都不会说。我父母从小就让我看这本把话说的恰到好处。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交推荐你读完这本把话说的恰到好处，让你轻松摆平各种社交场合，你每天就看两页，每一个场景慢慢练，你就会变成一个会说话、懂交际的人。",
+        "type": "情境/故事转阅读推荐",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_b2bbecb4fc6ef0e9.aligned.json"
+    },
+    "cta": {
+      "final_imported": {
+        "present": true,
+        "start_s": 289.15,
+        "end_s": 290.685,
+        "text": "林姐，我这就回去看。",
+        "type": "剧情阅读回应",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_b2bbecb4fc6ef0e9.aligned.json"
+    }
+  }
+}

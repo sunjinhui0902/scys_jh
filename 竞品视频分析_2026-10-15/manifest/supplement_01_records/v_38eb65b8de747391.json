@@ -1,0 +1,249 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_38eb65b8de747391",
+  "account": "文汇书香苑",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\文汇书香苑\\钱学森_爽文编剧都不敢这么写：他的一生，比爽文还爽  #钱学森 #历史人物 #科学家 #物理学家_#爱国科学家 #两弹一星 #中国航天之父 #国之脊梁.mp4",
+  "input_sha256": "7c30a9124ca644f0a2e2cc060783566b59f834a5440b87eb4e75271a13790210",
+  "policy_sha256": "66cf0b277c842c23ed3fc9424e4519f3fc73b3462718b230d2e068ff3460164a",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_OK",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "Codex核对全文ASR、模型时间及所见4帧；A读取截图的过程未证明；未验证全片声音、史实、SKU或效果",
+  "normalized": {
+    "theme": "钱学森传奇一生与《国之脊梁》科学家风骨",
+    "category": "科学家传记/爱国教育",
+    "mentioned_books": [
+      "国之脊梁"
+    ],
+    "recommended_book": "国之脊梁（口播与449.241秒书封一致，版本未核）",
+    "hook_text": "钱学森这一生爽文编剧都",
+    "hook_type": "反差降维型Hook（爽文编剧不敢写）",
+    "narrative_structure": "爽文编剧开局 ➔ 回顾钱学森回国受阻、抵挡诱惑 ➔ 两弹一星丰功伟绩 ➔ 推荐《国之脊梁》",
+    "target_audience": "推断：中小学生家长、爱国文史读者",
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    },
+    "bridge": {
+      "present": true,
+      "start_s": 411.63,
+      "end_s": 442.465,
+      "text": "让更多孩子知道中国最该追的星长什么样。很多家长发愁，不知道给孩子看什么书，刷手机，看多了迷恋各种流量明星。其实，最该让孩子认识的是我们国家这些真正的脊梁，没有华丽的传奇，都是实实在在的奋斗与坚守。读他们的经历，教会孩子责任、勇气和家国情怀。",
+      "type": "情境/故事转阅读推荐",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "cta": {
+      "present": true,
+      "start_s": 442.92,
+      "end_s": 451.075,
+      "text": "这本国之脊梁放在左下角链接里了，大人看同样深受触动，感兴趣，直接拍收到，好好品读。",
+      "type": "明确商品链接/下单",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "closing_behavior_A": "大人看同样深受触动，感兴趣，直接拍收到，好好品读。",
+    "visual_and_audio": {
+      "visual_type": "人物肖像、纪念场景或历史风格画面拼接；真实性未核实",
+      "subtitle_style": "黄色大字黑描边",
+      "book_appearance": "449.241秒帧可见国之脊梁书封；出版社/ISBN/版次未核",
+      "audio_style": "无法确认（本轮依据文字/静帧，未听核音色、配乐或笑声掌声）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_38eb65b8de747391\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_38eb65b8de747391\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 225.621,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_38eb65b8de747391\\03_225.621s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 449.241,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_38eb65b8de747391\\04_449.241s.jpg"
+        }
+      ],
+      "review_method": "Codex逐条查看既有4帧；新10条40帧已查看；仅说明所见画面"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_38eb65b8de747391",
+    "account": "文汇书香苑",
+    "source_video_path": {
+      "video_id": "v_38eb65b8de747391",
+      "account": "文汇书香苑",
+      "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\文汇书香苑\\钱学森_爽文编剧都不敢这么写：他的一生，比爽文还爽  #钱学森 #历史人物 #科学家 #物理学家_#爱国科学家 #两弹一星 #中国航天之父 #国之脊梁.mp4"
+    },
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T14:30:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "钱学森传奇一生与《国之脊梁》科学家风骨",
+      "category": "科学家传记/爱国教育",
+      "mentioned_books": [
+        "国之脊梁"
+      ],
+      "recommended_book": "国之脊梁",
+      "target_audience": "中小学生家长、爱国文史读者",
+      "hook": {
+        "text_0_3s": "钱学森这一生爽文编剧都不敢这么写家。",
+        "full_hook_text": "钱学森这一生爽文编剧都不敢这么写家。人们今天讲一个爽文，男主不是我编的是真事儿。",
+        "hook_type": "反差降维型Hook（爽文编剧不敢写）",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "文本卡片或情景短剧截图"
+      },
+      "narrative_structure": "爽文编剧开局 ➔ 回顾钱学森回国受阻、抵挡诱惑 ➔ 两弹一星丰功伟绩 ➔ 推荐《国之脊梁》",
+      "bridge": {
+        "has_bridge": true,
+        "text": "这就是中国科学家的骨气、勇气和家国情怀。这本国之脊梁放在左下角链接里了。",
+        "start_time_s": 380.0,
+        "end_time_s": 395.0,
+        "transition_type": "精神升华转折"
+      },
+      "cta": {
+        "has_cta": true,
+        "text": "大人看同样深受触动，感兴趣，直接拍收到，好好品读。",
+        "start_time_s": 396.0,
+        "end_time_s": 405.0,
+        "cta_type": "左下角链接直接拍"
+      },
+      "product_value": {
+        "explicit_claims": "",
+        "ai_inferred_value": ""
+      },
+      "visual_and_audio": {
+        "visual_type": "根据提供截图与转录分析",
+        "book_appearance": "未在固定截图中确认书封细节，标为待核",
+        "subtitle_style": "描边大字居中下字幕",
+        "audio_style": "依据转录确认口播内容"
+      },
+      "reusable_template_insights": {
+        "template_name": "",
+        "core_logic": "",
+        "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": true,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_38eb65b8de747391.aligned.json"
+    },
+    "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+    "incremental_findings": {
+      "comparison_video_ids": [
+        "v_21f58ae8ccf2ac26",
+        "v_1b225d87255676fa"
+      ],
+      "new_hook": true,
+      "new_narrative": false,
+      "new_bridge": false,
+      "new_cta": false,
+      "new_visual": false,
+      "new_book_scenario": false,
+      "adds_new_usable_structure": true,
+      "reason": "提供了模板2的极佳增量Hook：用反差降维语态爽文编剧都不敢这么写打破严肃说教感，可直接吸收进模板2开头库。",
+      "evidence": "0~3s真实口播：钱学森这一生爽文编剧都不敢这么写。"
+    }
+  },
+  "corrections": [
+    "0～3秒字段按本地词级时间戳重建；A原摘录单独保留",
+    "音频与完整镜头判断收回，静态画面按实际4帧核对",
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留",
+    "A输入按可追溯文字限定；音色/原声/笑声掌声结论撤回，Codex静帧核查另列",
+    "Bridge/结尾按全文与实际分段重新定位，原A时间与引文另存",
+    "按引用/标题/阅读/借阅/商品入口分口径更正书名及CTA",
+    "449.241秒既有帧可读国之脊梁，撤销缺书封申请；不能据此确认与其他篇目同一ISBN/SKU"
+  ],
+  "unresolved_issues": [],
+  "imported_at": "2026-10-15T17:30:14+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_38eb65b8de747391.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\supplement_01_input_snapshot\\videos\\v_38eb65b8de747391.json",
+  "raw_schema_errors": [],
+  "raw_identity_issues": [
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留"
+  ],
+  "A_input_mode_verified": "text_only",
+  "delivery_protocol": "A操作记录为直接写最终文件，原子交付未证明；本次完成清单哈希一致、两次稳定读取后由Codex原子冻结并按Schema校验再导入",
+  "analyzed_at_note": "A自报时间，不用于推算真实耗时；该批实际开始结束时间未提供",
+  "explicit_shopping_entry": true,
+  "soft_purchase_suggestion": false,
+  "incremental_findings_A": {
+    "comparison_video_ids": [
+      "v_21f58ae8ccf2ac26",
+      "v_1b225d87255676fa"
+    ],
+    "new_hook": true,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": true,
+    "reason": "提供了模板2的极佳增量Hook：用反差降维语态爽文编剧都不敢这么写打破严肃说教感，可直接吸收进模板2开头库。",
+    "evidence": "0~3s真实口播：钱学森这一生爽文编剧都不敢这么写。"
+  },
+  "incremental_acceptance": "表达方式候选，效果未知",
+  "A_original_window_checks": {
+    "bridge": {
+      "A_start_s": 380.0,
+      "A_end_s": 395.0,
+      "A_quote": "这就是中国科学家的骨气、勇气和家国情怀。这本国之脊梁放在左下角链接里了。",
+      "A_quote_coverage_in_imported_window": 0.0909,
+      "actual_imported": {
+        "start_s": 379.29,
+        "end_s": 395.955,
+        "text": "活着的目的就是为人民服务。如果人民最后对我这一生所做的工作表示满意，那才是最高的奖赏。家人们，您听听没有一句豪言壮语，没有一句漂亮话，"
+      }
+    },
+    "cta": {
+      "A_start_s": 396.0,
+      "A_end_s": 405.0,
+      "A_quote": "大人看同样深受触动，感兴趣，直接拍收到，好好品读。",
+      "A_quote_coverage_in_imported_window": 0.0476,
+      "actual_imported": {
+        "start_s": 396.81,
+        "end_s": 404.925,
+        "text": "就这么朴实的一句话，分量重的能压他秤爽文难主的故事到这儿就讲完了吗？"
+      }
+    }
+  },
+  "evidence_checks": {
+    "bridge": {
+      "final_imported": {
+        "present": true,
+        "start_s": 411.63,
+        "end_s": 442.465,
+        "text": "让更多孩子知道中国最该追的星长什么样。很多家长发愁，不知道给孩子看什么书，刷手机，看多了迷恋各种流量明星。其实，最该让孩子认识的是我们国家这些真正的脊梁，没有华丽的传奇，都是实实在在的奋斗与坚守。读他们的经历，教会孩子责任、勇气和家国情怀。",
+        "type": "情境/故事转阅读推荐",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_38eb65b8de747391.aligned.json"
+    },
+    "cta": {
+      "final_imported": {
+        "present": true,
+        "start_s": 442.92,
+        "end_s": 451.075,
+        "text": "这本国之脊梁放在左下角链接里了，大人看同样深受触动，感兴趣，直接拍收到，好好品读。",
+        "type": "明确商品链接/下单",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_38eb65b8de747391.aligned.json"
+    }
+  }
+}

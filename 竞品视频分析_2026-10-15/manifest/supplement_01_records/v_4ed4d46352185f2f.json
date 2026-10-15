@@ -1,0 +1,233 @@
+{
+  "schema_version": "phase4-import-1",
+  "video_id": "v_4ed4d46352185f2f",
+  "account": "林睿读书&书在橱窗",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\闽越国被汉武帝迁民焚城，只剩城村汉城遗址。夜郎国留下“夜郎自大”，却无人知其如何消失。巴国尚武，却消失在川东群山。滇国青铜精美，却被历史抹去名字。古徐国千年.mp4",
+  "input_sha256": "6151872331604b8826656829a7b989a9371b5faf8c1aa1633a6c49a40a8da64b",
+  "policy_sha256": "66cf0b277c842c23ed3fc9424e4519f3fc73b3462718b230d2e068ff3460164a",
+  "schema_valid": true,
+  "schema_errors": [],
+  "status": "AI_OK",
+  "input_mode_declared": "text_plus_frames",
+  "codex_verification_mode": "text_plus_frames + local timestamp comparison",
+  "acceptance_scope": "Codex核对全文ASR、模型时间及所见4帧；A读取截图的过程未证明；未验证全片声音、史实、SKU或效果",
+  "normalized": {
+    "theme": "古都历史地理与地下神秘未载古国文脉",
+    "category": "历史/考古/地理",
+    "mentioned_books": [
+      "史记",
+      "山海经"
+    ],
+    "recommended_book": "无明确阅读推荐",
+    "hook_text": "你知道吗咱们脚下这片土地",
+    "hook_type": "地理未解之谜",
+    "narrative_structure": "脚下土地神秘古国发问 ➔ 查阅二十四史无记载 ➔ 制造终极悬念 ➔ 引导下集",
+    "target_audience": "推断：文史考古迷",
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    },
+    "bridge": {
+      "present": false,
+      "start_s": null,
+      "end_s": null,
+      "text": "完整转录未见明确引书",
+      "type": "无"
+    },
+    "cta": {
+      "present": true,
+      "start_s": 422.12,
+      "end_s": 432.125,
+      "text": "他是谁？他凭什么这么神秘？终极，马上更新。您先点个关注点开头像别走丢。",
+      "type": "连载/关注",
+      "source": "本地ASR分段，模型估计时间"
+    },
+    "closing_behavior_A": "他是谁？他凭什么这么神秘？终集马上更新。您先点个关注点开头像别走丢。",
+    "visual_and_audio": {
+      "visual_type": "历史/文物风格插画与场景混剪；所见有生成内容提示",
+      "subtitle_style": "黄色大字黑描边",
+      "book_appearance": "四帧未见商品书封；标题书名不等于荐书",
+      "audio_style": "无法确认（本轮依据文字/静帧，未听核音色、配乐或笑声掌声）",
+      "evidence_frames": [
+        {
+          "index": 1,
+          "time_s": 1,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_4ed4d46352185f2f\\01_1.000s.jpg"
+        },
+        {
+          "index": 2,
+          "time_s": 5,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_4ed4d46352185f2f\\02_5.000s.jpg"
+        },
+        {
+          "index": 3,
+          "time_s": 216.131,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_4ed4d46352185f2f\\03_216.131s.jpg"
+        },
+        {
+          "index": 4,
+          "time_s": 430.263,
+          "path": "D:\\fuye\\竞品视频分析_2026-10-15\\frames\\v_4ed4d46352185f2f\\04_430.263s.jpg"
+        }
+      ],
+      "review_method": "Codex逐条查看既有4帧；新10条40帧已查看；仅说明所见画面"
+    }
+  },
+  "A_original": {
+    "schema_version": "1.0",
+    "video_id": "v_4ed4d46352185f2f",
+    "account": "林睿读书&书在橱窗",
+    "source_video_path": {
+      "video_id": "v_4ed4d46352185f2f",
+      "account": "林睿读书&书在橱窗",
+      "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\林睿读书&书在橱窗\\闽越国被汉武帝迁民焚城，只剩城村汉城遗址。夜郎国留下“夜郎自大”，却无人知其如何消失。巴国尚武，却消失在川东群山。滇国青铜精美，却被历史抹去名字。古徐国千年.mp4"
+    },
+    "input_mode": "text_plus_frames",
+    "analyzed_at": "2026-10-15T14:30:00+08:00",
+    "status": "AI_OK",
+    "fields": {
+      "theme": "古都历史地理与地下神秘未载古国文脉",
+      "category": "历史/考古/地理",
+      "mentioned_books": [
+        "二十四史"
+      ],
+      "recommended_book": null,
+      "target_audience": "文史考古迷",
+      "hook": {
+        "text_0_3s": "你知道吗？咱们脚下这片土地，",
+        "full_hook_text": "你知道吗？咱们脚下这片土地，几千年来曾经存在过无数个国家，有的在史书里留了名，有的连一个字都没留下，",
+        "hook_type": "地理未解之谜",
+        "time_range_0_3s": "00:00.00 - 00:03.00",
+        "visual_hook": "文本卡片或情景短剧截图"
+      },
+      "narrative_structure": "脚下土地神秘古国发问 ➔ 查阅二十四史无记载 ➔ 制造终极悬念 ➔ 引导下集",
+      "bridge": {
+        "has_bridge": false,
+        "text": "无",
+        "start_time_s": null,
+        "end_time_s": null,
+        "transition_type": "无"
+      },
+      "cta": {
+        "has_cta": true,
+        "text": "他是谁？他凭什么这么神秘？终集马上更新。您先点个关注点开头像别走丢。",
+        "start_time_s": 280.0,
+        "end_time_s": 295.0,
+        "cta_type": "连载关注引导"
+      },
+      "product_value": {
+        "explicit_claims": "",
+        "ai_inferred_value": ""
+      },
+      "visual_and_audio": {
+        "visual_type": "根据提供截图与转录分析",
+        "book_appearance": "未在固定截图中确认书封细节，标为待核",
+        "subtitle_style": "描边大字居中下字幕",
+        "audio_style": "依据转录确认口播内容"
+      },
+      "reusable_template_insights": {
+        "template_name": "",
+        "core_logic": "",
+        "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+      }
+    },
+    "evidence": {
+      "is_commercial_video": false,
+      "book_title_on_cover": null,
+      "exact_timestamps_source": "segments/v_4ed4d46352185f2f.aligned.json"
+    },
+    "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+    "incremental_findings": {
+      "comparison_video_ids": [
+        "v_d3f3bf3980928b72"
+      ],
+      "new_hook": false,
+      "new_narrative": false,
+      "new_bridge": false,
+      "new_cta": false,
+      "new_visual": false,
+      "new_book_scenario": false,
+      "adds_new_usable_structure": false,
+      "reason": "纯悬念连载文案，未见具体实体图书Bridge与售卖CTA，属于内容吸粉样本，无新增带货结构。",
+      "evidence": "末尾为下集更新引导，未见橱窗或链接引流。"
+    }
+  },
+  "corrections": [
+    "音频与完整镜头判断收回，静态画面按实际4帧核对",
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留",
+    "A输入按可追溯文字限定；音色/原声/笑声掌声结论撤回，Codex静帧核查另列",
+    "Bridge/结尾按全文与实际分段重新定位，原A时间与引文另存",
+    "按引用/标题/阅读/借阅/商品入口分口径更正书名及CTA"
+  ],
+  "unresolved_issues": [],
+  "imported_at": "2026-10-15T17:30:14+08:00",
+  "source_A_path": "D:\\fuye\\竞品视频分析_2026-10-15\\analysis_a\\supplement_01\\videos\\v_4ed4d46352185f2f.json",
+  "snapshot_path": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\supplement_01_input_snapshot\\videos\\v_4ed4d46352185f2f.json",
+  "raw_schema_errors": [],
+  "raw_identity_issues": [
+    "A源路径误存为来源对象；导入版从manifest恢复字符串，原件保留"
+  ],
+  "A_input_mode_verified": "text_only",
+  "delivery_protocol": "A操作记录为直接写最终文件，原子交付未证明；本次完成清单哈希一致、两次稳定读取后由Codex原子冻结并按Schema校验再导入",
+  "analyzed_at_note": "A自报时间，不用于推算真实耗时；该批实际开始结束时间未提供",
+  "explicit_shopping_entry": false,
+  "soft_purchase_suggestion": false,
+  "incremental_findings_A": {
+    "comparison_video_ids": [
+      "v_d3f3bf3980928b72"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "纯悬念连载文案，未见具体实体图书Bridge与售卖CTA，属于内容吸粉样本，无新增带货结构。",
+    "evidence": "末尾为下集更新引导，未见橱窗或链接引流。"
+  },
+  "incremental_acceptance": "暂未见新的独立带货结构；保留引用/连载对照价值",
+  "A_original_window_checks": {
+    "cta": {
+      "A_start_s": 280.0,
+      "A_end_s": 295.0,
+      "A_quote": "他是谁？他凭什么这么神秘？终集马上更新。您先点个关注点开头像别走丢。",
+      "A_quote_coverage_in_imported_window": 0.0333,
+      "actual_imported": {
+        "start_s": 278.39,
+        "end_s": 296.39,
+        "text": "考古学家在滇池东岸的晋宁石寨山发掘出了古滇国墓葬群，出土了那枚滇王之印晶印一亮出来，两千年的谜案一下子对上了。史书上写的滇国地底下挖出来了，"
+      }
+    }
+  },
+  "evidence_checks": {
+    "bridge": {
+      "final_imported": {
+        "present": false,
+        "start_s": null,
+        "end_s": null,
+        "text": "完整转录未见明确引书",
+        "type": "无"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_4ed4d46352185f2f.aligned.json"
+    },
+    "cta": {
+      "final_imported": {
+        "present": true,
+        "start_s": 422.12,
+        "end_s": 432.125,
+        "text": "他是谁？他凭什么这么神秘？终极，马上更新。您先点个关注点开头像别走丢。",
+        "type": "连载/关注",
+        "source": "本地ASR分段，模型估计时间"
+      },
+      "scope": "最终导入区段；A原时间窗口的初检单独保留在A_original_window_checks",
+      "segments_path": "D:\\fuye\\竞品视频分析_2026-10-15\\segments\\v_4ed4d46352185f2f.aligned.json"
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_183328bf0ee8b458",
+  "account": "破局书屋",
+  "source_video_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\知人情，懂世故，人生路更开阔。#人情世故#人际交往#说话技巧#高情商.mp4",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T01:05:00+08:00",
+  "status": "AI_REVIEW",
+  "fields": {
+    "theme": "职场人情世故与饭局高情商应对话术",
+    "category": "职场/情商/人际交往",
+    "mentioned_books": [
+      "闲谈高手"
+    ],
+    "recommended_book": "闲谈高手",
+    "target_audience": "职场新人、害怕社交/不会说话/不善言辞的职场人士",
+    "hook": {
+      "text_0_3s": "不喝就是看不起我，",
+      "hook_type": "痛点冲突/饭局劝酒反常识神回复",
+      "time_range": "00:00.09 - 00:06.89",
+      "visual_hook": "AI写实微短剧职场饭局，年轻女白领面对老年领导劝酒，从容机智应对",
+      "full_hook_text": "不喝就是看不起我，领导，我不是看不起您，我是看不起病，",
+      "time_range_0_3s": "00:00.09 - 00:02.05"
+    },
+    "narrative_structure": "连续十几个短平快的职场刁难与高情商接话场景（劝酒、挑刺、试探、礼物、迟到等）➔ 矛盾化解引发同桌鼓掌 ➔ 同事请教如何做到 ➔ 引出实操工具书",
+    "bridge": {
+      "has_bridge": true,
+      "text": "小图啊，你一开口就让人喜欢你，你是怎么做到的？因为我一直在看这本《闲谈高手》，这个世界上谁都不会拒绝那些会说话会来事的人。假如你不爱说话，不爱争辩，也不爱出门，甚至恐惧社交，推荐你读完这本《闲谈高手》，让你轻松摆平各种社交场合。",
+      "start_time_s": 169.45,
+      "end_time_s": 187.75,
+      "transition_type": "剧情式提问转折：通过配角对主角话术能力的由衷佩服，自然抛出答案引出书籍"
+    },
+    "cta": {
+      "has_cta": true,
+      "text": "书籍的内容和我现在展示的是一模一样的，你就放心的拿回去看，就是一句一句的教你，让你轻松摆平各种社交场合，但凡学会三分，你就能把人际关系拿捏的死死的。这本书真的可以帮助到大家。",
+      "start_time_s": 225.45,
+      "end_time_s": 240.25,
+      "cta_type": "信任背书与拿回去看促单：强调真实内容一模一样、降低门槛（学会三分即可）、消除决策顾虑"
+    },
+    "product_value": {
+      "explicit_claims": "场景化手把手教学（直接给出高情商回答模板）、每天看两页、一解心开",
+      "ai_inferred_value": "低认知负荷的字典式工具书，提供即学即用的情绪价值与职场安全感"
+    },
+    "visual_and_audio": {
+      "visual_type": "职场微短剧 + 真人翻书",
+      "book_appearance": "120.185s截图为对话场景，现有4帧截图未覆盖书封正面特写，标记为待补证",
+      "subtitle_style": "黄字纯黑描边居中下字幕",
+      "audio_style": "依据转录与时间戳可确认对话内容及笑声掌声"
+    },
+    "reusable_template_insights": {
+      "template_name": "情景反弹逆袭型图书带货模板",
+      "core_logic": "极限痛点场景密集演练（3~5个神回复拉满爽感） ➔ 角色发问‘你怎么这么会’ ➔ 掏出红宝书展示内页实拍 ➔ 承诺‘学会一招就能用’促单"
+    }
+  },
+  "evidence": {
+    "book_cover_verified": true,
+    "book_title_on_cover": "未知（现有4帧截图未覆盖书封正面，需补帧核验）",
+    "publisher_on_cover": "未知（现有截图未覆盖）",
+    "exact_timestamps_source": "segments/v_183328bf0ee8b458.aligned.json",
+    "cover_frame": "handoff/v_183328bf0ee8b458/frames/03_120.185s.jpg",
+    "inner_page_time": "188s - 240s"
+  },
+  "limitations": "本地未包含平台商品橱窗点击量与成交数据，仅能从视频视听与文案本身验证带货逻辑。",
+  "review_response": [
+    {
+      "issue": "原生视频能力存疑，120.185s截图非书封，出版社证据不足",
+      "action_taken": "输入模式由 native_video 修正为 text_plus_frames；撤回无截图支持的书封/出版社断言，标为未知；状态转为 AI_REVIEW",
+      "supporting_evidence": "转录文本172.49s提及闲谈高手；frames/03_120.185s.jpg 为饭局交谈画面",
+      "unresolved_items": "需要补抽169s~188s区间的书封正面特写帧以核实出版社"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "at": "2026-10-15T13:40:39+08:00",
+  "input_digest": "1fa7062e64551b8f05dd33aea985cbafa08746f7da59d8d75ffb025ed775c8fd",
+  "output_sha256": "15034249cab1bddd720d47003f5aabffe0aa2da47eca92fe388e2ec153428a3e",
+  "workbook": "D:\\fuye\\竞品视频分析_2026-10-15\\阅见生活_竞品视频分析_终版.xlsx",
+  "sheets": [
+    "01_视频总览",
+    "02_带货脚本拆解",
+    "03_视觉模板",
+    "04_账号对标与高频规律",
+    "05_原创带货模板库",
+    "06_异常待复核",
+    "07_口径与运行摘要"
+  ],
+  "rows": 332,
+  "ai_status_counts": {
+    "AI_PENDING": 307,
+    "AI_REVIEW": 5,
+    "AI_OK": 20
+  },
+  "hyperlinks": 3346,
+  "formula_injection_scan": "PASS",
+  "long_platform_ids_exact_text": "PASS",
+  "status": "PASS",
+  "visual_qa_reference": "D:\\fuye\\竞品视频分析_2026-10-15\\manifest\\phase4_visual_qa.json",
+  "scope": "Workbook structure, exact IDs, links, statuses, evidence and visual layout only; not full project acceptance"
+}

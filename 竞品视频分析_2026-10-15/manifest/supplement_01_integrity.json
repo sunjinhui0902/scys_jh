@@ -1,0 +1,41 @@
+{
+  "at": "2026-10-15T17:10:21+08:00",
+  "status": "PARTIAL",
+  "sources_sha_size_mtime_unchanged": 332,
+  "directory_membership_matches": true,
+  "original_A_unchanged": 28,
+  "supplement_A_unchanged": 19,
+  "database_opened": false,
+  "database_metadata_unchanged": false,
+  "database_metadata_baseline": {
+    "records.db": {
+      "size_bytes": 557056,
+      "mtime_ns": 1791994520468206000
+    },
+    "records.db-shm": {
+      "size_bytes": 32768,
+      "mtime_ns": 1791995341770368700
+    },
+    "records.db-wal": {
+      "size_bytes": 0,
+      "mtime_ns": 1791995341770368700
+    }
+  },
+  "database_metadata_current": {
+    "records.db": {
+      "size_bytes": 557056,
+      "mtime_ns": 1791994520468206000
+    },
+    "records.db-shm": {
+      "size_bytes": 32768,
+      "mtime_ns": 1792049054700238300
+    },
+    "records.db-wal": {
+      "size_bytes": 0,
+      "mtime_ns": 1791995341770368700
+    }
+  },
+  "database_note": "本轮未打开或改写数据库；与Phase2历史元数据相比有变化时原因未知，不能据此宣称历史数据库不变",
+  "old_ASR_chunks_unchanged": 20,
+  "elapsed_seconds": 18.609
+}

@@ -1,51 +1,16 @@
-# 阅见生活竞品视频分析｜V4.0 本地工作区
+# 阅见生活竞品分析｜当前工作区
 
-源素材：`D:\fuye\tools\wx_channel\downloads`。本目录独立于源素材；任何脚本只读源视频和 `records.db`，所有结果写在本目录。
+更新于：2026-10-15T17:19:25+08:00。先读[竞品分析协作总控](D:/fuye/docs/竞品分析协作总控.md)；每批结束更新同一总表、状态和日志。
 
-## 当前范围
+- 332来源／317SHA基础处理完成；35条代表样本整合，31条限定范围可用、4条待核，项目PARTIAL。
+- 317份全文语义尚未执行，38批已就绪；80条定向筛选不是80条语义完成。
+- 6套结构、30个旅行地理选题、另10个单点候选、已有5份试做稿（0可发布）；以各自定义计数。
+- 原视频和下载数据库只读；不上传原视频。A只写analysis_a独立批次，Codex负责其余数据/报告/工作簿。
 
-用户已确认 G1 样本与允许输入范围，现执行 V4 Phase 2。全量本地处理按332个来源路径、317个不同SHA内容运行，完全重复内容复用结果但保留全部video_id与来源。本目录的 `analysis_a/` 由 Antigravity 独占写入。Codex不自动向任何云模型上传素材。
+当前入口：[7-Sheet总表](D:/fuye/竞品视频分析_2026-10-15/阅见生活_竞品视频分析_终版.xlsx)；[当前验收报告](D:/fuye/竞品视频分析_2026-10-15/reports/最终验收报告.md)；[补充01更正明细](D:/fuye/竞品视频分析_2026-10-15/reports/补充批次01_验收与更正报告.md)；[批次日志](D:/fuye/05_爆款知识库与复盘/06_竞品分析更新日志.md)；[文库与生产](D:/fuye/竞品视频分析_2026-10-15/content_library/开始使用.md)。
 
-## 目录
+后续A任务：handoff/text_light_v1/，沿用已确认文字输入范围与额度，完整读取317份文字，不新增全量视频拆解。
 
-- `manifest/manifest.jsonl`：全部视频一文件一行，含完整来源路径和 SHA-256。
-- `manifest/sample_plan.json`：10 条分层样本，选定后固定，重跑不变。
-- `state/inventory/`、`state/decode/`、`state/<video_id>.json`：逐文件、逐步骤断点记录。
-- `audio/`：本地抽取的16 kHz单声道WAV，仅供转录和验收；同SHA内容可复用。
-- `transcripts/`、`segments/`、`frames/`：Codex 独占写入。`segments/<video_id>.json` 是 FunASR 原始输出；`segments/<video_id>.aligned.json` 是经词级时间戳重建并逐字校验的可读分段，交接包指向后者。
-- `handoff/<video_id>/READY.json`：交接包最后写入；无 READY 的目录不可处理。
-- `analysis_a/`：Antigravity 独占写入；Codex 不代写 AI 结论。
-- `reports/`：盘点、样本验收与交接说明。
+历史Phase2命令和旧状态保存在reports/history/分析README_补充01前.md。不要运行旧phase2_export.py或phase4_export.py覆盖当前35条整合表；本批恢复使用scripts/integrate_competitor_supplement.py和scripts/export_competitor_supplement.py，具体版本以批次记录为准。
 
-## 续跑命令
-
-在 PowerShell 中运行（均不会修改源目录）：
-
-```powershell
-& 'D:\fuye\竞品视频分析_2026-10-15\.venv\Scripts\python.exe' 'D:\fuye\竞品视频分析_2026-10-15\phase2_run.py' --workers 3
-py -3.10 'D:\fuye\竞品视频分析_2026-10-15\repair_alignments.py'
-& 'D:\fuye\竞品视频分析_2026-10-15\.venv\Scripts\python.exe' 'D:\fuye\竞品视频分析_2026-10-15\phase2_analyze.py'
-& 'C:\Users\Miche\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' 'D:\fuye\竞品视频分析_2026-10-15\phase2_audit.py'
-& 'C:\Users\Miche\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' 'D:\fuye\竞品视频分析_2026-10-15\phase2_export.py'
-& 'C:\Users\Miche\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe' 'D:\fuye\竞品视频分析_2026-10-15\verify_workbook.mjs'
-```
-
-`phase2_run.py` 会拒绝与已确认活着的同任务主进程同时写入。成功步骤跳过；超长音频按约300秒在附近低能量处切分，已完成分段JSON不重写，单分段最多尝试2次。过程日志在 logs/，worker和主任务状态在 state/。本轮不再打开下载数据库，沿用已存的元数据。
-
-## 交接与权限
-
-`handoff` 包含转录、4帧和原视频本地路径；READY仅表示本地文件写完。原10条样本包中的 `external_upload_authorized=false` 是上一阶段写入的历史标记，后续用户确认记录见 manifest/g1_user_confirmation.json。用户本轮已表示输入范围确认，但未重复范围明细，A应遵循用户已确认的具体范围，不能把此记录解释为任意外传许可。Antigravity只写 analysis_a/，不改Codex的清单、状态、转录、截图、报告或Excel。
-
-## Phase 2 已交付
-
-332个来源路径、317个SHA内容，全部已完成转录或同SHA复用、时间戳、4帧及READY包；一个7-Sheet基础Excel已完成。正式深度分析限定clusters/deep_candidates.json中25条，不能把332个READY包解释为全部深度分析任务。
-
-请把reports/Antigravity_Phase3_25条任务指令.md交给A；候选共约2.90小时，每批建议5条。A只写analysis_a/，先完成临时文件并校验合法JSON后原子重命名。现有3份试标注尚待修正，核心AI字段保持AI_PENDING。
-
-真实断点与失败恢复证据见manifest/resume_test_result.json、logs/failures/。本批相似度已逐对复核21对，固定记录脚本不应作为新素材的自动人工验收。最终阶段性证据见manifest/phase2_delivery_acceptance.json。渲染工具局限见manifest/workbook_visual_qa.json；平台ID应从Excel文本单元格或manifest读取。
-
-## Phase 4 当前最终交付
-
-全项目终验PARTIAL：25条A分析全部整合，20条限定范围AI_OK、5条AI_REVIEW；307条按计划未做深度。5套模板中4套研究可用、1套草案待补证。以reports/最终验收报告.md及manifest/phase4_final_acceptance.json为准。
-
-后续重导出使用phase4_export.py；Phase2导出命令属于历史阶段，不应覆盖当前整合版。phase4_import.py的固定视觉/更正记录适用于本批次，A补证更新后须先人工核对新增证据再刷新，不得把旧验收结论机械套用。
+机器入口：manifest/collaboration_state.json；追加台账：manifest/analysis_batches.jsonl；当前导入：manifest/supplement_01_records/；A冻结：manifest/supplement_01_input_snapshot/。历史phase4_*保持当时证据，不当作最新状态。

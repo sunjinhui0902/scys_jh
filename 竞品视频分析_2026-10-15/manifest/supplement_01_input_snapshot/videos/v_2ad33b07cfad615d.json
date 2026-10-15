@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "video_id": "v_2ad33b07cfad615d",
+  "account": "破局书屋",
+  "source_video_path": {
+    "video_id": "v_2ad33b07cfad615d",
+    "account": "破局书屋",
+    "source_path": "D:\\fuye\\tools\\wx_channel\\downloads\\破局书屋\\说话是一门慢慢积累的学问，见的人越多越能体会其中的分寸。#职场#人际交往.mp4"
+  },
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-15T14:30:00+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "职场应酬与领导饭局接话应对",
+    "category": "职场/人际交往",
+    "mentioned_books": [
+      "闲谈高手类话术书"
+    ],
+    "recommended_book": "闲谈高手类话术书",
+    "target_audience": "职场白领",
+    "hook": {
+      "text_0_3s": "今天晚上李总组了个局陈，总也会过去。",
+      "full_hook_text": "今天晚上李总组了个局陈，总也会过去。琳琳小张，你俩跟我一起去。好的，王姐没问题。王姐，对了，今晚来的都是重要客户，",
+      "hook_type": "职场饭局场景指派",
+      "time_range_0_3s": "00:00.00 - 00:03.00",
+      "visual_hook": "文本卡片或情景短剧截图"
+    },
+    "narrative_structure": "饭局指派开局 ➔ 多个场景见招拆招 ➔ 借书对话结尾",
+    "bridge": {
+      "has_bridge": true,
+      "text": "慢慢积累的多了，工作和生活里再碰到类似的场景，你就知道怎么接了。",
+      "start_time_s": 200.0,
+      "end_time_s": 215.0,
+      "transition_type": "软性剧情借书"
+    },
+    "cta": {
+      "has_cta": true,
+      "text": "这本先借我看看，拿去吧，回去慢慢看。",
+      "start_time_s": 216.0,
+      "end_time_s": 222.0,
+      "cta_type": "借书软推"
+    },
+    "product_value": {
+      "explicit_claims": "",
+      "ai_inferred_value": ""
+    },
+    "visual_and_audio": {
+      "visual_type": "根据提供截图与转录分析",
+      "book_appearance": "未在固定截图中确认书封细节，标为待核",
+      "subtitle_style": "描边大字居中下字幕",
+      "audio_style": "依据转录确认口播内容"
+    },
+    "reusable_template_insights": {
+      "template_name": "",
+      "core_logic": "",
+      "performance_disclaimer": "无平台商业与播放数据，仅代表视听与文案结构特征"
+    }
+  },
+  "evidence": {
+    "is_commercial_video": true,
+    "book_title_on_cover": null,
+    "exact_timestamps_source": "segments/v_2ad33b07cfad615d.aligned.json"
+  },
+  "limitations": "按text_plus_frames模式分析，完整音画与后台销量未作推断。",
+  "incremental_findings": {
+    "comparison_video_ids": [
+      "v_7c9d47c6f0bcb117"
+    ],
+    "new_hook": false,
+    "new_narrative": false,
+    "new_bridge": false,
+    "new_cta": false,
+    "new_visual": false,
+    "new_book_scenario": false,
+    "adds_new_usable_structure": false,
+    "reason": "属于同账号同类同质化稿件，与v_7c9d47c6f0bcb117完全一致，无新增结构。",
+    "evidence": "结尾同样为借书台词。"
+  }
+}
