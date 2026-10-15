@@ -1,6 +1,6 @@
 {
   "schema_version": "collaboration-state-1.0",
-  "updated_at": "2026-10-15T17:26:17+08:00",
+  "updated_at": "2026-10-16T00:23:26+08:00",
   "project_status": "PARTIAL",
   "latest_batch": "supplement_01",
   "source_paths": 332,
@@ -73,8 +73,8 @@
     "365日走遍中国类"
   ],
   "product_status": "正式SKU、年份/版次、ISBN、目录/展示页和挂载尚待核实",
-  "next_A": "按text_light_v1的READY与38批计划做317份全文轻分析，先旅行地理相关；不用重新拆35条视频",
-  "next_Codex": "校验A文字输出的覆盖、原文、书名关系和状态；入库、更新总表/总控/日志；商品确认后再推进样片",
+  "next_A": "本次优先：两个新账号本地READY后，按new_accounts_2026-10-16独立子批次做全文轻分析及代表深拆；旧text_light_v1待办保留，不自动重启旧317任务",
+  "next_Codex": "2026-10-16北京时间03:10开始新两账号增量处理，真实桌面交接后3小时审核，按批更新同一总表/报告/文库/总控/日志",
   "entry_paths": {
     "control": "D:\\fuye\\docs\\竞品分析协作总控.md",
     "journal": "D:\\fuye\\05_爆款知识库与复盘\\06_竞品分析更新日志.md",
@@ -177,5 +177,23 @@
     "sha256_observed": "368fb41e8c3f87cbfa29e9097b81f67d63f0775c947492e8ebb9cf3d02d56fa2",
     "publish_ready": false,
     "note": "其他任务新生成，本轮只登记；不计入本批验收，也不代替媒体/事实/配音权利复核"
+  },
+  "scheduled_increment": {
+    "batch_id": "new_accounts_2026-10-16",
+    "status": "SCHEDULED",
+    "not_before": "2026-10-16T03:10:00+08:00",
+    "accounts": [
+      "失去壳的海龟",
+      "闲不住De宝"
+    ],
+    "preflight_file_counts": {
+      "失去壳的海龟": 50,
+      "闲不住De宝": 33
+    },
+    "counts_not_added_to_completed_totals": true,
+    "start_automation_id": "10-16-03-10",
+    "review_timing": "3 hours after actual successful desktop handoff; not yet scheduled",
+    "job_state": "竞品视频分析_2026-10-15/manifest/new_accounts_2026-10-16_job.json",
+    "runbook": "docs/竞品分析_新账号夜间接续_2026-10-16.md"
   }
 }

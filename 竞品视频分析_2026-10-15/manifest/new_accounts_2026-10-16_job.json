@@ -1,0 +1,73 @@
+{
+  "schema_version": "new-account-scheduled-job-1.0",
+  "batch_id": "new_accounts_2026-10-16",
+  "status": "SCHEDULED",
+  "recorded_at": "2026-10-16T00:23:26+08:00",
+  "not_before": "2026-10-16T03:10:00+08:00",
+  "timezone": "Asia/Shanghai",
+  "start_automation_id": "10-16-03-10",
+  "start_automation_status_verified": "ACTIVE",
+  "runbook": "docs/竞品分析_新账号夜间接续_2026-10-16.md",
+  "source_root": "00_对标与采集工具/wx_channel/downloads",
+  "accounts": [
+    "失去壳的海龟",
+    "闲不住De宝"
+  ],
+  "preflight": {
+    "source_file_counts": {
+      "失去壳的海龟": 50,
+      "闲不住De宝": 33
+    },
+    "supported_extension": ".mp4",
+    "source_file_total": 83,
+    "source_bytes": {
+      "失去壳的海龟": 1572724843,
+      "闲不住De宝": 2500364180
+    },
+    "valid_videos": null,
+    "unique_contents": null,
+    "counts_are_not_validated_video_counts": true,
+    "source_database_opened": false,
+    "asr_inference_test_performed": false,
+    "package_versions": {
+      "python": "3.10.10",
+      "funasr": "1.4.16",
+      "torch": "2.14.1",
+      "soundfile": "0.14.0"
+    },
+    "local_model_files_exist": true,
+    "ffmpeg_file_exists": true,
+    "openpyxl_in_asr_venv": false,
+    "computer_use": {
+      "sky_initialized": true,
+      "app_enumeration_succeeded": true,
+      "antigravity_running": true,
+      "window_read_succeeded": true,
+      "fuye_workspace_confirmed": false,
+      "batch_message_submitted": false
+    }
+  },
+  "basic_processing_started_at": null,
+  "basic_processing_completed_at": null,
+  "handoff_status": "NOT_SENT",
+  "handoff_at": null,
+  "review_delay_hours": 3,
+  "review_due_at": null,
+  "review_automation_id": null,
+  "review_schedule_status": "WAITING_FOR_ACTUAL_HANDOFF",
+  "review_completed_at": null,
+  "can_continue": null,
+  "received_A_final_files": 0,
+  "verified_text_semantic": 0,
+  "verified_representative_deep": 0,
+  "scope": {
+    "local_basic_all_new_valid_contents": true,
+    "full_text_light_analysis": true,
+    "candidate_target": "20-30; reduce with explicit reason if no diversity",
+    "all_videos_full_multimodal_deep_analysis": false,
+    "A_output_root": "analysis_a/new_accounts_2026-10-16",
+    "cloud_inputs": "previously approved text and static frames only; no new API or expanded input permission",
+    "raw_videos_or_audio_uploaded": false,
+    "historical_317_text_backlog_auto_launched": false
+  }
+}
