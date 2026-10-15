@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_2306120bb0b29be4",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "43bbe4e95faf57cfc3cb4fa33cb2b46a21f44c065f12e348d29d90f1f7a27896",
+  "started_at": "2026-10-16T04:46:47.234684+08:00",
+  "finished_at": "2026-10-16T04:46:47.234684+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_2306120bb0b29be4_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000383",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：曼昆经济学原理",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十四分钟讲解曼昆经济学原理有一本书，",
+      "叙事节点（s000064）：你选择读大学，",
+      "叙事节点（s000127）：是你本可以用这三小时学会一门技能，",
+      "叙事节点（s000190）：你在被他推着走，",
+      "叙事节点（s000253）：市场不奖励辛苦，",
+      "叙事节点（s000316）：你享受的每一分繁荣背后都有人在承担代价。",
+      "叙事节点（s000379）：让你变富有的是你的天赋、勤奋和运气。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "曼昆经济学原理",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十四分钟讲解曼昆经济学原理有一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解曼昆经济学原理有一本书，",
+      "start_s": 0.37,
+      "end_s": 3.05
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000064",
+      "quote": "你选择读大学，",
+      "start_s": 129.78,
+      "end_s": 130.78
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000383",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 856.23,
+      "end_s": 858.175
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解曼昆经济学原理有一本书，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000064",
+      "quote": "你选择读大学，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000383",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解曼昆经济学原理有一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

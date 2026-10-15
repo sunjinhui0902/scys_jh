@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_f4a8f176c6f73910",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "36a212f6ab0a6e3cd0e2cc3e1d415edbea88acba654d5d82a0460ea6c499c9d3",
+  "started_at": "2026-10-16T04:46:48.003131+08:00",
+  "finished_at": "2026-10-16T04:46:48.003131+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_f4a8f176c6f73910_u001",
+      "v_f4a8f176c6f73910_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000442",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：上帝之城",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十三分钟讲解奥古斯丁上帝之城有一本书，",
+      "叙事节点（s000074）：嗯，",
+      "叙事节点（s000147）：恰恰是按照正确的秩序去爱。",
+      "叙事节点（s000220）：你就触摸到了永恒，",
+      "叙事节点（s000293）：你是他爱的镜子。",
+      "叙事节点（s000366）：然后你的生活自然就是对的，",
+      "叙事节点（s000439）：这段话是一个见过罗马陷落的人从废墟中站起来说的，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "上帝之城",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十三分钟讲解奥古斯丁上帝之城有一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解奥古斯丁上帝之城有一本书，",
+      "start_s": 0.39,
+      "end_s": 3.63
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000074",
+      "quote": "嗯，",
+      "start_s": 171.72,
+      "end_s": 171.99
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000442",
+      "quote": "下本书见。",
+      "start_s": 961.32,
+      "end_s": 961.955
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解奥古斯丁上帝之城有一本书，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000074",
+      "quote": "嗯，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000442",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解奥古斯丁上帝之城有一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

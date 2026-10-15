@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_c110f20742e7bf64",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "29a4b673f3004f78e2e9305cf9c3d3895e336512cecbaa6c5c8076fddc695cb1",
+  "started_at": "2026-10-16T04:46:47.819459+08:00",
+  "finished_at": "2026-10-16T04:46:47.819459+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_c110f20742e7bf64_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000382",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：人口与日本经济",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：如果有人白送你一个孩子，",
+      "叙事节点（s000064）：纸尿裤市场应该萎缩。",
+      "叙事节点（s000127）：第五题，",
+      "叙事节点（s000190）：医疗花的越多，",
+      "叙事节点（s000253）：他在书里讨论了一个概念，",
+      "叙事节点（s000316）：创新的哪儿来？",
+      "叙事节点（s000379）：这四个词是你可以拿去拆解日常焦虑的螺丝刀，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "人口与日本经济",
+        "relation": "recommended",
+        "segment_id": "s000007",
+        "evidence_quote": "用经典好书帮你看懂钱。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "如果有人白送你一个孩子，",
+      "start_s": 0.55,
+      "end_s": 2.31
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000064",
+      "quote": "纸尿裤市场应该萎缩。",
+      "start_s": 137.95,
+      "end_s": 139.485
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000382",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 760.45,
+      "end_s": 762.435
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "如果有人白送你一个孩子，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000064",
+      "quote": "纸尿裤市场应该萎缩。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000382",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000007",
+      "quote": "用经典好书帮你看懂钱。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

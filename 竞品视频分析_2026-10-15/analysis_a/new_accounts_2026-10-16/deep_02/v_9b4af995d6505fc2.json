@@ -1,0 +1,68 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_9b4af995d6505fc2",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.382043+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：圆明园兽首？敦煌壁画？都不是。真正排第一的那件，明朝编的22",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国流失到海外最珍贵的文物是哪一件吗？",
+      "start_s": 0.05,
+      "end_s": 3.57,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000041",
+      "quote": "盗墓贼从洛阳的堂墓里挖出来，",
+      "start_s": 106.07,
+      "end_s": 109.545
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000200",
+      "quote": "看看谁才是中国流失海外最珍贵的文物。",
+      "start_s": 608.77,
+      "end_s": 611.715,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约305.912秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约609.824秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国流失到海外最珍贵的文物是哪一件吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000041",
+      "quote": "盗墓贼从洛阳的堂墓里挖出来，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000200",
+      "quote": "看看谁才是中国流失海外最珍贵的文物。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\圆明园兽首？敦煌壁画？都不是。真正排第一的那件，明朝编的22937卷百科全书，1860年被抢走烧毁大半，到今天全世界只找回800多卷，剩下22000卷不知在谁家地下室落灰。这些年中.mp4",
+  "source_sha256": "752d64ee7b0cc9802225ea1112f61e3d6c7c60b1dd4f26891505b2504bd28b4f"
+}

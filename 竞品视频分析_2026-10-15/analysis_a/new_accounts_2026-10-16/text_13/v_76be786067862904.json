@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_76be786067862904",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "7d15b982ce67a42712c1f530f4a94e7d8bccae8ce6497672ef9e67a00da4fb90",
+  "started_at": "2026-10-16T04:46:47.873641+08:00",
+  "finished_at": "2026-10-16T04:46:47.873641+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_76be786067862904_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000193",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：道学入门",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：你敢相信吗？",
+      "叙事节点（s000033）：这样的经历对研究周易参铜器是有帮助的。",
+      "叙事节点（s000065）：这本书不是从固纸堆里抄出来的，",
+      "叙事节点（s000097）：从清净丹绝到女丹传真，",
+      "叙事节点（s000129）：辟谷、福气外丹、黄白术。",
+      "叙事节点（s000161）：真正的方法论藏在固纸堆里。",
+      "叙事节点（s000193）：欢迎持续关注我们下本书见。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "道学入门",
+        "relation": "recommended",
+        "segment_id": "s000002",
+        "evidence_quote": "中国道学文化史上有一本入门书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "start_s": 0.25,
+      "end_s": 1.13
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000033",
+      "quote": "这样的经历对研究周易参铜器是有帮助的。",
+      "start_s": 76.48,
+      "end_s": 79.875
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000193",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 453.45,
+      "end_s": 455.535
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000033",
+      "quote": "这样的经历对研究周易参铜器是有帮助的。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000193",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000002",
+      "quote": "中国道学文化史上有一本入门书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

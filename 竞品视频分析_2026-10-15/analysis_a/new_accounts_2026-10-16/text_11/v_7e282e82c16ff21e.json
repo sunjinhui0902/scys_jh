@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_7e282e82c16ff21e",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "0dce6d1599502da0e2a1dd067db11e54d5b729ee39d6109a5ce4a5a39c5d207f",
+  "started_at": "2026-10-16T04:46:47.765356+08:00",
+  "finished_at": "2026-10-16T04:46:47.765356+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_7e282e82c16ff21e_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000225",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：渊海子平",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：你敢相信吗？",
+      "叙事节点（s000038）：人们算命靠的是鬼谷子先师传下的那英法六十甲子配五行一段生死吉凶。",
+      "叙事节点（s000075）：一开口，",
+      "叙事节点（s000112）：环环相扣，",
+      "叙事节点（s000149）：详细论述正官、偏官欺杀、硬瘦、正财、偏财、食神、商官、劫财、洋刃等食神的用法，",
+      "叙事节点（s000186）：被劣质白话片爱好者被江湖神棍收割，",
+      "叙事节点（s000223）：不妨就从渊海紫坪翻开，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "渊海子平",
+        "relation": "recommended",
+        "segment_id": "s000003",
+        "evidence_quote": "有这样一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "start_s": 0.21,
+      "end_s": 1.07
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000038",
+      "quote": "人们算命靠的是鬼谷子先师传下的那英法六十甲子配五行一段生死吉凶。",
+      "start_s": 84.35,
+      "end_s": 91.4
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000225",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 551.91,
+      "end_s": 553.655
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000038",
+      "quote": "人们算命靠的是鬼谷子先师传下的那英法六十甲子配五行一段生死吉凶。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000225",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000003",
+      "quote": "有这样一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

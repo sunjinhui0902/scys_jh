@@ -1,0 +1,70 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_a8a9f9dc511b9853",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.667244+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "深度思想拆解：就业、利息和货币通论",
+    "category": "深度社科/思想哲学",
+    "mentioned_books": [
+      "就业、利息和货币通论"
+    ],
+    "recommended_book": "就业、利息和货币通论",
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十分钟讲解凯恩斯就业利息和货币通论。",
+      "start_s": 0.33,
+      "end_s": 3.33,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "总分总结构：开篇提出重大时代命题或认知误区 -> 分阶段拆解经典文本内在逻辑 -> 结合当代人心理内耗进行反思 -> 创作者走心自白并预告下期。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000053",
+      "quote": "而非信条的坚定主题。",
+      "start_s": 140.62,
+      "end_s": 142.38
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000260",
+      "quote": "下本书见。",
+      "start_s": 626.98,
+      "end_s": 627.565,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约313.853秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约625.706秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十分钟讲解凯恩斯就业利息和货币通论。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000053",
+      "quote": "而非信条的坚定主题。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000260",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "失去壳的海龟",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\失去壳的海龟\\第347集｜就业、利息和货币通论，长期来说，我们都死了#就业利息和货币通论 #凯恩斯 #凯恩斯革命 #有效需求 #国家干预 #宏观经济学 #大萧条 #经济学经典.mp4",
+  "source_sha256": "c85c0f2687de55b5bf69ddc86fcbcfa37ba39abdc7e89755d9ae2b565b38e827"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_b503588bf897195f",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "3c956de9739cef97a42d96a3b36f4a7850d8e81d29008499bd9b6789bd1e8d56",
+  "started_at": "2026-10-16T04:46:48.189613+08:00",
+  "finished_at": "2026-10-16T04:46:48.189613+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_b503588bf897195f_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000389",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：中国历代政治得失",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：本视频十五分钟，",
+      "叙事节点（s000065）：其制度设计充满开创性智慧。",
+      "叙事节点（s000129）：唐代制度的教训是，",
+      "叙事节点（s000193）：他讲，",
+      "叙事节点（s000257）：政治制度从来不是天上掉下来的，",
+      "叙事节点（s000321）：从标签中解放，",
+      "叙事节点（s000385）：然后说我明白了，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "中国历代政治得失",
+        "relation": "recommended",
+        "segment_id": "s000002",
+        "evidence_quote": "党解钱目中国历代政治得失，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "本视频十五分钟，",
+      "start_s": 0.19,
+      "end_s": 1.29
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000065",
+      "quote": "其制度设计充满开创性智慧。",
+      "start_s": 132.19,
+      "end_s": 134.535
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000389",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 810.25,
+      "end_s": 812.325
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "本视频十五分钟，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000065",
+      "quote": "其制度设计充满开创性智慧。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000389",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000002",
+      "quote": "党解钱目中国历代政治得失，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果",
+    "【待核验事项】帧内作者字样为钱穆，ASR开头有钱目/钱木等同音写法；原文不改，派生字段更正须标注帧证据，未做逐字听核"
+  ],
+  "status": "AI_REVIEW"
+}

@@ -40,6 +40,7 @@
 *.wav
 *.flac
 *.flac
+*.ogg
 *.jpg
 *.jpeg
 *.png
@@ -62,3 +63,7 @@
 !/00_对标与采集工具/wx_channel/web/docs/
 /竞品视频分析_2026-10-15/models/
 /竞品视频分析_2026-10-15/tools/
+# Generated rendering intermediates and local concat instruction files
+**/rendered_motion_clips/
+**/motion_clips/
+**/concat*.txt

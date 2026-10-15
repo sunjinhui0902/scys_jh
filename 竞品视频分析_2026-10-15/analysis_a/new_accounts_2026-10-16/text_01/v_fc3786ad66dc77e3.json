@@ -1,0 +1,91 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_fc3786ad66dc77e3",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "a26099581f01931ca72167813240919f7191f6e72b046bae094b5dc6641faf03",
+  "started_at": "2026-10-16T04:41:00+08:00",
+  "finished_at": "2026-10-16T04:42:00+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_fc3786ad66dc77e3_u001",
+      "v_fc3786ad66dc77e3_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000497",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "海德格尔《存在与时间》核心哲学思想深度剖析",
+    "category": "西方哲学/经典解读",
+    "story_points": [
+      "开头用'重新活一次的门票'切入，引发对生命与选择的本质思考",
+      "辨析'存在'（Sein）与'存在者'（Seiendes），指出西方哲学遗忘存在的盲区",
+      "引入'此在'（Dasein）：人是唯一能够对自身存在提出追问并承受存在的特殊存在者",
+      "分析'被抛状态'（Geworfenheit）：人未经选择被抛入特定的时代、家庭和肉身中",
+      "揭示日常生活的'沉沦'（Verfallen）：人为了逃避无意义感，将自己交付给'常人'（das Man）的平庸评价体系",
+      "'向死而生'（Sein-zum-Tode）：死亡作为绝对不可替代的终点，唯有直面死亡才能唤醒本真性（Eigentlichkeit）",
+      "时间性是存在的视界：过去、现在与未来的统一",
+      "末段客观指出《存在与时间》翻译与文本晦涩，且海德格尔有加入纳粹的历史污点，警惕哲学崇拜",
+      "结语回归现实：即便有污点与晦涩，依然促使人在深夜自省'我是谁、我该怎么活'"
+    ],
+    "book_relations": [
+      {
+        "book_name": "存在与时间",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十五分钟讲解海德格尔存在与时间，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解海德格尔存在与时间，",
+      "start_s": 0.44,
+      "end_s": 3.7
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "如果有人白送你一张重新活一次的门票，",
+      "start_s": 3.7,
+      "end_s": 7.0
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000497",
+      "quote": "我们下本书。",
+      "start_s": 999.0,
+      "end_s": 1003.0
+    },
+    "reusable_method": "哲学概念生活化（沉沦=上班摸鱼刷手机随大流）+ 极端情境假设唤醒（向死而生）+ 双单元长文案节奏控制 + 结尾客观交代争议污点建立公信力。",
+    "original_topic_angles": [
+      "从'此在与居住'切入古建文化：中国古人如何在山川之间营造属于自己的诗意栖居之所",
+      "在时间的荒原上：从《存在与时间》的向死而生，看山西千年古刹彩塑中沉淀的不朽时光"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解海德格尔存在与时间，",
+      "supports": "fields.hook, fields.book_relations"
+    },
+    {
+      "segment_id": "s000002",
+      "quote": "如果有人白送你一张重新活一次的门票，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000497",
+      "quote": "我们下本书。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "跨双单元超长文本（共497段），纯文本ASR分析，无逐帧视觉证据",
+    "海德格尔哲学专有名词（此在、向死而生）在ASR中存在口语化断句，未作逐字音频核验",
+    "结尾无商业购书链接，属于长视频深度读书自媒体内容"
+  ],
+  "status": "AI_OK"
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_7d2b26fa20a69875",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "7d2f408d4d590bc6eb7104df8e480c5ad3d0fcdb00e32127299f623b9491ef5a",
+  "started_at": "2026-10-16T04:46:47.987018+08:00",
+  "finished_at": "2026-10-16T04:46:47.987018+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_7d2b26fa20a69875_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000386",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：黄泥街",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十四分钟讲解残雪黄泥街有一本书，",
+      "叙事节点（s000065）：开篇的两处问句，",
+      "叙事节点（s000129）：张灭兹死在这样的好天色里，",
+      "叙事节点（s000193）：你开始怀疑他们是不是只是比你更诚实。",
+      "叙事节点（s000257）：你都在自己的生活里，",
+      "叙事节点（s000321）：是把你送到他面前，",
+      "叙事节点（s000385）：欢迎持续关注我们，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "黄泥街",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十四分钟讲解残雪黄泥街有一本书，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解残雪黄泥街有一本书，",
+      "start_s": 0.37,
+      "end_s": 3.15
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000065",
+      "quote": "开篇的两处问句，",
+      "start_s": 148.53,
+      "end_s": 149.915
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000386",
+      "quote": "下本书见。",
+      "start_s": 873.34,
+      "end_s": 873.985
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解残雪黄泥街有一本书，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000065",
+      "quote": "开篇的两处问句，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000386",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解残雪黄泥街有一本书，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

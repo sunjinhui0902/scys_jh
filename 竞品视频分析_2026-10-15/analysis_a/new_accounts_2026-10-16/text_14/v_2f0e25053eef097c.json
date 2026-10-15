@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_2f0e25053eef097c",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "4328e4c828b6d829803be186c3346705a7a81839f65e0582c172b105ad530a0e",
+  "started_at": "2026-10-16T04:46:47.970906+08:00",
+  "finished_at": "2026-10-16T04:46:47.970906+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_2f0e25053eef097c_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000223",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：潮汕思维",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：你敢相信吗？",
+      "叙事节点（s000038）：提前到饭桌上，",
+      "叙事节点（s000075）：穿人情要留香，",
+      "叙事节点（s000112）：而是教他吵架，",
+      "叙事节点（s000149）：画什么就是什么。",
+      "叙事节点（s000186）：父母读十局控局破局，",
+      "叙事节点（s000223）：下本书见。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "潮汕思维",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "你敢相信吗？"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "start_s": 0.5,
+      "end_s": 1.38
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000038",
+      "quote": "提前到饭桌上，",
+      "start_s": 73.32,
+      "end_s": 74.375
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000223",
+      "quote": "下本书见。",
+      "start_s": 445.58,
+      "end_s": 446.185
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000038",
+      "quote": "提前到饭桌上，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000223",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "你敢相信吗？",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

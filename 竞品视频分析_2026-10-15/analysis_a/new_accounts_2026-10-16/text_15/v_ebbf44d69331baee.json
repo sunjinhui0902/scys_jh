@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_ebbf44d69331baee",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "1dfb1bf7e5a7abf30653703672c53ae6272e426aeb51a4ced6f8ac0d1f456247",
+  "started_at": "2026-10-16T04:46:48.048943+08:00",
+  "finished_at": "2026-10-16T04:46:48.048943+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_ebbf44d69331baee_u001",
+      "v_ebbf44d69331baee_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000444",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：忏悔录",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十六分钟讲解奥古斯丁忏悔录，",
+      "叙事节点（s000075）：他不是在回忆某件具体的事，",
+      "叙事节点（s000149）：在认知结构上没有本质区别，",
+      "叙事节点（s000223）：奥古斯丁已经先于他提出了类似的论证，",
+      "叙事节点（s000297）：被称为内在性，",
+      "叙事节点（s000371）：我看见了意志，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "忏悔录",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十六分钟讲解奥古斯丁忏悔录，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十六分钟讲解奥古斯丁忏悔录，",
+      "start_s": 0.34,
+      "end_s": 2.4
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000075",
+      "quote": "他不是在回忆某件具体的事，",
+      "start_s": 174.7,
+      "end_s": 176.585
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000444",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 985.91,
+      "end_s": 987.775
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十六分钟讲解奥古斯丁忏悔录，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000075",
+      "quote": "他不是在回忆某件具体的事，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000444",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十六分钟讲解奥古斯丁忏悔录，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

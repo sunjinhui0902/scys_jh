@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_98f75a1acaea5c52",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "0124ead78fad3f433cf6f2e722e854ed6a30300cc03a19d482dbd6b16734e309",
+  "started_at": "2026-10-16T04:46:28.613066+08:00",
+  "finished_at": "2026-10-16T04:46:28.613066+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_98f75a1acaea5c52_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000338",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：奥地利学派经济学简史",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十四分钟讲解奥地利学派经济学简史有一本书出版后被主流经济学界集体沉默。",
+      "叙事节点（s000057）：那我们开始进入正题。",
+      "叙事节点（s000113）：随时踩米塞斯，",
+      "叙事节点（s000169）：什么意思？",
+      "叙事节点（s000225）：竞争是发现的引擎。",
+      "叙事节点（s000281）：在公共领域赢得了一大批新读者。",
+      "叙事节点（s000337）：我是小海龟，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "奥地利学派经济学简史",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十四分钟讲解奥地利学派经济学简史有一本书出版后被主流经济学界集体沉默。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解奥地利学派经济学简史有一本书出版后被主流经济学界集体沉默。",
+      "start_s": 0.29,
+      "end_s": 6.57
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000057",
+      "quote": "那我们开始进入正题。",
+      "start_s": 137.2,
+      "end_s": 138.405
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000338",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 821.03,
+      "end_s": 822.995
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解奥地利学派经济学简史有一本书出版后被主流经济学界集体沉默。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000057",
+      "quote": "那我们开始进入正题。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000338",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解奥地利学派经济学简史有一本书出版后被主流经济学界集体沉默。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_b27db8ad24d44b64",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "2954262dccbec51bd11b13261795abc4b8f16143a30a2ccd151b76c919d2cd1e",
+  "started_at": "2026-10-16T04:46:47.889183+08:00",
+  "finished_at": "2026-10-16T04:46:47.889183+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_b27db8ad24d44b64_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000287",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：霞浦滩涂站在岸边就能看日出大片，茶卡盐湖走到深处天地只剩自己",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道中国最美的地方藏在哪儿吗？",
+      "叙事节点（s000048）：天上的云彩倒映在水里，",
+      "叙事节点（s000095）：远处的山，",
+      "叙事节点（s000142）：脚底下二十多米就是一座古城。",
+      "叙事节点（s000189）：这种花只在水质特别好的湖里才能存活，",
+      "叙事节点（s000236）：加上峡谷两边的峭壁挡住了大部分风水面，",
+      "叙事节点（s000283）：还是飘在天上。"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国最美的地方藏在哪儿吗？",
+      "start_s": 0.05,
+      "end_s": 2.73
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000048",
+      "quote": "天上的云彩倒映在水里，",
+      "start_s": 130.64,
+      "end_s": 132.765
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000287",
+      "quote": "就是咱们接着接。",
+      "start_s": 799.53,
+      "end_s": 802.125
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国最美的地方藏在哪儿吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000048",
+      "quote": "天上的云彩倒映在水里，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000287",
+      "quote": "就是咱们接着接。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

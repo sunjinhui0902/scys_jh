@@ -1,0 +1,68 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_d4c74c1dc35fd3e7",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.411976+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：从终南山隐士到武当金殿，从峨眉佛光到梅里雪山山难，揭秘中国十",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "咱们聊了钟南山、武当山、峨眉山、梅里雪山、神农架这集，",
+      "start_s": 0.53,
+      "end_s": 6.69,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000055",
+      "quote": "途中最高要翻越五千六百多米的山口，",
+      "start_s": 181.56,
+      "end_s": 185.4
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000274",
+      "quote": "咱们下回接着聊。",
+      "start_s": 781.3,
+      "end_s": 782.785,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约391.431秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约780.862秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000002",
+      "quote": "咱们聊了钟南山、武当山、峨眉山、梅里雪山、神农架这集，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000055",
+      "quote": "途中最高要翻越五千六百多米的山口，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000274",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\从终南山隐士到武当金殿，从峨眉佛光到梅里雪山山难，揭秘中国十大神秘山脉。榜首那座山在《山海经》中被称作'天帝的下都'，至今仍有管控区域禁止进入。_#人物故事 #中国.mp4",
+  "source_sha256": "ea80b435998ab14963e937d1b49c43febd52695d942a18d2d914c8c28789a626"
+}

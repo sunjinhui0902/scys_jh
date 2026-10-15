@@ -1,0 +1,79 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_92afd56d4cbb2493",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "69dce9276c8c5451ba62106dbf7c4a041639862fcb18bca910086cf126023d6b",
+  "started_at": "2026-10-16T04:46:47.221191+08:00",
+  "finished_at": "2026-10-16T04:46:47.221191+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_92afd56d4cbb2493_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000264",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：从2400年前缠了16条龙的鼓座，到薄如纸页的4000年黑陶",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上一集咱们聊了诛文，",
+      "叙事节点（s000045）：条条分明，",
+      "叙事节点（s000089）：指甲盖儿都刻出来。",
+      "叙事节点（s000133）：您说这叫诡异，",
+      "叙事节点（s000177）：微微发黄，",
+      "叙事节点（s000221）：为什么排第一？"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "上一集咱们聊了诛文，",
+      "start_s": 0.05,
+      "end_s": 1.71
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000045",
+      "quote": "条条分明，",
+      "start_s": 132.77,
+      "end_s": 133.745
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000264",
+      "quote": "咱们下回接着聊。",
+      "start_s": 750.03,
+      "end_s": 751.775
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "上一集咱们聊了诛文，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000045",
+      "quote": "条条分明，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000264",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

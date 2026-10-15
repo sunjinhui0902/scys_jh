@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_d4c74c1dc35fd3e7",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "ea80b435998ab14963e937d1b49c43febd52695d942a18d2d914c8c28789a626",
+  "started_at": "2026-10-16T04:46:47.416978+08:00",
+  "finished_at": "2026-10-16T04:46:47.416978+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_d4c74c1dc35fd3e7_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000274",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：从终南山隐士到武当金殿，从峨眉佛光到梅里雪山山难，揭秘中国十",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上集，",
+      "叙事节点（s000046）：阳光洒落在峰顶金光流转，",
+      "叙事节点（s000091）：足够传奇。",
+      "叙事节点（s000136）：咱们就在心里竞争可去不了，",
+      "叙事节点（s000181）：夸父追日、共工处不周山、西王母、不死药、后羿射日、嫦娥奔月、女娲补天。",
+      "叙事节点（s000226）：别的山看得见摸得着。",
+      "叙事节点（s000271）：点个收藏，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "咱们聊了钟南山、武当山、峨眉山、梅里雪山、神农架这集，",
+      "start_s": 0.53,
+      "end_s": 6.69
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000046",
+      "quote": "阳光洒落在峰顶金光流转，",
+      "start_s": 151.07,
+      "end_s": 154.485
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000274",
+      "quote": "咱们下回接着聊。",
+      "start_s": 781.3,
+      "end_s": 782.785
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000002",
+      "quote": "咱们聊了钟南山、武当山、峨眉山、梅里雪山、神农架这集，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000046",
+      "quote": "阳光洒落在峰顶金光流转，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000274",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_33f1e4063c99a716",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.430275+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "深度思想拆解：他者的消失",
+    "category": "深度社科/思想哲学",
+    "mentioned_books": [
+      "他者的消失"
+    ],
+    "recommended_book": "他者的消失",
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解韩炳哲他者的消失。",
+      "start_s": 0.38,
+      "end_s": 2.8,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "总分总结构：开篇提出重大时代命题或认知误区 -> 分阶段拆解经典文本内在逻辑 -> 结合当代人心理内耗进行反思 -> 创作者走心自白并预告下期。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000082",
+      "quote": "寻找同者、志同道合者，",
+      "start_s": 178.42,
+      "end_s": 180.315
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000405",
+      "quote": "下本书见。",
+      "start_s": 925.9,
+      "end_s": 926.495,
+      "is_commercial": false,
+      "note": "口播结尾以关注、分享或情感号召为主；未发现直接挂载可购买商品链接的实质入口。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约463.297秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约924.594秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十五分钟讲解韩炳哲他者的消失。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000082",
+      "quote": "寻找同者、志同道合者，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000405",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "失去壳的海龟",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\失去壳的海龟\\第349集｜他者的消失，不读《他者的消失》，你连自己为什么越社交越孤独都不知道#哲学#认知#他者的消失 #韩炳哲 #同质化的恐怖 #中信出版集团 #社交媒体批判 #信息茧房 #算法.mp4",
+  "source_sha256": "915f2b2cd585a20ed3eaad772827b2aac0e5ff5b18b593af8e6d5f9a04a75522"
+}

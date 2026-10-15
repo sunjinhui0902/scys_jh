@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_73fe295c18ecf289",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "edc396480062f7dc84b0c694dddbac214731355af9729c799004c33d3abcc4d3",
+  "started_at": "2026-10-16T04:46:48.074503+08:00",
+  "finished_at": "2026-10-16T04:46:48.074503+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_73fe295c18ecf289_u001",
+      "v_73fe295c18ecf289_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000547",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：黄泥街",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：二十分钟讲解残雪黄泥街。",
+      "叙事节点（s000092）：他是来让你醒过来的。",
+      "叙事节点（s000183）：所以，",
+      "叙事节点（s000274）：是一个所有人都在谈论，",
+      "叙事节点（s000365）：他们知道死亡随时可能降临，",
+      "叙事节点（s000456）：就是黄泥街上的人际关系。",
+      "叙事节点（s000547）：欢迎持续关注我们下本书见。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "黄泥街",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "二十分钟讲解残雪黄泥街。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "二十分钟讲解残雪黄泥街。",
+      "start_s": 0.41,
+      "end_s": 2.45
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000092",
+      "quote": "他是来让你醒过来的。",
+      "start_s": 219.02,
+      "end_s": 220.415
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000547",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 1224.71,
+      "end_s": 1226.605
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "二十分钟讲解残雪黄泥街。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000092",
+      "quote": "他是来让你醒过来的。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000547",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "二十分钟讲解残雪黄泥街。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

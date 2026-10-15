@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_277bc3d78abb6ee9",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "4c412d3930564dd58affa768287f7a00bc0b24e1f5e4f014c99e1945cea913be",
+  "started_at": "2026-10-16T04:46:47.248430+08:00",
+  "finished_at": "2026-10-16T04:46:47.248430+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_277bc3d78abb6ee9_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000232",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：从七千年前萌得像表情包的陶猪，到两千五百年前镂空到像蕾丝的铜",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道中国出土过最诡异的一件文物是什么吗？",
+      "叙事节点（s000039）：这头猪的身上刻满了圆圈和弧线。",
+      "叙事节点（s000077）：五千年前，",
+      "叙事节点（s000115）：您说这算什么？",
+      "叙事节点（s000153）：他是纯粹的中国本土想象，",
+      "叙事节点（s000191）：铜镜诡异在哪？",
+      "叙事节点（s000229）：现在直接点开我的头像，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国出土过最诡异的一件文物是什么吗？",
+      "start_s": 0.05,
+      "end_s": 3.69
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000039",
+      "quote": "这头猪的身上刻满了圆圈和弧线。",
+      "start_s": 94.6,
+      "end_s": 97.525
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000232",
+      "quote": "看看中国地底下到底还埋着什么让人说不清的东西。",
+      "start_s": 640.19,
+      "end_s": 644.69
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国出土过最诡异的一件文物是什么吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000039",
+      "quote": "这头猪的身上刻满了圆圈和弧线。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000232",
+      "quote": "看看中国地底下到底还埋着什么让人说不清的东西。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

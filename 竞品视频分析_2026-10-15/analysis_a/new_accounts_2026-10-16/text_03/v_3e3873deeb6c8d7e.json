@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_3e3873deeb6c8d7e",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "701974af62db18bbff778f8968fe9310fd226279111d8fc9065326d9d6fe125f",
+  "started_at": "2026-10-16T04:46:47.138442+08:00",
+  "finished_at": "2026-10-16T04:46:47.138442+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_3e3873deeb6c8d7e_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000125",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：九寨沟太远，西湖人太多，中国最绝的那片水藏在沙漠里。从杭州西",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道中国有哪些地方水美到你怀疑自己的眼睛吗？",
+      "叙事节点（s000021）：只剩一个淡淡的轮廓，",
+      "叙事节点（s000041）：你会觉得西湖等这场雨等了一千年第十四名，",
+      "叙事节点（s000061）：秋天的时候，",
+      "叙事节点（s000081）：江面上飘着一层白色的薄雾，",
+      "叙事节点（s000101）：天边还剩一抹淡淡的蓝，",
+      "叙事节点（s000121）：三、天下一集已经同步更新，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国有哪些地方水美到你怀疑自己的眼睛吗？",
+      "start_s": 0.05,
+      "end_s": 4.15
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000021",
+      "quote": "只剩一个淡淡的轮廓，",
+      "start_s": 52.32,
+      "end_s": 53.92
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000125",
+      "quote": "感兴趣的朋友可以关注后续。",
+      "start_s": 315.08,
+      "end_s": 316.955
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国有哪些地方水美到你怀疑自己的眼睛吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000021",
+      "quote": "只剩一个淡淡的轮廓，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000125",
+      "quote": "感兴趣的朋友可以关注后续。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

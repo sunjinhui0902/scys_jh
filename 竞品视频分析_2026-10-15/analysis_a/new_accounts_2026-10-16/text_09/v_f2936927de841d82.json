@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_f2936927de841d82",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "b77ed59c021f519a611191570fbfa38697b8a2b9013e1142af4a18701367124a",
+  "started_at": "2026-10-16T04:46:47.608190+08:00",
+  "finished_at": "2026-10-16T04:46:47.608190+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_f2936927de841d82_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000355",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：人的行为",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十三分钟讲解米塞斯人的行为有一本书全球销量突破，",
+      "叙事节点（s000060）：你有没有听过这句话，",
+      "叙事节点（s000119）：他说，",
+      "叙事节点（s000178）：没有市场价格人根本不知道自己在做什么什么叫不知道自己在做什么。",
+      "叙事节点（s000237）：埋了七十年的陷阱。",
+      "叙事节点（s000296）：说了这么多，",
+      "叙事节点（s000355）：下本书见。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "人的行为",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十三分钟讲解米塞斯人的行为有一本书全球销量突破，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解米塞斯人的行为有一本书全球销量突破，",
+      "start_s": 0.29,
+      "end_s": 4.35
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000060",
+      "quote": "你有没有听过这句话，",
+      "start_s": 142.47,
+      "end_s": 143.51
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000355",
+      "quote": "下本书见。",
+      "start_s": 750.2,
+      "end_s": 750.735
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解米塞斯人的行为有一本书全球销量突破，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000060",
+      "quote": "你有没有听过这句话，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000355",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解米塞斯人的行为有一本书全球销量突破，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

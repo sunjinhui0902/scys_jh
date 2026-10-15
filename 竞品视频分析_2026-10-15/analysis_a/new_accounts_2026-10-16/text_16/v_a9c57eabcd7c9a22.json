@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_a9c57eabcd7c9a22",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "2aabd3e6942885f2c715dc8fd99a185461a1378c25bc8435d3ed18b1eb77a080",
+  "started_at": "2026-10-16T04:46:48.155642+08:00",
+  "finished_at": "2026-10-16T04:46:48.155642+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_a9c57eabcd7c9a22_u001",
+      "v_a9c57eabcd7c9a22_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000494",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：中华人民共和国民法典",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十六分钟，",
+      "叙事节点（s000083）：这是刻在现代社会运行结构之中的底层逻辑。",
+      "叙事节点（s000165）：为老有所居提供保障。",
+      "叙事节点（s000247）：一个朴素的道理，",
+      "叙事节点（s000329）：无力感便会层层堆积。",
+      "叙事节点（s000411）：回答点并不教我们试试算计，",
+      "叙事节点（s000493）：我是小海龟，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "中华人民共和国民法典",
+        "relation": "recommended",
+        "segment_id": "s000002",
+        "evidence_quote": "讲解中华人民共和国民法典。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十六分钟，",
+      "start_s": 0.31,
+      "end_s": 0.91
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000083",
+      "quote": "这是刻在现代社会运行结构之中的底层逻辑。",
+      "start_s": 177.46,
+      "end_s": 180.365
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000494",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 1000.37,
+      "end_s": 1001.965
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十六分钟，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000083",
+      "quote": "这是刻在现代社会运行结构之中的底层逻辑。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000494",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000002",
+      "quote": "讲解中华人民共和国民法典。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

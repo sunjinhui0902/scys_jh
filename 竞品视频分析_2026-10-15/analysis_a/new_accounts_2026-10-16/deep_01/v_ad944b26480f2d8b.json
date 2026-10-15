@@ -1,0 +1,70 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_ad944b26480f2d8b",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.289179+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：明朝永乐年间，2169位学者花6年编成的永乐大典，3.7亿字",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [
+      "永乐大典"
+    ],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国流失海外最珍贵的文物都有哪些吗？",
+      "start_s": 0.05,
+      "end_s": 3.87,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000065",
+      "quote": "是中国山水画的巅峰。",
+      "start_s": 207.75,
+      "end_s": 209.705
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000324",
+      "quote": "咱们下回接着聊。",
+      "start_s": 983.14,
+      "end_s": 984.285,
+      "is_commercial": false,
+      "note": "素材命中购物相关词汇，经全文与尾段核对，实为泛指商贸、购物或生活消费描述，非实体图书直接成交带货口播。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约492.171秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约982.342秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国流失海外最珍贵的文物都有哪些吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000065",
+      "quote": "是中国山水画的巅峰。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000324",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\明朝永乐年间，2169位学者花6年编成的永乐大典，3.7亿字，是大英百科全书的4倍。1860年英法联军、1900年八国联军，两次浩劫后，22937卷只找回800卷。剩下22000卷，有的被烧毁，有.mp4",
+  "source_sha256": "aa99c95f55766884d9be06a292b340f6483ab60161b92d6f240e36d903ebcdfd"
+}

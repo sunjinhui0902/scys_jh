@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_2be39eef1514e89b",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "7738b2dfe08535374ed6221311c5f1c3cf3cce0bfb56ab82e02ac86c41a6b129",
+  "started_at": "2026-10-16T04:46:47.532361+08:00",
+  "finished_at": "2026-10-16T04:46:47.532361+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_2be39eef1514e89b_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000284",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：故宫里有一座近两米高的自鸣钟，每到整点楼阁门自己打开，小人走",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上集，",
+      "叙事节点（s000048）：大门缓缓打开，",
+      "叙事节点（s000095）：红宝石蓝宝石碧玺一共三十六颗。",
+      "叙事节点（s000142）：不让他漫到圈组底部。",
+      "叙事节点（s000189）：一幅画，",
+      "叙事节点（s000236）：您还记得那只金杯嵌了多少宝石吗？",
+      "叙事节点（s000283）：点个关注，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000002",
+      "quote": "咱们聊了雕漆盘严丝徒、玉龙炉、珐琅炉青铜尊这集直接揭开谜底，",
+      "start_s": 0.43,
+      "end_s": 9.21
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000048",
+      "quote": "大门缓缓打开，",
+      "start_s": 121.23,
+      "end_s": 122.55
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000284",
+      "quote": "咱们下回接着聊。",
+      "start_s": 747.65,
+      "end_s": 749.015
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000002",
+      "quote": "咱们聊了雕漆盘严丝徒、玉龙炉、珐琅炉青铜尊这集直接揭开谜底，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000048",
+      "quote": "大门缓缓打开，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000284",
+      "quote": "咱们下回接着聊。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_5cbbc93d14301400",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "6ca928abf9b3d23679bb6703b7890e55716b4e961258b31e997691ead6bce77e",
+  "started_at": "2026-10-16T04:46:48.031091+08:00",
+  "finished_at": "2026-10-16T04:46:48.031091+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_5cbbc93d14301400_u001",
+      "v_5cbbc93d14301400_u002"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000343",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：奥地利学派经济学简史",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十四分钟讲解奥地利学派经济学简史。",
+      "叙事节点（s000058）：又被悄悄没收的？",
+      "叙事节点（s000115）：一八七一年，",
+      "叙事节点（s000172）：一九二零年，",
+      "叙事节点（s000229）：奥地利学派从诞生之初，",
+      "叙事节点（s000286）：而是几句看起来很朴素但影响深远的提醒。",
+      "叙事节点（s000343）：欢迎持续关注我们下本书见。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "奥地利学派经济学简史",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十四分钟讲解奥地利学派经济学简史。"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解奥地利学派经济学简史。",
+      "start_s": 0.31,
+      "end_s": 2.85
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000058",
+      "quote": "又被悄悄没收的？",
+      "start_s": 145.86,
+      "end_s": 147.125
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000343",
+      "quote": "欢迎持续关注我们下本书见。",
+      "start_s": 881.07,
+      "end_s": 882.725
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解奥地利学派经济学简史。",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000058",
+      "quote": "又被悄悄没收的？",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000343",
+      "quote": "欢迎持续关注我们下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十四分钟讲解奥地利学派经济学简史。",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

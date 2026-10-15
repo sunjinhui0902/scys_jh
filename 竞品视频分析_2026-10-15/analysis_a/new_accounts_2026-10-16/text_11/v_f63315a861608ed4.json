@@ -1,0 +1,93 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_f63315a861608ed4",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "16aeac56b6b987adfb42d9845331b86a52baf459d958dfe8c5c90da259b1b4fd",
+  "started_at": "2026-10-16T04:46:47.793980+08:00",
+  "finished_at": "2026-10-16T04:46:47.793980+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_f63315a861608ed4_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000109",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：补拙记：游本昌自传",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：尤本昌的女儿尤思涵说，",
+      "叙事节点（s000019）：这也是他和这个世界最后的告别。",
+      "叙事节点（s000037）：女儿尤思涵没有大家想象中的悲痛欲绝。",
+      "叙事节点（s000055）：这位老人很多人认识，",
+      "叙事节点（s000073）：父亲对家人有太多亏欠，",
+      "叙事节点（s000091）：终于完成和解的过程。",
+      "叙事节点（s000109）：值得放在手边慢慢读。"
+    ],
+    "book_relations": [
+      {
+        "book_name": "补拙记：游本昌自传",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "尤本昌的女儿尤思涵说，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "尤本昌的女儿尤思涵说，",
+      "start_s": 0.56,
+      "end_s": 2.26
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000019",
+      "quote": "这也是他和这个世界最后的告别。",
+      "start_s": 38.509,
+      "end_s": 40.65
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000109",
+      "quote": "值得放在手边慢慢读。",
+      "start_s": 258.65,
+      "end_s": 260.675
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "尤本昌的女儿尤思涵说，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000019",
+      "quote": "这也是他和这个世界最后的告别。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000109",
+      "quote": "值得放在手边慢慢读。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "尤本昌的女儿尤思涵说，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果",
+    "【待核验事项】素材含游本昌逝世叙事，本项目未核事实真伪；不可作为原创事实。帧中文字为游本昌/补拙记，ASR有同音异字，引用仍保留原ASR"
+  ],
+  "status": "AI_REVIEW"
+}

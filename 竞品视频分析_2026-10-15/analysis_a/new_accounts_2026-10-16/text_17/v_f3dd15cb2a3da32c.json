@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_f3dd15cb2a3da32c",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "883bf73a2df6af778cfe7a33a1f953c3cb3b98fdb55a576a0a99b9e26d236ec8",
+  "started_at": "2026-10-16T04:46:48.205869+08:00",
+  "finished_at": "2026-10-16T04:46:48.205869+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_f3dd15cb2a3da32c_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000227",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：中国哲学简史",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：本视频九分钟讲透冯友兰中国哲学简史中八个核心主题思想，",
+      "叙事节点（s000038）：返璞归真。",
+      "叙事节点（s000075）：我们可尝自问，",
+      "叙事节点（s000112）：真正的自由是从内在解除枷锁，",
+      "叙事节点（s000149）：完成这并非简单的理论联系实际，",
+      "叙事节点（s000186）：而是在人事中履行责任，",
+      "叙事节点（s000223）：晚安，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "中国哲学简史",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "本视频九分钟讲透冯友兰中国哲学简史中八个核心主题思想，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "本视频九分钟讲透冯友兰中国哲学简史中八个核心主题思想，",
+      "start_s": 0.19,
+      "end_s": 5.61
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000038",
+      "quote": "返璞归真。",
+      "start_s": 91.84,
+      "end_s": 92.825
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000227",
+      "quote": "欢迎持续关注我们下辈。",
+      "start_s": 572.26,
+      "end_s": 574.39
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "本视频九分钟讲透冯友兰中国哲学简史中八个核心主题思想，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000038",
+      "quote": "返璞归真。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000227",
+      "quote": "欢迎持续关注我们下辈。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "本视频九分钟讲透冯友兰中国哲学简史中八个核心主题思想，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

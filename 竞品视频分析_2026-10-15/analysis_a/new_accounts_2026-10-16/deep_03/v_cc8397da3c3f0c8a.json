@@ -1,0 +1,68 @@
+{
+  "schema_version": "v4-antigravity-deep-1.0",
+  "video_id": "v_cc8397da3c3f0c8a",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-16T04:48:16.476849+08:00",
+  "status": "AI_OK",
+  "fields": {
+    "theme": "文化博览与地理漫游：马踏飞燕在废铜堆里躺了好几年，太阳神鸟差一铲子就被碾进渣土场",
+    "category": "文博历史/旅行地理",
+    "mentioned_books": [],
+    "recommended_book": null,
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道中国最离奇经历的十件国宝是哪一件吗？",
+      "start_s": 0.05,
+      "end_s": 3.45,
+      "visual_cue": "帧1/帧2可见居中大字标题与醒目封面/插画元素"
+    },
+    "narrative_structure": "清单式递进：以强反差悬念勾起好奇 -> 按顺序展示典型国宝文物或地理奇观 -> 穿插历史背景与细节考证 -> 呼唤银发受众走出家门感受真实世界。",
+    "bridge": {
+      "present": true,
+      "segment_id": "s000050",
+      "quote": "正好来了甘肃，",
+      "start_s": 116.71,
+      "end_s": 118.115
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000245",
+      "quote": "看看中国到底丢了什么。",
+      "start_s": 655.12,
+      "end_s": 656.865,
+      "is_commercial": false,
+      "note": "口播结尾以关注、分享或情感号召为主；未发现直接挂载可购买商品链接的实质入口。"
+    },
+    "visual_and_audio": {
+      "visual_frames_observed": "帧1（约1秒）：画面包含关键文字标题/历史文物或实景插图展示；帧2（约5秒）：画面包含关键文字标题/历史文物或实景插图展示；帧3（约328.47秒）：画面包含关键文字标题/历史文物或实景插图展示；帧4（约654.94秒）：画面包含关键文字标题/历史文物或实景插图展示。画面普遍采用高清静止/微动背景叠加大字号突出标题与关键词，强化视觉停留。",
+      "music_and_audio": "未知（输入仅包含4静态抽样帧及ASR文字，无连续音轨流输入）",
+      "camera_movement": "未知（4帧无法证明镜头平移、推拉、跟拍等运动轨迹）"
+    }
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道中国最离奇经历的十件国宝是哪一件吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000050",
+      "quote": "正好来了甘肃，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000245",
+      "quote": "看看中国到底丢了什么。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "仅输入已批准文本及4静态帧，无法判断全片运镜、剪辑节奏及配乐风格，不可推定逐秒视听表现",
+    "无实际带货ROI、完播率或转化数据，不可凭借播放重复度判定真实爆款属性",
+    "专名未逐字人工听核，保留原ASR文本"
+  ],
+  "account": "闲不住De宝",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\闲不住De宝\\马踏飞燕在废铜堆里躺了好几年，太阳神鸟差一铲子就被碾进渣土场，兵马俑几分钟丢掉了等了两千多年的颜色，四羊方尊被炸弹炸成二十多块又拼了回来，清明上河图九百年间S.mp4",
+  "source_sha256": "adafff5cd094f44506dac0248922a14830464421f0194d802198624e9576d2de"
+}

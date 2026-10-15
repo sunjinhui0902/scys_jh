@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_ff66999e727495b1",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "ca330cc5a97b0037bbd463e2d442e66eb8131127b9b4c1d33057e851baed85f9",
+  "started_at": "2026-10-16T04:46:47.590037+08:00",
+  "finished_at": "2026-10-16T04:46:47.590037+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_ff66999e727495b1_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000219",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：故宫里皇帝每天用的东西，不是金碗龙椅，而是一支用到裂缝的毛笔",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：接着上集，",
+      "叙事节点（s000037）：这叫褒浆，",
+      "叙事节点（s000073）：传说乾隆去世前，",
+      "叙事节点（s000109）：接下来这两件一件皇帝天天带，",
+      "叙事节点（s000145）：一两田黄三两金，",
+      "叙事节点（s000181）：乾隆的田黄三连章临死前握在手里不撒手，",
+      "叙事节点（s000217）：有些就在那儿点个关注。"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "接着上集，",
+      "start_s": 0.05,
+      "end_s": 0.77
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000037",
+      "quote": "这叫褒浆，",
+      "start_s": 98.85,
+      "end_s": 99.665
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000219",
+      "quote": "每天用的东西比皇帝的更有意思。",
+      "start_s": 554.99,
+      "end_s": 558.195
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "接着上集，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000037",
+      "quote": "这叫褒浆，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000219",
+      "quote": "每天用的东西比皇帝的更有意思。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

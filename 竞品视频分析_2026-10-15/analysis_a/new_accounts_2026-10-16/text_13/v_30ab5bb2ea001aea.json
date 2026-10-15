@@ -1,0 +1,80 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_30ab5bb2ea001aea",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "7860bb18b917a73e33cb41d6aca50c3f9d745b2e2fd9bd43c9235cd1b7586a55",
+  "started_at": "2026-10-16T04:46:47.913475+08:00",
+  "finished_at": "2026-10-16T04:46:47.913475+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_30ab5bb2ea001aea_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000177",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：额济纳胡杨林每年只美20天，长白山天池全年只露面50多天，运",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：上期咱们聊了西湖、千岛湖这些，",
+      "叙事节点（s000030）：来晚了，",
+      "叙事节点（s000059）：是天池，",
+      "叙事节点（s000088）：只在水质极好的湖里才能生长。",
+      "叙事节点（s000117）：潮水过去了，",
+      "叙事节点（s000146）：每一处都配有精美图片和通俗优美的文字描述。",
+      "叙事节点（s000175）：进入主页，"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "上期咱们聊了西湖、千岛湖这些，",
+      "start_s": 0.05,
+      "end_s": 2.37
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000030",
+      "quote": "来晚了，",
+      "start_s": 73.26,
+      "end_s": 73.8
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000177",
+      "quote": "感兴趣的朋友可以关注后续。",
+      "start_s": 437.24,
+      "end_s": 439.075
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "上期咱们聊了西湖、千岛湖这些，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000030",
+      "quote": "来晚了，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000177",
+      "quote": "感兴趣的朋友可以关注后续。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

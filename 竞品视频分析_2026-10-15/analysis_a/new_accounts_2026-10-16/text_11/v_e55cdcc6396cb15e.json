@@ -1,0 +1,79 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_e55cdcc6396cb15e",
+  "account": "闲不住De宝",
+  "input_mode": "text_only",
+  "source_sha256": "8004604a6a03e0ad8b57e80e9c08471b3eca8ae58ea52f29795998a2e7ec9935",
+  "started_at": "2026-10-16T04:46:47.783525+08:00",
+  "finished_at": "2026-10-16T04:46:47.783525+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_e55cdcc6396cb15e_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000240",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "文旅与地理风物探索：真正适合过冬的小城藏在你没听过的地方。从广西北海到云南芒市，",
+    "category": "旅行地理/人文风光与生活方式",
+    "story_points": [
+      "叙事节点（s000001）：你知道我国最适合过冬的十座小城是哪儿吗？",
+      "叙事节点（s000041）：生活气息浓得很。",
+      "叙事节点（s000081）：茶是几块钱一壶的那种，",
+      "叙事节点（s000121）：吃完了数十子算钱，",
+      "叙事节点（s000161）：阳光是直直照下来的，",
+      "叙事节点（s000201）：走在街上能听到傣语、缅语、普通话三种话交杂着烟火气浓的化不开。"
+    ],
+    "book_relations": [],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "你知道我国最适合过冬的十座小城是哪儿吗？",
+      "start_s": 0.05,
+      "end_s": 3.63
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000041",
+      "quote": "生活气息浓得很。",
+      "start_s": 90.3,
+      "end_s": 91.68
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000240",
+      "quote": "就是咱们接着接前五名。",
+      "start_s": 608.57,
+      "end_s": 611.795
+    },
+    "reusable_method": "银发沉浸式体验：亲和老友口吻 + 极具诱惑力生活成本对比 + 高饱和度风光与奇特物产罗列 + 动员式出游情感召唤。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "你知道我国最适合过冬的十座小城是哪儿吗？",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000041",
+      "quote": "生活气息浓得很。",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000240",
+      "quote": "就是咱们接着接前五名。",
+      "supports": "fields.cta"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}

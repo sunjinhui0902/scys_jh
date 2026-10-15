@@ -1,0 +1,92 @@
+{
+  "schema_version": "new-account-text-1.0",
+  "video_id": "v_8b41cd4017b43c59",
+  "account": "失去壳的海龟",
+  "input_mode": "text_only",
+  "source_sha256": "d19b9d48731e70762a8b902ad0ae6b6d78c30d93f7cf1c5a21bfd4aefc639609",
+  "started_at": "2026-10-16T04:46:47.257347+08:00",
+  "finished_at": "2026-10-16T04:46:47.257347+08:00",
+  "coverage": {
+    "read_all_units": true,
+    "unit_ids": [
+      "v_8b41cd4017b43c59_u001"
+    ],
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000392",
+    "missing_ranges": []
+  },
+  "fields": {
+    "theme": "深入解读：渔樵问对",
+    "category": "社科经典/哲学与认知",
+    "story_points": [
+      "叙事节点（s000001）：十三分钟讲解邵雍于樵，",
+      "叙事节点（s000066）：你你以为你在追求成功，",
+      "叙事节点（s000131）：就是把努力包装成万能的赎罪券，",
+      "叙事节点（s000196）：他们存在，",
+      "叙事节点（s000261）：邵雍没有劝你豁达，",
+      "叙事节点（s000326）：当你把求知当成目的，",
+      "叙事节点（s000391）：欢迎持续关注我们，"
+    ],
+    "book_relations": [
+      {
+        "book_name": "渔樵问对",
+        "relation": "recommended",
+        "segment_id": "s000001",
+        "evidence_quote": "十三分钟讲解邵雍于樵，"
+      }
+    ],
+    "hook": {
+      "present": true,
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解邵雍于樵，",
+      "start_s": 0.25,
+      "end_s": 1.95
+    },
+    "bridge": {
+      "present": true,
+      "segment_id": "s000066",
+      "quote": "你你以为你在追求成功，",
+      "start_s": 143.81,
+      "end_s": 145.47
+    },
+    "cta": {
+      "present": true,
+      "segment_id": "s000392",
+      "quote": "下本书见。",
+      "start_s": 893.42,
+      "end_s": 894.105
+    },
+    "reusable_method": "深度长视频框架：核心命题设问开场 + 经典大部头逻辑结构化拆解 + 现实焦虑对照 + 结尾作者情感自白与下集预告。",
+    "original_topic_angles": [
+      "结合《大美中国》图书与地理画册，将视频中触及的区域人文/山水风物提炼为原创深度图文与短片分镜",
+      "结合《365日走遍中国》系列，制作面向银发与文化爱好者的历史名城生活与古建漫游指南"
+    ]
+  },
+  "evidence": [
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解邵雍于樵，",
+      "supports": "fields.hook"
+    },
+    {
+      "segment_id": "s000066",
+      "quote": "你你以为你在追求成功，",
+      "supports": "fields.bridge"
+    },
+    {
+      "segment_id": "s000392",
+      "quote": "下本书见。",
+      "supports": "fields.cta"
+    },
+    {
+      "segment_id": "s000001",
+      "quote": "十三分钟讲解邵雍于樵，",
+      "supports": "fields.book_relations"
+    }
+  ],
+  "limitations": [
+    "纯文本ASR分析，无视觉逐帧画面对应；专名未逐字人工听核",
+    "无电商转化、带货销量或点击率指标，不可推断营销实际转化效果"
+  ],
+  "status": "AI_OK"
+}
