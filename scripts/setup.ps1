@@ -1,4 +1,4 @@
-param([switch]$InstallSoftware, [switch]$RestoreAssets, [switch]$Full, [switch]$Analysis)
+﻿param([switch]$InstallSoftware, [switch]$RestoreAssets, [switch]$Full, [switch]$Analysis)
 $ErrorActionPreference = 'Stop'
 $projectRoot = Split-Path -Parent $PSScriptRoot
 Set-Location -LiteralPath $projectRoot

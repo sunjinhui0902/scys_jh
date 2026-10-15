@@ -1,4 +1,4 @@
-param([ValidateSet('pull','push','status')][string]$Action = 'status', [string]$Message = 'Update personal workspace')
+﻿param([ValidateSet('pull','push','status')][string]$Action = 'status', [string]$Message = 'Update personal workspace')
 $ErrorActionPreference='Stop'
 Set-Location -LiteralPath (Split-Path -Parent $PSScriptRoot)
 function Check-Exit { if ($LASTEXITCODE -ne 0) { throw "同步中止，退出码 $LASTEXITCODE。" } }
