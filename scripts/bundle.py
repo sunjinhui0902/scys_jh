@@ -47,11 +47,16 @@ def assert_private():
 def excluded(p):
     n=p.name.lower()
     rel=p.relative_to(ROOT)
+    vendor_runtime = rel.parts[:2] == ('00_对标与采集工具','DouK-Downloader')
+    if vendor_runtime and n == 'cacert.pem':
+        data=p.read_bytes()
+        return b'PRIVATE KEY' in data or b'BEGIN CERTIFICATE' not in data
+    if n.endswith('.pyc'):return not vendor_runtime
     if rel.parts[0]=='00_对标与采集工具' and ('downloads' in rel.parts or '视频号下载成果' in rel.parts):return True
     if rel.parts[0]=='竞品视频分析_2026-10-15':
         if len(rel.parts)>1 and rel.parts[1]=='models':return True
         if p.suffix.lower() in {'.wav','.mp3','.flac'}:return True
-    return (n in SECRETS or n.endswith(('.pyc','.log','.db-wal','.db-shm','.pem','.key','.crt','.cer','.p12','.pfx'))
+    return (n in SECRETS or n.endswith(('.log','.db-wal','.db-shm','.pem','.key','.crt','.cer','.p12','.pfx'))
             or 'cookie' in n or ('auth' in n and 'qr' in n) or n == 'feishu-config-qr.png')
 
 
