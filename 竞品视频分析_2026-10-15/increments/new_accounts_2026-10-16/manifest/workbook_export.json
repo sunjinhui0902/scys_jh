@@ -1,0 +1,32 @@
+{
+  "at": "2026-10-16T04:32:35+08:00",
+  "status": "PASS",
+  "workbook_sha256": "f7ee9689de77c8a9237ed48d72a01cc205c25203df525cdddcede84a87367140",
+  "prior_workbook_sha256": "e445e3f8638fef5f5c5632272396ccbcfc240dcc9672180d7a254f11843c6519",
+  "input_digest": "ce2cd9eef5e99f94fa8357fc36fa31de8934e47b87fb75be9299ab89f83b3359",
+  "sheets": [
+    "01_视频总览",
+    "02_带货脚本拆解",
+    "03_视觉模板",
+    "04_账号对标与高频规律",
+    "05_原创带货模板库",
+    "06_异常待复核",
+    "07_口径与运行摘要"
+  ],
+  "source_rows": 415,
+  "new_source_rows": 83,
+  "AI_PENDING": 380,
+  "AI_OK": 31,
+  "AI_REVIEW": 4,
+  "local_hyperlinks": 4393,
+  "historical_values_and_links_preserved_except_explicit_summary_cells": true,
+  "sheet04_two_new_account_rows_inserted_at": 12,
+  "sheet05_templates_preserved": true,
+  "formula_injection_scan": "PASS",
+  "visual_qa": "PASS",
+  "render_process_exit_code": 1,
+  "render_outputs_verified": 6,
+  "recalculate_called": true,
+  "visual_review_at": "2026-10-16T04:33:36+08:00",
+  "render_note": "Six images saved successfully, then renderer exited 1; PNG and XLSX independently checked. No native Excel interaction verified."
+}

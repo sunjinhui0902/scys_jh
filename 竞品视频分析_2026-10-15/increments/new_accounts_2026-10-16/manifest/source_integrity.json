@@ -1,0 +1,47 @@
+{
+  "at": "2026-10-16T04:23:10+08:00",
+  "status": "PARTIAL",
+  "sources_checked": 415,
+  "source_sha_size_mtime_unchanged": 415,
+  "changed_video_ids": [],
+  "directory_membership_matches": true,
+  "historical_A_and_manifests_unchanged": 49,
+  "historical_files_checked": 49,
+  "database_opened": false,
+  "database_files_fingerprint_unchanged": false,
+  "database_before": {
+    "records.db": {
+      "size_bytes": 651264,
+      "mtime_ns": 1792090263075543900,
+      "sha256": "86838a3edc43fd2bcb32d4e91e4fd300a9298d8c0ce29a9f19b01a584dd7c077"
+    },
+    "records.db-shm": {
+      "size_bytes": 32768,
+      "mtime_ns": 1792076546442561000,
+      "sha256": "d2ba18c621320e82082a48aae2d89238b9fab483bb52d3af055802020762fbbb"
+    },
+    "records.db-wal": {
+      "size_bytes": 4157112,
+      "mtime_ns": 1792091547078690300,
+      "sha256": "1dc351b149b8b11b678f19bce9a7e21fda3a5be010d76183204fc0f565b86bcb"
+    }
+  },
+  "database_after": {
+    "records.db": {
+      "size_bytes": 651264,
+      "mtime_ns": 1792090263075543900,
+      "sha256": "86838a3edc43fd2bcb32d4e91e4fd300a9298d8c0ce29a9f19b01a584dd7c077"
+    },
+    "records.db-shm": {
+      "size_bytes": 32768,
+      "mtime_ns": 1792076546442561000,
+      "sha256": "1ed777d2b5b551d2bd54e4eeeb501497615d4f23270c52bf70a93c2ebc7b2691"
+    },
+    "records.db-wal": {
+      "size_bytes": 4157112,
+      "mtime_ns": 1792095779002080500,
+      "sha256": "4f2b537ded4f416b8dd53a55c5573657d86a131e49ef7b4cf3d79935b3e475ea"
+    }
+  },
+  "database_note": "WAL非空，本轮不重新打开或复制SQLite；只对文件指纹进行只读检查。变化时不得归因于本轮或宣称不变。"
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "video_id",
+    "account",
+    "duration_s",
+    "source_video_path",
+    "source_sha256",
+    "transcript_path",
+    "segments_path",
+    "frames",
+    "ready_at",
+    "ai_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "new-account-input-1.0"
+    },
+    "video_id": {
+      "type": "string",
+      "pattern": "^v_[0-9a-f]{16}$"
+    },
+    "account": {
+      "enum": [
+        "失去壳的海龟",
+        "闲不住De宝"
+      ]
+    },
+    "duration_s": {
+      "type": "number",
+      "exclusiveMinimum": 0
+    },
+    "source_video_path": {
+      "type": "string"
+    },
+    "source_sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "transcript_path": {
+      "type": "string"
+    },
+    "segments_path": {
+      "type": "string"
+    },
+    "ready_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ai_status": {
+      "const": "AI_PENDING"
+    },
+    "frames": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "required": [
+          "time_s",
+          "path"
+        ],
+        "properties": {
+          "time_s": {
+            "type": "number",
+            "minimum": 0
+          },
+          "path": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

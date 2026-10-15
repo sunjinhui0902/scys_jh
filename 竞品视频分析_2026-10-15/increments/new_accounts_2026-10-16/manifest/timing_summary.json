@@ -1,0 +1,12 @@
+{
+  "started_at": "2026-10-16T03:12:32+08:00",
+  "finished_at": "2026-10-16T04:33:41+08:00",
+  "pipeline_wall_seconds": 4869.0,
+  "source_duration_seconds": 59549.16918200002,
+  "successful_chunk_inference_seconds_sum": 7774.539999999688,
+  "audio_and_frame_steps_seconds_sum": 103.42399999941699,
+  "successful_asr_rtf": 0.1305566493503608,
+  "note": "进程并行，步骤累计不等于墙钟；真实墙钟包含准备、模型重载、断点测试、排队与验收，未记录的中断中计算不冒充零成本",
+  "additional_paid_api_calls_by_Codex": 0,
+  "A_cost": "未核；仅允许既有入口与已批准范围"
+}

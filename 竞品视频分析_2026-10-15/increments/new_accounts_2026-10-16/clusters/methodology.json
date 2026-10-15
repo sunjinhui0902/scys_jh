@@ -1,0 +1,14 @@
+{
+  "at": "2026-10-16T04:30:36+08:00",
+  "population": 400,
+  "compared_pairs": "all pairs containing at least one new SHA-canonical video",
+  "old_edges": "preserved from historical 317-content corpus; no old values rewritten",
+  "new_edges": "TFIDF char 2-4 grams over current 400-content corpus; no semantic inference",
+  "thresholds": {
+    "FULL_TEXT": "cosine>=0.76, length ratio>=0.6, ordered match>=0.65",
+    "OPENING": "first 100 normalized chars cosine>=0.8, both>=25 chars",
+    "STORY_PASSAGE": "longest contiguous normalized match>=80 and (cosine>=0.45 or match/shorter>=0.3); prefilter full cosine>=0.38 or opening cosine>=0.65"
+  },
+  "cluster_method": "connected components per kind; transitive members need not all be pairwise similar",
+  "caveat": "shared passages may be introductions or CTAs; not verified same story, plagiarism, views, or conversion"
+}
