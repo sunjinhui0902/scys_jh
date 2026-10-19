@@ -1,0 +1,341 @@
+{
+  "schema_version": "codex-single-content-review-1.0",
+  "video_id": "v_b28fd366f358fb78",
+  "account": "食力过日子",
+  "source_video_path": "D:\\fuye\\00_对标与采集工具\\wx_channel\\downloads\\食力过日子\\20261015·中国十大＂带孙辈长见识＂的历史名城《下集》_146e49fa.mp4",
+  "source_sha256": "b28fd366f358fb789053e0b52303cb76dfb822e2671edc1cf96526b46fd7bede",
+  "input_mode": "text_plus_frames",
+  "analyzed_at": "2026-10-19T23:16:56+08:00",
+  "status": "AI_REVIEW",
+  "text_semantic_status": "AI_OK",
+  "reviewer": "Codex",
+  "coverage": {
+    "read_all_segments": true,
+    "segment_count": 127,
+    "first_segment_id": "s000001",
+    "last_segment_id": "s000127",
+    "missing_ranges": [],
+    "reviewed_frame_count": 14,
+    "continuous_video_audio_reviewed": false,
+    "reading_interval": "Not separately clocked; analyzed_at records result creation, not inference duration."
+  },
+  "fields": {
+    "theme": "祖辈带孙辈游历史名城，借不会讲/怕讲错引入旅行人文图书",
+    "category": "历史名城/隔代陪伴/场景化图书推荐",
+    "mentioned_books": [
+      "大美中国：一生要去的101个地方"
+    ],
+    "recommended_book": "大美中国：一生要去的101个地方",
+    "book_status": "口播商品名；ISBN、版本、真实商品封面及实际挂载未核",
+    "hook": {
+      "segment_ids": [
+        "s000001"
+      ],
+      "quote": "上一集咱们盘点了十大适合带孙辈长见识的历史名城。",
+      "start_s": 0.17,
+      "end_s": 5.37,
+      "opening_0_3_asr": "上一集咱们盘点了十大适合带",
+      "type": "续集承接＋评论提问；完整首句不冒充0～3秒"
+    },
+    "narrative_structure": "续集承接—西安案例—祖辈讲解焦虑—图书解决方案—价格/购物/售后声称—十城与亲情回顾—互动/下集",
+    "bridge": {
+      "segment_ids": [
+        "s000032",
+        "s000033",
+        "s000034",
+        "s000035",
+        "s000036"
+      ],
+      "quote": "我发现经常有朋友在评论区留言说想带孙子孙女出去看看，可不知道去哪座城好，也不知道到了那儿该怎么跟孩子讲。还有些朋友说自己对历史也不是很懂，怕讲错了误导孩子。",
+      "start_s": 84.01,
+      "end_s": 102.43,
+      "type": "先解释不知道去哪、不会讲、怕误导，再给书；首次书名入口116.710秒"
+    },
+    "cta": {
+      "segment_ids": [
+        "s000078",
+        "s000079",
+        "s000080"
+      ],
+      "quote": "您现在打开视频，左下角的小黄车，就能看到这本大美中国一生要去的一百零一个地方。",
+      "start_s": 208.39,
+      "end_s": 216.895,
+      "type": "明确购买口播；有小黄车指引，不代表实际商品链接核验通过"
+    },
+    "visual_and_audio": {
+      "visual": "古风地图、情景人物、祖孙共读、书案/书封示意；黄字黑底字幕；底部AI/网络素材声明",
+      "audio": "仅本地ASR；声音身份、音乐与连续音画对应未核",
+      "camera_movement": "未知；静态帧不能证明运动轨迹"
+    },
+    "book_pitch_seconds": 112.235,
+    "book_pitch_fraction": 0.34256213666182156,
+    "pain_and_pitch_seconds": 145.905,
+    "method": "从买旅行知识，转为祖辈拥有选地、备课、现场讲故事、回家共读的具体能力；以玩具支出作价格锚点，以孩子成长作时间紧迫感"
+  },
+  "chapters": [
+    {
+      "title": "续集承接与评论悬念",
+      "first_segment_id": "s000001",
+      "last_segment_id": "s000005",
+      "start_s": 0.17,
+      "end_s": 15.29
+    },
+    {
+      "title": "西安案例及与成都对比",
+      "first_segment_id": "s000006",
+      "last_segment_id": "s000030",
+      "start_s": 15.65,
+      "end_s": 82.7
+    },
+    {
+      "title": "祖辈带娃的讲解焦虑",
+      "first_segment_id": "s000031",
+      "last_segment_id": "s000042",
+      "start_s": 83.04,
+      "end_s": 116.355
+    },
+    {
+      "title": "图书及使用场景",
+      "first_segment_id": "s000043",
+      "last_segment_id": "s000070",
+      "start_s": 116.71,
+      "end_s": 193.33
+    },
+    {
+      "title": "价格锚点、购物CTA与售后声称",
+      "first_segment_id": "s000071",
+      "last_segment_id": "s000087",
+      "start_s": 193.65,
+      "end_s": 228.945
+    },
+    {
+      "title": "十城回顾与情感收束",
+      "first_segment_id": "s000088",
+      "last_segment_id": "s000116",
+      "start_s": 229.22,
+      "end_s": 301.905
+    },
+    {
+      "title": "评论、关注、转发与下期预告",
+      "first_segment_id": "s000117",
+      "last_segment_id": "s000127",
+      "start_s": 302.18,
+      "end_s": 327.405
+    }
+  ],
+  "evidence": [
+    {
+      "segment_ids": [
+        "s000001"
+      ],
+      "quote": "上一集咱们盘点了十大适合带孙辈长见识的历史名城。",
+      "start_s": 0.17,
+      "end_s": 5.37,
+      "supports": "hook"
+    },
+    {
+      "segment_ids": [
+        "s000032",
+        "s000033",
+        "s000034",
+        "s000035",
+        "s000036"
+      ],
+      "quote": "我发现经常有朋友在评论区留言说想带孙子孙女出去看看，可不知道去哪座城好，也不知道到了那儿该怎么跟孩子讲。还有些朋友说自己对历史也不是很懂，怕讲错了误导孩子。",
+      "start_s": 84.01,
+      "end_s": 102.43,
+      "supports": "bridge"
+    },
+    {
+      "segment_ids": [
+        "s000043",
+        "s000044"
+      ],
+      "quote": "前段时间我看到一本书叫大美，中国一生要去的一百零一个地方。",
+      "start_s": 116.71,
+      "end_s": 121.935,
+      "supports": "book_entry"
+    },
+    {
+      "segment_ids": [
+        "s000078",
+        "s000079",
+        "s000080"
+      ],
+      "quote": "您现在打开视频，左下角的小黄车，就能看到这本大美中国一生要去的一百零一个地方。",
+      "start_s": 208.39,
+      "end_s": 216.895,
+      "supports": "purchase"
+    },
+    {
+      "segment_ids": [
+        "s000081",
+        "s000082",
+        "s000083",
+        "s000084",
+        "s000085",
+        "s000086",
+        "s000087"
+      ],
+      "quote": "出版社那边支持，先用后付。您收到书翻一翻，觉得有用就留下，觉得不合适。七天内直接退，不用跟任何人解释。",
+      "start_s": 217.32,
+      "end_s": 228.945,
+      "supports": "after_sales_claim"
+    },
+    {
+      "segment_ids": [
+        "s000122",
+        "s000123",
+        "s000124"
+      ],
+      "quote": "评论区告诉我，点个关注，转发给您身边也在带孙辈的老朋友，",
+      "start_s": 311.6,
+      "end_s": 317.205,
+      "supports": "follow"
+    },
+    {
+      "segment_ids": [
+        "s000127"
+      ],
+      "quote": "咱们下期接着盘点中国还有哪些地方值得带孩子去。",
+      "start_s": 322.44,
+      "end_s": 327.405,
+      "supports": "next_episode"
+    }
+  ],
+  "visual_evidence": [
+    {
+      "index": 1,
+      "time_s": 1,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\01_1.000s.jpg",
+      "sha256": "08dea8205b337df8f6fa5febc63cac128b1d52c344e8ba8f0492408f830f4f4a",
+      "observation": "古风城市地图与手指示意，字幕“上一集咱们盘点了”；底部有AI生成与网络下载说明"
+    },
+    {
+      "index": 2,
+      "time_s": 5,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\02_5.000s.jpg",
+      "sha256": "6c3623789c95fb4e6ba9347ec9d4d9ce55f4898e2f2bde179aa8b15368392881",
+      "observation": "同类地图场景，字幕“长见识的历史名城”"
+    },
+    {
+      "index": 3,
+      "time_s": 163.817,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\03_163.817s.jpg",
+      "sha256": "5650ea3da2a93f2e953a7674f6d800e9954a2558178055446fe4c13956f69167",
+      "observation": "古风持书男子，字幕“书里都给您准备好了”；未见可对应口播书名的清晰商品封面"
+    },
+    {
+      "index": 4,
+      "time_s": 325.634,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\04_325.634s.jpg",
+      "sha256": "edbea271e08dd3d801415ac07cf27ce34bf8cd747b9469b277a7be8880d5d956",
+      "observation": "男子指向古风地图，字幕“中国还有哪些地方”"
+    },
+    {
+      "index": 5,
+      "time_s": 35,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\05_35.000s.jpg",
+      "sha256": "0145de256c00fcebe7122189d7a73f957f144e61f92c89a57f9e4f59a13503d5",
+      "observation": "陶俑制作场景示意，字幕“秦始皇的陪葬品”；不能用作真实兵马俑形制证据"
+    },
+    {
+      "index": 6,
+      "time_s": 75,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\06_75.000s.jpg",
+      "sha256": "4b8d5bfdfac7e04ae1e783d25d62828d50f21b24997b4f4e3a81309d97fed07e",
+      "observation": "竹椅与茶桌场景，字幕“少一样东西”"
+    },
+    {
+      "index": 7,
+      "time_s": 115,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\07_115.000s.jpg",
+      "sha256": "82e127214f2b06cd51c3d797f6f7737609754a5239e9d7b4195c7410aa280cd6",
+      "observation": "古风成人与儿童、城门背景，字幕“这确实是个问题”"
+    },
+    {
+      "index": 8,
+      "time_s": 190,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\08_190.000s.jpg",
+      "sha256": "b9f516fcc11ae3faaa38481641651f8935774f2671ee0791e964644f45c77f28",
+      "observation": "成人与儿童共看图册，字幕“下一站去哪儿”"
+    },
+    {
+      "index": 9,
+      "time_s": 235,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\09_235.000s.jpg",
+      "sha256": "bfb806626e378d17c2af208e0ec04eca1eef96e7303dd5facafbd8da553b1f75",
+      "observation": "古风城墙与楼阁示意，字幕“开封”；建筑真实性未核"
+    },
+    {
+      "index": 10,
+      "time_s": 285,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\10_285.000s.jpg",
+      "sha256": "6aa901f1f0cd3a9bf05fad38b4ce9863374af557d742a88b14058438174464ea",
+      "observation": "成人与儿童看书，字幕“那些字就不再是字”"
+    },
+    {
+      "index": 11,
+      "time_s": 50,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\11_50.000s.jpg",
+      "sha256": "f162d8c4d87f8496414395066068c580e0beb5d72799762192866591f73fbbee",
+      "observation": "城墙楼阁示意，字幕“明朝修的”；支持原ASR“古朝修的”的字幕级更正"
+    },
+    {
+      "index": 12,
+      "time_s": 120,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\12_120.000s.jpg",
+      "sha256": "7b6b05aade87a00b0e0d889433fdf99d7dbac7ce616b9bf04f45de5fda959f88",
+      "observation": "山水书封示意；封面文字无法对应口播《大美中国》书名，非真实商品证明"
+    },
+    {
+      "index": 13,
+      "time_s": 210,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\13_210.000s.jpg",
+      "sha256": "0a80edc46ce4d9868eca399dbd81dc3bfef074953d52c43d90deaaac0e276c57",
+      "observation": "近景男子，字幕“左下角的小黄车”；本地视频帧不能证明平台挂载仍有效"
+    },
+    {
+      "index": 14,
+      "time_s": 220,
+      "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\14_220.000s.jpg",
+      "sha256": "413388125f0e3101ef62f6898afc84146c3b69a4ad719fe9dc1e4451c6146bb2",
+      "observation": "包裹中多本书封示意，文字无法对应口播书名，不能作为实际商品/套数证明"
+    }
+  ],
+  "issues": [
+    {
+      "type": "PROMISE_DELIVERY_GAP",
+      "detail": "开头承诺接着讲前五，正文详讲集中于西安，随后售书和十城一句话回顾；本文件没有逐一充分展开前五，不据此断定下载缺失",
+      "evidence_segments": [
+        "s000004",
+        "s000006",
+        "s000024",
+        "s000030",
+        "s000090"
+      ]
+    },
+    {
+      "type": "PRODUCT_VISUAL_MISMATCH",
+      "detail": "120秒和220秒书封文字无法对应口播商品，实物书、内页、套数和版本未核",
+      "frame_indices": [
+        12,
+        14
+      ]
+    },
+    {
+      "type": "UNVERIFIED_PRODUCT_AND_SALES_CLAIMS",
+      "detail": "适合孩子的故事讲法、实景照片/手绘地图、先用后付与七天退等均为素材声称，未核实际SKU/活动"
+    },
+    {
+      "type": "ASR_PROPER_NOUNS",
+      "detail": "保留原ASR：“古朝修的”在50秒字幕为“明朝修的”；“大宫城”“张一为”“古属文明”等不静默替换，其他候选待核"
+    }
+  ],
+  "limitations": [
+    "全文127段已读，14张静态帧已查看；未逐句听核音频、未观看全部连续画面，字错率未测",
+    "排名、几十万工匠、十三朝及教育效果等作为视频声称，未独立核实史实或效果",
+    "无播放、停留、商品点击或成交数据，不能称已验证爆款；本条仍适合结构研究"
+  ],
+  "publication_date": "文件名包含20261015，未核真实发布时间"
+}

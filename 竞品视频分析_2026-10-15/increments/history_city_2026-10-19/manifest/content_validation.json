@@ -1,0 +1,78 @@
+{
+  "at": "2026-10-19T23:16:56+08:00",
+  "schema": "PASS",
+  "identity": "PASS",
+  "exact_quote_time_checks": 7,
+  "full_text_segments_read": 127,
+  "static_frames_read": 14,
+  "source_unchanged": true,
+  "text_semantic_status": "AI_OK",
+  "deep_status": "AI_REVIEW",
+  "facts_and_product_verified": false,
+  "original_video_or_audio_uploaded": false,
+  "local_processing": {
+    "at": "2026-10-19T23:12:30+08:00",
+    "video_id": "v_b28fd366f358fb78",
+    "status": "LOCAL_READY",
+    "duration_s": 327.633991,
+    "characters": 1404,
+    "segments": 127,
+    "alignment_method": "Transcription tokens sequentially paired with FunASR raw_timestamp; split on punctuation. Millisecond times are model estimates.",
+    "elapsed_s": 164.3430000001099,
+    "source_fingerprint_unchanged": true,
+    "old_global_manifest_sha256": "2b77492face2949112dc52cf48496a905ba5071a43c295c1d5969706094dc0dd",
+    "files": [
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\manifest\\source.json",
+        "sha256": "8a2af83ba72763d0b42b2232162ea317fb415715f0591c3fd232919fae35858a",
+        "size_bytes": 889
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\manifest\\environment.json",
+        "sha256": "0f2ec70de131adb354b54e60490f6ab23b6b631f47425d7f5e5aee062ce21f77",
+        "size_bytes": 304
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\transcripts\\v_b28fd366f358fb78.txt",
+        "sha256": "e1fa1bd6c775bf030bf3ca9757937c02e00c2d6d90b6a670c02462b9f15a2807",
+        "size_bytes": 4214
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\transcripts\\v_b28fd366f358fb78.timed.txt",
+        "sha256": "1ce12a7825a85c6f55bd2b33d01b53f7505e2e80b5aca4c78322de25d15a2082",
+        "size_bytes": 7818
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\segments\\v_b28fd366f358fb78.aligned.json",
+        "sha256": "ff7d11b16fee5086cca144082b3ccdaea7d0ca1da6a2a7e0be10917e2675ff78",
+        "size_bytes": 27746
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\segments\\v_b28fd366f358fb78.json",
+        "sha256": "eaaed06c2d678cf46ad555de37fb97c940da2f6bd191c01aaebcf574560109d9",
+        "size_bytes": 55185
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\01_1.000s.jpg",
+        "sha256": "08dea8205b337df8f6fa5febc63cac128b1d52c344e8ba8f0492408f830f4f4a",
+        "size_bytes": 91764
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\02_5.000s.jpg",
+        "sha256": "6c3623789c95fb4e6ba9347ec9d4d9ce55f4898e2f2bde179aa8b15368392881",
+        "size_bytes": 99565
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\03_163.817s.jpg",
+        "sha256": "5650ea3da2a93f2e953a7674f6d800e9954a2558178055446fe4c13956f69167",
+        "size_bytes": 77121
+      },
+      {
+        "path": "D:\\fuye\\竞品视频分析_2026-10-15\\increments\\history_city_2026-10-19\\frames\\v_b28fd366f358fb78\\04_325.634s.jpg",
+        "sha256": "edbea271e08dd3d801415ac07cf27ce34bf8cd747b9469b277a7be8880d5d956",
+        "size_bytes": 102846
+      }
+    ]
+  },
+  "maximum_inter_segment_gap_s": 0.885
+}

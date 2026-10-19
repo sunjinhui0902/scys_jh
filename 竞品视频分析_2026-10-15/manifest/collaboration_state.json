@@ -1,19 +1,19 @@
 {
   "schema_version": "collaboration-state-1.0",
-  "updated_at": "2026-10-16T07:53:12+08:00",
+  "updated_at": "2026-10-19T23:23:43+08:00",
   "project_status": "PARTIAL",
-  "latest_batch": "new_accounts_2026-10-16_0738",
-  "source_paths": 415,
-  "unique_contents": 400,
-  "deep_sample_count": 35,
+  "latest_batch": "history_city_2026-10-19",
+  "source_paths": 416,
+  "unique_contents": 401,
+  "deep_sample_count": 36,
   "deep_status_counts": {
     "AI_OK": 31,
-    "AI_REVIEW": 4
+    "AI_REVIEW": 5
   },
   "pending_source_paths": 297,
   "unique_outside_deep_scope": 365,
   "text_semantic": {
-    "verified_complete": 0,
+    "verified_complete": 1,
     "pending_unique": 317,
     "units": 429,
     "batches": 55,
@@ -30,7 +30,9 @@
       "received": 83
     },
     "review_unique": 83,
-    "unaccepted_unique": 400
+    "unaccepted_unique": 400,
+    "independent_Codex_single_reviews": 1,
+    "prepared_A_scope_note": "Existing429 units/55 batches belong to the prior400; the new single-file review did not dispatch A"
   },
   "targeted_screening": {
     "rows": 80,
@@ -79,6 +81,16 @@
       "issues": [
         "实体商品正式书名、版本与书封待核；末帧为内页；经济学解释及教育效果仅为素材声称"
       ]
+    },
+    {
+      "video_id": "v_b28fd366f358fb78",
+      "account": "食力过日子",
+      "issues": [
+        "开头承诺接着讲前五，正文详讲集中于西安，随后售书和十城一句话回顾；本文件没有逐一充分展开前五，不据此断定下载缺失",
+        "120秒和220秒书封文字无法对应口播商品，实物书、内页、套数和版本未核",
+        "适合孩子的故事讲法、实景照片/手绘地图、先用后付与七天退等均为素材声称，未核实际SKU/活动",
+        "保留原ASR：“古朝修的”在50秒字幕为“明朝修的”；“大宫城”“张一为”“古属文明”等不静默替换，其他候选待核"
+      ]
     }
   ],
   "primary_book_directions": [
@@ -87,54 +99,40 @@
   ],
   "product_status": "正式SKU、年份/版次、ISBN、目录/展示页和挂载尚待核实",
   "next_A": "只在revision_text_01修订首批5条文字；不继续78条或25条深拆；完成后停下等待验收",
-  "next_Codex": "本次定时审核已完成；后续只验5条独立修订最终文件，不自动新建审核链或扩批",
+  "next_Codex": "本条单文件研究已完成并登记；实际商品/史实待核。旧A的5条修订尚需另行验收，本轮未读取或接续",
   "entry_paths": {
     "control": "D:\\fuye\\docs\\竞品分析协作总控.md",
     "journal": "D:\\fuye\\05_爆款知识库与复盘\\06_竞品分析更新日志.md",
     "workbook": "D:\\fuye\\竞品视频分析_2026-10-15\\阅见生活_竞品视频分析_终版.xlsx",
-    "latest_report": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\new_accounts_2026-10-16_0738_A审核报告.md",
+    "latest_report": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\单条拆解_食力过日子_带孙辈长见识_历史名城下集.md",
     "script_drafts": "D:\\fuye\\05_爆款知识库与复盘\\05_五条试做稿.md"
   },
-  "workbook_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f",
+  "workbook_sha256": "b2c9f0c34a1df640f0fa7f65efca22dc6a3130a1b0c3144faa8599ac5727edba",
   "workbook_validation": {
-    "at": "2026-10-16T07:49:52+08:00",
-    "status": "PASS",
-    "prior_workbook_sha256": "f7ee9689de77c8a9237ed48d72a01cc205c25203df525cdddcede84a87367140",
-    "workbook_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f",
-    "evidence_sha256": "9ad14f2bf648235d1dfb4f99bdb549584632f096389f6b4dcf288fa7cbd247c9",
-    "source_rows": 415,
-    "source_AI_status_counts": {
+    "at": "2026-10-19T23:19:55+08:00",
+    "sha256": "b2c9f0c34a1df640f0fa7f65efca22dc6a3130a1b0c3144faa8599ac5727edba",
+    "before_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f",
+    "unchanged_cells_verified": 40103,
+    "source_rows": 416,
+    "source_status_counts": {
       "AI_PENDING": 297,
-      "AI_REVIEW": 87,
+      "AI_REVIEW": 88,
       "AI_OK": 31
     },
-    "text_accepted": 0,
-    "deep_accepted": 0,
-    "deep_baseline": 35,
-    "text_review": 83,
-    "deep_review": 25,
-    "imported_rejected_analysis_values": 0,
-    "unchanged_cells_verified": 38626,
-    "local_hyperlinks_checked": 4667,
-    "sheets": [
-      "01_视频总览",
-      "02_带货脚本拆解",
-      "03_视觉模板",
-      "04_账号对标与高频规律",
-      "05_原创带货模板库",
-      "06_异常待复核",
-      "07_口径与运行摘要"
-    ],
+    "text_semantic_verified": 1,
+    "representative_scope": 36,
+    "deep_AI_OK": 31,
+    "deep_AI_REVIEW": 5,
     "visual_qa": "PASS",
-    "visual_review_at": "2026-10-16T07:53:11+08:00",
-    "render_before_saved_previews": 6,
-    "render_after_saved_previews": 6,
-    "render_process_exit_codes": [
-      1,
-      1
-    ],
-    "render_note": "Renderer saved all six views then exited 1. PNG decode and independent saved-XLSX cell/link/style checks passed; no native Excel interaction tested.",
-    "recalculate_called": true
+    "corrected_summary_note": "C15 now reconciles 88 reviewed sources",
+    "visual_review_at": "2026-10-19T23:23:43+08:00",
+    "recalculate_called": true,
+    "preview_count": 6,
+    "renderer_exit_code": 1,
+    "render_note": "All six previews saved, then renderer exited 1; decoded PNG and saved XLSX checks passed; native Excel interaction not performed.",
+    "status": "PASS",
+    "workbook_sha256": "b2c9f0c34a1df640f0fa7f65efca22dc6a3130a1b0c3144faa8599ac5727edba",
+    "prior_workbook_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f"
   },
   "source_integrity": {
     "at": "2026-10-15T17:10:21+08:00",
@@ -223,54 +221,16 @@
     "赵健的读书日记": 47,
     "锦绣千秋录": 30,
     "失去壳的海龟": 50,
-    "闲不住De宝": 33
+    "闲不住De宝": 33,
+    "食力过日子": 1
   },
   "latest_source_integrity": {
-    "at": "2026-10-16T04:23:10+08:00",
-    "status": "PARTIAL",
-    "sources_checked": 415,
-    "source_sha_size_mtime_unchanged": 415,
-    "changed_video_ids": [],
-    "directory_membership_matches": true,
-    "historical_A_and_manifests_unchanged": 49,
-    "historical_files_checked": 49,
+    "at": "2026-10-19T23:23:43+08:00",
+    "status": "PASS_FOR_REQUESTED_FILE",
+    "sources_checked": 1,
+    "source_sha_size_mtime_unchanged": 1,
     "database_opened": false,
-    "database_files_fingerprint_unchanged": false,
-    "database_before": {
-      "records.db": {
-        "size_bytes": 651264,
-        "mtime_ns": 1792090263075543900,
-        "sha256": "86838a3edc43fd2bcb32d4e91e4fd300a9298d8c0ce29a9f19b01a584dd7c077"
-      },
-      "records.db-shm": {
-        "size_bytes": 32768,
-        "mtime_ns": 1792076546442561000,
-        "sha256": "d2ba18c621320e82082a48aae2d89238b9fab483bb52d3af055802020762fbbb"
-      },
-      "records.db-wal": {
-        "size_bytes": 4157112,
-        "mtime_ns": 1792091547078690300,
-        "sha256": "1dc351b149b8b11b678f19bce9a7e21fda3a5be010d76183204fc0f565b86bcb"
-      }
-    },
-    "database_after": {
-      "records.db": {
-        "size_bytes": 651264,
-        "mtime_ns": 1792090263075543900,
-        "sha256": "86838a3edc43fd2bcb32d4e91e4fd300a9298d8c0ce29a9f19b01a584dd7c077"
-      },
-      "records.db-shm": {
-        "size_bytes": 32768,
-        "mtime_ns": 1792076546442561000,
-        "sha256": "1ed777d2b5b551d2bd54e4eeeb501497615d4f23270c52bf70a93c2ebc7b2691"
-      },
-      "records.db-wal": {
-        "size_bytes": 4157112,
-        "mtime_ns": 1792095779002080500,
-        "sha256": "4f2b537ded4f416b8dd53a55c5573657d86a131e49ef7b4cf3d79935b3e475ea"
-      }
-    },
-    "database_note": "WAL非空，本轮不重新打开或复制SQLite；只对文件指纹进行只读检查。变化时不得归因于本轮或宣称不变。"
+    "scope": "Only this source; previous415 not rehashed in this review"
   },
   "current_local_batch": {
     "batch_id": "new_accounts_2026-10-16",
@@ -287,7 +247,7 @@
   },
   "source_AI_status_counts": {
     "AI_PENDING": 297,
-    "AI_REVIEW": 87,
+    "AI_REVIEW": 88,
     "AI_OK": 31
   },
   "current_A_review": {
@@ -350,5 +310,16 @@
     "elapsed_s": 22.175,
     "status": "PASS_FOR_LISTED_FILES"
   },
-  "source_paths_outside_integrated_deep_scope": 380
+  "source_paths_outside_integrated_deep_scope": 380,
+  "current_inventory_scope": "Cumulative registered415 plus one user-requested source; other new downloads not inventoried",
+  "single_file_reviews": [
+    {
+      "batch_id": "history_city_2026-10-19",
+      "video_id": "v_b28fd366f358fb78",
+      "source_account": "食力过日子",
+      "text_verified": 1,
+      "deep_AI_REVIEW": 1,
+      "report": "D:\\fuye\\竞品视频分析_2026-10-15\\reports\\单条拆解_食力过日子_带孙辈长见识_历史名城下集.md"
+    }
+  ]
 }

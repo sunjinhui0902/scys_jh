@@ -1,0 +1,26 @@
+{
+  "at": "2026-10-19T23:19:55+08:00",
+  "sha256": "b2c9f0c34a1df640f0fa7f65efca22dc6a3130a1b0c3144faa8599ac5727edba",
+  "before_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f",
+  "unchanged_cells_verified": 40103,
+  "source_rows": 416,
+  "source_status_counts": {
+    "AI_PENDING": 297,
+    "AI_REVIEW": 88,
+    "AI_OK": 31
+  },
+  "text_semantic_verified": 1,
+  "representative_scope": 36,
+  "deep_AI_OK": 31,
+  "deep_AI_REVIEW": 5,
+  "visual_qa": "PASS",
+  "corrected_summary_note": "C15 now reconciles 88 reviewed sources",
+  "visual_review_at": "2026-10-19T23:23:43+08:00",
+  "recalculate_called": true,
+  "preview_count": 6,
+  "renderer_exit_code": 1,
+  "render_note": "All six previews saved, then renderer exited 1; decoded PNG and saved XLSX checks passed; native Excel interaction not performed.",
+  "status": "PASS",
+  "workbook_sha256": "b2c9f0c34a1df640f0fa7f65efca22dc6a3130a1b0c3144faa8599ac5727edba",
+  "prior_workbook_sha256": "eeb875aed4195ebbb6b018838be9e61f037bee153415b689a047043fe7f8982f"
+}
