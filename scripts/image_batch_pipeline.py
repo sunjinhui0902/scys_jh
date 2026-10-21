@@ -19,6 +19,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageOps
 
 SCHEMA_VERSION = 1
 SHOT_ID = re.compile(r"shot_\d{2,4}\Z")
+REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def now():
@@ -214,7 +215,7 @@ def fail(root, shot_id, attempt, error):
     return {"id": shot_id, "status": status}
 
 
-def ingest(root, shot_id, attempt, source, received_at=None):
+def ingest(root, shot_id, attempt, source, received_at=None, publish_dir=None, publish_name=None):
     source, at = Path(source).resolve(), received_at or now()
     timestamp(at)
     with database(root) as db:
@@ -231,6 +232,11 @@ def ingest(root, shot_id, attempt, source, received_at=None):
         if row["status"] not in {"running", "repairing"}:
             raise ValueError("Shot was not submitted or already has a different result")
         m = meta(db)
+        if publish_dir is None:
+            job = next(j for j in m["config"]["shots"] if j["id"] == shot_id)
+            if job.get("delivery_path"):
+                destination = inside(REPO_ROOT, job["delivery_path"])
+                publish_dir, publish_name = destination.parent, destination.name
         if timestamp(at) < timestamp(m["first_submitted_at"]):
             raise ValueError("Result timestamp precedes first submission")
         with Image.open(source) as im:
@@ -267,6 +273,34 @@ def ingest(root, shot_id, attempt, source, received_at=None):
         thumb.save(root / "thumbnails" / f"{shot_id}.jpg", quality=85)
         if sha(source) != digest or sha(native) != digest:
             raise ValueError("Source changed during archive")
+        if publish_dir is not None:
+            name = publish_name or (shot_id + ".png")
+            if not re.fullmatch(r"shot_\d{2,4}\.png", name):
+                raise ValueError("Published image must use a shot_NN.png filename")
+            destination = Path(publish_dir).resolve() / name
+            destination.parent.mkdir(parents=True, exist_ok=True)
+            exported_sha = sha(output)
+            replace_selected = False
+            if destination.exists() and sha(destination) != exported_sha:
+                if row["status"] != "repairing" or sha(destination) != row["sha256"]:
+                    raise ValueError("Published image already differs; preserve it and use a new batch")
+                historical = destination.parent / "revisions" / f"{Path(name).stem}_v{attempt-1:03d}.png"
+                historical.parent.mkdir(exist_ok=True)
+                if historical.exists() and sha(historical) != row["sha256"]:
+                    raise ValueError("Existing published revision differs")
+                if not historical.exists():
+                    shutil.copy2(destination, historical)
+                replace_selected = True
+            if not destination.exists() or replace_selected:
+                fd, published_temp = tempfile.mkstemp(suffix=".png", dir=destination.parent)
+                os.close(fd)
+                try:
+                    shutil.copy2(output, published_temp)
+                    if sha(Path(published_temp)) != exported_sha:
+                        raise ValueError("Published copy checksum mismatch")
+                    os.replace(published_temp, destination)
+                finally:
+                    Path(published_temp).unlink(missing_ok=True)
         db.execute("""UPDATE shots SET status='archived',initial_received_at=COALESCE(initial_received_at,?),
             selected_received_at=?,current_path=?,native_path=?,sha256=?,native_sha256=?,width=?,height=?,error=NULL
             WHERE id=?""", (at, at, output.relative_to(root).as_posix(), native.relative_to(root).as_posix(),
@@ -358,6 +392,76 @@ def timing(m, rows, completed_at):
     return result
 
 
+def assemble_delivery(root, m, generated):
+    """Optional multi-project delivery, including explicitly configured reused shots."""
+    slots = m["config"].get("delivery_slots")
+    if not slots:
+        return None
+    by_id = {Path(r["path"]).stem: r for r in generated}
+    specified = [s["generation_id"] for s in slots if s["kind"] == "generated"]
+    if len(specified) != len(set(specified)) or set(specified) != set(by_id):
+        raise ValueError("Delivery mapping must bind every generated image exactly once")
+    book_hashes = {b["sha256"] for b in m["books"]}
+    records, projects = [], {}
+    def copy_exact(source, target):
+        digest = sha(source)
+        target.parent.mkdir(parents=True, exist_ok=True)
+        if target.exists():
+            if sha(target) != digest:
+                raise ValueError("Delivery target differs; refusing overwrite: " + target.name)
+        else:
+            shutil.copy2(source, target)
+        if sha(target) != digest:
+            raise ValueError("Delivery copy checksum mismatch")
+        return digest
+    for slot in slots:
+        if not SHOT_ID.fullmatch(slot["shot"]):
+            raise ValueError("Invalid delivery shot identity")
+        target = inside(REPO_ROOT, slot["target"])
+        if target.name != slot["shot"] + ".png":
+            raise ValueError("Delivery target filename differs from shot identity")
+        if slot["kind"] == "generated":
+            source = inside(root, by_id[slot["generation_id"]]["path"])
+        elif slot["kind"] in {"reuse", "book"}:
+            source = inside(REPO_ROOT, slot["source"])
+        else:
+            raise ValueError("Unknown delivery source kind")
+        if slot["kind"] == "book" and sha(source) not in book_hashes:
+            raise ValueError("Book source changed since initialization")
+        digest = copy_exact(source, target)
+        snapshot = inside(root, "delivery/" + slot["project"] + "/" + target.name)
+        copy_exact(target, snapshot)
+        with Image.open(snapshot) as im:
+            dimensions = list(im.size)
+        if slot["kind"] != "book" and dimensions != [1080, 1920]:
+            raise ValueError("AI delivery must be 1080x1920")
+        ref = {"path": snapshot.relative_to(root).as_posix(), "kind": slot["kind"],
+               "delivery_target": slot["target"], "sha256": digest,
+               "size": snapshot.stat().st_size, "dimensions": dimensions,
+               "generation_id": slot.get("generation_id"), "reuse_source": slot.get("source")}
+        records.append(ref)
+        projects.setdefault(slot["project"], []).append(ref)
+    for project, items in projects.items():
+        folder = inside(root, "delivery/" + project)
+        preview = Image.new("RGB", (800, math.ceil(len(items)/4)*360), "#f4f1e9")
+        draw = ImageDraw.Draw(preview)
+        for i, ref in enumerate(items):
+            with Image.open(inside(root, ref["path"])) as im:
+                thumb = ImageOps.contain(im.convert("RGB"), (180, 320), Image.Resampling.LANCZOS)
+                x, y = (i%4)*200, (i//4)*360
+                preview.paste(thumb, (x+(200-thumb.width)//2, y+8+(320-thumb.height)//2))
+                draw.text((x+10,y+334),Path(ref["path"]).stem,fill="#252525")
+        preview.save(folder/"preview.jpg", quality=90)
+        write_json(folder/"manifest.json", {"project": project, "files": items})
+        target_folder = inside(REPO_ROOT, items[0]["delivery_target"]).parent
+        for name in ["preview.jpg", "manifest.json"]:
+            artifact = folder/name
+            copy_exact(artifact, target_folder/(Path(name).stem+"_"+root.name+Path(name).suffix))
+            records.append({"path":artifact.relative_to(root).as_posix(),"kind":"project_support",
+                            "sha256":sha(artifact),"size":artifact.stat().st_size})
+    return records
+
+
 def finalize(root):
     with database(root) as db:
         db.execute("BEGIN IMMEDIATE")
@@ -392,12 +496,15 @@ def finalize(root):
         files = [{"path": r["current_path"], "kind": "AI_atmosphere", "sha256": r["sha256"],
                   "size": inside(root, r["current_path"]).stat().st_size, "dimensions": [1080, 1920],
                   "native_dimensions": [r["width"], r["height"]], "native_sha256": r["native_sha256"]} for r in rows]
-        files += m["books"]
-        for name in ["preview.jpg", "prompts.json"]:
+        generation_records = files.copy()
+        delivery = assemble_delivery(root, m, generation_records)
+        files = delivery if delivery is not None else files + m["books"]
+        for name in ["preview.jpg", "prompts.json"] + (["README.md"] if (root/"README.md").exists() else []):
             p = root / name
             files.append({"path": name, "kind": "support", "sha256": sha(p), "size": p.stat().st_size})
         manifest = {"schema_version": SCHEMA_VERSION, "shot_count": len(rows), "book_count": 3,
-                    "measurement_mode": m["config"].get("execution_mode", "live"), "files": files}
+                    "measurement_mode": m["config"].get("execution_mode", "live"), "files": files,
+                    "generation_records": generation_records}
         write_json(root / "manifest.json", manifest)
         archive, tmp = root / "images.zip", root / "images.zip.partial"
         if archive.exists():
@@ -484,6 +591,8 @@ def main(argv=None):
         if name == "ingest":
             p.add_argument("--source", type=Path, required=True)
             p.add_argument("--received-at")
+            p.add_argument("--publish-dir", type=Path)
+            p.add_argument("--publish-name")
         if name == "fail":
             p.add_argument("--error", default="generation_or_archive_failed")
         if name == "resume":
@@ -497,7 +606,7 @@ def main(argv=None):
         if a.command == "init": result = initialize(a.config, root)
         elif a.command == "plan": result = plan(root)
         elif a.command in {"start", "start-repair"}: result = start(root, a.shot_id, a.command == "start-repair")
-        elif a.command == "ingest": result = ingest(root, a.shot_id, a.attempt, a.source, a.received_at)
+        elif a.command == "ingest": result = ingest(root, a.shot_id, a.attempt, a.source, a.received_at, a.publish_dir, a.publish_name)
         elif a.command == "fail": result = fail(root, a.shot_id, a.attempt, a.error)
         elif a.command == "resume": result = resume(root, a.reset_inflight)
         elif a.command in {"retry-repair", "restore-selected"}: result = repair_recovery(root, a.shot_id, a.command == "restore-selected")

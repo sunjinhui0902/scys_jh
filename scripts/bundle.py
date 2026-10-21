@@ -104,7 +104,7 @@ def upload_one(tag,p):
 
 
 def pack(a):
-    if getattr(a, 'incremental_prefix', None):
+    if getattr(a, 'incremental_prefix', None) or getattr(a, 'core_prefix', None):
         return pack_analysis_increment(a)
     assert_repository() if a.upload else None
     if a.upload:
@@ -182,19 +182,22 @@ def pack(a):
 
 def pack_analysis_increment(a):
     """Append only this batch's result images; preserve older release references."""
-    prefix=safe_path(ROOT,a.incremental_prefix)
-    if not prefix.is_dir() or prefix==ROOT.resolve():raise ValueError('Expected an existing bounded result directory')
+    if getattr(a,'core_prefix',None) and getattr(a,'incremental_prefix',None):raise ValueError('Choose core or analysis prefixes, not both')
+    group='core' if getattr(a,'core_prefix',None) else 'analysis'
+    prefixes=[safe_path(ROOT,p) for p in (a.core_prefix if group=='core' else [a.incremental_prefix])]
+    if any(not p.is_dir() or p==ROOT.resolve() for p in prefixes):raise ValueError('Expected existing bounded result directories')
     previous_digest=digest(MANIFEST)
     previous=json.loads(MANIFEST.read_text(encoding='utf-8'))
     m=copy.deepcopy(previous)
     if m['repository']!=REPO or a.tag==m['tag']:raise ValueError('Expected repository and a fresh tag')
     current={x['path']:x for x in m['files']}
     additions=[]
-    for p in sorted(prefix.rglob('*')):
+    for p in sorted({p for prefix in prefixes for p in prefix.rglob('*')}):
         if not p.is_file() or p.is_symlink() or p.suffix.lower() not in {'.jpg','.jpeg','.png','.webp'}:continue
+        safe_path(ROOT,p.relative_to(ROOT))
         rel=p.relative_to(ROOT)
-        if excluded(p) or group_for(rel)!='analysis':raise ValueError(f'Only analysis result images are allowed: {rel}')
-        s=p.stat();h=digest(p);ref={'path':rel.as_posix(),'size':s.st_size,'mtime_ns':s.st_mtime_ns,'sha256':h,'group':'analysis'}
+        if excluded(p) or group_for(rel)!=group:raise ValueError(f'Only {group} result images are allowed: {rel}')
+        s=p.stat();h=digest(p);ref={'path':rel.as_posix(),'size':s.st_size,'mtime_ns':s.st_mtime_ns,'sha256':h,'group':group}
         if rel.as_posix() in current:
             if current[rel.as_posix()]['sha256']!=h:raise ValueError('Existing frozen image changed; use a revision directory')
             continue
@@ -208,13 +211,13 @@ def pack_analysis_increment(a):
     def close_zip():
         nonlocal z
         if z is not None:
-            z.close();new_archives.append({'name':zp.name,'group':'analysis','size':zp.stat().st_size,'sha256':digest(zp),'release_tag':a.tag});z=None
+            z.close();new_archives.append({'name':zp.name,'group':group,'size':zp.stat().st_size,'sha256':digest(zp),'release_tag':a.tag});z=None
     try:
         for p,ref in additions:
-            m['files'].append(ref);key='analysis:'+ref['sha256']
+            m['files'].append(ref);key=group+':'+ref['sha256']
             if key in m['blobs']:continue
             if z is None:
-                zp=cache/f'analysis-{safe_tag}-{index:04d}.zip';index+=1;z=zipfile.ZipFile(zp,'w',allowZip64=True)
+                zp=cache/f'{group}-{safe_tag}-{index:04d}.zip';index+=1;z=zipfile.ZipFile(zp,'w',allowZip64=True)
             parts=[];hashed=hashlib.sha256()
             with p.open('rb') as source:
                 for part_index,b in enumerate(iter(lambda:source.read(CHUNK),b'')):
@@ -229,13 +232,13 @@ def pack_analysis_increment(a):
         if z is not None:z.close()
     m['archives']+=new_archives
     m['incremental_base_tag']=previous['tag'];m['tag']=a.tag;m['created_at']=time.strftime('%Y-%m-%dT%H:%M:%S%z')
-    m['incremental_scope']={'prefix':prefix.relative_to(ROOT).as_posix(),'added_images':len(additions),'raw_sources_included':False}
-    m['note']=f"沿用 {previous['tag']} 的历史恢复文件，仅新增本次竞品分析的 {len(additions)} 张结果图片；不含原视频、提取音频、下载数据库或模型缓存。"
+    m['incremental_scope']={'prefixes':[p.relative_to(ROOT).as_posix() for p in prefixes],'added_images':len(additions),'raw_sources_included':False}
+    m['note']=f"沿用 {previous['tag']} 的历史恢复文件，仅新增本次 {group} 分组的 {len(additions)} 个图片文件；不含原视频、提取音频、下载数据库或模型缓存。"
     m['summary']={'files':len(m['files']),'unique_files':len(m['blobs']),'original_bytes':sum(x['size'] for x in m['files']),'archive_bytes':sum(x['size'] for x in m['archives'])}
     if a.upload:
         assert_repository()
         if subprocess.run(['gh','release','view',a.tag,'--repo',REPO],capture_output=True).returncode==0:raise RuntimeError('Choose a fresh immutable release tag')
-        gh('release','create',a.tag,'--repo',REPO,'--draft','--title',a.tag,'--notes',f'竞品分析增量结果图片；沿用旧包引用，不包含原视频。新增{len(additions)}张图片。')
+        gh('release','create',a.tag,'--repo',REPO,'--draft','--title',a.tag,'--notes',f'{group}增量结果图片；沿用旧包引用，不包含原视频。新增{len(additions)}个图片文件。')
         for archive in new_archives:upload_one(a.tag,cache/archive['name'])
     if digest(MANIFEST)!=previous_digest:raise RuntimeError('Bundle manifest changed concurrently; preserve both versions and reconcile')
     tmp=MANIFEST.with_suffix('.json.tmp');tmp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');tmp.replace(MANIFEST)
@@ -293,7 +296,7 @@ def restore(a):
 def main():
     ap=argparse.ArgumentParser(description=__doc__)
     sub=ap.add_subparsers(dest='command',required=True)
-    p=sub.add_parser('pack');p.add_argument('--tag',required=True);p.add_argument('--upload',action='store_true');p.add_argument('--incremental-prefix',help='Append only new analysis result images under this relative directory; retain older release references')
+    p=sub.add_parser('pack');p.add_argument('--tag',required=True);p.add_argument('--upload',action='store_true');p.add_argument('--incremental-prefix',help='Append only new analysis result images under this relative directory; retain older release references');p.add_argument('--core-prefix',action='append',help='Append only creative result images under this bounded directory; repeat for several projects')
     p=sub.add_parser('restore');p.add_argument('--group',action='append',choices=['core','software','analysis','all']);p.add_argument('--target');p.add_argument('--cache');p.add_argument('--offline',action='store_true')
     a=ap.parse_args()
     pack(a) if a.command=='pack' else restore(a)

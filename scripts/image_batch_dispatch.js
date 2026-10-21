@@ -2,6 +2,10 @@
 async function runImageBatch({ local, generate, concurrency, phase = "initial" }) {
   if (phase !== "initial") throw new Error("Repair submissions use the explicit per-shot repair flow");
   const plan = await local("plan", {});
+  if (Number.isInteger(plan.total) &&
+      plan.pending.length + plan.active.length + plan.failed.length + plan.archived.length !== plan.total) {
+    throw new Error("Incomplete plan response; refusing to dispatch a truncated shot list");
+  }
   if (plan.finalized) return await local("finalize", {});
   if (plan.active.length || plan.failed.length) {
     throw new Error("Resolve interrupted or failed shots before dispatching (resume/retry-repair)");
@@ -73,14 +77,17 @@ async function runImageBatchInCodex({ repoRoot, runDir, concurrency,
     }
     const result = await tools.exec_command({
       cmd: "& " + words.map(imageBatchPowerShellQuote).join(" "), workdir: repoRoot,
-      max_output_tokens: 2500, yield_time_ms: 1000
+      max_output_tokens: command === "plan" ? 32000 : 2500, yield_time_ms: 1000
     });
     let output = result.output || "";
     let status = result;
     while (status.session_id && status.exit_code == null) {
       status = await tools.write_stdin({ session_id: status.session_id, chars: "",
-        yield_time_ms: 1000, max_output_tokens: 2500 });
+        yield_time_ms: 1000, max_output_tokens: command === "plan" ? 32000 : 2500 });
       output += status.output || "";
+    }
+    if (/Warning: truncated output|bytes omitted|tokens truncated/.test(output)) {
+      throw new Error("Truncated local response; refusing partial plan or prompt");
     }
     const lines = output.split(/\r?\n/).filter(s => s.trim().startsWith("{"));
     let parsed;

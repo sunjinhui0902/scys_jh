@@ -1,0 +1,33 @@
+{
+  "measurement_mode": "live",
+  "T1": {
+    "started_at": "2026-10-21T15:20:27.282+00:00",
+    "finished_at": "2026-10-21T15:59:00.485Z",
+    "elapsed_seconds": 2313.203
+  },
+  "T2": {
+    "started_at": "2026-10-21T15:34:50.615+00:00",
+    "finished_at": "2026-10-21T15:37:17.973Z",
+    "elapsed_seconds": 147.358,
+    "repair_count": 1
+  },
+  "T3": {
+    "started_at": "2026-10-21T15:59:00.485Z",
+    "finished_at": "2026-10-21T15:59:25.095+00:00",
+    "elapsed_seconds": 24.61,
+    "target_seconds": 60,
+    "target_met": true
+  },
+  "created_at": "2026-10-21T15:18:56.681+00:00",
+  "total_to_local_seconds": 2428.414,
+  "failed_attempts": 0,
+  "backup": {
+    "started_at": "2026-10-21T16:10:26.751+00:00",
+    "finished_at": "2026-10-21T16:13:35.880+00:00",
+    "elapsed_seconds": 189.129
+  },
+  "note": "Wall-clock stage spans may overlap. Replay is not a generation benchmark. Backup is separate.",
+  "zip_sha256": "7712d3dea4bac10becf56c875a8eeef76facf5c70cdf5a0069aa654aea318d4c",
+  "zip_size": 178029941,
+  "total_through_backup_seconds": 3279.199
+}

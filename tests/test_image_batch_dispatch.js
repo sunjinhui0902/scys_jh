@@ -37,6 +37,8 @@ async function main() {
     if(id==='shot_03') throw Error('simulated failure'); return {source:id+'.png'};
   }}), /incomplete/);
   assert.equal(zipAttempted,false); assert.equal(failCount,1);
+  await assert.rejects(runImageBatch({local:async()=>({pending:[{id:'shot_01',prompt:'partial'}],active:[],failed:[],archived:[],total:39}),
+    generate:async()=>{throw Error('must never generate a truncated plan');}}),/truncated/);
   assert.equal(imageBatchPowerShellQuote("a'b $() `x`"), "'a''b $() `x`'");
   assert.throws(()=>imageBatchPowerShellQuote('a\nb'));
   // Exercise the actual session adapter offline, including the tool's path hint.

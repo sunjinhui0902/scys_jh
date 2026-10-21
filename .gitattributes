@@ -8,3 +8,6 @@
 *.xlsx binary
 # Preserve the exact manifest bytes used by the release asset SHA-256.
 /config/bundle-manifest.json -text whitespace=cr-at-eol
+# Frozen delivery metadata is checksummed inside the corresponding image ZIP.
+/03_视频成片与工程/五城精讲_出图批次_2026-10-21/** -text whitespace=cr-at-eol
+/03_视频成片与工程/0[1-5]_*/assets/manifest_五城精讲_出图批次_2026-10-21.json -text whitespace=cr-at-eol

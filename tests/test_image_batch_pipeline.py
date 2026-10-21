@@ -6,6 +6,7 @@ from pathlib import Path
 import tempfile
 import unittest
 import zipfile
+from unittest import mock
 
 from PIL import Image
 
@@ -128,6 +129,30 @@ class PipelineTests(unittest.TestCase):
         with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
             self.assertEqual(sum(pool.map(claim,range(3))),1)
 
+    def test_publish_to_bound_project_name_and_refuse_overwrite(self):
+        c=p.start(self.run,"shot_01")
+        target=self.base/"project/assets"
+        p.ingest(self.run,"shot_01",c["attempt"],self.good,publish_dir=target,publish_name="shot_12.png")
+        self.assertEqual(p.sha(target/"shot_12.png"),p.sha(self.run/"images/shot_01.png"))
+        c=p.start(self.run,"shot_02")
+        with self.assertRaisesRegex(ValueError,"already differs"):
+            p.ingest(self.run,"shot_02",c["attempt"],self.other,publish_dir=target,publish_name="shot_12.png")
+        self.assertEqual(p.plan(self.run)["active"],["shot_02"])
+        repair=p.start(self.run,"shot_01",True)
+        p.ingest(self.run,"shot_01",repair["attempt"],self.other,publish_dir=target,publish_name="shot_12.png")
+        self.assertEqual(p.sha(target/"shot_12.png"),p.sha(self.run/"images/shot_01.png"))
+        self.assertNotEqual(p.sha(target/"revisions/shot_12_v001.png"),p.sha(target/"shot_12.png"))
+
+    def test_automatic_publication_from_frozen_config(self):
+        with p.database(self.run) as db:
+            cfg=p.meta(db)['config']
+            cfg['shots'][0]['delivery_path']='p1/assets/shot_12.png'
+            p.put(db,'config',cfg)
+        claim=p.start(self.run,'shot_01')
+        with mock.patch.object(p,'REPO_ROOT',self.base):
+            p.ingest(self.run,'shot_01',claim['attempt'],self.good)
+        self.assertEqual(p.sha(self.base/'p1/assets/shot_12.png'),p.sha(self.run/'images/shot_01.png'))
+
     def test_bad_config_does_not_create_run(self):
         dest=self.base/"other_run"
         self.cfg["shots"][1]["id"]="shot_01"
@@ -137,6 +162,23 @@ class PipelineTests(unittest.TestCase):
         self.assertFalse(dest.exists())
         with self.assertRaisesRegex(ValueError,"escapes"):
             p.inside(self.run,"../outside")
+
+    def test_multi_project_delivery_reuse_and_original_shot_numbers(self):
+        self.complete()
+        slots=[{'project':'p1','shot':f'shot_{i:02d}','target':f'p1/assets/shot_{i:02d}.png',
+                'kind':'generated','generation_id':f'shot_{i:02d}'} for i in range(1,4)]
+        slots += [{'project':'p1','shot':'shot_09','target':'p1/assets/shot_09.png','kind':'book','source':'book_01.png'},
+                  {'project':'p2','shot':'shot_12','target':'p2/assets/shot_12.png','kind':'reuse','source':'p1/assets/shot_01.png'}]
+        with p.database(self.run) as db:
+            cfg=p.meta(db)['config'];cfg['delivery_slots']=slots;p.put(db,'config',cfg)
+        with mock.patch.object(p,'REPO_ROOT',self.base):
+            p.finalize(self.run)
+        self.assertEqual(p.sha(self.base/'p2/assets/shot_12.png'),p.sha(self.run/'images/shot_01.png'))
+        self.assertEqual((self.base/'p1/assets/shot_09.png').read_bytes(),(self.base/'book_01.png').read_bytes())
+        with zipfile.ZipFile(self.run/'images.zip') as z:
+            self.assertIn('delivery/p2/shot_12.png',z.namelist())
+            self.assertNotIn('images/shot_01.png',z.namelist())
+        self.assertTrue(p.verify(self.run)['verified'])
 
     def test_backup_is_separate_and_never_zeroed(self):
         self.complete()
