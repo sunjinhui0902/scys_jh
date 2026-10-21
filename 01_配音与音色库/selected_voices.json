@@ -22,5 +22,35 @@
     "rate": "-4%",
     "pitch": "+0Hz",
     "desc": "黄土高原与关中厚土韵味，极具地域文化识别度与乡土真实感。"
+  },
+  "default": {
+    "id": "voice_default_cctv_yunjian_shili_bgm",
+    "name": "01_央视纪录片·沧桑历史男声 + 食力过日子国风BGM（全局默认基准）",
+    "voice_track": {
+      "speaker": "央视纪录片·沧桑历史男声",
+      "voice": "zh-CN-YunjianNeural",
+      "rate": "-8%",
+      "pitch": "-6Hz",
+      "audio_sample_path": "01_配音与音色库/01_央视纪录片_沧桑历史男声.mp3",
+      "style": "央视纪录片/低频极厚/从容沉静/字正腔圆/权威底蕴极高",
+      "volume_boost_db": "+3.0dB"
+    },
+    "bgm_track": {
+      "title": "食力过日子·原版国风温情BGM",
+      "audio_path": "01_配音与音色库/背景音乐库/bgm_shili_guofeng.mp3",
+      "style": "古筝笛子慢板/温情轻快/适合中老年文史亲子带货",
+      "volume_db": "-13.0dB",
+      "fade_in_s": 1.0,
+      "fade_out_s": 2.5
+    },
+    "mix_preview_path": "01_配音与音色库/试听样本/平遥古城_学者大家男声_食力BGM混音_清晰版.mp3",
+    "note": "用户2026-10-21指定：王立群声音暂时放弃待素材扩充整理，改回原版央视纪录片男声(Yunjian -8% -6Hz)，BGM保留食力过日子国风音乐清晰版(-13dB)"
+  },
+  "reserved_candidate_wangliqun": {
+    "id": "voice_candidate_wangliqun",
+    "name": "王立群学者人声（备用/待扩充整理）",
+    "audio_sample_path": "01_配音与音色库/王立群_主音色基准/voice_wangliqun_sample.mp3",
+    "status": "pending_more_samples",
+    "note": "声音文件保留不动，待获取更多相似声音文件后统一整理"
   }
 }

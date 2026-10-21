@@ -36,7 +36,17 @@
 
 ## 开发一个新视频
 
-先从15城新版或原创选题库选定一条，按带货内容标准试读和配图，再复制修改 `config/storyboard.example.json`，指定图片、配音和镜头时长：
+日常短视频创作推荐使用**【极速剪映草稿黄金管线】**（支持口播配音、Ken Burns 原生运镜、叠化转场与大字字幕一键成型）：
+
+```powershell
+# 阶段 1（与 GPT 生图并行，15 秒完成）：根据口播文案生成配音与草稿骨架
+python scripts/fast_draft_pipeline.py init --dir "03_视频成片与工程/<选题目录>"
+
+# 阶段 2（GPT 出图后，3 秒完成）：一键热替换真实素材
+python scripts/fast_draft_pipeline.py apply-images --dir "03_视频成片与工程/<选题目录>"
+```
+
+若需无界面的轻量离线 FFmpeg 渲染预览，可复制修改 `config/storyboard.example.json`：
 
 ```powershell
 .\.venv\Scripts\python.exe scripts/render.py config/storyboard.example.json --output .local/示例预览.mp4
