@@ -1,0 +1,15 @@
+{
+  "execution_mode": "live",
+  "concurrency": 3,
+  "target_size": [1080, 1920],
+  "aspect_tolerance": 0.01,
+  "books": [
+    {"id": "book_01", "source": "../03_视频成片与工程/大美中国_祖孙游十城_图片_2026-10-20/book_assets/book_01.png"},
+    {"id": "book_02", "source": "../03_视频成片与工程/大美中国_祖孙游十城_图片_2026-10-20/book_assets/book_02.png"},
+    {"id": "book_03", "source": "../03_视频成片与工程/大美中国_祖孙游十城_图片_2026-10-20/book_assets/book_03.png"}
+  ],
+  "shots": [
+    {"id": "shot_01", "prompt": "REPLACE_WITH_FINAL_SINGLE_SHOT_PROMPT"},
+    {"id": "shot_02", "prompt": "REPLACE_WITH_FINAL_SINGLE_SHOT_PROMPT"}
+  ]
+}
