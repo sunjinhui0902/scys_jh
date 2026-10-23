@@ -47,6 +47,24 @@ class PipelineTests(unittest.TestCase):
         for i in [3,1,2]:
             self.receive(f"shot_{i:02d}", self.other if i==2 else self.good)
 
+    def test_photo_layout_preserves_evidence_pixels_and_classification(self):
+        result = p.import_photo(self.run, "shot_01", self.wrong, [10, 10, 150, 80])
+        box = result["photo"]["content_box"]
+        with Image.open(self.wrong) as source, Image.open(self.run/"images/shot_01.png") as output:
+            self.assertEqual(output.crop(tuple(box)).tobytes(), source.convert("RGB").crop((10,10,150,80)).tobytes())
+        self.assertEqual((self.run/result["photo"]["path"]).read_bytes(), self.wrong.read_bytes())
+        self.receive("shot_02")
+        self.receive("shot_03")
+        p.finalize(self.run)
+        manifest = json.loads((self.run/"manifest.json").read_text(encoding="utf-8"))
+        self.assertEqual(manifest["generation_records"][0]["kind"], "photograph_layout")
+        self.assertTrue(p.verify(self.run)["verified"])
+
+    def test_photo_import_rejects_invalid_crop_without_claim(self):
+        with self.assertRaisesRegex(ValueError, "crop"):
+            p.import_photo(self.run, "shot_01", self.wrong, [-1,0,20,20])
+        self.assertEqual(len(p.plan(self.run)["pending"]), 3)
+
     def test_out_of_order_identity_books_zip_and_freeze(self):
         self.complete()
         report=p.finalize(self.run)

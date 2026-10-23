@@ -362,6 +362,52 @@ def repair_recovery(root, shot_id, restore=False):
     return {"restored_selected": shot_id} if restore else start(root, shot_id, repair=True)
 
 
+def import_photo(root, shot_id, source, crop=None):
+    """Place a verified photograph on a portrait canvas without AI redraw."""
+    source = Path(source).resolve()
+    digest = sha(source)
+    with database(root) as db:
+        mutable(db)
+        row = db.execute("SELECT * FROM shots WHERE id=?", (shot_id,)).fetchone()
+        if row is None or row["status"] != "pending":
+            raise ValueError("Photo import requires a pending shot")
+    with Image.open(source) as im:
+        photo = ImageOps.exif_transpose(im).convert("RGB")
+        original_size = list(photo.size)
+        if crop:
+            if len(crop) != 4 or not (0 <= crop[0] < crop[2] <= photo.width
+                                      and 0 <= crop[1] < crop[3] <= photo.height):
+                raise ValueError("Photo crop is outside the source")
+            photo = photo.crop(tuple(crop))
+        # Keep small evidence details pixel-for-pixel; only downscale large photos.
+        if photo.width > 1080 or photo.height > 1344:
+            photo.thumbnail((1080, 1344), Image.Resampling.LANCZOS)
+        canvas = Image.new("RGB", (1080, 1920), "#e9e3d8")
+        xy = ((1080-photo.width)//2, (1920-photo.height)//2)
+        canvas.paste(photo, xy)
+    folder = root / "photo_sources"
+    folder.mkdir(exist_ok=True)
+    preserved = folder / (shot_id + source.suffix.lower())
+    prepared = folder / (shot_id + "_canvas.png")
+    if preserved.exists() or prepared.exists():
+        raise ValueError("Photo import files already exist; preserve and investigate")
+    shutil.copy2(source, preserved)
+    if sha(preserved) != digest:
+        raise ValueError("Photo source copy checksum mismatch")
+    canvas.save(prepared, format="PNG", compress_level=3)
+    claim = start(root, shot_id)
+    result = ingest(root, shot_id, claim["attempt"], prepared)
+    record = {"path": preserved.relative_to(root).as_posix(), "sha256": digest,
+              "source_dimensions": original_size, "crop": crop,
+              "content_box": [*xy, xy[0]+photo.width, xy[1]+photo.height],
+              "operation": "crop/contain on neutral canvas; no AI redraw"}
+    with database(root) as db:
+        photos = meta(db).get("photo_sources", {})
+        photos[shot_id] = record
+        put(db, "photo_sources", photos)
+    return {**result, "kind": "photograph_layout", "photo": record}
+
+
 def timing(m, rows, completed_at):
     first = m["first_submitted_at"]
     initial = max((r["initial_received_at"] for r in rows), key=timestamp)
@@ -493,9 +539,13 @@ def finalize(root):
                 sheet.paste(thumbnail, (x + (200 - thumbnail.width) // 2, y + 8 + (320 - thumbnail.height) // 2))
             draw.text((x + 10, y + 334), label, fill="#252525", font=font)
         sheet.save(root / "preview.jpg", quality=90)
-        files = [{"path": r["current_path"], "kind": "AI_atmosphere", "sha256": r["sha256"],
+        photos = m.get("photo_sources", {})
+        files = [{"path": r["current_path"], "kind": "photograph_layout" if r["id"] in photos else "AI_atmosphere", "sha256": r["sha256"],
                   "size": inside(root, r["current_path"]).stat().st_size, "dimensions": [1080, 1920],
                   "native_dimensions": [r["width"], r["height"]], "native_sha256": r["native_sha256"]} for r in rows]
+        for record, row in zip(files, rows):
+            if row["id"] in photos:
+                record["photo_source"] = photos[row["id"]]
         generation_records = files.copy()
         delivery = assemble_delivery(root, m, generation_records)
         files = delivery if delivery is not None else files + m["books"]
@@ -581,10 +631,10 @@ def main(argv=None):
     p = sub.add_parser("init")
     p.add_argument("--config", type=Path, required=True)
     p.add_argument("--run-dir", type=Path, required=True)
-    for name in ["plan", "start", "start-repair", "ingest", "fail", "resume", "retry-repair", "restore-selected", "finalize", "verify", "record-backup"]:
+    for name in ["plan", "start", "start-repair", "ingest", "import-photo", "fail", "resume", "retry-repair", "restore-selected", "finalize", "verify", "record-backup"]:
         p = sub.add_parser(name)
         p.add_argument("--run-dir", type=Path, required=True)
-        if name in {"start", "start-repair", "ingest", "fail", "retry-repair", "restore-selected"}:
+        if name in {"start", "start-repair", "ingest", "import-photo", "fail", "retry-repair", "restore-selected"}:
             p.add_argument("--shot-id", required=True)
         if name in {"ingest", "fail"}:
             p.add_argument("--attempt", type=int, required=True)
@@ -595,6 +645,9 @@ def main(argv=None):
             p.add_argument("--publish-name")
         if name == "fail":
             p.add_argument("--error", default="generation_or_archive_failed")
+        if name == "import-photo":
+            p.add_argument("--source", type=Path, required=True)
+            p.add_argument("--crop", type=int, nargs=4)
         if name == "resume":
             p.add_argument("--reset-inflight", action="store_true")
         if name == "record-backup":
@@ -607,6 +660,7 @@ def main(argv=None):
         elif a.command == "plan": result = plan(root)
         elif a.command in {"start", "start-repair"}: result = start(root, a.shot_id, a.command == "start-repair")
         elif a.command == "ingest": result = ingest(root, a.shot_id, a.attempt, a.source, a.received_at, a.publish_dir, a.publish_name)
+        elif a.command == "import-photo": result = import_photo(root, a.shot_id, a.source, a.crop)
         elif a.command == "fail": result = fail(root, a.shot_id, a.attempt, a.error)
         elif a.command == "resume": result = resume(root, a.reset_inflight)
         elif a.command in {"retry-repair", "restore-selected"}: result = repair_recovery(root, a.shot_id, a.command == "restore-selected")
