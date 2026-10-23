@@ -1,0 +1,85 @@
+{
+  "source_integrity": {
+    "unchanged_files": 352,
+    "status": "PASS"
+  },
+  "reports": {
+    "00_Antigravity预处理审核与使用说明.md": {
+      "status": "PASS",
+      "hooks": 0,
+      "bridges": 0
+    },
+    "01_读史明智_逆向工程报告.md": {
+      "status": "PASS",
+      "hooks": 6,
+      "bridges": 10
+    },
+    "02_锦绣千秋录_逆向工程报告.md": {
+      "status": "PASS",
+      "hooks": 6,
+      "bridges": 10
+    },
+    "03_食力过日子_逆向工程报告.md": {
+      "status": "PASS",
+      "hooks": 6,
+      "bridges": 10
+    },
+    "04_元宝十大与资治通鉴_逆向工程报告.md": {
+      "status": "PASS",
+      "hooks": 6,
+      "bridges": 10
+    },
+    "README.md": {
+      "status": "PASS",
+      "hooks": 0,
+      "bridges": 0
+    },
+    "万能钩子与丝滑转折总库.md": {
+      "status": "PASS",
+      "hooks": 0,
+      "bridges": 0
+    },
+    "来源索引.md": {
+      "status": "PASS",
+      "hooks": 0,
+      "bridges": 0
+    }
+  },
+  "statistics": {
+    "读史明智": {
+      "files": 218,
+      "mechanical_exports": "PASS",
+      "top30": "PASS"
+    },
+    "锦绣千秋录": {
+      "files": 19,
+      "mechanical_exports": "PASS",
+      "top30": "PASS"
+    },
+    "食力过日子": {
+      "files": 11,
+      "mechanical_exports": "PASS",
+      "top30": "PASS"
+    },
+    "元宝十大_资治通鉴": {
+      "files": 95,
+      "mechanical_exports": "PASS",
+      "top30": "PASS"
+    }
+  },
+  "workbook": {
+    "status": "PASS",
+    "sheets": 7,
+    "changed_part": [
+      "xl/worksheets/sheet7.xml"
+    ],
+    "old_summary_rows_unchanged": 37,
+    "added_cells": 15,
+    "sha256": "50a6296649382f8af5b45367a2b350ac84a8449603066c8cb6bc2a9e0798207d",
+    "visual_preview": "normal-zoom final.png inspected; no clipping",
+    "renderer_exit": 1,
+    "native_excel_ui_tested": false
+  },
+  "historical_state_values_unchanged": true,
+  "marketing_effects_verified": false
+}
