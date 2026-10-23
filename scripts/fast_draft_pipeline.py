@@ -180,6 +180,12 @@ def parse_gemini_markdown(md_content: str, project_name: str = "") -> Tuple[str,
         if fa_match:
             fixed_asset = fa_match.group(1).strip()
 
+        # 提取指定自定义素材文件名（如 shot_07.png 等跨集映射）
+        custom_img = None
+        img_match = re.search(r"(?:素材(?:文件名)?|对应素材)[：:\s]*([a-zA-Z0-9_\-\.]+\.(?:png|jpg|jpeg|webp))", clean_block)
+        if img_match:
+            custom_img = img_match.group(1).strip()
+
         # 提取对应口播
         clauses = []
         clause_match = re.search(r"[-*]\s*对应口播[：:]\s*(.*?)(?=\n\s*[-*]\s*画面描述|\n\s*[-*]\s*【|\Z)", clean_block, re.DOTALL)
@@ -202,7 +208,7 @@ def parse_gemini_markdown(md_content: str, project_name: str = "") -> Tuple[str,
             "fixed_asset": fixed_asset,
             "clauses": clauses,
             "desc": desc,
-            "img": fixed_asset if fixed_asset else f"shot_{shot_idx:02d}.jpg"
+            "img": fixed_asset if fixed_asset else (custom_img if custom_img else f"shot_{shot_idx:02d}.jpg")
         })
 
     if not raw_sections:
@@ -449,23 +455,29 @@ def build_pipeline_draft(
                 all_aligned_clauses.append(sec_clauses_timing[-1])
             section_timings.append(sec_clauses_timing)
 
-        # 字幕显示窗口微调：微小停顿延展消除闪烁，句末增加 200ms 视读缓冲
-        for i in range(len(all_aligned_clauses)):
-            cur_item = all_aligned_clauses[i]
-            cur_start = cur_item["spoken_start_us"]
-            cur_end = cur_item["spoken_end_us"]
+        # 严格非重叠时序校验与保护（消除微小停顿闪烁，防止 ASR 丢字造成时间戳重叠崩溃）
+        min_clause_dur = 200_000  # 200ms 最低字幕停留时间
+        cur_pos = 0
+        for i, item in enumerate(all_aligned_clauses):
+            s = max(cur_pos, item["spoken_start_us"])
+            e = max(s + min_clause_dur, item["spoken_end_us"])
             if i + 1 < len(all_aligned_clauses):
-                next_start = all_aligned_clauses[i + 1]["spoken_start_us"]
-                gap = next_start - cur_end
-                if gap <= 300_000:
-                    display_end = next_start
-                else:
-                    display_end = min(next_start, cur_end + 200_000)
+                nxt_s = all_aligned_clauses[i + 1]["spoken_start_us"]
+                if nxt_s > e:
+                    gap = nxt_s - e
+                    if gap <= 300_000:
+                        e = nxt_s
+                    else:
+                        e = min(nxt_s, e + 200_000)
             else:
-                display_end = min(total_voice_dur_us, cur_end + 300_000)
-            cur_item["display_start_us"] = cur_start
-            cur_item["display_end_us"] = display_end
-            cur_item["display_dur_us"] = max(100_000, display_end - cur_start)
+                e = min(total_voice_dur_us, e + 300_000)
+                if e <= s:
+                    e = min(total_voice_dur_us, s + min_clause_dur)
+
+            item["display_start_us"] = s
+            item["display_dur_us"] = max(100_000, e - s)
+            item["display_end_us"] = s + item["display_dur_us"]
+            cur_pos = item["display_end_us"]
 
         # 分镜画面起止时间与运镜对齐（保证视频轨连续无空隙）
         for s_idx, sec in enumerate(sections):
@@ -571,12 +583,11 @@ def build_pipeline_draft(
                 source_timerange=draft.Timerange(0, chunk_len),
                 volume=0.2239  # -13.0dB (selected_voices.json 标准基准)
             )
-            # 首段淡入 1.0 秒
-            if chunk_idx == 0:
-                b_seg.add_fade(1_000_000, 0)
-            # 末段淡出 2.5 秒
-            if cur_bgm_us + chunk_len >= total_voice_dur_us:
-                b_seg.add_fade(0, 2_500_000)
+            # 计算淡入淡出时长
+            fade_in = 1_000_000 if chunk_idx == 0 else 0
+            fade_out = 2_500_000 if (cur_bgm_us + chunk_len >= total_voice_dur_us) else 0
+            if fade_in > 0 or fade_out > 0:
+                b_seg.add_fade(fade_in, fade_out)
 
             script.add_segment(b_seg, track="国风背景音乐(-13dB)")
             cur_bgm_us += chunk_len
