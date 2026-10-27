@@ -86,6 +86,20 @@ class PipelineTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,"frozen"):
             p.start(self.run,"shot_01",True)
 
+    def test_landscape_batch_without_books(self):
+        self.cfg["books"] = []
+        p.write_json(self.config, self.cfg)
+        self.run = self.base/"landscape"
+        result = p.initialize(self.config, self.run)
+        self.assertEqual(result["books_copied"], 0)
+        self.complete()
+        p.finalize(self.run)
+        self.assertEqual(p.verify(self.run)["book_count"], 0)
+        with zipfile.ZipFile(self.run/"images.zip") as z:
+            self.assertFalse(any(name.startswith("books/") for name in z.namelist()))
+        with Image.open(self.run/"preview.jpg") as preview:
+            self.assertEqual(preview.size, (600, 360))
+
     def test_missing_bad_ratio_and_partial_resume(self):
         self.receive("shot_01")
         with self.assertRaisesRegex(ValueError,"incomplete ZIP"):

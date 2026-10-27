@@ -105,8 +105,9 @@ def initialize(config_path, root):
     if type(cfg.get("concurrency", 3)) is not int or not 1 <= cfg.get("concurrency", 3) <= 4:
         raise ValueError("concurrency must be an integer from 1 to 4")
     books = cfg.get("books", [])
-    if [b.get("id") for b in books] != ["book_01", "book_02", "book_03"]:
-        raise ValueError("Exactly book_01, book_02, book_03 are required")
+    if not isinstance(books, list) or (books and
+            [b.get("id") for b in books] != ["book_01", "book_02", "book_03"]):
+        raise ValueError("books must be empty or contain exactly book_01, book_02, book_03")
     checked = []
     for book in books:
         src = (config_path.parent / book["source"]).resolve()
@@ -152,7 +153,7 @@ def initialize(config_path, root):
     except Exception:
         # Leave partial files for diagnosis; never remove a user-supplied directory.
         raise
-    return {"run_dir": str(root), "shot_count": len(jobs), "books_copied": 3}
+    return {"run_dir": str(root), "shot_count": len(jobs), "books_copied": len(book_records)}
 
 
 def plan(root):
@@ -526,8 +527,8 @@ def finalize(root):
                 raise ValueError("Preserved book changed")
         # Validate repair closure before writing any final artifacts.
         timing(m, rows, now())
-        cols = min(6, len(rows) + 3)
-        count = len(rows) + 3
+        count = len(rows) + len(m["books"])
+        cols = min(6, count)
         sheet = Image.new("RGB", (cols * 200, math.ceil(count / cols) * 360), "#f4f1e9")
         draw, font = ImageDraw.Draw(sheet), ImageFont.load_default()
         items = [(r["id"], root / "thumbnails" / (r["id"] + ".jpg")) for r in rows]
@@ -552,7 +553,7 @@ def finalize(root):
         for name in ["preview.jpg", "prompts.json"] + (["README.md"] if (root/"README.md").exists() else []):
             p = root / name
             files.append({"path": name, "kind": "support", "sha256": sha(p), "size": p.stat().st_size})
-        manifest = {"schema_version": SCHEMA_VERSION, "shot_count": len(rows), "book_count": 3,
+        manifest = {"schema_version": SCHEMA_VERSION, "shot_count": len(rows), "book_count": len(m["books"]),
                     "measurement_mode": m["config"].get("execution_mode", "live"), "files": files,
                     "generation_records": generation_records}
         write_json(root / "manifest.json", manifest)
