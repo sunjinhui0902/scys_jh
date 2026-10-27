@@ -79,7 +79,7 @@ def smart_split_clauses(text: str) -> List[str]:
         c = c.strip("、 \t\r\n").replace("、", " ")
         if not c:
             continue
-        if len(c) <= 10:
+        if len(c) <= 13:
             final_clauses.append(c)
         else:
             words = list(jieba.cut(c))
@@ -95,10 +95,11 @@ def smart_split_clauses(text: str) -> List[str]:
                     best_idx = idx + 1
             p1 = "".join(words[:best_idx]).strip()
             p2 = "".join(words[best_idx:]).strip()
-            if p1:
+            if p1 and p2 and len(p1) >= 3 and len(p2) >= 3:
                 final_clauses.append(p1)
-            if p2:
                 final_clauses.append(p2)
+            else:
+                final_clauses.append(c)
 
     # 合并过短微片段（<= 2个字，如“接着”、“随后”、“下了船”）到紧随的后一句
     merged = []
@@ -455,12 +456,10 @@ def build_pipeline_draft(
                 all_aligned_clauses.append(sec_clauses_timing[-1])
             section_timings.append(sec_clauses_timing)
 
-        # 严格非重叠时序校验与保护（消除微小停顿闪烁，防止 ASR 丢字造成时间戳重叠崩溃）
-        min_clause_dur = 200_000  # 200ms 最低字幕停留时间
-        cur_pos = 0
+        # 严格非重叠时序校验与保护（绝对锚定发音波形起点，绝不产生向后累积漂移）
         for i, item in enumerate(all_aligned_clauses):
-            s = max(cur_pos, item["spoken_start_us"])
-            e = max(s + min_clause_dur, item["spoken_end_us"])
+            s = item["spoken_start_us"]
+            e = item["spoken_end_us"]
             if i + 1 < len(all_aligned_clauses):
                 nxt_s = all_aligned_clauses[i + 1]["spoken_start_us"]
                 if nxt_s > e:
@@ -468,16 +467,16 @@ def build_pipeline_draft(
                     if gap <= 300_000:
                         e = nxt_s
                     else:
-                        e = min(nxt_s, e + 200_000)
+                        e = min(nxt_s, e + 150_000)
+                else:
+                    e = nxt_s
             else:
                 e = min(total_voice_dur_us, e + 300_000)
-                if e <= s:
-                    e = min(total_voice_dur_us, s + min_clause_dur)
 
+            dur = max(200_000, e - s)
             item["display_start_us"] = s
-            item["display_dur_us"] = max(100_000, e - s)
-            item["display_end_us"] = s + item["display_dur_us"]
-            cur_pos = item["display_end_us"]
+            item["display_dur_us"] = dur
+            item["display_end_us"] = s + dur
 
         # 分镜画面起止时间与运镜对齐（保证视频轨连续无空隙）
         for s_idx, sec in enumerate(sections):
@@ -755,7 +754,7 @@ def build_pipeline_draft(
             )
             script.add_segment(sub_seg, track="中老年大字底字幕")
 
-    # 保存元数据清单
+    # 保存元数据清单与标准 SRT 字幕
     manifest_file = project_dir / "draft_manifest.json"
     manifest_data = {
         "draft_title": actual_title,
@@ -765,6 +764,23 @@ def build_pipeline_draft(
         "shots": shot_manifest
     }
     manifest_file.write_text(json.dumps(manifest_data, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # 导出标准 SRT 字幕
+    srt_file = project_dir / "01_文案与分镜" / "subtitles.srt"
+    srt_lines = []
+    sub_counter = 1
+    for s_timings in section_timings:
+        for c_t in s_timings:
+            st_ms = c_t["display_start_us"] // 1000
+            ed_ms = c_t["display_end_us"] // 1000
+            s_h, s_m, s_s, s_rem = st_ms // 3600000, (st_ms % 3600000) // 60000, (st_ms % 60000) // 1000, st_ms % 1000
+            e_h, e_m, e_s, e_rem = ed_ms // 3600000, (ed_ms % 3600000) // 60000, (ed_ms % 60000) // 1000, ed_ms % 1000
+            st_str = f"{s_h:02d}:{s_m:02d}:{s_s:02d},{s_rem:03d}"
+            ed_str = f"{e_h:02d}:{e_m:02d}:{e_s:02d},{e_rem:03d}"
+            srt_lines.append(f"{sub_counter}\n{st_str} --> {ed_str}\n{c_t['text']}\n")
+            sub_counter += 1
+    srt_file.write_text("\n".join(srt_lines), encoding="utf-8")
+    print(f"  [✓ 字幕导出] 标准 SRT 字幕已同步导出至: {srt_file.name}")
 
     # 保存剪映工程
     script.save()
