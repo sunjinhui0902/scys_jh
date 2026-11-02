@@ -193,7 +193,12 @@ def parse_gemini_markdown(md_content: str, project_name: str = "") -> Tuple[str,
         if clause_match:
             raw_clauses_text = clause_match.group(1).strip().strip("[]【】\"'")
             clean_c = re.sub(r"[（\(].*?[）\)]", "", raw_clauses_text)
-            clauses = smart_split_clauses(clean_c)
+            # 如果对应口播显式提供了多行已切好的短句（如屏显短句），优先保持原样切分
+            lines = [l.strip().strip("、，。！？； ") for l in clean_c.splitlines() if l.strip()]
+            if len(lines) > 1 and all(len(l) <= 15 for l in lines):
+                clauses = lines
+            else:
+                clauses = smart_split_clauses(clean_c)
 
         # 提取画面描述
         desc = ""
@@ -644,16 +649,24 @@ def build_pipeline_draft(
             img_stem = Path(img_name).stem
             search_dirs = [visuals_dir, project_dir / "assets"]
             real_img = None
+            code = project_dir.name.split('_')[0]
+            s_idx_str = f"{sec['shot_index']:02d}"
+            cand_patterns = [
+                img_name,
+                f"{img_stem}.*",
+                f"{code}-{s_idx_str}.*",
+                f"{code}_{s_idx_str}.*",
+                f"*-{s_idx_str}.*"
+            ]
             for sdir in search_dirs:
                 if not sdir.exists():
                     continue
-                cand = sdir / img_name
-                if cand.exists() and cand.is_file() and "placeholder" not in cand.name.lower():
-                    real_img = cand
-                    break
-                matched = [p for p in sdir.glob(f"{img_stem}.*") if "placeholder" not in p.name.lower() and p.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp"]]
-                if matched:
-                    real_img = matched[0]
+                for pat in cand_patterns:
+                    matched = [p for p in sdir.glob(pat) if "placeholder" not in p.name.lower() and p.suffix.lower() in [".jpg", ".jpeg", ".png", ".webp"]]
+                    if matched:
+                        real_img = matched[0]
+                        break
+                if real_img:
                     break
 
             if real_img and real_img.exists() and real_img.is_file():
@@ -785,9 +798,15 @@ def build_pipeline_draft(
     # 保存剪映工程
     script.save()
     draft_path = Path(JIANYING_DIR) / actual_title
+    total_sub_count = sum(len(st) for st in section_timings)
+    placeholder_count = sum(1 for s in shot_manifest if s["is_placeholder"])
+    actual_dur_sec = round(total_voice_dur_us / 1_000_000, 2)
     print(f"\n========================================================")
     print(f"🎉 [剪映草稿装配成功] 已就绪！")
     print(f"📁 草稿路径: {draft_path}")
+    print(f"⏱️ 实际时长: {actual_dur_sec} 秒")
+    print(f"📝 字幕条数: {total_sub_count} 条")
+    print(f"🖼️ 占位图镜头数: {placeholder_count} 个 (总镜头: {len(shot_manifest)} 个)")
     print(f"💡 对齐方式: {'FunASR 毫秒级发音波形严格对齐' if has_asr else '比例分配'}")
     fixed_count = sum(1 for s in shot_manifest if not s["is_placeholder"])
     print(f"📦 素材状态: {fixed_count}/{len(shot_manifest)} 个镜头已加载真实画面")
