@@ -1,0 +1,90 @@
+# ============================================================
+# 语音合成 API 配置 —— 模板（结构说明，密钥留空）
+# 用法：复制本文件为 config/voice_api/config.yaml，再把 api_key 填成你自己的 Key
+#   Copy-Item config/voice_api/config.example.yaml config/voice_api/config.yaml
+# 完整可用的配置（含六声线定稿音色表与备选音色）见同目录 config.yaml
+# ============================================================
+
+# 你的 MiniMax 开放平台 API Key：控制台 > 账户管理 > API Keys
+# 也可以不填，改用环境变量 MINIMAX_API_KEY（环境变量优先）
+api_key: ""
+
+# 中国区 key 用 minimaxi；国际区 key 改 minimax.io
+base_url: "https://api.minimaxi.com"
+
+# speech-2.8-hd / 2.8-turbo / 2.6-hd / speech-02-hd
+# <#0.35#> 停顿标记与 (laughs)(sighs)(breath) 语气词仅 2.8 系列支持
+model: "speech-2.8-hd"
+
+language_boost: "auto"
+timeout_seconds: 90
+
+audio_setting:
+  sample_rate: 32000
+  bitrate: 128000
+  format: "mp3"
+  channel: 1
+
+output_dir: "六声线测试_家庭钩子_20261106"
+full_name: "完整_15秒_六声线对白_纯对白版"
+total_seconds: 15
+
+scenes:
+  - name: "场景1_男童与爷爷_0-5s.mp3"
+    lines:
+      - role: "男童"
+        engine: "minimax"          # minimax=走你的 API Key；edge=Edge-TTS（免密钥）
+        voice_id: "Chinese (Mandarin)_Straightforward_Boy"
+        emotion: "surprised"       # neutral/happy/sad/angry/fearful/surprised/disgusted
+        speed: 1.08                # 0.5 - 2.0
+        pitch: -5                  # -12 - 12
+        text: "爷爷！我嘴冒烟了！"
+        save_name: "01_男童_惊讶_爷爷我嘴冒烟了.mp3"
+
+      - role: "爷爷"
+        engine: "edge"
+        edge_voice: "zh-CN-YunyangNeural"
+        edge_rate: "-18%"
+        edge_pitch: "-6Hz"
+        text: "哟，还真是！"
+        save_name: "02_爷爷_带笑_哟还真是.mp3"
+
+  - name: "场景2_女童与奶奶_5-10s.mp3"
+    lines:
+      - role: "女童"
+        engine: "minimax"
+        voice_id: "Chinese (Mandarin)_Warm_Girl"
+        emotion: "happy"
+        speed: 1.0
+        pitch: 1
+        text: "奶奶，月亮怎么跟着我呀？"
+        save_name: "03_女童_好奇_奶奶月亮怎么跟着我呀.mp3"
+
+      - role: "奶奶"
+        engine: "minimax"
+        voice_id: "Chinese (Mandarin)_Wise_Women"
+        emotion: "happy"
+        speed: 0.95
+        pitch: 0
+        text: "你也在看着它呀。"
+        save_name: "04_奶奶_温暖_你也在看着它呀.mp3"
+
+  - name: "场景3_夫妻争执_10-15s.mp3"
+    lines:
+      - role: "妈妈"
+        engine: "minimax"
+        voice_id: "female-chengshu"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "都是你惯的！"
+        save_name: "05_妈妈_压火责备_都是你惯的.mp3"
+
+      - role: "爸爸"
+        engine: "minimax"
+        voice_id: "male-qn-badao"
+        emotion: "angry"
+        speed: 1.08
+        pitch: -1
+        text: "孩子你还管不管啦！"
+        save_name: "06_爸爸_急躁_孩子你还管不管啦.mp3"
