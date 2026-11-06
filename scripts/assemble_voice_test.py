@@ -43,6 +43,7 @@
 import argparse
 import json
 import re
+import shutil
 import subprocess
 import sys
 import urllib.request
@@ -117,6 +118,24 @@ def download(url: str, target: Path) -> None:
         target.write_bytes(response.read())
 
 
+def resolve_source(item: dict, root: Path) -> Path | None:
+    """取音频来源：local_path 指向本地文件，url 指向可下载地址。"""
+    if item.get("local_path"):
+        source = Path(item["local_path"])
+        if not source.is_absolute():
+            source = root / source
+        return source if source.exists() else None
+    return None
+
+
+def fetch_item(item: dict, target: Path, root: Path) -> None:
+    source = resolve_source(item, root)
+    if source is not None:
+        shutil.copyfile(source, target)
+        return
+    download(item["url"], target)
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="多角色配音拼装工具")
     parser.add_argument("--meta", required=True, help="清单 JSON 路径（含下载链接，不入库）")
@@ -156,7 +175,7 @@ def main() -> None:
                 backup_path.unlink()
             mp3_path.replace(backup_path)
         if not mp3_path.exists() or mp3_path.stat().st_size < 1024:
-            download(item["url"], mp3_path)
+            fetch_item(item, mp3_path, ROOT)
         installed[item["save_name"]] = version
 
         wav_path = work_dir / f"{item['id']}.wav"
@@ -176,6 +195,15 @@ def main() -> None:
                 "duration_ms": durations[-1],
             }
         )
+
+    # 备选音色包：只下载归档，不参与拼接，供人工比选
+    candidates_dir = out_dir / "_备选_候选音色"
+    candidates_dir.mkdir(parents=True, exist_ok=True)
+    for candidate in meta.get("candidates", []):
+        target = candidates_dir / candidate["file"]
+        if target.exists() and target.stat().st_size >= 1024:
+            continue
+        fetch_item(candidate, target, ROOT)
 
     scene_reports = []
     for scene in meta.get("scenes", []):
