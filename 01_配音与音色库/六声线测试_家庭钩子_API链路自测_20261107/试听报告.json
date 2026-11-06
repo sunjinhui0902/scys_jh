@@ -1,0 +1,146 @@
+{
+  "output_dir": "01_配音与音色库\\六声线测试_家庭钩子_API链路自测_20261107",
+  "lines": [
+    {
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 16,
+      "audio_length_ms": 2340,
+      "trace_id": "073d347aeb30b2cf9be1a467e70bb688",
+      "role": "男童",
+      "file": "01_男童_惊讶_爷爷我嘴冒烟了.mp3",
+      "text": "爷爷！我嘴冒烟了！",
+      "duration_ms": 2290,
+      "voice_id": "Chinese (Mandarin)_Straightforward_Boy",
+      "emotion": "surprised",
+      "speed": 1.08,
+      "pitch": -5
+    },
+    {
+      "engine": "edge",
+      "edge_voice": "zh-CN-YunyangNeural",
+      "edge_rate": "-18%",
+      "edge_pitch": "-6Hz",
+      "role": "爷爷",
+      "file": "02_爷爷_带笑_哟还真是.mp3",
+      "text": "哟，还真是！",
+      "duration_ms": 2160,
+      "voice_id": "zh-CN-YunyangNeural",
+      "emotion": null,
+      "speed": null,
+      "pitch": null
+    },
+    {
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 22,
+      "audio_length_ms": 2952,
+      "trace_id": "073d347ea326db8feff91ee58df0c3e6",
+      "role": "女童",
+      "file": "03_女童_好奇_奶奶月亮怎么跟着我呀.mp3",
+      "text": "奶奶，月亮怎么跟着我呀？",
+      "duration_ms": 2890,
+      "voice_id": "Chinese (Mandarin)_Warm_Girl",
+      "emotion": "happy",
+      "speed": 1.0,
+      "pitch": 1
+    },
+    {
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 15,
+      "audio_length_ms": 2232,
+      "trace_id": "073d347ecb09922086700d879be2d89e",
+      "role": "奶奶",
+      "file": "04_奶奶_温暖_你也在看着它呀.mp3",
+      "text": "你也在看着它呀。",
+      "duration_ms": 2190,
+      "voice_id": "Chinese (Mandarin)_Wise_Women",
+      "emotion": "happy",
+      "speed": 0.95,
+      "pitch": 0
+    },
+    {
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 11,
+      "audio_length_ms": 1548,
+      "trace_id": "073d347f63f660792774936227cba461",
+      "role": "妈妈",
+      "file": "05_妈妈_压火责备_都是你惯的.mp3",
+      "text": "都是你惯的！",
+      "duration_ms": 1500,
+      "voice_id": "female-chengshu",
+      "emotion": "angry",
+      "speed": 1.12,
+      "pitch": 0
+    },
+    {
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 17,
+      "audio_length_ms": 1980,
+      "trace_id": "073d3480fbed73b54526f9e0a457669d",
+      "role": "爸爸",
+      "file": "06_爸爸_急躁_孩子你还管不管啦.mp3",
+      "text": "孩子你还管不管啦！",
+      "duration_ms": 1930,
+      "voice_id": "male-qn-badao",
+      "emotion": "angry",
+      "speed": 1.08,
+      "pitch": -1
+    }
+  ],
+  "scenes": [
+    {
+      "file": "场景1_男童与爷爷_0-5s.mp3",
+      "duration_ms": 4700
+    },
+    {
+      "file": "场景2_女童与奶奶_5-10s.mp3",
+      "duration_ms": 5360
+    },
+    {
+      "file": "场景3_夫妻争执_10-15s.mp3",
+      "duration_ms": 3680
+    }
+  ],
+  "timeline": [
+    {
+      "role": "男童",
+      "line": "爷爷！我嘴冒烟了！",
+      "start_ms": 0,
+      "end_ms": 2290
+    },
+    {
+      "role": "爷爷",
+      "line": "哟，还真是！",
+      "start_ms": 2640,
+      "end_ms": 4800
+    },
+    {
+      "role": "女童",
+      "line": "奶奶，月亮怎么跟着我呀？",
+      "start_ms": 4900,
+      "end_ms": 7790
+    },
+    {
+      "role": "奶奶",
+      "line": "你也在看着它呀。",
+      "start_ms": 8140,
+      "end_ms": 10330
+    },
+    {
+      "role": "妈妈",
+      "line": "都是你惯的！",
+      "start_ms": 10430,
+      "end_ms": 11930
+    },
+    {
+      "role": "爸爸",
+      "line": "孩子你还管不管啦！",
+      "start_ms": 12150,
+      "end_ms": 14080
+    }
+  ]
+}
