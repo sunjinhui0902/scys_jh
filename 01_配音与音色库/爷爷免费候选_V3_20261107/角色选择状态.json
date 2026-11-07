@@ -1,0 +1,71 @@
+{
+  "approved": {
+    "boy": {
+      "name": "男宝",
+      "status": "approved",
+      "option": "A",
+      "engine": "minimax",
+      "voice_id": "cute_boy",
+      "speed": 1.0,
+      "pitch": 0,
+      "sample": "单条试听/男宝_已选A.mp3",
+      "sha256": "9aad6b2420e846e417a718b785e499c2db50f716ed60af5be19a55df21f0ff64",
+      "source": "用户明确选择",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "dad": {
+      "name": "爸爸",
+      "status": "approved",
+      "option": "B",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+      "speed": 1.0,
+      "pitch": 0,
+      "sample": "单条试听/爸爸_已选B.mp3",
+      "sha256": "34aaa10e1aafb13336b3022d5e1d87302f5687c95a6c788ad78197182985209b",
+      "source": "用户明确选择",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "grandma": {
+      "name": "奶奶",
+      "status": "approved",
+      "option": "B",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Antie",
+      "speed": 1.0,
+      "pitch": 0,
+      "sample": "单条试听/奶奶_已选B.mp3",
+      "sha256": "9c32e28cba1aeb69ed2709983b7af74c1326f216a3ebc6f1bf4d48718c434dcf",
+      "source": "用户明确选择",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "girl": {
+      "name": "女宝",
+      "status": "approved_keep_voice",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Warm_Girl",
+      "sample": "单条试听/女宝_已保留.mp3",
+      "sha256": "6386f70606a4bd8291b0bf3449593a07aaef6959f0d680df618fa0ed6ea2a6c5",
+      "source": "用户明确保留",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "mom": {
+      "name": "妈妈",
+      "status": "approved_keep_voice",
+      "engine": "minimax",
+      "voice_id": "female-chengshu",
+      "sample": "单条试听/妈妈_已保留.mp3",
+      "sha256": "3c178c8396c32d79ae34dcdff41aa703683c6fd5e4f4bfd62b9ab0dbee5adbb0",
+      "source": "用户明确保留",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    }
+  },
+  "grandpa": {
+    "status": "pending_free_candidate_selection",
+    "cancelled_voice_id": "ttv-voice-2026110720344126-2CKmy249",
+    "reason": "用户取消额外收费的设计音色",
+    "design_activation_authorized": false
+  },
+  "cost_policy": "本轮仅免费Edge试听，不发起任何MiniMax付费调用；选中的是声音，未授权新设计音色费用",
+  "sample_root": "01_配音与音色库/爷爷免费候选_V3_20261107"
+}

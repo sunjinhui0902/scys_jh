@@ -1,0 +1,63 @@
+{
+  "version": "family_selected_v1_20261107",
+  "status": "all_six_voices_selected",
+  "model": "speech-2.8-hd",
+  "roles": {
+    "boy": {
+      "name": "男宝",
+      "engine": "minimax",
+      "voice_id": "cute_boy",
+      "speed": 1.0,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "girl": {
+      "name": "女宝",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Warm_Girl",
+      "speed": 1.0,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "dad": {
+      "name": "爸爸",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+      "speed": 1.0,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "mom": {
+      "name": "妈妈",
+      "engine": "minimax",
+      "voice_id": "female-chengshu",
+      "speed": 1.02,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "grandpa": {
+      "name": "爷爷",
+      "engine": "edge",
+      "edge_voice": "zh-CN-YunjianNeural",
+      "edge_rate": "-10%",
+      "edge_pitch": "-8Hz",
+      "edge_volume": "+0%"
+    },
+    "grandma": {
+      "name": "奶奶",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Antie",
+      "speed": 1.0,
+      "pitch": 0,
+      "vol": 1.0
+    }
+  },
+  "billing_policy": {
+    "voice_design_activation_allowed": false,
+    "voice_cloning_activation_allowed": false,
+    "paid_generation_this_step": false,
+    "minimax_system_tts": "生成新台词仍按字计费，音色选择不等于生成全套音频"
+  },
+  "scope": "固定角色基准；每条台词的情绪与语速可另行调整，不更换voice_id。未重生成66条台词。",
+  "credential_source": "沿用本机config/voice_api/config.yaml中的API连接信息，定稿文件不含密钥"
+}

@@ -1,0 +1,236 @@
+{
+  "records": {
+    "boy_A": {
+      "role": "boy",
+      "option": "A",
+      "voice_id": "cute_boy",
+      "name": "可爱男童",
+      "note": "官方童声候选；重点听男童辨识度、是否过于奶糯。",
+      "text": "你看，外面下雪了。我们一起去看看吧。爷爷！爷爷！你看，我嘴冒烟了！爷爷，海水为什么这么咸呐？",
+      "status": "complete",
+      "started_at": "2026-11-07T20:34:20.207734+08:00",
+      "file": "单条试听\\男宝_A.mp3",
+      "voice_setting": {
+        "voice_id": "cute_boy",
+        "speed": 1.0,
+        "pitch": 0,
+        "vol": 1.0
+      },
+      "emotion": "automatic_from_text",
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 83,
+      "audio_length_ms": 15804,
+      "trace_id": "073e4dccbd66baf710b2590835465426",
+      "sha256": "9aad6b2420e846e417a718b785e499c2db50f716ed60af5be19a55df21f0ff64",
+      "duration_ms": 15800
+    },
+    "boy_B": {
+      "role": "boy",
+      "option": "B",
+      "voice_id": "Chinese (Mandarin)_Pure-hearted_Boy",
+      "name": "清澈邻家弟弟",
+      "note": "官方标签为少年弟弟，可能偏大；作为清亮男声对照，不保证5—7岁感。",
+      "text": "你看，外面下雪了。我们一起去看看吧。爷爷！爷爷！你看，我嘴冒烟了！爷爷，海水为什么这么咸呐？",
+      "status": "complete",
+      "started_at": "2026-11-07T20:34:23.580106+08:00",
+      "file": "单条试听\\男宝_B.mp3",
+      "voice_setting": {
+        "voice_id": "Chinese (Mandarin)_Pure-hearted_Boy",
+        "speed": 1.0,
+        "pitch": 0,
+        "vol": 1.0
+      },
+      "emotion": "automatic_from_text",
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 83,
+      "audio_length_ms": 12024,
+      "trace_id": "073e4dcfdfeaf24b3e497fd6cad652cd",
+      "sha256": "ac03f1a7aaa9130a8c2d46f02fe045c5e7ff85e0319f9b7fe4b93f07c904fe4d",
+      "duration_ms": 12020
+    },
+    "dad_A": {
+      "role": "dad",
+      "option": "A",
+      "voice_id": "Chinese (Mandarin)_Sincere_Adult",
+      "name": "真诚青年",
+      "note": "目标：日常、自然接话；检查是否偏年轻。",
+      "text": "你看，外面下雪了。我们一起去看看吧。孩子你还管不管啦！你先别急，咱们听孩子把话说完。",
+      "status": "complete",
+      "started_at": "2026-11-07T20:34:25.484591+08:00",
+      "file": "单条试听\\爸爸_A.mp3",
+      "voice_setting": {
+        "voice_id": "Chinese (Mandarin)_Sincere_Adult",
+        "speed": 1.0,
+        "pitch": 0,
+        "vol": 1.0
+      },
+      "emotion": "automatic_from_text",
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 78,
+      "audio_length_ms": 8892,
+      "trace_id": "073e4dd1c63f27c6f2c5130ea6fa2e86",
+      "sha256": "707cf5f73200ce2ba438eae9fd39b090d6cc780fc2ab5e8043dfbe51576a8639",
+      "duration_ms": 8890
+    },
+    "dad_B": {
+      "role": "dad",
+      "option": "B",
+      "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+      "name": "沉稳高管",
+      "note": "官方中年男声；检查是否有过重的正式腔。",
+      "text": "你看，外面下雪了。我们一起去看看吧。孩子你还管不管啦！你先别急，咱们听孩子把话说完。",
+      "status": "complete",
+      "started_at": "2026-11-07T20:34:27.056115+08:00",
+      "file": "单条试听\\爸爸_B.mp3",
+      "voice_setting": {
+        "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+        "speed": 1.0,
+        "pitch": 0,
+        "vol": 1.0
+      },
+      "emotion": "automatic_from_text",
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 78,
+      "audio_length_ms": 8064,
+      "trace_id": "073e4dd39880cf2af0202681c0cc4c86",
+      "sha256": "34aaa10e1aafb13336b3022d5e1d87302f5687c95a6c788ad78197182985209b",
+      "duration_ms": 8060
+    },
+    "grandpa_A": {
+      "role": "grandpa",
+      "option": "A",
+      "kind": "design_preview",
+      "name": "爽朗微沙的爷爷（设计试听）",
+      "prompt": "一位68岁中国爷爷的原创声音，男性，有清晰的老年声带纹理和少量自然沙哑，胸腔中低频适中，底气足。标准普通话，像在家和小孙子随口聊天，亲切爽朗，反应快，有轻微笑意和自然起伏。能温柔逗孩子，也能着急关心。不是播音员、不是纪录片旁白、不是卡通大爷，不压喉，不故意拖慢，不气若游丝。年龄感来自自然声带纹理，不靠夸张低音。",
+      "note": "年龄与性格是设计目标，实际效果请试听。正式首次使用另收9.9元，此次不激活。",
+      "text": "你看，外面下雪了。我们一起去看看吧。哟，再呼一口，爷爷看看。别怕，哪儿疼？伸过来让爷爷看看。",
+      "status": "complete",
+      "started_at": "2026-11-07T20:34:28.977561+08:00",
+      "file": "单条试听\\爷爷_A.mp3",
+      "voice_id": "ttv-voice-2026110720344126-2CKmy249",
+      "activated_by_this_run": false,
+      "usage_characters": null,
+      "trial_price_per_10k": 2.0,
+      "sha256": "169e7d00f183f4c48103327eecf499e76f6dda67f2810f40c3413a3a415cb6f0",
+      "duration_ms": 11020
+    },
+    "grandpa_B": {
+      "role": "grandpa",
+      "option": "B",
+      "kind": "design_preview",
+      "name": "温厚沉稳的爷爷（设计试听）",
+      "prompt": "原创中文老年男性声音，72岁，温厚自然，有明显的岁月感、轻微颗粒感和松弛但有力的声带。音区比普通中年男性稍低但不低沉做作，标准普通话，居家聊天语气，吐字清晰，接话利索。面对孙女好奇时带着宠爱，面对磕碰时关切而不过度惊慌。避免播音腔、戏曲腔、喜剧卡通腔、青年低音炮、病弱颤抖和过慢节奏。",
+      "note": "与A对照年龄感和生活感。正式首次使用另收9.9元，此次不激活。",
+      "text": "你看，外面下雪了。我们一起去看看吧。哟，再呼一口，爷爷看看。别怕，哪儿疼？伸过来让爷爷看看。",
+      "status": "complete",
+      "started_at": "2026-11-07T20:34:49.215966+08:00",
+      "file": "单条试听\\爷爷_B.mp3",
+      "voice_id": "ttv-voice-2026110720352426-aQSGtk0B",
+      "activated_by_this_run": false,
+      "usage_characters": null,
+      "trial_price_per_10k": 2.0,
+      "sha256": "7af03bf00748cab85524ebb0b632403ee4be4ffd5cfba3497150d9a165c3003c",
+      "duration_ms": 12890
+    },
+    "grandma_A": {
+      "role": "grandma",
+      "option": "A",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Elder",
+      "name": "花甲奶奶",
+      "note": "官方老年女声，优先检查真实年龄感、温暖和咬字。",
+      "text": "你看，外面下雪了。我们一起去看看吧。那你走慢一点，看看月亮还跟不跟。哎哟我的小宝贝，快让奶奶抱抱。",
+      "status": "complete",
+      "started_at": "2026-11-07T20:35:33.035728+08:00",
+      "file": "单条试听\\奶奶_A.mp3",
+      "voice_setting": {
+        "voice_id": "Chinese (Mandarin)_Kind-hearted_Elder",
+        "speed": 1.0,
+        "pitch": 0,
+        "vol": 1.0
+      },
+      "emotion": "automatic_from_text",
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 91,
+      "audio_length_ms": 13428,
+      "trace_id": "073e4e15dfa9e53718b4e5381e08bd0e",
+      "sha256": "dfa009772e3cc8af7c7695328644c8be7dabc35dd2939c33c108ed3e276a9ec7",
+      "duration_ms": 13430
+    },
+    "grandma_B": {
+      "role": "grandma",
+      "option": "B",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Antie",
+      "name": "热心大婶",
+      "note": "官方中年大婶声，作为生活感备选；年龄感可能不足。",
+      "text": "你看，外面下雪了。我们一起去看看吧。那你走慢一点，看看月亮还跟不跟。哎哟我的小宝贝，快让奶奶抱抱。",
+      "status": "complete",
+      "started_at": "2026-11-07T20:35:34.847057+08:00",
+      "file": "单条试听\\奶奶_B.mp3",
+      "voice_setting": {
+        "voice_id": "Chinese (Mandarin)_Kind-hearted_Antie",
+        "speed": 1.0,
+        "pitch": 0,
+        "vol": 1.0
+      },
+      "emotion": "automatic_from_text",
+      "engine": "minimax",
+      "model": "speech-2.8-hd",
+      "usage_characters": 91,
+      "audio_length_ms": 11448,
+      "trace_id": "073e4e17582ea6d845dc8772467c1bcc",
+      "sha256": "9c32e28cba1aeb69ed2709983b7af74c1326f216a3ebc6f1bf4d48718c434dcf",
+      "duration_ms": 11450
+    }
+  },
+  "bundles": [
+    {
+      "role": "boy",
+      "file": "男宝_A然后B.mp3",
+      "starts_ms": [
+        0,
+        17043
+      ]
+    },
+    {
+      "role": "dad",
+      "file": "爸爸_A然后B.mp3",
+      "starts_ms": [
+        0,
+        10124
+      ]
+    },
+    {
+      "role": "grandpa",
+      "file": "爷爷_A然后B.mp3",
+      "starts_ms": [
+        0,
+        12260
+      ]
+    },
+    {
+      "role": "grandma",
+      "file": "奶奶_A然后B.mp3",
+      "starts_ms": [
+        0,
+        14686
+      ]
+    }
+  ],
+  "new_t2a_calls": 6,
+  "new_design_preview_calls": 2,
+  "design_activation_calls": 0,
+  "human_acceptance": "pending",
+  "pricing": "HD 3.5元/万计费字符；设计试听2元/万字符；选中设计声首次正式使用另9.9元/音色",
+  "sources": [
+    "https://platform.minimax.cn/docs/pricing/overview",
+    "https://platform.minimax.cn/docs/faq/system-voice-id"
+  ],
+  "historical_parameters": "V1 reference parameters inherited from V1 report",
+  "estimated_cost_cny": 0.2096,
+  "cost_basis": "T2A: API usage_characters × 3.5/10000；设计试听: 本地计数字符 × 2/10000；仅估算，未查询实际账单"
+}

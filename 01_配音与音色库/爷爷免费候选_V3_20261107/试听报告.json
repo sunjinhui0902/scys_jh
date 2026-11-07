@@ -1,0 +1,99 @@
+{
+  "approved": {
+    "boy": {
+      "name": "男宝",
+      "status": "approved",
+      "option": "A",
+      "engine": "minimax",
+      "voice_id": "cute_boy",
+      "speed": 1.0,
+      "pitch": 0,
+      "sample": "单条试听/男宝_已选A.mp3",
+      "sha256": "9aad6b2420e846e417a718b785e499c2db50f716ed60af5be19a55df21f0ff64",
+      "source": "用户明确选择",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "dad": {
+      "name": "爸爸",
+      "status": "approved",
+      "option": "B",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Reliable_Executive",
+      "speed": 1.0,
+      "pitch": 0,
+      "sample": "单条试听/爸爸_已选B.mp3",
+      "sha256": "34aaa10e1aafb13336b3022d5e1d87302f5687c95a6c788ad78197182985209b",
+      "source": "用户明确选择",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "grandma": {
+      "name": "奶奶",
+      "status": "approved",
+      "option": "B",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Kind-hearted_Antie",
+      "speed": 1.0,
+      "pitch": 0,
+      "sample": "单条试听/奶奶_已选B.mp3",
+      "sha256": "9c32e28cba1aeb69ed2709983b7af74c1326f216a3ebc6f1bf4d48718c434dcf",
+      "source": "用户明确选择",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "girl": {
+      "name": "女宝",
+      "status": "approved_keep_voice",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Warm_Girl",
+      "sample": "单条试听/女宝_已保留.mp3",
+      "sha256": "6386f70606a4bd8291b0bf3449593a07aaef6959f0d680df618fa0ed6ea2a6c5",
+      "source": "用户明确保留",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    },
+    "mom": {
+      "name": "妈妈",
+      "status": "approved_keep_voice",
+      "engine": "minimax",
+      "voice_id": "female-chengshu",
+      "sample": "单条试听/妈妈_已保留.mp3",
+      "sha256": "3c178c8396c32d79ae34dcdff41aa703683c6fd5e4f4bfd62b9ab0dbee5adbb0",
+      "source": "用户明确保留",
+      "billing": "系统音色无额外音色费，新台词合成按字计费"
+    }
+  },
+  "candidates": [
+    {
+      "option": "A",
+      "name": "沉厚版",
+      "edge_voice": "zh-CN-YunjianNeural",
+      "edge_rate": "-10%",
+      "edge_pitch": "-8Hz",
+      "note": "目标是沉厚、有底气；重点听是否仍有解说腔。",
+      "engine": "edge",
+      "text": "你看，外面下雪了。我们一起去看看吧。哟，再呼一口，爷爷看看。别怕，哪儿疼？伸过来让爷爷看看。",
+      "file": "单条试听/爷爷_免费A.mp3",
+      "sha256": "f7ef2535f31c26e779b160a6a36af485208d96b8b4703f96f9a3c2ec2714f1dc",
+      "duration_ms": 13420
+    },
+    {
+      "option": "B",
+      "name": "亲切版",
+      "edge_voice": "zh-CN-YunxiNeural",
+      "edge_rate": "-12%",
+      "edge_pitch": "-12Hz",
+      "note": "目标是亲切、接话自然；可能仍偏年轻。降低音调不能保证老年感。",
+      "engine": "edge",
+      "text": "你看，外面下雪了。我们一起去看看吧。哟，再呼一口，爷爷看看。别怕，哪儿疼？伸过来让爷爷看看。",
+      "file": "单条试听/爷爷_免费B.mp3",
+      "sha256": "574846a7c2467f802bb2d7dc6a8221dbae8bf23d64e158ebe4d52cbf7e0cefa5",
+      "duration_ms": 12860
+    }
+  ],
+  "new_minimax_calls": 0,
+  "new_voice_design_calls": 0,
+  "voice_activation_calls": 0,
+  "sequence_starts_ms": [
+    0,
+    14716
+  ],
+  "age_acceptance": "pending_human_audition"
+}

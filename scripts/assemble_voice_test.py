@@ -47,6 +47,7 @@ import shutil
 import subprocess
 import sys
 import urllib.request
+import wave
 from pathlib import Path
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -110,6 +111,33 @@ def build_mix(
         cmd += ["-b:a", "192k"]
     cmd += [str(out_path)]
     run(cmd)
+
+
+def build_sequence(inputs: list[Path], out_path: Path, gap_ms: int = 650) -> list[int]:
+    """顺序串联已统一格式的 PCM WAV，保留全长，返回真实采样点对应的时间轴。"""
+    offsets = []
+    sample_count = 0
+    fmt = None
+    with wave.open(str(out_path), "wb") as output:
+        for src in inputs:
+            with wave.open(str(src), "rb") as audio:
+                current = (audio.getnchannels(), audio.getsampwidth(), audio.getframerate())
+                if fmt is None:
+                    fmt = current
+                    output.setnchannels(fmt[0])
+                    output.setsampwidth(fmt[1])
+                    output.setframerate(fmt[2])
+                elif current != fmt:
+                    raise ValueError("串联音频必须使用相同的 PCM 格式")
+                if offsets:
+                    gap_frames = round(gap_ms * fmt[2] / 1000)
+                    output.writeframesraw(bytes(gap_frames * fmt[0] * fmt[1]))
+                    sample_count += gap_frames
+                offsets.append(round(sample_count * 1000 / fmt[2]))
+                while chunk := audio.readframes(65536):
+                    output.writeframesraw(chunk)
+                sample_count += audio.getnframes()
+    return offsets
 
 
 def download(url: str, target: Path) -> None:

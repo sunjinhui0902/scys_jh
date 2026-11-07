@@ -1,0 +1,65 @@
+{
+  "status": "待人工试听确认_未锁定",
+  "roles": {
+    "boy": {
+      "name": "男宝",
+      "engine": "minimax",
+      "voice_id": "clever_boy",
+      "speed": 1.05,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "girl": {
+      "name": "女宝",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Warm_Girl",
+      "speed": 1.0,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "dad": {
+      "name": "爸爸",
+      "engine": "minimax",
+      "voice_id": "male-qn-badao",
+      "speed": 1.0,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "mom": {
+      "name": "妈妈",
+      "engine": "minimax",
+      "voice_id": "female-chengshu",
+      "speed": 1.02,
+      "pitch": 0,
+      "vol": 1.0
+    },
+    "grandpa": {
+      "name": "爷爷",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Male_Announcer",
+      "speed": 0.95,
+      "pitch": -1,
+      "pitch_offset": -2,
+      "vol": 1.0
+    },
+    "grandma": {
+      "name": "奶奶",
+      "engine": "minimax",
+      "voice_id": "Chinese (Mandarin)_Wise_Women",
+      "speed": 0.92,
+      "pitch": -1,
+      "vol": 1.0
+    },
+    "grandpa_edge": {
+      "name": "爷爷(Edge版)",
+      "engine": "edge",
+      "edge_voice": "zh-CN-YunyangNeural",
+      "edge_rate": "-18%",
+      "edge_pitch": "-6Hz",
+      "speed": 1.0,
+      "pitch": 0
+    }
+  },
+  "note": "角色参数沿用当前配置；既有音频的原始请求未逐句留档，不能据此保证身份和表演已验收。",
+  "model": "speech-2.8-hd"
+}
