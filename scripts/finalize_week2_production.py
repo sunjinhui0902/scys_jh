@@ -51,6 +51,38 @@ BOOK_MAP = {
     "被遗忘的后半句": WEEK1_DIR / "03_书图" / "被遗忘的后半句" / "被遗忘的后半句_封面.jpg",
 }
 
+# 语义分镜精确映射表：严格绑定台词口播语义与画面切入点，杜绝机械平分与画面滞后
+# shot_idx 对应各个分镜编号，映射绑定的句子索引列表 [start_sent_idx, ...]
+SEMANTIC_SHOT_MAPPING = {
+    "早场": {
+        "D1": {0: [0], 1: [1, 2], 2: [3], 3: [4, 5, 6], 4: [7]},
+        "D2": {0: [0], 1: [1], 2: [2, 3, 4], 3: [5, 6], 4: [7]},
+        "D3": {0: [0], 1: [1, 2], 2: [3], 3: [4, 5, 6], 4: [7]},
+        "D4": {0: [0], 1: [1, 2], 2: [3], 3: [4, 5], 4: [6]},
+        "D5": {0: [0], 1: [1, 2], 2: [3, 4], 3: [5, 6], 4: [7]},
+        "D6": {0: [0], 1: [1, 2], 2: [3], 3: [4, 5], 4: [6], 5: [7]},
+        "D7": {0: [0, 1], 1: [2, 3], 2: [4], 3: [5, 6], 4: []},
+    },
+    "午场": {
+        "D1": {0: [0], 1: [1], 2: [2], 3: [3, 4], 4: [5]},
+        "D2": {0: [0, 1], 1: [2], 2: [3], 3: [4, 5], 4: [6]},
+        "D3": {0: [0], 1: [1], 2: [2], 3: [3, 4, 5], 4: [6]},
+        "D4": {0: [0, 1], 1: [2], 2: [3], 3: [4], 4: [5]},
+        "D5": {0: [0], 1: [1, 2], 2: [3, 4], 3: [5], 4: [6]},
+        "D6": {0: [0], 1: [1], 2: [2, 3], 3: [4], 4: [5]},
+        "D7": {0: [0, 1], 1: [2, 3], 2: [4], 3: [5], 4: [6]},
+    },
+    "晚场": {
+        "D1": {0: [0], 1: [1], 2: [2], 3: [3], 4: [4, 5, 6]},
+        "D2": {0: [0], 1: [1, 2], 2: [3], 3: [4], 4: [5, 6]},
+        "D3": {0: [0], 1: [1, 2], 2: [3], 3: [4], 4: [5, 6]},
+        "D4": {0: [0], 1: [1], 2: [2], 3: [3], 4: [4, 5]},
+        "D5": {0: [0], 1: [1, 2, 3], 2: [4], 3: [5, 6], 4: [7]},
+        "D6": {0: [0], 1: [1], 2: [2], 3: [3], 4: [4, 5]},
+        "D7": {0: [0], 1: [1], 2: [2], 3: [3, 4], 4: [5]},
+    }
+}
+
 COVER_TEXT_MAP = {
     "早场": {
         "D1": "哈气为什么冒白烟",
@@ -551,16 +583,19 @@ async def process_single_video(session: str, day: str, script_data: dict, shot_l
     remade_count = 0
     total_chars = 0
 
-    middle_sents = list(range(1, num_sents - 1))
-    middle_shots_count = num_shots - 2
-    shot_sentence_map = {0: [0], num_shots - 1: [num_sents - 1]}
-    if middle_shots_count > 0:
-        k, m = divmod(len(middle_sents), middle_shots_count)
-        start_idx = 0
-        for i in range(middle_shots_count):
-            end_idx = start_idx + k + (1 if i < m else 0)
-            shot_sentence_map[i + 1] = middle_sents[start_idx:end_idx]
-            start_idx = end_idx
+    # 采用语义分镜精确映射（按口播语义绑定分镜，杜绝机械平分）
+    shot_sentence_map = SEMANTIC_SHOT_MAPPING.get(session, {}).get(day, {})
+    if not shot_sentence_map:
+        middle_sents = list(range(1, num_sents - 1))
+        middle_shots_count = num_shots - 2
+        shot_sentence_map = {0: [0], num_shots - 1: [num_sents - 1]}
+        if middle_shots_count > 0:
+            k, m = divmod(len(middle_sents), middle_shots_count)
+            start_idx = 0
+            for i in range(middle_shots_count):
+                end_idx = start_idx + k + (1 if i < m else 0)
+                shot_sentence_map[i + 1] = middle_sents[start_idx:end_idx]
+                start_idx = end_idx
 
     sent_to_shot_idx = {}
     for shot_i, s_indices in shot_sentence_map.items():
@@ -608,7 +643,40 @@ async def process_single_video(session: str, day: str, script_data: dict, shot_l
     total_dur_sec = round(total_dur_us / 1_000_000, 2)
     print(f"  [✓ 配音完成] 重配 {remade_count} 句，总字数: {total_chars}，总时长: {total_dur_sec} 秒")
 
-    # 2. 匹配分镜图片与官方书图
+    # 2. 精确计算各分镜与书图展示时长
+    # 用户明确要求：图书页面展示必须控制在最后 5~10 秒，避免切出太快导致完播率过低
+    # 统一设定黄金展示时长为整整 7.0 秒 (7_000_000 us)
+    BOOK_DURATION_US = 7_000_000
+    book_dur_us = min(BOOK_DURATION_US, total_dur_us // 2)
+    book_start_us = total_dur_us - book_dur_us
+
+    # 计算各分镜的精确起始切入时间点
+    shot_starts = [0] * num_shots
+    shot_starts[-1] = book_start_us
+
+    for i in range(1, num_shots - 1):
+        s_indices = shot_sentence_map.get(i, [])
+        if s_indices and s_indices[0] < len(sentences):
+            first_s_idx = s_indices[0]
+            shot_starts[i] = sentences[first_s_idx]["start_us"]
+        else:
+            shot_starts[i] = shot_starts[i-1] + 2_500_000
+
+    # 保证严格单调递增，最小间隔 1.0 秒，且不挤压后续镜头和书图
+    for i in range(1, num_shots - 1):
+        if shot_starts[i] < shot_starts[i-1] + 1_000_000:
+            shot_starts[i] = shot_starts[i-1] + 1_000_000
+        max_allowed = book_start_us - (num_shots - 1 - i) * 1_000_000
+        if shot_starts[i] > max_allowed:
+            shot_starts[i] = max_allowed
+
+    # 计算各镜头的精确时长（微秒与秒）
+    shot_durs_us = []
+    for i in range(num_shots - 1):
+        shot_durs_us.append(shot_starts[i+1] - shot_starts[i])
+    shot_durs_us.append(book_dur_us)
+
+    # 匹配分镜图片与官方书图
     shot_files = []
     missing_materials = []
 
@@ -639,18 +707,12 @@ async def process_single_video(session: str, day: str, script_data: dict, shot_l
             missing_materials.append(s_name)
             target_local = visual_dir / f"{s_name}.jpg"
 
-        # 计算该镜时长
-        sents_in_shot = [s for s in sentences if s["shot_idx"] == s_idx]
-        if sents_in_shot:
-            s_dur_us = sents_in_shot[-1]["end_us"] - sents_in_shot[0]["start_us"]
-            if s_idx == num_shots - 1:
-                s_dur_us = max(s_dur_us, total_dur_us - sents_in_shot[0]["start_us"])
-        else:
-            s_dur_us = total_dur_us // num_shots
+        s_dur_us = shot_durs_us[s_idx]
 
         shot_files.append({
             "name": s_name,
             "path": target_local,
+            "start_us": shot_starts[s_idx],
             "dur_us": s_dur_us,
             "dur_s": s_dur_us / 1_000_000
         })
