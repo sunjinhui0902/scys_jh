@@ -333,11 +333,17 @@ def main() -> None:
                 if existing.exists() and existing.stat().st_size >= 1024:
                     reuse.setdefault(synthesis_signature(cfg, line), existing)
 
+    failed: list[dict] = []
     for scene in resolved_scenes:
         scene_dir = DEFAULT_OUT_ROOT / scene["out_dir"] if scene.get("out_dir") else out_dir
         scene_dir.mkdir(parents=True, exist_ok=True)
         for line in scene["lines"]:
-            info = synthesize_line(cfg, line, scene_dir, reuse, args.no_new_minimax)
+            try:
+                info = synthesize_line(cfg, line, scene_dir, reuse, args.no_new_minimax)
+            except Exception as exc:  # 单条失败不中断整批
+                print(f"[失败] {line.get('role')} {line.get('save_name')}: {exc}", flush=True)
+                failed.append({"role": line.get("role"), "file": line.get("save_name"), "error": str(exc)})
+                continue
             wav_path = work_dir / (Path(line["save_name"]).stem + ".wav")
             run([ffmpeg, "-hide_banner", "-y", "-i", str(scene_dir / line["save_name"]), "-ac", "1", "-ar", "44100", str(wav_path)])
             wav_paths[line["save_name"]] = wav_path
@@ -397,11 +403,13 @@ def main() -> None:
                                              for x, pos in zip(group, positions)]})
         summary = {"output_dir": str(delivery_dir.relative_to(ROOT)), "lines": report_lines,
                    "scenes": scene_reports, "collections": collections,
+                   "failed": failed,
                    "new_minimax_calls": sum(x.get("engine") == "minimax" and not x.get("skipped") and
                                             not x.get("reused_from") for x in report_lines),
                    "human_review": "pending", "existing_audio_parameters": "inherited_from_current_config_not_independently_verified"}
         (delivery_dir / "试听报告.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"[交付完成] {len(report_lines)}条；新增 MiniMax 请求 {summary['new_minimax_calls']}；人工试听待确认")
+        print(f"[交付完成] {len(report_lines)}条；新增 MiniMax 请求 {summary['new_minimax_calls']}；"
+              f"失败 {len(failed)}条；人工试听待确认")
         return
 
     # 整条母版
@@ -432,9 +440,11 @@ def main() -> None:
         "output_dir": str(out_dir.relative_to(ROOT)),
         "lines": report_lines,
         "scenes": scene_reports,
+        "failed": failed,
         "timeline": timeline if cfg.get("full_name") else [],
     }
     (out_dir / "试听报告.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"[完成] 合成 {len(report_lines)} 条；失败 {len(failed)} 条")
 
 
 if __name__ == "__main__":

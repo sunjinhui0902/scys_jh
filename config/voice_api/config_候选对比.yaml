@@ -1,0 +1,975 @@
+# ============================================================
+# 候选音色对比包（2026-11-10）
+# 目的：同一角色多音色横向对比，供人工试听定夺
+# 说明：密钥不写在这里，运行前用环境变量 MINIMAX_API_KEY 传入
+#       （环境变量优先级高于配置文件，见 config/voice_api/config.yaml）
+# 每个角色两条场景：
+#   候选对照_<角色> —— 同一句台词、同一情绪参数，只变音色，用于纯音色比对
+#   候选情景_<角色> —— 同一角色典型情景台词，用于听语气与情绪是否成立
+# ============================================================
+
+api_key: ""
+
+base_url: "https://api.minimaxi.com"
+model: "speech-2.8-hd"
+language_boost: "auto"
+timeout_seconds: 90
+request_interval_seconds: 1.3
+max_retries: 4
+
+audio_setting:
+  sample_rate: 32000
+  bitrate: 128000
+  format: "mp3"
+  channel: 1
+
+output_dir: "候选音色对比_20261110"
+full_name: ""
+
+# 角色基准（仅用于显示与默认参数，候选行会逐条覆盖音色）
+roles:
+  boy:
+    name: "男宝"
+    engine: "minimax"
+    voice_id: "clever_boy"
+    speed: 1.05
+    pitch: 0
+    vol: 1.0
+  girl:
+    name: "女宝"
+    engine: "minimax"
+    voice_id: "Chinese (Mandarin)_Warm_Girl"
+    speed: 1.0
+    pitch: 0
+    vol: 1.0
+  dad:
+    name: "爸爸"
+    engine: "minimax"
+    voice_id: "male-qn-badao"
+    speed: 1.0
+    pitch: 0
+    vol: 1.0
+  mom:
+    name: "妈妈"
+    engine: "minimax"
+    voice_id: "female-chengshu"
+    speed: 1.0
+    pitch: 0
+    vol: 1.0
+  grandpa:
+    name: "爷爷"
+    engine: "minimax"
+    voice_id: "Chinese (Mandarin)_Male_Announcer"
+    speed: 0.95
+    pitch: -3
+    vol: 1.0
+  grandma:
+    name: "奶奶"
+    engine: "minimax"
+    voice_id: "Chinese (Mandarin)_Wise_Women"
+    speed: 0.92
+    pitch: -1
+    vol: 1.0
+
+scenes:
+  # ================= 男宝 =================
+  - name: "候选对照_男宝.mp3"
+    gap_ms: 900
+    lines:
+      - role: "boy"
+        id: "cand_boy_1"
+        voice_id: "clever_boy"
+        emotion: "happy"
+        speed: 1.05
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_男宝_1_clever_boy_可爱聪明童声.mp3"
+      - role: "boy"
+        id: "cand_boy_2"
+        voice_id: "Chinese (Mandarin)_Straightforward_Boy"
+        emotion: "happy"
+        speed: 1.05
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_男宝_2_Straightforward_Boy_真实男童.mp3"
+      - role: "boy"
+        id: "cand_boy_3"
+        voice_id: "cute_boy"
+        emotion: "happy"
+        speed: 1.05
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_男宝_3_cute_boy_可爱男童.mp3"
+      - role: "boy"
+        id: "cand_boy_4"
+        voice_id: "Chinese (Mandarin)_Pure-hearted_Boy"
+        emotion: "happy"
+        speed: 1.05
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_男宝_4_Pure-hearted_Boy_清澈弟弟.mp3"
+      - role: "boy"
+        id: "cand_boy_5"
+        engine: "edge"
+        edge_voice: "zh-CN-YunxiaNeural"
+        edge_rate: "+8%"
+        edge_pitch: "-8Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_男宝_5_Edge_Yunxia_微软男童.mp3"
+      - role: "boy"
+        id: "cand_boy_6"
+        voice_id: "Chinese (Mandarin)_Cute_Spirit"
+        emotion: "happy"
+        speed: 1.05
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_男宝_6_Cute_Spirit_憨憨萌兽.mp3"
+
+  - name: "候选情景_男宝.mp3"
+    gap_ms: 900
+    lines:
+      - role: "boy"
+        id: "cs_boy_1"
+        voice_id: "clever_boy"
+        emotion: "surprised"
+        speed: 1.12
+        pitch: 1
+        text: "爷爷！爷爷！……你看，我嘴冒烟了！"
+        save_name: "候选情景_男宝_1_clever_boy.mp3"
+      - role: "boy"
+        id: "cs_boy_2"
+        voice_id: "Chinese (Mandarin)_Straightforward_Boy"
+        emotion: "surprised"
+        speed: 1.12
+        pitch: 1
+        text: "爷爷！爷爷！……你看，我嘴冒烟了！"
+        save_name: "候选情景_男宝_2_Straightforward_Boy.mp3"
+      - role: "boy"
+        id: "cs_boy_3"
+        voice_id: "cute_boy"
+        emotion: "surprised"
+        speed: 1.12
+        pitch: 1
+        text: "爷爷！爷爷！……你看，我嘴冒烟了！"
+        save_name: "候选情景_男宝_3_cute_boy.mp3"
+      - role: "boy"
+        id: "cs_boy_4"
+        voice_id: "Chinese (Mandarin)_Pure-hearted_Boy"
+        emotion: "surprised"
+        speed: 1.12
+        pitch: 1
+        text: "爷爷！爷爷！……你看，我嘴冒烟了！"
+        save_name: "候选情景_男宝_4_Pure-hearted_Boy.mp3"
+      - role: "boy"
+        id: "cs_boy_5"
+        engine: "edge"
+        edge_voice: "zh-CN-YunxiaNeural"
+        edge_rate: "+10%"
+        edge_pitch: "-8Hz"
+        text: "爷爷！爷爷！……你看，我嘴冒烟了！"
+        save_name: "候选情景_男宝_5_Edge_Yunxia.mp3"
+      - role: "boy"
+        id: "cs_boy_6"
+        voice_id: "Chinese (Mandarin)_Cute_Spirit"
+        emotion: "surprised"
+        speed: 1.12
+        pitch: 1
+        text: "爷爷！爷爷！……你看，我嘴冒烟了！"
+        save_name: "候选情景_男宝_6_Cute_Spirit.mp3"
+
+  # ================= 女宝 =================
+  - name: "候选对照_女宝.mp3"
+    gap_ms: 900
+    lines:
+      - role: "girl"
+        id: "cand_girl_1"
+        voice_id: "Chinese (Mandarin)_Warm_Girl"
+        emotion: "happy"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_女宝_1_Warm_Girl_温暖少女_当前.mp3"
+      - role: "girl"
+        id: "cand_girl_2"
+        voice_id: "Chinese (Mandarin)_Crisp_Girl"
+        emotion: "happy"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_女宝_2_Crisp_Girl_清脆少女.mp3"
+      - role: "girl"
+        id: "cand_girl_3"
+        voice_id: "lovely_girl"
+        emotion: "happy"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_女宝_3_lovely_girl_萌萌女童_偏夹.mp3"
+      - role: "girl"
+        id: "cand_girl_4"
+        voice_id: "Chinese (Mandarin)_Soft_Girl"
+        emotion: "happy"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_女宝_4_Soft_Girl_柔和少女.mp3"
+      - role: "girl"
+        id: "cand_girl_5"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "+5%"
+        edge_pitch: "+0Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_女宝_5_Edge_Xiaoyi_微软少女.mp3"
+      - role: "girl"
+        id: "cand_girl_6"
+        voice_id: "Chinese (Mandarin)_Gentle_Senior"
+        emotion: "happy"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_女宝_6_Gentle_Senior_温柔学姐.mp3"
+
+  - name: "候选情景_女宝.mp3"
+    gap_ms: 900
+    lines:
+      - role: "girl"
+        id: "cs_girl_1"
+        voice_id: "Chinese (Mandarin)_Warm_Girl"
+        emotion: "happy"
+        speed: 0.98
+        pitch: 0
+        text: "奶奶，奶奶……这月亮是不是喜欢我呀？老是跟着我。"
+        save_name: "候选情景_女宝_1_Warm_Girl.mp3"
+      - role: "girl"
+        id: "cs_girl_2"
+        voice_id: "Chinese (Mandarin)_Crisp_Girl"
+        emotion: "happy"
+        speed: 0.98
+        pitch: 0
+        text: "奶奶，奶奶……这月亮是不是喜欢我呀？老是跟着我。"
+        save_name: "候选情景_女宝_2_Crisp_Girl.mp3"
+      - role: "girl"
+        id: "cs_girl_3"
+        voice_id: "lovely_girl"
+        emotion: "happy"
+        speed: 0.98
+        pitch: 0
+        text: "奶奶，奶奶……这月亮是不是喜欢我呀？老是跟着我。"
+        save_name: "候选情景_女宝_3_lovely_girl.mp3"
+      - role: "girl"
+        id: "cs_girl_4"
+        voice_id: "Chinese (Mandarin)_Soft_Girl"
+        emotion: "happy"
+        speed: 0.98
+        pitch: 0
+        text: "奶奶，奶奶……这月亮是不是喜欢我呀？老是跟着我。"
+        save_name: "候选情景_女宝_4_Soft_Girl.mp3"
+      - role: "girl"
+        id: "cs_girl_5"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "+5%"
+        edge_pitch: "+0Hz"
+        text: "奶奶，奶奶……这月亮是不是喜欢我呀？老是跟着我。"
+        save_name: "候选情景_女宝_5_Edge_Xiaoyi.mp3"
+      - role: "girl"
+        id: "cs_girl_6"
+        voice_id: "Chinese (Mandarin)_Gentle_Senior"
+        emotion: "happy"
+        speed: 0.98
+        pitch: 0
+        text: "奶奶，奶奶……这月亮是不是喜欢我呀？老是跟着我。"
+        save_name: "候选情景_女宝_6_Gentle_Senior.mp3"
+
+  # ================= 爸爸 =================
+  - name: "候选对照_爸爸.mp3"
+    gap_ms: 900
+    lines:
+      - role: "dad"
+        id: "cand_dad_1"
+        voice_id: "male-qn-badao"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_1_male-qn-badao_霸道青年_当前.mp3"
+      - role: "dad"
+        id: "cand_dad_2"
+        voice_id: "Chinese (Mandarin)_Gentleman"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_2_Gentleman_温润男声_第一版.mp3"
+      - role: "dad"
+        id: "cand_dad_3"
+        voice_id: "Chinese (Mandarin)_Southern_Young_Man"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_3_Southern_Young_Man_南方小哥.mp3"
+      - role: "dad"
+        id: "cand_dad_4"
+        voice_id: "Chinese (Mandarin)_Unrestrained_Young_Man"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_4_Unrestrained_Young_Man_不羁青年.mp3"
+      - role: "dad"
+        id: "cand_dad_5"
+        voice_id: "male-qn-qingse"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_5_male-qn-qingse_青涩青年.mp3"
+      - role: "dad"
+        id: "cand_dad_6"
+        engine: "edge"
+        edge_voice: "zh-CN-YunxiNeural"
+        edge_rate: "+0%"
+        edge_pitch: "-2Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_6_Edge_Yunxi_微软青年.mp3"
+      - role: "dad"
+        id: "cand_dad_7"
+        engine: "edge"
+        edge_voice: "zh-CN-YunjianNeural"
+        edge_rate: "-8%"
+        edge_pitch: "-6Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_7_Edge_Yunjian_央视纪录片男声.mp3"
+      - role: "dad"
+        id: "cand_dad_8"
+        voice_id: "Chinese (Mandarin)_Reliable_Executive"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爸爸_8_Reliable_Executive_沉稳高管.mp3"
+
+  - name: "候选情景_爸爸.mp3"
+    gap_ms: 900
+    lines:
+      - role: "dad"
+        id: "cs_dad_1"
+        voice_id: "male-qn-badao"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_1_male-qn-badao.mp3"
+      - role: "dad"
+        id: "cs_dad_2"
+        voice_id: "Chinese (Mandarin)_Gentleman"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_2_Gentleman.mp3"
+      - role: "dad"
+        id: "cs_dad_3"
+        voice_id: "Chinese (Mandarin)_Southern_Young_Man"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_3_Southern_Young_Man.mp3"
+      - role: "dad"
+        id: "cs_dad_4"
+        voice_id: "Chinese (Mandarin)_Unrestrained_Young_Man"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_4_Unrestrained_Young_Man.mp3"
+      - role: "dad"
+        id: "cs_dad_5"
+        voice_id: "male-qn-qingse"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_5_male-qn-qingse.mp3"
+      - role: "dad"
+        id: "cs_dad_6"
+        engine: "edge"
+        edge_voice: "zh-CN-YunxiNeural"
+        edge_rate: "+8%"
+        edge_pitch: "-2Hz"
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_6_Edge_Yunxi.mp3"
+      - role: "dad"
+        id: "cs_dad_7"
+        engine: "edge"
+        edge_voice: "zh-CN-YunjianNeural"
+        edge_rate: "-4%"
+        edge_pitch: "-6Hz"
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_7_Edge_Yunjian.mp3"
+      - role: "dad"
+        id: "cs_dad_8"
+        voice_id: "Chinese (Mandarin)_Reliable_Executive"
+        emotion: "angry"
+        speed: 1.12
+        pitch: 0
+        text: "你小点声，先让他说完！"
+        save_name: "候选情景_爸爸_8_Reliable_Executive.mp3"
+
+  # ================= 妈妈 =================
+  - name: "候选对照_妈妈.mp3"
+    gap_ms: 900
+    lines:
+      - role: "mom"
+        id: "cand_mom_1"
+        voice_id: "female-chengshu"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_1_female-chengshu_成熟女声_当前.mp3"
+      - role: "mom"
+        id: "cand_mom_2"
+        voice_id: "Chinese (Mandarin)_Mature_Woman"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_2_Mature_Woman_傲娇御姐.mp3"
+      - role: "mom"
+        id: "cand_mom_3"
+        voice_id: "female-yujie"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_3_female-yujie_御姐音色.mp3"
+      - role: "mom"
+        id: "cand_mom_4"
+        voice_id: "Chinese (Mandarin)_Warm_Bestie"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_4_Warm_Bestie_温暖闺蜜.mp3"
+      - role: "mom"
+        id: "cand_mom_5"
+        voice_id: "Chinese (Mandarin)_Sweet_Lady"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_5_Sweet_Lady_甜美女声.mp3"
+      - role: "mom"
+        id: "cand_mom_6"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-12%"
+        edge_pitch: "-5Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_6_Edge_Xiaoxiao_微软温暖女声.mp3"
+      - role: "mom"
+        id: "cand_mom_7"
+        voice_id: "Chinese (Mandarin)_News_Anchor"
+        emotion: "neutral"
+        speed: 1.0
+        pitch: 0
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_妈妈_7_News_Anchor_新闻女声.mp3"
+
+  - name: "候选情景_妈妈.mp3"
+    gap_ms: 900
+    lines:
+      - role: "mom"
+        id: "cs_mom_1"
+        voice_id: "female-chengshu"
+        emotion: "angry"
+        speed: 1.1
+        pitch: 1
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_1_female-chengshu.mp3"
+      - role: "mom"
+        id: "cs_mom_2"
+        voice_id: "Chinese (Mandarin)_Mature_Woman"
+        emotion: "angry"
+        speed: 1.1
+        pitch: 1
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_2_Mature_Woman.mp3"
+      - role: "mom"
+        id: "cs_mom_3"
+        voice_id: "female-yujie"
+        emotion: "angry"
+        speed: 1.1
+        pitch: 1
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_3_female-yujie.mp3"
+      - role: "mom"
+        id: "cs_mom_4"
+        voice_id: "Chinese (Mandarin)_Warm_Bestie"
+        emotion: "angry"
+        speed: 1.1
+        pitch: 1
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_4_Warm_Bestie.mp3"
+      - role: "mom"
+        id: "cs_mom_5"
+        voice_id: "Chinese (Mandarin)_Sweet_Lady"
+        emotion: "angry"
+        speed: 1.1
+        pitch: 1
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_5_Sweet_Lady.mp3"
+      - role: "mom"
+        id: "cs_mom_6"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-8%"
+        edge_pitch: "-5Hz"
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_6_Edge_Xiaoxiao.mp3"
+      - role: "mom"
+        id: "cs_mom_7"
+        voice_id: "Chinese (Mandarin)_News_Anchor"
+        emotion: "angry"
+        speed: 1.1
+        pitch: 1
+        text: "还不会背？……还、不、会、背！"
+        save_name: "候选情景_妈妈_7_News_Anchor.mp3"
+
+  # ================= 爷爷 =================
+  - name: "候选对照_爷爷.mp3"
+    gap_ms: 900
+    lines:
+      - role: "grandpa"
+        id: "cand_gp_1"
+        voice_id: "Chinese (Mandarin)_Male_Announcer"
+        emotion: "happy"
+        speed: 0.95
+        pitch: -3
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_1_Male_Announcer_播音男声_当前.mp3"
+      - role: "grandpa"
+        id: "cand_gp_2"
+        engine: "edge"
+        edge_voice: "zh-CN-YunyangNeural"
+        edge_rate: "-18%"
+        edge_pitch: "-6Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_2_Edge_Yunyang_微软新闻男声.mp3"
+      - role: "grandpa"
+        id: "cand_gp_3"
+        voice_id: "Chinese (Mandarin)_Humorous_Elder"
+        emotion: "happy"
+        speed: 0.95
+        pitch: -3
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_3_Humorous_Elder_搞笑大爷.mp3"
+      - role: "grandpa"
+        id: "cand_gp_4"
+        engine: "edge"
+        edge_voice: "zh-CN-YunjianNeural"
+        edge_rate: "-22%"
+        edge_pitch: "-10Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_4_Edge_Yunjian_央视纪录片男声_深度降调.mp3"
+      - role: "grandpa"
+        id: "cand_gp_5"
+        voice_id: "Chinese (Mandarin)_Gentleman"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -5
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_5_Gentleman_温润男声压低.mp3"
+      - role: "grandpa"
+        id: "cand_gp_6"
+        engine: "edge"
+        edge_voice: "zh-CN-YunxiNeural"
+        edge_rate: "-22%"
+        edge_pitch: "-10Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_6_Edge_Yunxi_微软青年男声_深度降调.mp3"
+      - role: "grandpa"
+        id: "cand_gp_7"
+        voice_id: "Chinese (Mandarin)_Reliable_Executive"
+        emotion: "happy"
+        speed: 0.88
+        pitch: -6
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_7_Reliable_Executive_沉稳高管.mp3"
+      - role: "grandpa"
+        id: "cand_gp_8"
+        voice_id: "Chinese (Mandarin)_Lyrical_Voice"
+        emotion: "happy"
+        speed: 0.88
+        pitch: -6
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_8_Lyrical_Voice_抒情男声.mp3"
+      - role: "grandpa"
+        id: "cand_gp_9"
+        voice_id: "Chinese (Mandarin)_Radio_Host"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -5
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_9_Radio_Host_电台男主播.mp3"
+      - role: "grandpa"
+        id: "cand_gp_10"
+        voice_id: "Chinese (Mandarin)_Sincere_Adult"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -6
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_10_Sincere_Adult_真诚青年.mp3"
+      - role: "grandpa"
+        id: "cand_gp_11"
+        engine: "edge"
+        edge_voice: "zh-CN-YunyangNeural"
+        edge_rate: "-26%"
+        edge_pitch: "-6Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_11_Edge_Yunyang_极慢版.mp3"
+      - role: "grandpa"
+        id: "cand_gp_12"
+        voice_id: "Chinese (Mandarin)_Gentleman"
+        emotion: "happy"
+        speed: 0.85
+        pitch: -8
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_12_Gentleman_压到最低.mp3"
+      - role: "grandpa"
+        id: "cand_gp_13"
+        engine: "edge"
+        edge_voice: "zh-CN-YunjianNeural"
+        edge_rate: "-22%"
+        edge_pitch: "-14Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_爷爷_13_Edge_Yunjian_深度降调加强.mp3"
+
+  - name: "候选情景_爷爷.mp3"
+    gap_ms: 900
+    lines:
+      - role: "grandpa"
+        id: "cs_gp_1"
+        voice_id: "Chinese (Mandarin)_Male_Announcer"
+        emotion: "happy"
+        speed: 0.98
+        pitch: -3
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_1_Male_Announcer.mp3"
+      - role: "grandpa"
+        id: "cs_gp_2"
+        engine: "edge"
+        edge_voice: "zh-CN-YunyangNeural"
+        edge_rate: "-18%"
+        edge_pitch: "-6Hz"
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_2_Edge_Yunyang.mp3"
+      - role: "grandpa"
+        id: "cs_gp_3"
+        voice_id: "Chinese (Mandarin)_Humorous_Elder"
+        emotion: "happy"
+        speed: 0.98
+        pitch: -3
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_3_Humorous_Elder.mp3"
+      - role: "grandpa"
+        id: "cs_gp_4"
+        engine: "edge"
+        edge_voice: "zh-CN-YunjianNeural"
+        edge_rate: "-22%"
+        edge_pitch: "-10Hz"
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_4_Edge_Yunjian.mp3"
+      - role: "grandpa"
+        id: "cs_gp_5"
+        voice_id: "Chinese (Mandarin)_Gentleman"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -5
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_5_Gentleman.mp3"
+      - role: "grandpa"
+        id: "cs_gp_6"
+        engine: "edge"
+        edge_voice: "zh-CN-YunxiNeural"
+        edge_rate: "-22%"
+        edge_pitch: "-10Hz"
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_6_Edge_Yunxi.mp3"
+      - role: "grandpa"
+        id: "cs_gp_7"
+        voice_id: "Chinese (Mandarin)_Reliable_Executive"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -6
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_7_Reliable_Executive.mp3"
+      - role: "grandpa"
+        id: "cs_gp_8"
+        voice_id: "Chinese (Mandarin)_Lyrical_Voice"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -6
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_8_Lyrical_Voice.mp3"
+      - role: "grandpa"
+        id: "cs_gp_9"
+        voice_id: "Chinese (Mandarin)_Radio_Host"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -5
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_9_Radio_Host.mp3"
+      - role: "grandpa"
+        id: "cs_gp_10"
+        voice_id: "Chinese (Mandarin)_Sincere_Adult"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -6
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_10_Sincere_Adult.mp3"
+      - role: "grandpa"
+        id: "cs_gp_11"
+        engine: "edge"
+        edge_voice: "zh-CN-YunyangNeural"
+        edge_rate: "-26%"
+        edge_pitch: "-6Hz"
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_11_Edge_Yunyang.mp3"
+      - role: "grandpa"
+        id: "cs_gp_12"
+        voice_id: "Chinese (Mandarin)_Gentleman"
+        emotion: "happy"
+        speed: 0.88
+        pitch: -8
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_12_Gentleman.mp3"
+      - role: "grandpa"
+        id: "cs_gp_13"
+        engine: "edge"
+        edge_voice: "zh-CN-YunjianNeural"
+        edge_rate: "-22%"
+        edge_pitch: "-14Hz"
+        text: "哟！……来，再呼一口，爷爷看看。"
+        save_name: "候选情景_爷爷_13_Edge_Yunjian.mp3"
+
+  # ================= 奶奶 =================
+  - name: "候选对照_奶奶.mp3"
+    gap_ms: 900
+    lines:
+      - role: "grandma"
+        id: "cand_gm_1"
+        voice_id: "Chinese (Mandarin)_Wise_Women"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -1
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_1_Wise_Women_阅历姐姐_当前.mp3"
+      - role: "grandma"
+        id: "cand_gm_2"
+        voice_id: "Chinese (Mandarin)_Kind-hearted_Antie"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -1
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_2_Kind-hearted_Antie_热心大婶.mp3"
+      - role: "grandma"
+        id: "cand_gm_3"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-20%"
+        edge_pitch: "-9Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_3_Edge_Xiaoxiao_微软温暖女声_中度老化.mp3"
+      - role: "grandma"
+        id: "cand_gm_4"
+        voice_id: "Chinese (Mandarin)_Mature_Woman"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -4
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_4_Mature_Woman_傲娇御姐压低.mp3"
+      - role: "grandma"
+        id: "cand_gm_5"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "-18%"
+        edge_pitch: "-6Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_5_Edge_Xiaoyi_微软少女_降调.mp3"
+      - role: "grandma"
+        id: "cand_gm_6"
+        voice_id: "Chinese (Mandarin)_Kind-hearted_Elder"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -1
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_6_Kind-hearted_Elder_花甲奶奶.mp3"
+      - role: "grandma"
+        id: "cand_gm_7"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-26%"
+        edge_pitch: "-14Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_7_Edge_Xiaoxiao_深度老化.mp3"
+      - role: "grandma"
+        id: "cand_gm_8"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "-24%"
+        edge_pitch: "-12Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_8_Edge_Xiaoyi_深度老化.mp3"
+      - role: "grandma"
+        id: "cand_gm_9"
+        voice_id: "Chinese (Mandarin)_News_Anchor"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -3
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_9_News_Anchor_新闻女声压低.mp3"
+      - role: "grandma"
+        id: "cand_gm_10"
+        voice_id: "Chinese (Mandarin)_Gentle_Senior"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -3
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_10_Gentle_Senior_温柔学姐压低.mp3"
+      - role: "grandma"
+        id: "cand_gm_11"
+        voice_id: "Chinese (Mandarin)_Kind-hearted_Elder"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -3
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_11_Kind-hearted_Elder_再压低.mp3"
+      - role: "grandma"
+        id: "cand_gm_12"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-30%"
+        edge_pitch: "-16Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_12_Edge_Xiaoxiao_老化边界.mp3"
+      - role: "grandma"
+        id: "cand_gm_13"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "-30%"
+        edge_pitch: "-10Hz"
+        text: "你看，外面下雪了。我们一起去看看吧。"
+        save_name: "候选_奶奶_13_Edge_Xiaoyi_极慢版.mp3"
+
+  - name: "候选情景_奶奶.mp3"
+    gap_ms: 900
+    lines:
+      - role: "grandma"
+        id: "cs_gm_1"
+        voice_id: "Chinese (Mandarin)_Wise_Women"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -1
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_1_Wise_Women.mp3"
+      - role: "grandma"
+        id: "cs_gm_2"
+        voice_id: "Chinese (Mandarin)_Kind-hearted_Antie"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -1
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_2_Kind-hearted_Antie.mp3"
+      - role: "grandma"
+        id: "cs_gm_3"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-20%"
+        edge_pitch: "-9Hz"
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_3_Edge_Xiaoxiao.mp3"
+      - role: "grandma"
+        id: "cs_gm_4"
+        voice_id: "Chinese (Mandarin)_Mature_Woman"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -4
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_4_Mature_Woman.mp3"
+      - role: "grandma"
+        id: "cs_gm_5"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "-18%"
+        edge_pitch: "-6Hz"
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_5_Edge_Xiaoyi.mp3"
+      - role: "grandma"
+        id: "cs_gm_6"
+        voice_id: "Chinese (Mandarin)_Kind-hearted_Elder"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -1
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_6_Kind-hearted_Elder.mp3"
+      - role: "grandma"
+        id: "cs_gm_7"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-26%"
+        edge_pitch: "-14Hz"
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_7_Edge_Xiaoxiao.mp3"
+      - role: "grandma"
+        id: "cs_gm_8"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "-24%"
+        edge_pitch: "-12Hz"
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_8_Edge_Xiaoyi.mp3"
+      - role: "grandma"
+        id: "cs_gm_9"
+        voice_id: "Chinese (Mandarin)_News_Anchor"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -3
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_9_News_Anchor.mp3"
+      - role: "grandma"
+        id: "cs_gm_10"
+        voice_id: "Chinese (Mandarin)_Gentle_Senior"
+        emotion: "happy"
+        speed: 0.92
+        pitch: -3
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_10_Gentle_Senior.mp3"
+      - role: "grandma"
+        id: "cs_gm_11"
+        voice_id: "Chinese (Mandarin)_Kind-hearted_Elder"
+        emotion: "happy"
+        speed: 0.9
+        pitch: -3
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_11_Kind-hearted_Elder.mp3"
+      - role: "grandma"
+        id: "cs_gm_12"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoxiaoNeural"
+        edge_rate: "-30%"
+        edge_pitch: "-16Hz"
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_12_Edge_Xiaoxiao.mp3"
+      - role: "grandma"
+        id: "cs_gm_13"
+        engine: "edge"
+        edge_voice: "zh-CN-XiaoyiNeural"
+        edge_rate: "-30%"
+        edge_pitch: "-10Hz"
+        text: "那你走慢一点，看看它还跟不跟？"
+        save_name: "候选情景_奶奶_13_Edge_Xiaoyi.mp3"

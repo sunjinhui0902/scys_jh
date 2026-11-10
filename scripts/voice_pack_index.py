@@ -100,11 +100,140 @@ def render_delivery_index(folder: Path) -> None:
     print(json.dumps({"html": str(folder / "开始试听.html"), "entries": len(items)}, ensure_ascii=False))
 
 
+def render_candidate_index(folder: Path, cfg: dict) -> None:
+    """为「候选音色横向对比包」生成可逐条试听、可勾选的本地试听页。
+
+    候选包每个角色有两条场景：候选对照（同句同参数，只换音色）与候选情景
+    （同角色情景台词）。页面按角色分组，先放两条混音供连续试听，再逐条列候选。
+    """
+    scenes = cfg.get("scenes") or []
+    roles = cfg.get("roles") or {}
+    esc = html.escape
+
+    groups: dict[str, dict] = {}
+    for scene in scenes:
+        name = scene.get("name", "")
+        stem = Path(name).stem
+        kind = "对照" if "对照" in stem else "情景"
+        role_key = ""
+        for key, base in roles.items():
+            if base.get("name") and base.get("name") in stem:
+                role_key = key
+                break
+        if not role_key:
+            role_key = (scene.get("lines") or [{}])[0].get("role", "")
+        g = groups.setdefault(role_key, {"name": roles.get(role_key, {}).get("name", role_key),
+                                         "mix": {}, "items": []})
+        g["mix"][kind] = name
+        for line in scene.get("lines", []):
+            base = dict(roles.get(line.get("role")) or {})
+            base.update({k: v for k, v in line.items() if v is not None})
+            audio = folder / line["save_name"]
+            engine = base.get("engine", "minimax")
+            voice = (base.get("edge_voice") if engine == "edge"
+                     else base.get("voice_id") or base.get("edge_voice"))
+            g["items"].append({
+                "label": Path(line["save_name"]).stem.split("_", 2)[-1],
+                "voice": voice,
+                "engine": engine,
+                "emotion": line.get("emotion") or "-",
+                "speed": base.get("speed", "-"),
+                "pitch": base.get("pitch", "-"),
+                "edge_rate": line.get("edge_rate", "-"),
+                "edge_pitch": line.get("edge_pitch", "-"),
+                "text": line.get("text", ""),
+                "file": line["save_name"],
+                "ok": audio.exists(),
+            })
+
+    def player(rel: str) -> str:
+        url = quote(rel, safe="/")
+        return f'<audio controls preload="none" src="{esc(url, quote=True)}"></audio>'
+
+    sections = []
+    for role_key, g in groups.items():
+        mix_html = []
+        for kind in ("对照", "情景"):
+            name = g["mix"].get(kind)
+            if not name or not (folder / name).exists():
+                continue
+            tip = "同一句台词、同一情绪参数，只换音色——用来盲听比对音色本身" if kind == "对照" \
+                else "同一角色的情景台词——用来判断音色放进剧情里语气是否成立"
+            mix_html.append(f'<article class="mix"><h3>{kind}混音 · {esc(g["name"])}</h3>'
+                            f'{player(esc(name))}<p class="tip">{esc(tip)}</p></article>')
+        rows = []
+        for i, it in enumerate(g["items"], 1):
+            opts = ('<option value="">待定</option><option>保留</option><option>淘汰</option>'
+                    '<option>备选</option>')
+            rows.append(
+                f'<tr><td>{i}</td><td>{player(esc(it["file"]))}</td>'
+                f'<td>{esc(it["label"])}</td><td class="id">{esc(str(it["voice"]))}</td>'
+                f'<td>{esc(it["engine"])}</td><td>{esc(str(it["emotion"]))}</td>'
+                f'<td>{esc(str(it["speed"]))}</td><td>{esc(str(it["pitch"]))}</td>'
+                f'<td>{esc(str(it["edge_rate"]))}</td><td>{esc(str(it["edge_pitch"]))}</td>'
+                f'<td><select data-role="{esc(role_key)}" data-idx="{i}">{opts}</select></td></tr>')
+        sections.append(
+            f'<section><h2>{esc(g["name"])}</h2><div class="grid">{"".join(mix_html)}</div>'
+            f'<div class="scroll"><table><thead><tr><th>#</th><th>试听</th><th>音色</th><th>Voice ID</th>'
+            f'<th>引擎</th><th>情绪</th><th>语速</th><th>音调</th><th>Edge语速</th><th>Edge音调</th><th>选择</th>'
+            f'</tr></thead><tbody>{"".join(rows)}</tbody></table></div></section>')
+
+    total = sum(len(g["items"]) for g in groups.values())
+    missing = sum(1 for g in groups.values() for it in g["items"] if not it["ok"])
+    stamp = folder.name.split("_")[-1]
+    document = '''<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>候选音色横向对比</title>
+<style>body{margin:0;background:#f4f2ed;color:#282923;font:15px/1.7 system-ui,"Microsoft YaHei",sans-serif}
+main{max-width:1280px;margin:auto;padding:40px 24px}h1{font-size:32px;line-height:1.3}h2{margin-top:44px;border-bottom:2px solid #d9d7cc;padding-bottom:10px}
+h3{margin:0 0 10px;font-size:17px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin:16px 0 24px}
+article{background:white;padding:18px;border:1px solid #deded5;border-radius:14px}
+audio{width:100%}.tip{font-size:13px;color:#666;margin:8px 0 0}
+.note{padding:16px 20px;border-radius:12px;background:#e7ecdf;margin:18px 0}
+table{width:100%;border-collapse:collapse;background:#fff}th,td{padding:9px 10px;border-bottom:1px solid #e3e3da;vertical-align:top;font-size:13px}
+th{background:#eceade;text-align:left;position:sticky;top:0}.id{font-family:ui-monospace,Consolas,monospace;font-size:11px;color:#555;max-width:230px;overflow-wrap:anywhere}
+.scroll{overflow:auto;max-height:520px;border:1px solid #deded5;border-radius:12px}
+select{padding:5px 8px;font:inherit;border:1px solid #aaa;border-radius:6px;background:#fff}button{font:inherit;padding:8px 14px;border-radius:8px;border:1px solid #888;background:#fff;cursor:pointer}
+small{color:#666}</style>
+<main><p>家庭六角色固定配音库 · 候选音色横向对比</p><h1>同一句话，换个人说给你听</h1>
+<div class="note">每个角色两段：<b>对照混音</b>是同一句台词、同一情绪参数，只换音色；<b>情景混音</b>是同角色的剧情台词，听音色放进戏里语氣成不成立。
+下表每条可单独播放并勾选「保留 / 淘汰 / 备选」。本页只在本地播放，不上传音频。</div>
+<p><button id="download">保存我的选择</button> <small>选择保存在当前浏览器，可导出为 JSON 回传。</small></p>
+SECTIONS
+<p><small>音色的年龄感、自然度、情绪是否贴人物，最终要靠人耳判断；此页只负责把素材摆到同一条件下对比。</small></p></main>
+<script>const key='family-candidates-review-STAMP';let saved={};try{saved=JSON.parse(localStorage.getItem(key)||'{}')}catch{}
+document.querySelectorAll('select[data-role]').forEach(s=>{const k=s.dataset.role+'#'+s.dataset.idx;s.value=saved[k]||'';s.onchange=()=>{saved[k]=s.value;try{localStorage.setItem(key,JSON.stringify(saved))}catch{}}});
+document.getElementById('download').onclick=()=>{const u=URL.createObjectURL(new Blob([JSON.stringify({status:'candidate_choices',choices:saved},null,2)],{type:'application/json'}));
+const a=document.createElement('a');a.href=u;a.download='候选音色选择.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000)};
+document.addEventListener('play',e=>{if(e.target.tagName==='AUDIO')document.querySelectorAll('audio').forEach(a=>{if(a!==e.target)a.pause()})},true);</script></html>'''
+    document = document.replace("SECTIONS", "".join(sections)).replace("STAMP", stamp)
+    (folder / "候选音色试听.html").write_text(document, encoding="utf-8")
+
+    md = ["# 候选音色横向对比 · 试听索引", "",
+          f"目录：`{folder.relative_to(ROOT)}` ｜ 候选 {total} 条 ｜ 缺失 {missing} 条", "",
+          "先听每角色两段混音（对照 = 只换音色；情景 = 剧情台词），再逐条单听打勾。", ""]
+    for role_key, g in groups.items():
+        md.append(f"## {g['name']}")
+        mix_list = " ｜ ".join(f"[{k}]({esc(v)})" for k, v in g["mix"].items())
+        md.append(f"混音：{mix_list}")
+        md.append("")
+        md.append("| # | 音色 | Voice ID | 引擎 | 情绪 | 语速 | 音调 | Edge语速 | Edge音调 | 文件 | 状态 |")
+        md.append("| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |")
+        for i, it in enumerate(g["items"], 1):
+            md.append(f"| {i} | {it['label']} | `{it['voice']}` | {it['engine']} | {it['emotion']} | "
+                      f"{it['speed']} | {it['pitch']} | {it['edge_rate']} | {it['edge_pitch']} | "
+                      f"`{it['file']}` | {'✅' if it['ok'] else '缺'} |")
+        md.append("")
+    (folder / "试听索引.md").write_text("\n".join(md) + "\n", encoding="utf-8")
+    print(json.dumps({"html": str(folder / "候选音色试听.html"), "index": str(folder / "试听索引.md"),
+                      "candidates": total, "missing": missing}, ensure_ascii=False))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="生成配音包试听索引")
     parser.add_argument("--config", default=str(ROOT / "config" / "voice_api" / "config.yaml"))
     parser.add_argument("--out-dir", default=None, help="索引输出目录名（相对 01_配音与音色库）")
     parser.add_argument("--delivery", default=None, help="已完成交付目录名，生成本地可播放试听页")
+    parser.add_argument("--candidate", action="store_true", help="按候选音色对比包模式生成试听页")
     args = parser.parse_args()
 
     cfg = yaml.safe_load(Path(args.config).read_text(encoding="utf-8")) or {}
@@ -113,6 +242,9 @@ def main() -> None:
 
     out_dir = DEFAULT_OUT_ROOT / (args.out_dir or cfg.get("output_dir") or "")
     out_dir.mkdir(parents=True, exist_ok=True)
+    if args.candidate:
+        render_candidate_index(out_dir, cfg)
+        return
     if args.delivery:
         render_delivery_index(out_dir / args.delivery)
         return
