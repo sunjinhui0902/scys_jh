@@ -1,0 +1,40 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Grandpa,Microsoft YaHei,58,&H0033D1FF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,1,0,3,12,0,2,45,45,210,1
+Style: Grandma,Microsoft YaHei,58,&H00AB99FF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,1,0,3,12,0,2,45,45,210,1
+Style: CoverTitle,Microsoft YaHei,74,&H0033D1FF,&H000000FF,&H00000000,&HB0000000,-1,0,0,0,100,100,2,0,3,16,0,8,60,60,180,1
+Style: Badge,Microsoft YaHei,42,&H00FFFFFF,&H000000FF,&H00000000,&HB01E3A8A,-1,0,0,0,100,100,2,0,3,12,0,9,40,40,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:18.48,CoverTitle,,0,0,0,,孙子下棋 输了就哭
+Dialogue: 1,0:00:00.00,0:00:02.84,Grandma,,0,0,0,,又哭了？这盘棋输了，
+Dialogue: 1,0:00:02.84,0:00:05.69,Grandma,,0,0,0,,眼泪比棋子掉得还快。
+Dialogue: 1,0:00:06.09,0:00:07.30,Grandpa,,0,0,0,,先别急着哄。
+Dialogue: 1,0:00:07.80,0:00:10.52,Grandpa,,0,0,0,,难过可以，眼泪也可以流，
+Dialogue: 1,0:00:10.52,0:00:13.68,Grandpa,,0,0,0,,可棋子不能摔，棋盘不能推——
+Dialogue: 1,0:00:13.68,0:00:15.94,Grandpa,,0,0,0,,先把棋子收好，收棋，
+Dialogue: 1,0:00:15.94,0:00:17.98,Grandpa,,0,0,0,,就是认这盘的结果。
+Dialogue: 1,0:00:18.48,0:00:20.85,Grandma,,0,0,0,,可他说，爷爷故意赢他，
+Dialogue: 1,0:00:20.85,0:00:22.14,Grandma,,0,0,0,,不跟他玩了。
+Dialogue: 1,0:00:22.44,0:00:24.03,Grandpa,,0,0,0,,我要是故意让，
+Dialogue: 1,0:00:24.03,0:00:26.08,Grandpa,,0,0,0,,他赢十盘也学不会。
+Dialogue: 1,0:00:26.48,0:00:28.05,Grandpa,,0,0,0,,孙子，听好：
+Dialogue: 1,0:00:28.05,0:00:31.71,Grandpa,,0,0,0,,下棋跟过日子一样，输了先认，
+Dialogue: 1,0:00:31.71,0:00:34.58,Grandpa,,0,0,0,,不摔、不赖、不笑话人。
+Dialogue: 1,0:00:35.18,0:00:36.17,Grandma,,0,0,0,,那下次呢？
+Dialogue: 1,0:00:36.47,0:00:39.28,Grandpa,,0,0,0,,下次开局前先说好三条：
+Dialogue: 1,0:00:39.28,0:00:41.83,Grandpa,,0,0,0,,不摔棋子，不许悔棋，
+Dialogue: 1,0:00:41.83,0:00:43.62,Grandpa,,0,0,0,,赢了不笑话人。
+Dialogue: 1,0:00:44.02,0:00:46.10,Grandpa,,0,0,0,,做不到，今天就不下了。
+Dialogue: 1,0:00:46.60,0:00:48.51,Grandma,,0,0,0,,行，规矩说在前面，
+Dialogue: 1,0:00:48.51,0:00:50.63,Grandma,,0,0,0,,比输了再讲道理管用。
+Dialogue: 1,0:00:51.03,0:00:52.24,Grandma,,0,0,0,,等他心平了，
+Dialogue: 1,0:00:52.24,0:00:54.85,Grandma,,0,0,0,,再陪他看看这盘输在哪一步。

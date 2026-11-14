@@ -1,0 +1,37 @@
+﻿[Script Info]
+ScriptType: v4.00+
+PlayResX: 1080
+PlayResY: 1920
+WrapStyle: 2
+ScaledBorderAndShadow: yes
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Grandpa,Microsoft YaHei,58,&H0033D1FF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,1,0,3,12,0,2,45,45,210,1
+Style: Grandma,Microsoft YaHei,58,&H00AB99FF,&H000000FF,&H00000000,&H99000000,-1,0,0,0,100,100,1,0,3,12,0,2,45,45,210,1
+Style: CoverTitle,Microsoft YaHei,74,&H0033D1FF,&H000000FF,&H00000000,&HB0000000,-1,0,0,0,100,100,2,0,3,16,0,8,60,60,180,1
+Style: Badge,Microsoft YaHei,42,&H00FFFFFF,&H000000FF,&H00000000,&HB01E3A8A,-1,0,0,0,100,100,2,0,3,12,0,9,40,40,70,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 2,0:00:00.00,0:00:14.96,CoverTitle,,0,0,0,,轻轨 从楼里穿过去
+Dialogue: 1,0:00:00.00,0:00:01.55,Grandpa,,0,0,0,,您见过轻轨从居民
+Dialogue: 1,0:00:01.55,0:00:03.10,Grandpa,,0,0,0,,楼里穿过去的吗？
+Dialogue: 1,0:00:03.60,0:00:05.30,Grandpa,,0,0,0,,在重庆李子坝，
+Dialogue: 1,0:00:05.30,0:00:07.25,Grandpa,,0,0,0,,列车从居民楼中间
+Dialogue: 1,0:00:07.25,0:00:08.96,Grandpa,,0,0,0,,几层钻进钻出，
+Dialogue: 1,0:00:08.96,0:00:10.66,Grandpa,,0,0,0,,站就设在楼里，
+Dialogue: 1,0:00:10.66,0:00:13.34,Grandpa,,0,0,0,,车站和住户各走各的门，
+Dialogue: 1,0:00:13.34,0:00:14.56,Grandpa,,0,0,0,,互不打扰。
+Dialogue: 1,0:00:14.96,0:00:17.36,Grandpa,,0,0,0,,很多人以为，这是楼盖好了、
+Dialogue: 1,0:00:17.36,0:00:18.84,Grandpa,,0,0,0,,轨道硬塞进去的。
+Dialogue: 1,0:00:19.24,0:00:20.40,Grandpa,,0,0,0,,其实不是：
+Dialogue: 1,0:00:20.40,0:00:23.20,Grandpa,,0,0,0,,车站和大楼是同期设计的，
+Dialogue: 1,0:00:23.20,0:00:26.22,Grandpa,,0,0,0,,轨道从楼里预留的位置通过。
+Dialogue: 1,0:00:26.62,0:00:29.36,Grandpa,,0,0,0,,山城的地形逼出了这个办法：
+Dialogue: 1,0:00:29.36,0:00:31.89,Grandpa,,0,0,0,,地不够平，就往空中要路。
+Dialogue: 1,0:00:32.39,0:00:35.01,Grandpa,,0,0,0,,这一穿，穿成了重庆的名片，
+Dialogue: 1,0:00:35.01,0:00:36.62,Grandpa,,0,0,0,,全国的人跑来看。
+Dialogue: 1,0:00:37.02,0:00:40.05,Grandpa,,0,0,0,,下次去重庆，别光在楼下拍照，
+Dialogue: 1,0:00:40.05,0:00:42.43,Grandpa,,0,0,0,,坐一趟车亲身穿一回楼，
+Dialogue: 1,0:00:42.43,0:00:43.73,Grandpa,,0,0,0,,那才叫过瘾。
