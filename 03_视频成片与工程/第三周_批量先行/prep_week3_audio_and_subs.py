@@ -174,13 +174,38 @@ def loudnorm_and_measure(src_wav: Path, dst_wav: Path) -> tuple[str, str]:
     return str(final_stats.get("input_i", "N/A")), str(final_stats.get("input_tp", "N/A"))
 
 
+PUNCT_ONLY_RE = re.compile(r"^[，。；：？！、—…“”‘’（）《》,.!?;:\-]+$")
+SUBTITLE_OVERRIDES = {
+    "您见过轻轨从居民楼里穿过去的吗？": ["您见过轻轨", "从居民楼里穿过去的吗？"],
+}
+
+
+def _merge_punct_tokens(words: list[str]) -> list[str]:
+    """Attach punctuation tokens to the preceding word so punctuation never starts or forms a solo screen."""
+    merged: list[str] = []
+    for w in words:
+        if not w:
+            continue
+        if merged and PUNCT_ONLY_RE.match(w):
+            merged[-1] += w
+        else:
+            merged.append(w)
+    return merged
+
+
 def split_semantic_lines(text: str, max_chars: int = 14) -> list[str]:
-    """Word-boundary-safe split using jieba, keeping punctuation & '——' intact and no <=3 char orphan tail."""
-    parts = re.split(r"(?<=[，。；：？！、])|(?<=——)", text)
+    """Word-boundary-safe split using jieba, keeping punctuation & '——'/'—' attached and <= max_chars."""
+    if text in SUBTITLE_OVERRIDES:
+        return list(SUBTITLE_OVERRIDES[text])
+    parts = re.split(r"(?<=[，。；：？！、])|(?<=——)|(?<!—)(?<=—)(?!—)", text)
     parts = [p for p in parts if p]
     chunks: list[str] = []
     buf = ""
     for p in parts:
+        if PUNCT_ONLY_RE.match(p) and buf:
+            if len(buf) + len(p) <= max_chars:
+                buf += p
+                continue
         if len(buf) + len(p) <= max_chars:
             buf += p
         else:
@@ -190,7 +215,7 @@ def split_semantic_lines(text: str, max_chars: int = 14) -> list[str]:
             if len(p) <= max_chars:
                 buf = p
             else:
-                words = jieba.lcut(p)
+                words = _merge_punct_tokens(jieba.lcut(p))
                 cur = ""
                 for w in words:
                     if cur and len(cur) + len(w) > max_chars:
@@ -202,23 +227,25 @@ def split_semantic_lines(text: str, max_chars: int = 14) -> list[str]:
                     chunks.append(cur)
     if buf:
         chunks.append(buf)
-    if len(chunks) >= 2 and len(chunks[-1]) <= 3:
+    if len(chunks) >= 2 and (len(chunks[-1]) <= 3 or PUNCT_ONLY_RE.match(chunks[-1][0])):
         if len(chunks[-2]) + len(chunks[-1]) <= max_chars:
             chunks[-2] += chunks[-1]
             chunks.pop()
         else:
-            # Rebalance last two chunks at word boundary
+            # Rebalance last two chunks at word boundary (punctuation attached)
             combined = chunks[-2] + chunks[-1]
-            words = jieba.lcut(combined)
+            words = _merge_punct_tokens(jieba.lcut(combined))
             half = len(combined) // 2
-            left, right = "", ""
-            for w in words:
-                if len(left) < half and len(left) + len(w) <= max_chars:
-                    left += w
-                else:
-                    right += w
-            if left and right:
-                chunks[-2], chunks[-1] = left, right
+            best = None
+            for i in range(1, len(words)):
+                l_cand = "".join(words[:i])
+                r_cand = "".join(words[i:])
+                if len(l_cand) <= max_chars and len(r_cand) <= max_chars:
+                    best = (l_cand, r_cand)
+                    if len(l_cand) >= half:
+                        break
+            if best:
+                chunks[-2], chunks[-1] = best
     return chunks
 
 
