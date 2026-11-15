@@ -3,6 +3,7 @@
 """Week 3 Batch Prep: MiniMax TTS (20 episodes / 183 lines), -16 LUFS voice tracks, and jieba word-safe subtitles."""
 
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -18,9 +19,37 @@ from assemble_voice_test import get_ffmpeg, probe_duration_ms  # noqa: E402
 from voice_api_tts import load_config, synthesize_minimax, throttle  # noqa: E402
 
 FFMPEG = get_ffmpeg()
-SCRATCH = Path(r"C:\Users\Miche\.gemini\antigravity\brain\0911cb62-4b89-4832-af40-f43b1ba3f7eb\scratch")
-TONE_MD = SCRATCH / "第三周_配音语气单.md"
-FROZEN_MD = SCRATCH / "第三周_口播冻结稿.md"
+
+CLOUD_WEEK = Path(r"G:\我的云端硬盘\JH\视频号第三周")
+LOCAL_SRC = ROOT / "config" / "voice_api"
+
+
+def _resolve_src(filename: str) -> Path:
+    """按 环境变量 → 云盘挂载 → 本机 Antigravity scratch 顺序查找依据文件。
+
+    云盘是多机共享的权威副本；scratch 用 Path.home() 推导，不写死本机用户名，
+    以免脚本入库后泄露机器身份、也便于换机后直接复用。
+    """
+    cands = []
+    env = os.environ.get("SCYS_WEEK3_SRC")
+    if env:
+        cands.append(Path(env) / filename)
+    for base in (CLOUD_WEEK / "02_音频脚本", CLOUD_WEEK / "01_口播定稿", LOCAL_SRC):
+        cands.append(base / filename)
+    brain = Path.home() / ".gemini" / "antigravity" / "brain"
+    if brain.is_dir():
+        for scratch in sorted(brain.glob("*/scratch"),
+                              key=lambda p: p.stat().st_mtime, reverse=True):
+            cands.append(scratch / filename)
+    for c in cands:
+        if c.is_file():
+            return c
+    raise FileNotFoundError(
+        f"找不到依据文件：{filename}\n已尝试：\n  " + "\n  ".join(str(c) for c in cands))
+
+
+TONE_MD = _resolve_src("第三周_配音语气单.md")
+FROZEN_MD = _resolve_src("第三周_口播冻结稿.md")
 D1_VER_DIR = ROOT / "03_视频成片与工程" / "第三周_D1验证"
 OUT_DIR = ROOT / "03_视频成片与工程" / "第三周_批量先行"
 
