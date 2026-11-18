@@ -1,0 +1,61 @@
+{
+  "generated": "2026-11-18",
+  "base_project": "03_视频成片与工程/W6_11-08_1900",
+  "copy": "以德报怨，误会孔子两千年（画面与文案完全相同，仅配音参数不同）",
+  "mix_spec": "人声 +3.0dB (gain 1.4125)；BGM 食力过日子国风 -13dB (volume 0.2239)，循环铺满，末尾 2.5s 淡出",
+  "variants": [
+    {
+      "variant": "V1_当前默认_云健-6Hz-8%",
+      "voice": "zh-CN-YunjianNeural",
+      "pitch": "-6Hz",
+      "rate": "-8%",
+      "note": "当前默认黄金音（未改动）",
+      "voice_master": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V1_当前默认_云健-6Hz-8%\\voice_master.mp3",
+      "mix_mp3": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V1_当前默认_云健-6Hz-8%\\V1_当前默认_云健-6Hz-8%_混音.mp3",
+      "sample_video": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V1_当前默认_云健-6Hz-8%\\V1_当前默认_云健-6Hz-8%_样片.mp4",
+      "voice_master_bytes": 329760,
+      "mix_sec": 54.96,
+      "video_sec": 54.96,
+      "video_bytes": 4578638
+    },
+    {
+      "variant": "V2_竞品最接近_云健+28Hz-4%",
+      "voice": "zh-CN-YunjianNeural",
+      "pitch": "+28Hz",
+      "rate": "-4%",
+      "note": "嵌入距离竞品主流最近的一版",
+      "voice_master": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V2_竞品最接近_云健+28Hz-4%\\voice_master.mp3",
+      "mix_mp3": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V2_竞品最接近_云健+28Hz-4%\\V2_竞品最接近_云健+28Hz-4%_混音.mp3",
+      "sample_video": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V2_竞品最接近_云健+28Hz-4%\\V2_竞品最接近_云健+28Hz-4%_样片.mp4",
+      "voice_master_bytes": 316080,
+      "mix_sec": 52.68,
+      "video_sec": 52.68,
+      "video_bytes": 4464386
+    },
+    {
+      "variant": "V3_保守版_云健+26Hz-8%",
+      "voice": "zh-CN-YunjianNeural",
+      "pitch": "+26Hz",
+      "rate": "-8%",
+      "note": "保持 -8% 语速，只抬音高",
+      "voice_master": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V3_保守版_云健+26Hz-8%\\voice_master.mp3",
+      "mix_mp3": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V3_保守版_云健+26Hz-8%\\V3_保守版_云健+26Hz-8%_混音.mp3",
+      "sample_video": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\V3_保守版_云健+26Hz-8%\\V3_保守版_云健+26Hz-8%_样片.mp4",
+      "voice_master_bytes": 329760,
+      "mix_sec": 54.96,
+      "video_sec": 54.96,
+      "video_bytes": 4590400
+    }
+  ],
+  "burn_in": {
+    "file": "D:\\fuye\\03_视频成片与工程\\音色对比_20261118\\音色A_B对照_串烧.mp3",
+    "sec": 162.6,
+    "order": [
+      "V1 当前默认",
+      "V2 竞品最接近",
+      "V3 保守版",
+      "竞品原声 v01 30秒"
+    ]
+  },
+  "note": "本次仅做对比样片，未改动 scripts/fast_draft_pipeline.py 的默认参数，也未改动任何现有工程。"
+}
