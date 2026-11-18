@@ -1,0 +1,612 @@
+{
+  "threshold": 0.9,
+  "main_cluster": [
+    "v01_山河文化6_山河文化6",
+    "v02_戎马追风8903_戎马追风8903",
+    "v06_老王阅书_老王阅书",
+    "v08_山河文化6_山河文化6",
+    "v09_引力之读书_引力之读书",
+    "v11_老屋故事集_老屋故事集",
+    "v12_萤火书中屋_萤火书中屋"
+  ],
+  "other_clusters": [
+    [
+      "v03_朱刚日尧_朱刚日尧"
+    ],
+    [
+      "v04_树国文谈_树国文谈"
+    ],
+    [
+      "v05_知晓书声_知晓书声"
+    ],
+    [
+      "v07_侧安看海棠_侧安看海棠"
+    ],
+    [
+      "v10_时光访古_时光访古"
+    ],
+    [
+      "v13_静心2025悟道_静心2025悟道"
+    ]
+  ],
+  "cos_to_main_centroid": {
+    "v01_山河文化6_山河文化6": 0.9862,
+    "v02_戎马追风8903_戎马追风8903": 0.9774,
+    "v03_朱刚日尧_朱刚日尧": 0.7325,
+    "v04_树国文谈_树国文谈": 0.7519,
+    "v05_知晓书声_知晓书声": 0.6722,
+    "v06_老王阅书_老王阅书": 0.9645,
+    "v07_侧安看海棠_侧安看海棠": 0.8085,
+    "v08_山河文化6_山河文化6": 0.9768,
+    "v09_引力之读书_引力之读书": 0.9515,
+    "v10_时光访古_时光访古": 0.6382,
+    "v11_老屋故事集_老屋故事集": 0.9833,
+    "v12_萤火书中屋_萤火书中屋": 0.989,
+    "v13_静心2025悟道_静心2025悟道": 0.826
+  },
+  "pair_matrix": [
+    [
+      1.0,
+      0.9769,
+      0.7087,
+      0.7352,
+      0.6437,
+      0.9266,
+      0.8,
+      0.9851,
+      0.9265,
+      0.6104,
+      0.9527,
+      0.9668,
+      0.8179
+    ],
+    [
+      0.9769,
+      1.0,
+      0.7265,
+      0.7172,
+      0.6427,
+      0.93,
+      0.7787,
+      0.9511,
+      0.9093,
+      0.61,
+      0.9556,
+      0.9514,
+      0.8327
+    ],
+    [
+      0.7087,
+      0.7265,
+      1.0,
+      0.6978,
+      0.7857,
+      0.7045,
+      0.7225,
+      0.7284,
+      0.7173,
+      0.7481,
+      0.7082,
+      0.7085,
+      0.8222
+    ],
+    [
+      0.7352,
+      0.7172,
+      0.6978,
+      1.0,
+      0.6529,
+      0.7153,
+      0.6617,
+      0.7447,
+      0.7722,
+      0.6506,
+      0.7258,
+      0.7241,
+      0.7067
+    ],
+    [
+      0.6437,
+      0.6427,
+      0.7857,
+      0.6529,
+      1.0,
+      0.6503,
+      0.6639,
+      0.6537,
+      0.69,
+      0.8418,
+      0.6465,
+      0.6634,
+      0.6918
+    ],
+    [
+      0.9266,
+      0.93,
+      0.7045,
+      0.7153,
+      0.6503,
+      1.0,
+      0.7612,
+      0.9109,
+      0.8878,
+      0.6332,
+      0.9753,
+      0.9559,
+      0.7915
+    ],
+    [
+      0.8,
+      0.7787,
+      0.7225,
+      0.6617,
+      0.6639,
+      0.7612,
+      1.0,
+      0.8087,
+      0.7965,
+      0.6364,
+      0.7773,
+      0.7988,
+      0.7881
+    ],
+    [
+      0.9851,
+      0.9511,
+      0.7284,
+      0.7447,
+      0.6537,
+      0.9109,
+      0.8087,
+      1.0,
+      0.9242,
+      0.6213,
+      0.9366,
+      0.9627,
+      0.8215
+    ],
+    [
+      0.9265,
+      0.9093,
+      0.7173,
+      0.7722,
+      0.69,
+      0.8878,
+      0.7965,
+      0.9242,
+      1.0,
+      0.6556,
+      0.9137,
+      0.9359,
+      0.7728
+    ],
+    [
+      0.6104,
+      0.61,
+      0.7481,
+      0.6506,
+      0.8418,
+      0.6332,
+      0.6364,
+      0.6213,
+      0.6556,
+      1.0,
+      0.6133,
+      0.6144,
+      0.6787
+    ],
+    [
+      0.9527,
+      0.9556,
+      0.7082,
+      0.7258,
+      0.6465,
+      0.9753,
+      0.7773,
+      0.9366,
+      0.9137,
+      0.6133,
+      1.0,
+      0.9812,
+      0.8058
+    ],
+    [
+      0.9668,
+      0.9514,
+      0.7085,
+      0.7241,
+      0.6634,
+      0.9559,
+      0.7988,
+      0.9627,
+      0.9359,
+      0.6144,
+      0.9812,
+      1.0,
+      0.7987
+    ],
+    [
+      0.8179,
+      0.8327,
+      0.8222,
+      0.7067,
+      0.6918,
+      0.7915,
+      0.7881,
+      0.8215,
+      0.7728,
+      0.6787,
+      0.8058,
+      0.7987,
+      1.0
+    ]
+  ],
+  "names": [
+    "v01_山河文化6_山河文化6",
+    "v02_戎马追风8903_戎马追风8903",
+    "v03_朱刚日尧_朱刚日尧",
+    "v04_树国文谈_树国文谈",
+    "v05_知晓书声_知晓书声",
+    "v06_老王阅书_老王阅书",
+    "v07_侧安看海棠_侧安看海棠",
+    "v08_山河文化6_山河文化6",
+    "v09_引力之读书_引力之读书",
+    "v10_时光访古_时光访古",
+    "v11_老屋故事集_老屋故事集",
+    "v12_萤火书中屋_萤火书中屋",
+    "v13_静心2025悟道_静心2025悟道"
+  ],
+  "stats": {
+    "within_main_mean": 0.9436,
+    "within_main_min": 0.8878,
+    "within_main_max": 0.9851,
+    "cross_mean": 0.7202,
+    "cross_max": 0.8327,
+    "outside_pairs_mean": 0.7166
+  },
+  "candidate_pool": {
+    "Edge公共音色": [
+      {
+        "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.6625
+      },
+      {
+        "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.6893
+      },
+      {
+        "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.6885
+      },
+      {
+        "cand": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.5585
+      },
+      {
+        "cand": "云希_-8Hz_zh-CN-YunxiNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.5976
+      },
+      {
+        "cand": "云希_活泼男声_zh-CN-YunxiNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.5885
+      },
+      {
+        "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.6531
+      },
+      {
+        "cand": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.6164
+      },
+      {
+        "cand": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.6341
+      },
+      {
+        "cand": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.5321
+      },
+      {
+        "cand": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.4818
+      },
+      {
+        "cand": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.517
+      },
+      {
+        "cand": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "group": "Edge公共音色",
+        "cos_to_main_centroid": 0.4557
+      }
+    ],
+    "MiniMax系统音色": [
+      {
+        "cand": "Chinese_Mandarin_Gentleman",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.597
+      },
+      {
+        "cand": "Chinese_Mandarin_Male_Announcer",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6067
+      },
+      {
+        "cand": "audiobook_male_1",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6212
+      },
+      {
+        "cand": "audiobook_male_2",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6542
+      },
+      {
+        "cand": "male-qn-badao",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6827
+      },
+      {
+        "cand": "male-qn-daxuesheng",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6347
+      },
+      {
+        "cand": "male-qn-jingying",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6331
+      },
+      {
+        "cand": "male-qn-qingse",
+        "group": "MiniMax系统音色",
+        "cos_to_main_centroid": 0.6422
+      }
+    ],
+    "Edge参数扫描": [
+      {
+        "cand": "云健_+20Hz_常速",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.6367
+      },
+      {
+        "cand": "云健_+26Hz_慢8",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.6156
+      },
+      {
+        "cand": "云健_+28Hz_常速",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.6149
+      },
+      {
+        "cand": "云健_+28Hz_慢4",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.6163
+      },
+      {
+        "cand": "云健_+30Hz_快8",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.633
+      },
+      {
+        "cand": "云夏_+10Hz_常速",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.5647
+      },
+      {
+        "cand": "云希_-12Hz_慢8",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.5919
+      },
+      {
+        "cand": "云希_-18Hz_常速",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.594
+      },
+      {
+        "cand": "云希_-20Hz_快4",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.5985
+      },
+      {
+        "cand": "云扬_+26Hz_慢8",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.6233
+      },
+      {
+        "cand": "云扬_+30Hz_常速",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.6366
+      },
+      {
+        "cand": "云扬_+34Hz_常速",
+        "group": "Edge参数扫描",
+        "cos_to_main_centroid": 0.626
+      }
+    ]
+  },
+  "candidate_best_overall": {
+    "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+    "group": "Edge公共音色",
+    "cos_to_main_centroid": 0.6893
+  },
+  "candidate_rank": [
+    {
+      "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.6893
+    },
+    {
+      "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.6885
+    },
+    {
+      "cand": "male-qn-badao",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6827
+    },
+    {
+      "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.6625
+    },
+    {
+      "cand": "audiobook_male_2",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6542
+    },
+    {
+      "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.6531
+    },
+    {
+      "cand": "male-qn-qingse",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6422
+    },
+    {
+      "cand": "云健_+20Hz_常速",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.6367
+    },
+    {
+      "cand": "云扬_+30Hz_常速",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.6366
+    },
+    {
+      "cand": "male-qn-daxuesheng",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6347
+    },
+    {
+      "cand": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.6341
+    },
+    {
+      "cand": "male-qn-jingying",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6331
+    },
+    {
+      "cand": "云健_+30Hz_快8",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.633
+    },
+    {
+      "cand": "云扬_+34Hz_常速",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.626
+    },
+    {
+      "cand": "云扬_+26Hz_慢8",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.6233
+    },
+    {
+      "cand": "audiobook_male_1",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6212
+    },
+    {
+      "cand": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.6164
+    },
+    {
+      "cand": "云健_+28Hz_慢4",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.6163
+    },
+    {
+      "cand": "云健_+26Hz_慢8",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.6156
+    },
+    {
+      "cand": "云健_+28Hz_常速",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.6149
+    },
+    {
+      "cand": "Chinese_Mandarin_Male_Announcer",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.6067
+    },
+    {
+      "cand": "云希_-20Hz_快4",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.5985
+    },
+    {
+      "cand": "云希_-8Hz_zh-CN-YunxiNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.5976
+    },
+    {
+      "cand": "Chinese_Mandarin_Gentleman",
+      "group": "MiniMax系统音色",
+      "cos_to_main_centroid": 0.597
+    },
+    {
+      "cand": "云希_-18Hz_常速",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.594
+    },
+    {
+      "cand": "云希_-12Hz_慢8",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.5919
+    },
+    {
+      "cand": "云希_活泼男声_zh-CN-YunxiNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.5885
+    },
+    {
+      "cand": "云夏_+10Hz_常速",
+      "group": "Edge参数扫描",
+      "cos_to_main_centroid": 0.5647
+    },
+    {
+      "cand": "云夏_少年男声_zh-CN-YunxiaNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.5585
+    },
+    {
+      "cand": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.5321
+    },
+    {
+      "cand": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.517
+    },
+    {
+      "cand": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.4818
+    },
+    {
+      "cand": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+      "group": "Edge公共音色",
+      "cos_to_main_centroid": 0.4557
+    }
+  ]
+}

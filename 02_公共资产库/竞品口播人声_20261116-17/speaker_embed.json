@@ -1,0 +1,1335 @@
+{
+  "calibration": {
+    "same_speaker_pairs": [
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "cos": 0.8752
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.947
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.9662
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "云希_活泼男声_zh-CN-YunxiNeural",
+        "cos": 0.9669
+      },
+      {
+        "a": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.8725
+      },
+      {
+        "a": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.9448
+      },
+      {
+        "a": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.9695
+      }
+    ],
+    "diff_speaker_pairs": [
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "cos": 0.7447
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云希_-8Hz_zh-CN-YunxiNeural",
+        "cos": 0.8169
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云希_活泼男声_zh-CN-YunxiNeural",
+        "cos": 0.82
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.8701
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.7837
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.8367
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.7412
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.6684
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7064
+      },
+      {
+        "a": "云健_+10Hz_zh-CN-YunjianNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.6878
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "cos": 0.7288
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云希_-8Hz_zh-CN-YunxiNeural",
+        "cos": 0.784
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云希_活泼男声_zh-CN-YunxiNeural",
+        "cos": 0.7468
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.7605
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.8517
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.8202
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.7225
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.6705
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7235
+      },
+      {
+        "a": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.6975
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "cos": 0.7367
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "云希_-8Hz_zh-CN-YunxiNeural",
+        "cos": 0.8052
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "云希_活泼男声_zh-CN-YunxiNeural",
+        "cos": 0.7666
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.8116
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.8383
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.8498
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.7297
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.6635
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7105
+      },
+      {
+        "a": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.6774
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "云希_-8Hz_zh-CN-YunxiNeural",
+        "cos": 0.66
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "云希_活泼男声_zh-CN-YunxiNeural",
+        "cos": 0.6843
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.6379
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.6167
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.6325
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.91
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.8121
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7835
+      },
+      {
+        "a": "云夏_少年男声_zh-CN-YunxiaNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.7545
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.7625
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.7634
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.7748
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.6613
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.6761
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7174
+      },
+      {
+        "a": "云希_-8Hz_zh-CN-YunxiNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.7366
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.7716
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.722
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "cos": 0.7437
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.6952
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.7125
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7572
+      },
+      {
+        "a": "云希_活泼男声_zh-CN-YunxiNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.7713
+      },
+      {
+        "a": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.6193
+      },
+      {
+        "a": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.6044
+      },
+      {
+        "a": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.6195
+      },
+      {
+        "a": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.6212
+      },
+      {
+        "a": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.5996
+      },
+      {
+        "a": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.5887
+      },
+      {
+        "a": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.6048
+      },
+      {
+        "a": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.6171
+      },
+      {
+        "a": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "b": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "cos": 0.6196
+      },
+      {
+        "a": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.5981
+      },
+      {
+        "a": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.6167
+      },
+      {
+        "a": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.6192
+      },
+      {
+        "a": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "b": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "cos": 0.8226
+      },
+      {
+        "a": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.8266
+      },
+      {
+        "a": "晓伊_女声_活泼_zh-CN-XiaoyiNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.8072
+      },
+      {
+        "a": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "b": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "cos": 0.7793
+      },
+      {
+        "a": "晓北_东北女声_zh-CN-liaoning-XiaobeiNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.8417
+      },
+      {
+        "a": "晓妮_陕西女声_zh-CN-shaanxi-XiaoniNeural",
+        "b": "晓晓_女声_温暖_zh-CN-XiaoxiaoNeural",
+        "cos": 0.8586
+      }
+    ],
+    "same_min": 0.8725,
+    "same_max": 0.9695,
+    "diff_min": 0.5887,
+    "diff_max": 0.91
+  },
+  "video_vs_edge_candidates": [
+    {
+      "vid": "v07_侧安看海棠_侧安看海棠",
+      "best": {
+        "cand": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+        "cos": 0.7317
+      },
+      "top3": [
+        {
+          "cand": "云扬_-6Hz_-8%_zh-CN-YunyangNeural",
+          "cos": 0.7317
+        },
+        {
+          "cand": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+          "cos": 0.7179
+        },
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6812
+        }
+      ]
+    },
+    {
+      "vid": "v13_静心2025悟道_静心2025悟道",
+      "best": {
+        "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.7237
+      },
+      "top3": [
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.7237
+        },
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.7095
+        },
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6977
+        }
+      ]
+    },
+    {
+      "vid": "v04_树国文谈_树国文谈",
+      "best": {
+        "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+        "cos": 0.7171
+      },
+      "top3": [
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.7171
+        },
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.693
+        },
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6776
+        }
+      ]
+    },
+    {
+      "vid": "v03_朱刚日尧_朱刚日尧",
+      "best": {
+        "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.6941
+      },
+      "top3": [
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6941
+        },
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.6927
+        },
+        {
+          "cand": "云希_-8Hz_zh-CN-YunxiNeural",
+          "cos": 0.6799
+        }
+      ]
+    },
+    {
+      "vid": "v11_老屋故事集_老屋故事集",
+      "best": {
+        "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "cos": 0.6921
+      },
+      "top3": [
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6921
+        },
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.688
+        },
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.6539
+        }
+      ]
+    },
+    {
+      "vid": "v06_老王阅书_老王阅书",
+      "best": {
+        "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.6906
+      },
+      "top3": [
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6906
+        },
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6898
+        },
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.6704
+        }
+      ]
+    },
+    {
+      "vid": "v12_萤火书中屋_萤火书中屋",
+      "best": {
+        "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "cos": 0.683
+      },
+      "top3": [
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.683
+        },
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6778
+        },
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.6461
+        }
+      ]
+    },
+    {
+      "vid": "v08_山河文化6_山河文化6",
+      "best": {
+        "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.6695
+      },
+      "top3": [
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6695
+        },
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.667
+        },
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.6533
+        }
+      ]
+    },
+    {
+      "vid": "v09_引力之读书_引力之读书",
+      "best": {
+        "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+        "cos": 0.6642
+      },
+      "top3": [
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6642
+        },
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.6609
+        },
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6593
+        }
+      ]
+    },
+    {
+      "vid": "v01_山河文化6_山河文化6",
+      "best": {
+        "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "cos": 0.6596
+      },
+      "top3": [
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6596
+        },
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6561
+        },
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.6258
+        }
+      ]
+    },
+    {
+      "vid": "v02_戎马追风8903_戎马追风8903",
+      "best": {
+        "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+        "cos": 0.6566
+      },
+      "top3": [
+        {
+          "cand": "云健_我们的黄金音_-6Hz_-8%_zh-CN-YunjianNeural",
+          "cos": 0.6566
+        },
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6552
+        },
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.6325
+        }
+      ]
+    },
+    {
+      "vid": "v05_知晓书声_知晓书声",
+      "best": {
+        "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+        "cos": 0.6479
+      },
+      "top3": [
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.6479
+        },
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.6348
+        },
+        {
+          "cand": "云扬_新闻播音专业_zh-CN-YunyangNeural",
+          "cos": 0.6315
+        }
+      ]
+    },
+    {
+      "vid": "v10_时光访古_时光访古",
+      "best": {
+        "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+        "cos": 0.6472
+      },
+      "top3": [
+        {
+          "cand": "云健_+10Hz_zh-CN-YunjianNeural",
+          "cos": 0.6472
+        },
+        {
+          "cand": "云扬_+10Hz_zh-CN-YunyangNeural",
+          "cos": 0.6472
+        },
+        {
+          "cand": "云健_新闻播音严肃_zh-CN-YunjianNeural",
+          "cos": 0.6354
+        }
+      ]
+    }
+  ],
+  "video_vs_video_matrix": [
+    [
+      1.0,
+      0.9769,
+      0.7087,
+      0.7352,
+      0.6437,
+      0.9266,
+      0.8,
+      0.9851,
+      0.9265,
+      0.6104,
+      0.9527,
+      0.9668,
+      0.8179
+    ],
+    [
+      0.9769,
+      1.0,
+      0.7265,
+      0.7172,
+      0.6427,
+      0.93,
+      0.7787,
+      0.9511,
+      0.9093,
+      0.61,
+      0.9556,
+      0.9514,
+      0.8327
+    ],
+    [
+      0.7087,
+      0.7265,
+      1.0,
+      0.6978,
+      0.7857,
+      0.7045,
+      0.7225,
+      0.7284,
+      0.7173,
+      0.7481,
+      0.7082,
+      0.7085,
+      0.8222
+    ],
+    [
+      0.7352,
+      0.7172,
+      0.6978,
+      1.0,
+      0.6529,
+      0.7153,
+      0.6617,
+      0.7447,
+      0.7722,
+      0.6506,
+      0.7258,
+      0.7241,
+      0.7067
+    ],
+    [
+      0.6437,
+      0.6427,
+      0.7857,
+      0.6529,
+      1.0,
+      0.6503,
+      0.6639,
+      0.6537,
+      0.69,
+      0.8418,
+      0.6465,
+      0.6634,
+      0.6918
+    ],
+    [
+      0.9266,
+      0.93,
+      0.7045,
+      0.7153,
+      0.6503,
+      1.0,
+      0.7612,
+      0.9109,
+      0.8878,
+      0.6332,
+      0.9753,
+      0.9559,
+      0.7915
+    ],
+    [
+      0.8,
+      0.7787,
+      0.7225,
+      0.6617,
+      0.6639,
+      0.7612,
+      1.0,
+      0.8087,
+      0.7965,
+      0.6364,
+      0.7773,
+      0.7988,
+      0.7881
+    ],
+    [
+      0.9851,
+      0.9511,
+      0.7284,
+      0.7447,
+      0.6537,
+      0.9109,
+      0.8087,
+      1.0,
+      0.9242,
+      0.6213,
+      0.9366,
+      0.9627,
+      0.8215
+    ],
+    [
+      0.9265,
+      0.9093,
+      0.7173,
+      0.7722,
+      0.69,
+      0.8878,
+      0.7965,
+      0.9242,
+      1.0,
+      0.6556,
+      0.9137,
+      0.9359,
+      0.7728
+    ],
+    [
+      0.6104,
+      0.61,
+      0.7481,
+      0.6506,
+      0.8418,
+      0.6332,
+      0.6364,
+      0.6213,
+      0.6556,
+      1.0,
+      0.6133,
+      0.6144,
+      0.6787
+    ],
+    [
+      0.9527,
+      0.9556,
+      0.7082,
+      0.7258,
+      0.6465,
+      0.9753,
+      0.7773,
+      0.9366,
+      0.9137,
+      0.6133,
+      1.0,
+      0.9812,
+      0.8058
+    ],
+    [
+      0.9668,
+      0.9514,
+      0.7085,
+      0.7241,
+      0.6634,
+      0.9559,
+      0.7988,
+      0.9627,
+      0.9359,
+      0.6144,
+      0.9812,
+      1.0,
+      0.7987
+    ],
+    [
+      0.8179,
+      0.8327,
+      0.8222,
+      0.7067,
+      0.6918,
+      0.7915,
+      0.7881,
+      0.8215,
+      0.7728,
+      0.6787,
+      0.8058,
+      0.7987,
+      1.0
+    ]
+  ],
+  "video_names": [
+    "v01_山河文化6_山河文化6",
+    "v02_戎马追风8903_戎马追风8903",
+    "v03_朱刚日尧_朱刚日尧",
+    "v04_树国文谈_树国文谈",
+    "v05_知晓书声_知晓书声",
+    "v06_老王阅书_老王阅书",
+    "v07_侧安看海棠_侧安看海棠",
+    "v08_山河文化6_山河文化6",
+    "v09_引力之读书_引力之读书",
+    "v10_时光访古_时光访古",
+    "v11_老屋故事集_老屋故事集",
+    "v12_萤火书中屋_萤火书中屋",
+    "v13_静心2025悟道_静心2025悟道"
+  ],
+  "video_vs_video_pairs": [
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.9851
+    },
+    {
+      "a": "v11_老屋故事集_老屋故事集",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.9812
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v02_戎马追风8903_戎马追风8903",
+      "cos": 0.9769
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.9753
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.9668
+    },
+    {
+      "a": "v08_山河文化6_山河文化6",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.9627
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.9559
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.9556
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.9527
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.9514
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.9511
+    },
+    {
+      "a": "v08_山河文化6_山河文化6",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.9366
+    },
+    {
+      "a": "v09_引力之读书_引力之读书",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.9359
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v06_老王阅书_老王阅书",
+      "cos": 0.93
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v06_老王阅书_老王阅书",
+      "cos": 0.9266
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.9265
+    },
+    {
+      "a": "v08_山河文化6_山河文化6",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.9242
+    },
+    {
+      "a": "v09_引力之读书_引力之读书",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.9137
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.9109
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.9093
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.8878
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.8418
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.8327
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.8222
+    },
+    {
+      "a": "v08_山河文化6_山河文化6",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.8215
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.8179
+    },
+    {
+      "a": "v07_侧安看海棠_侧安看海棠",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.8087
+    },
+    {
+      "a": "v11_老屋故事集_老屋故事集",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.8058
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v07_侧安看海棠_侧安看海棠",
+      "cos": 0.8
+    },
+    {
+      "a": "v07_侧安看海棠_侧安看海棠",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.7988
+    },
+    {
+      "a": "v12_萤火书中屋_萤火书中屋",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.7987
+    },
+    {
+      "a": "v07_侧安看海棠_侧安看海棠",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.7965
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.7915
+    },
+    {
+      "a": "v07_侧安看海棠_侧安看海棠",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.7881
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v05_知晓书声_知晓书声",
+      "cos": 0.7857
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v07_侧安看海棠_侧安看海棠",
+      "cos": 0.7787
+    },
+    {
+      "a": "v07_侧安看海棠_侧安看海棠",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.7773
+    },
+    {
+      "a": "v09_引力之读书_引力之读书",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.7728
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.7722
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v07_侧安看海棠_侧安看海棠",
+      "cos": 0.7612
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.7481
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.7447
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v04_树国文谈_树国文谈",
+      "cos": 0.7352
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.7284
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v03_朱刚日尧_朱刚日尧",
+      "cos": 0.7265
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.7258
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.7241
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v07_侧安看海棠_侧安看海棠",
+      "cos": 0.7225
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.7173
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v04_树国文谈_树国文谈",
+      "cos": 0.7172
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v06_老王阅书_老王阅书",
+      "cos": 0.7153
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v03_朱刚日尧_朱刚日尧",
+      "cos": 0.7087
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.7085
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.7082
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.7067
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v06_老王阅书_老王阅书",
+      "cos": 0.7045
+    },
+    {
+      "a": "v03_朱刚日尧_朱刚日尧",
+      "b": "v04_树国文谈_树国文谈",
+      "cos": 0.6978
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.6918
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v09_引力之读书_引力之读书",
+      "cos": 0.69
+    },
+    {
+      "a": "v10_时光访古_时光访古",
+      "b": "v13_静心2025悟道_静心2025悟道",
+      "cos": 0.6787
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v07_侧安看海棠_侧安看海棠",
+      "cos": 0.6639
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.6634
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v07_侧安看海棠_侧安看海棠",
+      "cos": 0.6617
+    },
+    {
+      "a": "v09_引力之读书_引力之读书",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.6556
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v08_山河文化6_山河文化6",
+      "cos": 0.6537
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v05_知晓书声_知晓书声",
+      "cos": 0.6529
+    },
+    {
+      "a": "v04_树国文谈_树国文谈",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.6506
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v06_老王阅书_老王阅书",
+      "cos": 0.6503
+    },
+    {
+      "a": "v05_知晓书声_知晓书声",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.6465
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v05_知晓书声_知晓书声",
+      "cos": 0.6437
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v05_知晓书声_知晓书声",
+      "cos": 0.6427
+    },
+    {
+      "a": "v07_侧安看海棠_侧安看海棠",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.6364
+    },
+    {
+      "a": "v06_老王阅书_老王阅书",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.6332
+    },
+    {
+      "a": "v08_山河文化6_山河文化6",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.6213
+    },
+    {
+      "a": "v10_时光访古_时光访古",
+      "b": "v12_萤火书中屋_萤火书中屋",
+      "cos": 0.6144
+    },
+    {
+      "a": "v10_时光访古_时光访古",
+      "b": "v11_老屋故事集_老屋故事集",
+      "cos": 0.6133
+    },
+    {
+      "a": "v01_山河文化6_山河文化6",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.6104
+    },
+    {
+      "a": "v02_戎马追风8903_戎马追风8903",
+      "b": "v10_时光访古_时光访古",
+      "cos": 0.61
+    }
+  ],
+  "video_vs_our_golden": [
+    {
+      "vid": "v13_静心2025悟道_静心2025悟道",
+      "cos_vs_our_golden": 0.7254
+    },
+    {
+      "vid": "v03_朱刚日尧_朱刚日尧",
+      "cos_vs_our_golden": 0.711
+    },
+    {
+      "vid": "v07_侧安看海棠_侧安看海棠",
+      "cos_vs_our_golden": 0.7103
+    },
+    {
+      "vid": "v06_老王阅书_老王阅书",
+      "cos_vs_our_golden": 0.7079
+    },
+    {
+      "vid": "v11_老屋故事集_老屋故事集",
+      "cos_vs_our_golden": 0.6988
+    },
+    {
+      "vid": "v12_萤火书中屋_萤火书中屋",
+      "cos_vs_our_golden": 0.6902
+    },
+    {
+      "vid": "v08_山河文化6_山河文化6",
+      "cos_vs_our_golden": 0.6819
+    },
+    {
+      "vid": "v09_引力之读书_引力之读书",
+      "cos_vs_our_golden": 0.6802
+    },
+    {
+      "vid": "v10_时光访古_时光访古",
+      "cos_vs_our_golden": 0.6644
+    },
+    {
+      "vid": "v01_山河文化6_山河文化6",
+      "cos_vs_our_golden": 0.6641
+    },
+    {
+      "vid": "v02_戎马追风8903_戎马追风8903",
+      "cos_vs_our_golden": 0.6597
+    },
+    {
+      "vid": "v04_树国文谈_树国文谈",
+      "cos_vs_our_golden": 0.6559
+    },
+    {
+      "vid": "v05_知晓书声_知晓书声",
+      "cos_vs_our_golden": 0.637
+    }
+  ]
+}
