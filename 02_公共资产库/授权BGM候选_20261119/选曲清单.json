@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-19T22:44:27+08:00",
-  "note": "三大主赛道授权BGM选曲清单。音频本地留存不入Git；已归一成品见 02_公共资产库/授权BGM候选_20261119/已归一/。",
+  "generated_at": "2026-11-19T22:49:52+08:00",
+  "note": "三大主赛道授权BGM选曲清单。音频本地留存不入Git；已归一成品见 02_公共资产库/授权BGM候选_20261119/已归一/。listening_* 字段来自多模态听感模型判定（未经人工试听复核）。",
   "level_targets": {
-    "A_与现状一致_mean-52.9dB": "与已发布成片听感完全一致",
-    "B_可听见_mean-23dB": "推荐档，混音内比人声低约15dB"
+    "A_与现状一致_mean-52.9dB": "与已发布成片听感完全一致（BGM 在混音内比人声低 45.1 dB，实际不可闻）",
+    "B_可听见_mean-23dB": "推荐档，混音内比人声低约 15 dB，托底不抢戏"
   },
   "tracks_by_track": {
     "5.1 国风古建（古建 / 历史文化名城 / 带孙辈长见识）": [
@@ -17,9 +17,14 @@
         "mean_db": -14.9,
         "peak_db": -0.1,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "中国传统国风 / 古风仙侠轻音乐 / 民族器乐配乐。",
+        "listening_mood": "悠扬空灵、清幽宁静，后段鼓声加入后增添了一丝庄重与古朴意境。",
+        "listening_instruments": "竹笛（或箫）、轻柔弦乐铺底、后段加入的中国大鼓等打击乐。",
+        "listening_bpm": "中慢速（整体舒缓开阔，后半段伴随节拍平稳的慢速鼓点）。",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/traditional-21/",
         "mp3_url": "https://assets.mixkit.co/music/21/21.mp3"
       },
@@ -33,9 +38,14 @@
         "mean_db": -24.0,
         "peak_db": -6.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "中国传统古风 / 新国乐纯音乐（国风轻音乐）",
+        "listening_mood": "宁静致远、空灵清幽、典雅舒缓，带有淡淡的古韵与禅意",
+        "listening_instruments": "古筝、竹笛（或箫），辅以舒缓的环境氛围弦乐/电子音垫（Pad）",
+        "listening_bpm": "慢速（节奏平缓悠长，无明显重音打击乐）",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/underscore-1058/",
         "mp3_url": "https://assets.mixkit.co/music/1058/1058.mp3"
       },
@@ -49,9 +59,15 @@
         "mean_db": -14.8,
         "peak_db": -0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "中国风轻音乐 / 新民乐 / 古风抒情慢板。",
+        "listening_mood": "悠扬婉转、诗意典雅、平静舒缓，略带一丝怀旧与温情。",
+        "listening_instruments": "竹笛（主奏旋律）、古筝/扬琴等传统弹拨乐器，搭配柔和的现代慢板鼓点及弦乐铺底。",
+        "listening_bpm": "慢板（速度约 65～75 BPM 左右），节拍从容平稳。",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-67/",
         "mp3_url": "https://assets.mixkit.co/music/67/67.mp3"
       },
@@ -65,9 +81,14 @@
         "mean_db": -17.6,
         "peak_db": -0.4,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "新民乐 / 东方氛围音乐 / 禅意中国风",
+        "listening_mood": "静谧、空灵、沉稳，带有禅意与神秘感",
+        "listening_instruments": "民族弹拨乐器（古琴/琵琶/阮类音色）、民族打击乐（手鼓/鼓点）、环境铺底低音",
+        "listening_bpm": "中速偏慢（约 75–85 BPM），节拍稳定且富有弹性律动",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-540/",
         "mp3_url": "https://assets.mixkit.co/music/540/540.mp3"
       },
@@ -81,9 +102,15 @@
         "mean_db": -16.5,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "中国古风 / 国风轻音乐（东方抒情纯音乐）。",
+        "listening_mood": "悠扬空灵、抒情柔和、宁静淡雅。",
+        "listening_instruments": "竹笛（或箫）、古筝、弦乐铺底，辅以轻柔的风铃及打击乐器点缀。",
+        "listening_bpm": "慢速（中慢速），旋律舒缓连绵。",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/underscore-819/",
         "mp3_url": "https://assets.mixkit.co/music/819/819.mp3"
       },
@@ -97,9 +124,15 @@
         "mean_db": -16.0,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "新世纪音乐（New Age）/ 唯美抒情轻音乐（带东方意境）",
+        "listening_mood": "宁静祥和、悠远空灵、温柔治愈，略带淡淡的诗意与怀旧感",
+        "listening_instruments": "长笛/木管、钢琴、弦乐组（铺底）、竖琴/弹拨乐器",
+        "listening_bpm": "慢速（约 60–75 BPM），旋律平缓舒展",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "温情叙事"
+        ],
         "page_url": "https://en.freepd.cn/music/epic",
         "mp3_url": "https://en.freepd.cn/api/music/457069632f42696720457965732e6d7033"
       }
@@ -115,9 +148,15 @@
         "mean_db": -10.5,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "国风史诗 / 民族管弦乐（融合了传统民乐与现代交响配器）",
+        "listening_mood": "气势磅礴、壮阔豪迈、沉稳庄重且富有张力",
+        "listening_instruments": "中国大鼓/战鼓（打击乐器）、竹笛/箫、管弦乐群（铜管与弦乐铺底）、古筝/琵琶等弹拨乐点缀",
+        "listening_bpm": "中速，鼓点稳健推进，节奏铿锵有力",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "史诗解说"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/trailer-music-706/",
         "mp3_url": "https://assets.mixkit.co/music/706/706.mp3"
       },
@@ -131,9 +170,14 @@
         "mean_db": -16.2,
         "peak_db": -4.9,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "史诗管弦乐（Epic Orchestral）/ 影视原声配乐（Cinematic）。",
+        "listening_mood": "庄严厚重、紧张压迫、气势磅礴、蓄势待发。",
+        "listening_instruments": "重型战鼓/打击乐（大鼓、定音鼓等）、管弦乐齐奏（低音提琴、大提琴等厚重弦乐组）、铜管乐及氛围合成低音。",
+        "listening_bpm": "中速偏慢（约 80-90 BPM），鼓点沉稳有力，呈层层推进之势。",
+        "listening_tags": [
+          "纯器乐",
+          "史诗解说"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/trailer-music-846/",
         "mp3_url": "https://assets.mixkit.co/music/846/846.mp3"
       },
@@ -147,9 +191,14 @@
         "mean_db": -21.4,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "新民乐 / 国风节奏音乐 / 文化纪录片配乐。",
+        "listening_mood": "沉稳内敛、富有律动感与仪式感、质朴古雅。",
+        "listening_instruments": "以打击乐为主（大鼓、清脆的木质敲击乐器如木鱼/梆子、铜钹/擦音），辅以轻盈的弹拨乐器（如中阮/琵琶等点缀音）。",
+        "listening_bpm": "中等偏慢（约 80-90 BPM），节奏规整稳健。",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-736/",
         "mp3_url": "https://assets.mixkit.co/music/736/736.mp3"
       },
@@ -163,9 +212,15 @@
         "mean_db": -13.1,
         "peak_db": -0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "新国风 / 民族氛围电子 / 史诗影视原声（Cinematic / Ambient Folk）",
+        "listening_mood": "神秘、苍凉、宏大、沉郁且富有张力",
+        "listening_instruments": "中国传统吹管乐器（如唢呐/管子等高亢苍凉的音色）、合成器铺底（Pad/Drone）、低音电子节奏/打击乐",
+        "listening_bpm": "慢速至中慢速，前半段伴有沉重的低频节奏脉冲，后半段以自由抒情的长音旋律为主",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "史诗解说"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/traditional-64/",
         "mp3_url": "https://assets.mixkit.co/music/64/64.mp3"
       },
@@ -179,9 +234,15 @@
         "mean_db": -18.0,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "中国风打击乐 / 国风鼓乐 / 传统民族战鼓配乐",
+        "listening_mood": "雄壮、激昂、威严、充满力量感与张力",
+        "listening_instruments": "中国大鼓、堂鼓、排鼓等各类传统打击乐器",
+        "listening_bpm": "中速偏快（约100–115 BPM），鼓点紧密富有律动",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "史诗解说"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-1084/",
         "mp3_url": "https://assets.mixkit.co/music/1084/1084.mp3"
       },
@@ -195,9 +256,14 @@
         "mean_db": -16.2,
         "peak_db": -0.5,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "电影配乐 / 史诗管弦预告片音乐（Epic / Cinematic Trailer Music）",
+        "listening_mood": "紧张、压迫、肃杀、雄伟磅礴、充满悬念与危机感",
+        "listening_instruments": "重低音铜管乐（低音号/长号轰鸣）、大型打击乐（电影大鼓/定音鼓）、低音弦乐以及电子混合音效（Braam 重低音音效）",
+        "listening_bpm": "中等偏慢（约 75–85 BPM），节拍沉重、缓慢而有力",
+        "listening_tags": [
+          "纯器乐",
+          "史诗解说"
+        ],
         "page_url": "https://en.freepd.cn/music/epic",
         "mp3_url": "https://en.freepd.cn/api/music/457069632f426174746c652052656164792e6d7033"
       }
@@ -213,9 +279,14 @@
         "mean_db": -19.8,
         "peak_db": -1.5,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "新古典 / 抒情轻音乐 / 治愈系影视配乐（Cinematic / Neoclassical）",
+        "listening_mood": "温柔、宁静、治愈，带有淡淡的怀旧、感伤与温暖叙事感",
+        "listening_instruments": "钢琴、弦乐组（小提琴、大提琴等合奏）",
+        "listening_bpm": "中慢速，节奏平稳舒缓（约 70-80 BPM）",
+        "listening_tags": [
+          "纯器乐",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/trailer-music-660/",
         "mp3_url": "https://assets.mixkit.co/music/660/660.mp3"
       },
@@ -229,9 +300,14 @@
         "mean_db": -24.8,
         "peak_db": -5.6,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "原声轻音乐 / 治愈系民谣风纯音乐",
+        "listening_mood": "宁静、温暖、治愈、悠闲舒缓",
+        "listening_instruments": "木吉他（原声吉他分解和弦）、笛子（轻柔的横笛/竹笛类管乐主奏）、微弱的环境弦乐垫音",
+        "listening_bpm": "中慢速，节奏平稳舒展",
+        "listening_tags": [
+          "纯器乐",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/underscore-1038/",
         "mp3_url": "https://assets.mixkit.co/music/1038/1038.mp3"
       },
@@ -245,9 +321,14 @@
         "mean_db": -11.5,
         "peak_db": -0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "现代抒情轻音乐 / 治愈系器乐曲（Ambient/Pop Instrumental）",
+        "listening_mood": "宁静、舒缓、温柔，略带一丝淡淡的怀旧与感伤",
+        "listening_instruments": "钢琴（主奏），伴有柔和舒缓的合成器弦乐铺底（Synth Pad/Strings）",
+        "listening_bpm": "慢板（慢节奏，约 60～70 BPM）",
+        "listening_tags": [
+          "纯器乐",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-1/",
         "mp3_url": "https://assets.mixkit.co/music/1/1.mp3"
       },
@@ -261,9 +342,14 @@
         "mean_db": -20.5,
         "peak_db": -0.1,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "现代古典 / 抒情轻音乐 / 影视原声（Cinematic / Neoclassical）",
+        "listening_mood": "忧伤、深情、静谧、略带感伤与怀旧",
+        "listening_instruments": "钢琴、弦乐（大提琴/低音弦乐铺底）",
+        "listening_bpm": "慢速（约 60–70 BPM）",
+        "listening_tags": [
+          "纯器乐",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-178/",
         "mp3_url": "https://assets.mixkit.co/music/178/178.mp3"
       },
@@ -277,9 +363,14 @@
         "mean_db": -20.5,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "轻音乐 / 原声民谣（Acoustic Folk / Indie Folk）",
+        "listening_mood": "温暖、治愈、轻松惬意、舒缓平和",
+        "listening_instruments": "原声木吉他（扫弦与指弹）、轻柔打击乐/沙锤、低音吉他（贝斯）及温润的背景合成音垫",
+        "listening_bpm": "中速（约 90–100 BPM），律动平稳轻快",
+        "listening_tags": [
+          "纯器乐",
+          "温情叙事"
+        ],
         "page_url": "https://mixkit.co/free-stock-music/world-1020/",
         "mp3_url": "https://assets.mixkit.co/music/1020/1020.mp3"
       },
@@ -293,9 +384,15 @@
         "mean_db": -16.0,
         "peak_db": 0.0,
         "speech_scan_vad": "未检出明显人声",
-        "listening_style": null,
-        "listening_mood": null,
-        "listening_tags": null,
+        "listening_style": "新世纪音乐（New Age）/ 唯美抒情轻音乐（带东方意境）",
+        "listening_mood": "宁静祥和、悠远空灵、温柔治愈，略带淡淡的诗意与怀旧感",
+        "listening_instruments": "长笛/木管、钢琴、弦乐组（铺底）、竖琴/弹拨乐器",
+        "listening_bpm": "慢速（约 60–75 BPM），旋律平缓舒展",
+        "listening_tags": [
+          "纯器乐",
+          "国风古建",
+          "温情叙事"
+        ],
         "page_url": "https://en.freepd.cn/music/epic",
         "mp3_url": "https://en.freepd.cn/api/music/457069632f42696720457965732e6d7033"
       }
