@@ -1,0 +1,658 @@
+{
+  "package": "minimax_音频调用说明",
+  "generated_at": "2026-11-20T23:21:24+08:00",
+  "repo": "scys_jh",
+  "description": "配音音色 + 背景音乐资产包：什么时候用什么、怎么用",
+  "safety": {
+    "contains_secret": false,
+    "contains_competitor_audio": false,
+    "rules": [
+      "不含 config/voice_api/config.yaml（MiniMax 密钥），只含 config.example.yaml",
+      "不含 02_公共资产库/竞品口播人声_20261116-17/ 与 竞品BGM素材_20261116-17/ 任何文件",
+      "不含任何密钥原文（构建时逐字节比对）"
+    ]
+  },
+  "counts": {
+    "files": 79,
+    "bytes": 145603263
+  },
+  "files": [
+    {
+      "path": "01_音色/selected_voices.json",
+      "category": "音色-配置",
+      "purpose": "音色选择记录（机器可读，含默认基准与 A/B 音色 ID）",
+      "bytes": 2510,
+      "sha256": "fe7f4159a28ed1f81f1a86fadfedbe7190bcf8cfb9c2e69e6e6c87f24748db83",
+      "source_in_repo": "01_配音与音色库/selected_voices.json"
+    },
+    {
+      "path": "01_音色/主线三音色/01_央视纪录片_沧桑历史男声.mp3",
+      "category": "音色-主线",
+      "purpose": "默认音色（央视纪录片·沧桑历史男声）样本",
+      "bytes": 59616,
+      "sha256": "ca4196e03a4ecd3df89c4b158c0a8d0095b7933f08091d9b877cacb3ce11b21e",
+      "source_in_repo": "01_配音与音色库/01_央视纪录片_沧桑历史男声.mp3"
+    },
+    {
+      "path": "01_音色/主线三音色/03_文化讲书_自然叙事男声.mp3",
+      "category": "音色-主线",
+      "purpose": "备选音色（文化讲书·自然叙事男声）样本",
+      "bytes": 52416,
+      "sha256": "c27a6addb4943fd9336dfc93a8f47b1bc17b05da908218bd7be5ae5621e48c32",
+      "source_in_repo": "01_配音与音色库/03_文化讲书_自然叙事男声.mp3"
+    },
+    {
+      "path": "01_音色/主线三音色/05_三晋风味_关中厚重女声.mp3",
+      "category": "音色-主线",
+      "purpose": "备选音色（三晋风味·关中厚重女声）样本",
+      "bytes": 56016,
+      "sha256": "e8c97aeabadacf94485adfb7e8e37cf52c686d8ff293f06dcbea510cebb7518d",
+      "source_in_repo": "01_配音与音色库/05_三晋风味_关中厚重女声.mp3"
+    },
+    {
+      "path": "01_音色/克隆参考_方案A/参考文本.txt",
+      "category": "音色-克隆参考",
+      "purpose": "E2-F5-TTS 零样本克隆参考片段与逐字参考文本（由源音轨现场切出）",
+      "bytes": 119,
+      "sha256": "17fe74c3c96263e105a0def398c71784f38bce509db16a9b2bbbc4e89938a1cb",
+      "source_in_repo": "01_配音与音色库/对标原声参考/食力过日子_带孙辈长见识_下集/voice_master.wav"
+    },
+    {
+      "path": "01_音色/克隆参考_方案A/参考片段_食力日子_27.042s_9.052s.wav",
+      "category": "音色-克隆参考",
+      "purpose": "E2-F5-TTS 零样本克隆参考片段与逐字参考文本（由源音轨现场切出）",
+      "bytes": 798464,
+      "sha256": "cb3b8ae4b35bb6fb540fc9fc0db68ae3c0f3161809eb3e03c41713f56dac6956",
+      "source_in_repo": "01_配音与音色库/对标原声参考/食力过日子_带孙辈长见识_下集/voice_master.wav"
+    },
+    {
+      "path": "01_音色/克隆参考_方案A/参考片段来源.json",
+      "category": "音色-克隆参考",
+      "purpose": "E2-F5-TTS 零样本克隆参考片段与逐字参考文本（由源音轨现场切出）",
+      "bytes": 1301,
+      "sha256": "2dcfcd15ebd3124ffbe7801259854cd95d01dfbdcaace28db749db34ee7923b0",
+      "source_in_repo": "01_配音与音色库/对标原声参考/食力过日子_带孙辈长见识_下集/voice_master.wav"
+    },
+    {
+      "path": "01_音色/六角色定稿_家庭钩子/role_selections.json",
+      "category": "音色-配置",
+      "purpose": "六角色选择记录（含样本 SHA-256 与计费说明）",
+      "bytes": 4349,
+      "sha256": "fee52e67e8b150399c782b0ad334f75f673cfde26839c0e103893d682607f9e4",
+      "source_in_repo": "config/voice_api/role_selections.json"
+    },
+    {
+      "path": "01_音色/六角色定稿_家庭钩子/六角色定稿配置.json",
+      "category": "音色-配置",
+      "purpose": "六角色定稿音色表",
+      "bytes": 1766,
+      "sha256": "8e8b1b28d2b29d8bf97355a2bda2fb73377592117a54e9ecf2cd160b5a9f5b5d",
+      "source_in_repo": "01_配音与音色库/六角色定稿_V1_20261107/六角色定稿配置.json"
+    },
+    {
+      "path": "01_音色/听感基准/平遥古城_学者大家男声_食力BGM混音_清晰版.mp3",
+      "category": "音色-试听",
+      "purpose": "黄金组合听感基准：央视纪录片男声 + 食力 BGM 混音成品",
+      "bytes": 4039724,
+      "sha256": "8ea87a6054f4b65c88f6f04c70994a0576780017b75f1e7b7f4665524d0b4ca0",
+      "source_in_repo": "01_配音与音色库/试听样本/平遥古城_学者大家男声_食力BGM混音_清晰版.mp3"
+    },
+    {
+      "path": "01_音色/听感基准/平遥古城_文化讲书男声_食力BGM混音_清晰版.mp3",
+      "category": "音色-试听",
+      "purpose": "备选音色 + 食力 BGM 混音成品",
+      "bytes": 3685004,
+      "sha256": "8bf6955b96e2428bd950b158b2c96ef2d6a728852a7f0770d10aeedce7b20abf",
+      "source_in_repo": "01_配音与音色库/试听样本/平遥古城_文化讲书男声_食力BGM混音_清晰版.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Adventure.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2517677,
+      "sha256": "c6ac0d170dfa125bdeadef8f789c57294cbaf2c31adaaae4be7fa259325bcf57",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Adventure.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Battle Ready.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 1866607,
+      "sha256": "6df47aa144ebbb3945dcb1107435032b83e69b6f7f4c5cbcc95e14ef786a734a",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Battle Ready.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Between Two Evils.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 3532216,
+      "sha256": "68985a2850563c5d4ededfad648bbb719748b9e3c7869afc08cdd8a6f230e7e8",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Between Two Evils.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Big Eyes.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 3579236,
+      "sha256": "6fbdbe815ff4482625f3c232eb498923424d0c0f8f72ef7ed56f70f0cc96b5c5",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Big Eyes.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Dark Shadows.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2548676,
+      "sha256": "a054899d634e338cc997dceca4dd012321b9e9ae15c51c21037b6e247fd85027",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Dark Shadows.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Don't Leave Me Tonight.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 3425636,
+      "sha256": "ffbb0bf8e9b7798ac30e419c767aeb2ac30866aa658b496c7f173f140ef9f748",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Don't Leave Me Tonight.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Games Music.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2841329,
+      "sha256": "49e7fe7ea2745c979d04075ad699aae13c7e68908694bab3c65ec71dcc0f5bb9",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Games Music.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/I Won't surrender.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2747915,
+      "sha256": "08895d2e45c49626bb8e6201ceba0f91adad465498e66d26ba08f6e244f23722",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/I Won't surrender.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Indian Meditations.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 4033894,
+      "sha256": "4e9462b10a13aec262d2c1722128834ff07665d8d6a1834ee70e8693644cd216",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Indian Meditations.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Ixta.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2621964,
+      "sha256": "f30f2c735f5c0842f04ba08e05e78541b929f02354b13a2b520a8583c09c7670",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Ixta.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Let's Play Africa.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2748542,
+      "sha256": "1ae8ad346318c5fecc9ce171b4e0bb05f25369ff83606cc40928d49f8ead01f4",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Let's Play Africa.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Lullaby.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 3769952,
+      "sha256": "4f5609645779a7fe0b4bab9c9cc386275d6c9775460df1c15ea3bedf36e0d6fb",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Lullaby.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Nature's Fabric.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2423915,
+      "sha256": "507a7b12a4e1b714f2aebd051739a8aa9bb452559abcb0a5777e9405f7a56733",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Nature's Fabric.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Nield Grohm Hanging 3.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 6116085,
+      "sha256": "9592ed38af2a15f0bc1c6bb49fffefb6ba2a7f8dbbc02b3a6701cc796e9f8595",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Nield Grohm Hanging 3.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Old Old Love.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2569238,
+      "sha256": "fae5d36e7a22dc64892689440ecf6417214ac601c49eb1996d742569ae724f06",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Old Old Love.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Percussions 04.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 2535383,
+      "sha256": "e1b9ee0b50691ad711aff21f80f11860a4a6346828cfeb22ffcb25b5a4870021",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Percussions 04.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Touch of YourSkin.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 3366704,
+      "sha256": "43fb1b6f125c704bae4f07adde0ff0e42acb886244743b857817b4d05a8e8555",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Touch of YourSkin.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/Wedding 02.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：授权候选曲成品",
+      "bytes": 3255736,
+      "sha256": "47484897acbe79e063ff9fe98e3de88136403f24c840e9a9b306a2cae8c3af46",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/Wedding 02.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_A档_与现状一致_mean-53dB/归一记录.json",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_A档_与现状一致_mean-53dB：归一记录（源文件与 SHA-256）",
+      "bytes": 3308,
+      "sha256": "a5a7adf3933f8059f49bae56f0cb69e554fb701b5d69e7ac428d09ae7b836db3",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/A_与现状一致_mean-52.9dB/归一记录.json"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Adventure.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2517677,
+      "sha256": "6fe1a1d7918452225e8821e9b9a4fb9185da40c7b4268e570b99af229f1c9de6",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Adventure.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Battle Ready.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 1866607,
+      "sha256": "61a5e755e1939090a604ef37e1c0525f70657caf21f0f1cb968c6ee09e24c221",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Battle Ready.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Between Two Evils.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 3532216,
+      "sha256": "af086f1a35b49966ac5de86ccc1914ccf208924546a0fbf6fc5b8f7150a80abf",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Between Two Evils.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Big Eyes.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 3579236,
+      "sha256": "369c6fcf8461f458e417e488cdaf8f3036b419ffbbbc0974c96b94c22e7e251a",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Big Eyes.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Dark Shadows.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2548676,
+      "sha256": "9f20b9544cbf43a2f271fa9676c6f2ee737d331246d0a9e521d835e8f7bb83e0",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Dark Shadows.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Don't Leave Me Tonight.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 3425636,
+      "sha256": "6bf15fcbbbf883f91b24d8fdf65550f6a71662581295476b46e9a7c7f0f1cac3",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Don't Leave Me Tonight.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Games Music.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2841329,
+      "sha256": "0eaf48143bab8337bd0e65cda078a02b855111527f701454ca771953b06e8eb1",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Games Music.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/I Won't surrender.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2747915,
+      "sha256": "48ddba6c00b81691a09314de2a8be1f551e21f3ddda56b499dfed5528ceb2975",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/I Won't surrender.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Indian Meditations.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 4033894,
+      "sha256": "69dac52e19bdc2b25ba68e54553bffcb4964d5cc41cd3a8ef767f42023a51cf8",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Indian Meditations.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Ixta.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2621964,
+      "sha256": "883cdf08674b54e9eee8f4b4945aef1454f5827fe4357cebc4a55a1faa7469af",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Ixta.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Let's Play Africa.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2748542,
+      "sha256": "eaf43b20026f14f50ac62622bd80d2d1170acfecde24608e58a02ec8bcbe926e",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Let's Play Africa.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Lullaby.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 3769952,
+      "sha256": "a4f53ff3998aa31e40cdeaee774941a96aabc075dee1b35349a01d2896edf1f1",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Lullaby.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Nature's Fabric.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2423915,
+      "sha256": "ecbe864e3fae468eda94a8bdb160a8b864df0057dd7fd40ea0c4d842e684a8aa",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Nature's Fabric.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Nield Grohm Hanging 3.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 6116085,
+      "sha256": "d4e16319c59d5938f5eea66b94de9cce466c4e0628d1baf5aa6157f54ac65f08",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Nield Grohm Hanging 3.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Old Old Love.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2569238,
+      "sha256": "cac5bd186f32e20da8b2e039e8b5422ba9dcf47ec5e75abe4131bafe67b5e1ba",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Old Old Love.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Percussions 04.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 2535383,
+      "sha256": "e235181cd114e5f252512d711d0989159de969d089b1ff18fc9dba0ad0a6ca05",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Percussions 04.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Touch of YourSkin.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 3366704,
+      "sha256": "910de698a9d11842453e3061dac969bbc978e8f9866c7d572e86ee19362138ed",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Touch of YourSkin.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/Wedding 02.mp3",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：授权候选曲成品",
+      "bytes": 3255736,
+      "sha256": "3314688a0b702b1ff689d3de6fca50941f93e4bcdabeb2adcc2516cf44d24dee",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/Wedding 02.mp3"
+    },
+    {
+      "path": "02_背景音乐/授权候选_B档_可听见_mean-23dB/归一记录.json",
+      "category": "BGM-授权候选",
+      "purpose": "授权候选_B档_可听见_mean-23dB：归一记录（源文件与 SHA-256）",
+      "bytes": 3308,
+      "sha256": "c7052baeda2c13ff27b20884a0986a29b41d2ac1bd1ec56800129bd613796fc8",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/已归一/B_可听见_mean-23dB/归一记录.json"
+    },
+    {
+      "path": "02_背景音乐/授权候选总表.json",
+      "category": "BGM-清单",
+      "purpose": "全部 176 首候选指纹（Mixkit 168 + FreePD 8）",
+      "bytes": 247526,
+      "sha256": "363a67da3bd7056fe978dd8d4fd5a61458e601931cc48093d8923967001f0d82",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权BGM候选清单.json"
+    },
+    {
+      "path": "02_背景音乐/授权凭证/FreePD_epic分类页_2026-11-19.txt",
+      "category": "BGM-授权凭证",
+      "purpose": "许可条款网页快照（授权依据）",
+      "bytes": 2494,
+      "sha256": "1ab115523d6e52708d5a8af7d0b04fa2b6efd263297eaa40ec3daa0fe1e00e01",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权凭证/FreePD_epic分类页_2026-11-19.txt"
+    },
+    {
+      "path": "02_背景音乐/授权凭证/FreePD_服务条款_2026-11-19.txt",
+      "category": "BGM-授权凭证",
+      "purpose": "许可条款网页快照（授权依据）",
+      "bytes": 3531,
+      "sha256": "cfa67eeff7be45b384788354ccf037928fa9808c4cebb9060b6d73aba8f32711",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权凭证/FreePD_服务条款_2026-11-19.txt"
+    },
+    {
+      "path": "02_背景音乐/授权凭证/Mixkit_traditional分类页_2026-11-19.txt",
+      "category": "BGM-授权凭证",
+      "purpose": "许可条款网页快照（授权依据）",
+      "bytes": 16533,
+      "sha256": "7e5a72ba737fe0bc418268db0b135b2231a6cfff30c9a567a8dadb9d3055742c",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权凭证/Mixkit_traditional分类页_2026-11-19.txt"
+    },
+    {
+      "path": "02_背景音乐/授权凭证/Mixkit_许可页_2026-11-19.txt",
+      "category": "BGM-授权凭证",
+      "purpose": "许可条款网页快照（授权依据）",
+      "bytes": 5400,
+      "sha256": "8e069b5ceaff4edafdb471b6f613da6ee34cc090111e6dd63f6d58ca43177fc6",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权凭证/Mixkit_许可页_2026-11-19.txt"
+    },
+    {
+      "path": "02_背景音乐/授权凭证/Mixkit_音乐库首页_2026-11-19.txt",
+      "category": "BGM-授权凭证",
+      "purpose": "许可条款网页快照（授权依据）",
+      "bytes": 38447,
+      "sha256": "00fc39c5a51999330b7f5259138fd73b2a2b77e63eafa0643ecf97fb0b10aa12",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权凭证/Mixkit_音乐库首页_2026-11-19.txt"
+    },
+    {
+      "path": "02_背景音乐/授权凭证/剪映_商用音乐说明_2026-11-19.txt",
+      "category": "BGM-授权凭证",
+      "purpose": "许可条款网页快照（授权依据）",
+      "bytes": 5391,
+      "sha256": "d389cc82915a7955cecdafb1727203b2f97e2030385d30fdbb33ca0f0cc8e010",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/授权凭证/剪映_商用音乐说明_2026-11-19.txt"
+    },
+    {
+      "path": "02_背景音乐/试听串烧/全套_试听.mp3",
+      "category": "BGM-试听",
+      "purpose": "18 首全套串烧（366.6 秒）",
+      "bytes": 7333137,
+      "sha256": "996346eb9e17acd52b31b0d1d0b3befc6006a2554ec4e442a6db5af090b42f17",
+      "source_in_repo": "03_视频成片与工程/BGM试听_20261119/全套_试听.mp3"
+    },
+    {
+      "path": "02_背景音乐/试听串烧/史诗解说_试听.mp3",
+      "category": "BGM-试听",
+      "purpose": "史诗解说赛道 6 首试听串烧（每首前有口播报曲名）",
+      "bytes": 2448240,
+      "sha256": "6b1d7742846574aa4cc1655300c9ba9f673f98ddb965888975335bedf88f0281",
+      "source_in_repo": "03_视频成片与工程/BGM试听_20261119/史诗解说_试听.mp3"
+    },
+    {
+      "path": "02_背景音乐/试听串烧/国风古建_试听.mp3",
+      "category": "BGM-试听",
+      "purpose": "国风古建赛道 6 首试听串烧（每首前有口播报曲名）",
+      "bytes": 2456076,
+      "sha256": "0e319f27e143b8b38b0ca19878944f6ff254021e19e1c478c9d36995dacd9e75",
+      "source_in_repo": "03_视频成片与工程/BGM试听_20261119/国风古建_试听.mp3"
+    },
+    {
+      "path": "02_背景音乐/试听串烧/温情叙事_试听.mp3",
+      "category": "BGM-试听",
+      "purpose": "温情叙事赛道 6 首试听串烧（每首前有口播报曲名）",
+      "bytes": 2432566,
+      "sha256": "75ad5d7bc653fc359bbd114b7d0d4270b1adff68096238a2cc199a46902d8a99",
+      "source_in_repo": "03_视频成片与工程/BGM试听_20261119/温情叙事_试听.mp3"
+    },
+    {
+      "path": "02_背景音乐/试听串烧/试听顺序.txt",
+      "category": "BGM-试听",
+      "purpose": "串烧播放顺序与曲名对照表",
+      "bytes": 2179,
+      "sha256": "bb06d35ae1baee499d4d2da6ec972e4655e8db9d0d12b41d20358c4f21ae9351",
+      "source_in_repo": "03_视频成片与工程/BGM试听_20261119/试听顺序.txt"
+    },
+    {
+      "path": "02_背景音乐/选曲清单.json",
+      "category": "BGM-清单",
+      "purpose": "18 首选曲的授权 / 电平 / 听感 / 下载直链",
+      "bytes": 18739,
+      "sha256": "08746fb517a39dfac4c48f68d8c9ad35fad820f13ce7d2a366304db2642f4c1f",
+      "source_in_repo": "02_公共资产库/授权BGM候选_20261119/选曲清单.json"
+    },
+    {
+      "path": "02_背景音乐/默认_食力过日子_国风古琴_B档.mp3",
+      "category": "BGM-默认",
+      "purpose": "默认 BGM（B 档，源 mean −23.3 dBFS，管线默认取这一份）",
+      "bytes": 2104676,
+      "sha256": "fa3702904a66d3ad3088f9af7d7169b1c9bf8ea4dc0b880f83b6824e9cf58d81",
+      "source_in_repo": "01_配音与音色库/背景音乐库/bgm_shili_guofeng.mp3"
+    },
+    {
+      "path": "02_背景音乐/默认_食力过日子_国风古琴_原始-52.9dB_回退源.mp3",
+      "category": "BGM-默认",
+      "purpose": "原始 −52.9 dBFS 版本（回退源；混音内实际听不见）",
+      "bytes": 2104676,
+      "sha256": "20e862b1aa4db8894bda5e0a18f0125e78933511c5ca0f579e55ee1486084be8",
+      "source_in_repo": "01_配音与音色库/背景音乐库/_原始备份/bgm_shili_guofeng_原始-52.9dB.mp3"
+    },
+    {
+      "path": "03_调用脚本/01_配音与音色库/背景音乐库/_原始备份/bgm_shili_guofeng_原始-52.9dB.mp3",
+      "category": "脚本-运行时资产",
+      "purpose": "A 档回退 BGM：verify_bgm_level.py 做 A/B 对照时按此路径取旧版",
+      "bytes": 2104676,
+      "sha256": "20e862b1aa4db8894bda5e0a18f0125e78933511c5ca0f579e55ee1486084be8",
+      "source_in_repo": "01_配音与音色库/背景音乐库/_原始备份/bgm_shili_guofeng_原始-52.9dB.mp3"
+    },
+    {
+      "path": "03_调用脚本/01_配音与音色库/背景音乐库/bgm_shili_guofeng.mp3",
+      "category": "脚本-运行时资产",
+      "purpose": "管线默认 BGM 路径占位：fast_draft_pipeline 按此相对路径取 BGM",
+      "bytes": 2104676,
+      "sha256": "fa3702904a66d3ad3088f9af7d7169b1c9bf8ea4dc0b880f83b6824e9cf58d81",
+      "source_in_repo": "01_配音与音色库/背景音乐库/bgm_shili_guofeng.mp3"
+    },
+    {
+      "path": "03_调用脚本/03_视频成片与工程/音色对比_20261118/V1_当前默认_云健-6Hz-8%/voice_master.mp3",
+      "category": "脚本-运行时资产",
+      "purpose": "电平验证用的人声轨（V1 当前默认云健 −6Hz/−8%），verify_bgm_level.py 依赖",
+      "bytes": 329760,
+      "sha256": "618a8e8b27f94ebb5cda4870f145f07bcffc80c9b12bb41d3bd0d784dacaff8d",
+      "source_in_repo": "03_视频成片与工程/音色对比_20261118/V1_当前默认_云健-6Hz-8%/voice_master.mp3"
+    },
+    {
+      "path": "03_调用脚本/04_自动化生产流水线/workspace_paths.py",
+      "category": "脚本",
+      "purpose": "可移植路径（fast_draft_pipeline 依赖）",
+      "bytes": 1415,
+      "sha256": "8ff8ba8b53c78bd2bc05d7ae8839c95798bfbbed8466c1b0c792bf881ed8e216",
+      "source_in_repo": "04_自动化生产流水线/workspace_paths.py"
+    },
+    {
+      "path": "03_调用脚本/config/voice_api/config.example.yaml",
+      "category": "配置-模板",
+      "purpose": "MiniMax 密钥配置模板（不含密钥）",
+      "bytes": 3084,
+      "sha256": "c3e3ab18d35feeda554927ac517d53653e94688cd393bac249fef821247e9f31",
+      "source_in_repo": "config/voice_api/config.example.yaml"
+    },
+    {
+      "path": "03_调用脚本/scripts/assemble_voice_test.py",
+      "category": "脚本",
+      "purpose": "配音混音与拼接（voice_api_tts 依赖）",
+      "bytes": 11544,
+      "sha256": "9ce688932b8aafc6f0fb784e8f5fc53e2b8c87d45f852b93357c66ddcf0f2cb7",
+      "source_in_repo": "scripts/assemble_voice_test.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/clone_voice_ztts.py",
+      "category": "脚本",
+      "purpose": "E2-F5-TTS 零样本克隆入口",
+      "bytes": 13035,
+      "sha256": "aa413e1ffd097d6965a089582278ea4e2ffae2f996698e2f4c979f5e004ff7ee",
+      "source_in_repo": "scripts/clone_voice_ztts.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/competitor_audio_audit/bgm_candidates.py",
+      "category": "脚本",
+      "purpose": "BGM 抓取 / 校验 / 归一",
+      "bytes": 17704,
+      "sha256": "d4eeed260c20b6f004f5e408c38cd1a05ea6ad9405fb419adc3cfdf95817df65",
+      "source_in_repo": "scripts/competitor_audio_audit/bgm_candidates.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/competitor_audio_audit/build_bgm_audition.py",
+      "category": "脚本",
+      "purpose": "生成选曲试听串烧",
+      "bytes": 4002,
+      "sha256": "c9d8d610da2eb4fc96199286b88ae46d68fa33ed469e8d542a46773941e1dded",
+      "source_in_repo": "scripts/competitor_audio_audit/build_bgm_audition.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/competitor_audio_audit/common.py",
+      "category": "脚本",
+      "purpose": "公共库：路径与 ffmpeg 定位",
+      "bytes": 8746,
+      "sha256": "039bb7d2b8d31c378359959f6d7a32377f347074e0bc9ff4f739753ff94359cd",
+      "source_in_repo": "scripts/competitor_audio_audit/common.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/competitor_audio_audit/pystub/webrtcvad.py",
+      "category": "脚本",
+      "purpose": "webrtcvad 占位实现",
+      "bytes": 450,
+      "sha256": "88b25c07497f479202069e691582b3e3598e50d82a301cf10e0fbea138a2a633",
+      "source_in_repo": "scripts/competitor_audio_audit/pystub/webrtcvad.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/competitor_audio_audit/verify_bgm_level.py",
+      "category": "脚本",
+      "purpose": "VAD 停顿段电平实测",
+      "bytes": 6515,
+      "sha256": "c98cd88bfb4cc38a4a1e494a385f8b9aeacb8cfe10f4c65c0d1c14381b9a400c",
+      "source_in_repo": "scripts/competitor_audio_audit/verify_bgm_level.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/fast_draft_pipeline.py",
+      "category": "脚本",
+      "purpose": "极速草稿装配管线（init / apply-images）",
+      "bytes": 40280,
+      "sha256": "0c85d3c0648ecf9e7fca23b9733729014af1b75ff59b8d770b7b8ab4ed35fe90",
+      "source_in_repo": "scripts/fast_draft_pipeline.py"
+    },
+    {
+      "path": "03_调用脚本/scripts/voice_api_tts.py",
+      "category": "脚本",
+      "purpose": "MiniMax TTS / Edge TTS 配音入口",
+      "bytes": 21924,
+      "sha256": "1b7988b2364580db38e30160395c4b045082662a6fcb407d38080d5bd65f600d",
+      "source_in_repo": "scripts/voice_api_tts.py"
+    },
+    {
+      "path": "03_调用脚本/使用说明.md",
+      "category": "说明",
+      "purpose": "包内脚本的使用说明（目录结构已按仓库布局镜像，可直接运行）",
+      "bytes": 6530,
+      "sha256": "c4d36cedc8051ef4c7066b98352254eb8873eab6511161d3ad68c7c2945a16ca",
+      "source_in_repo": "scripts/build_audio_kit.py（生成）"
+    }
+  ],
+  "zip": {
+    "path": "04_自动化生产流水线/minimax_音频调用说明.zip",
+    "bytes": 141218340,
+    "sha256": "46d3418be2663eb26d54af5c0c0484d446e1847675d5a1e72f2f11ebcb729a57"
+  }
+}

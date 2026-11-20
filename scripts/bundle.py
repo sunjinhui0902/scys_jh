@@ -58,6 +58,8 @@ def excluded(p):
     if rel.parts[0]=='竞品视频分析_2026-10-15':
         if len(rel.parts)>1 and rel.parts[1]=='models':return True
         if p.suffix.lower() in {'.wav','.mp3','.flac'}:return True
+    # 竞品音频（口播人声 / BGM 素材）只作内部对标，不进任何恢复包
+    if rel.parts[0]=='02_公共资产库' and len(rel.parts)>1 and rel.parts[1].startswith('竞品'):return True
     return (n in SECRETS or n.endswith(('.log','.db-wal','.db-shm','.pem','.key','.crt','.cer','.p12','.pfx'))
             or 'cookie' in n or ('auth' in n and 'qr' in n) or n == 'feishu-config-qr.png')
 

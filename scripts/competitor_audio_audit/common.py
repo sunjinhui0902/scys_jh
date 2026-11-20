@@ -10,6 +10,7 @@
 所有路径一律从本文件位置推导，禁止写死盘符或用户名。
 """
 import os
+import shutil
 import struct
 import sys
 import wave
@@ -47,14 +48,25 @@ def ensure_dirs(*paths):
 
 
 def find_ffmpeg():
-    """优先用环境变量 FFMPEG_BIN，否则在仓库内找 ffmpeg，最后退回 PATH。"""
+    """定位 ffmpeg：环境变量 FFMPEG_BIN > 仓库内自带 > PATH > imageio-ffmpeg 内置。
+
+    独立分发包（如 04_自动化生产流水线/minimax_音频调用说明/03_调用脚本/）里没有
+    仓库自带的 ffmpeg 二进制，最后一级 imageio-ffmpeg 兜底才能让 check/normalize 直接可用。
+    """
     env = os.environ.get("FFMPEG_BIN")
     if env and Path(env).exists():
         return env
     hits = sorted(ROOT.glob("**/ffmpeg.exe"))
     if hits:
         return str(hits[0])
-    return "ffmpeg"
+    found = shutil.which("ffmpeg")
+    if found:
+        return found
+    try:
+        import imageio_ffmpeg
+        return imageio_ffmpeg.get_ffmpeg_exe()
+    except Exception:  # noqa: BLE001
+        return "ffmpeg"
 
 
 def ffmpeg_probe(path):

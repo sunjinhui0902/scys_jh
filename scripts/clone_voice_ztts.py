@@ -64,12 +64,24 @@ def ffmpeg_exe():
 
 
 def extract_script_text(script_path: Path) -> str:
-    """从 Gemini 标准工程 Markdown 里取「纯净口播文案」段。"""
+    """从 Gemini 标准工程 Markdown 里取「纯净口播文案」段。
+
+    标题行允许带括号等补充说明（例如「## 纯净口播文案（直接用于配音/提词）」），
+    否则正则匹配失败会退化成把整篇 Markdown（含标题与策略说明）当成口播念出来。
+    """
     raw = script_path.read_text(encoding="utf-8")
-    m = re.search(r"##\s*纯净口播文案\s*\n+(.+?)(?=\n##\s|\Z)", raw, re.S)
+    m = re.search(r"##\s*纯净口播文案[^\n]*\n+(.+?)(?=\n##\s|\Z)", raw, re.S)
     if m:
         return m.group(1).strip()
-    return raw.strip()
+    # 退化路径：没有「纯净口播文案」段时，至少剥掉 Markdown 标题、分隔线与强调标记，
+    # 避免把「# 标题」「## 策略设计」当成口播内容合成出去。
+    lines = []
+    for line in raw.splitlines():
+        s = line.strip()
+        if not s or s.startswith("#") or re.fullmatch(r"-{3,}", s):
+            continue
+        lines.append(s)
+    return "\n".join(lines).strip()
 
 
 def split_sentences(text: str, chunk_min: int, chunk_max: int):
