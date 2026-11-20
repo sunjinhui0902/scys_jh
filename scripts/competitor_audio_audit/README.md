@@ -33,6 +33,7 @@
 | `build_ab_sample.py` | 音色 A/B 样片：同画面同文案，只换配音参数，产出样片 + 对照串烧 | 需要一个已有成片的工程目录 | ✅ 本批次实跑通过 |
 | `bgm_candidates.py` | **授权 BGM 候选抓取 + 上线校验**：从 Mixkit / FreePD 拉候选，测时长/电平/无人声，按目标电平归一 | `numpy librosa silero-vad`（VAD 可选） | ✅ 本批次实跑通过 |
 | `build_bgm_audition.py` | **选曲试听串烧**：每首候选前用 Edge-TTS 报曲名，产出三类赛道的试听 mp3 + 顺序表 | `edge-tts` | ✅ 本批次实跑通过 |
+| `verify_bgm_level.py` | **BGM 电平落地验证**：同一条人声 + 同套管线增益，只换 BGM 源版本，用人声停顿段实测两档差异 | `librosa silero-vad` | ✅ 本批次实跑通过 |
 
 批次元数据在 `data/1116_1117/`：`manifest.json`（13 条视频清单，含当时的本机绝对路径，作历史证据保留）、`vad_speech.json`、`style_labels.json`。
 
@@ -69,6 +70,9 @@ python scripts/competitor_audio_audit/bgm_candidates.py normalize <候选.mp3> -
 
 # 7) 生成选曲试听串烧（带口播报曲名）
 python scripts/competitor_audio_audit/build_bgm_audition.py
+
+# 8) BGM 电平落地验证（A档旧默认 vs B档新默认）
+python scripts/competitor_audio_audit/verify_bgm_level.py
 ```
 
 产物落在 `scratch/competitor_audio_audit/`（运行时工作区，不入库）与 `02_公共资产库/竞品口播人声_*/`（资产与清单，JSON 入库、音频不入库）。

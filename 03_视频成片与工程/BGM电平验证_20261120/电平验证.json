@@ -1,0 +1,78 @@
+{
+  "voice_only": {
+    "mean_db": -23.8,
+    "peak_db": -4.3
+  },
+  "bgm_source_new": {
+    "mean_db": -23.3,
+    "peak_db": -3.2
+  },
+  "bgm_source_old": {
+    "mean_db": -52.9,
+    "peak_db": -30.8
+  },
+  "bgm_bed_A_only": {
+    "mean_db": -66.3,
+    "peak_db": -44.9
+  },
+  "bgm_bed_B_only": {
+    "mean_db": -36.7,
+    "peak_db": -16.3
+  },
+  "mix_A": {
+    "mean_db": -21.2,
+    "peak_db": -1.7
+  },
+  "mix_B": {
+    "mean_db": -21.1,
+    "peak_db": -1.9
+  },
+  "segments": {
+    "A_gap1": {
+      "mean_db": -62.9,
+      "peak_db": -50.3
+    },
+    "B_gap1": {
+      "mean_db": -33.3,
+      "peak_db": -20.7
+    },
+    "A_gap2": {
+      "mean_db": -70.1,
+      "peak_db": -58.3
+    },
+    "B_gap2": {
+      "mean_db": -41.0,
+      "peak_db": -30.4
+    },
+    "A_gap3": {
+      "mean_db": -87.3,
+      "peak_db": -70.3
+    },
+    "B_gap3": {
+      "mean_db": -57.4,
+      "peak_db": -42.1
+    },
+    "A_voice": {
+      "mean_db": -21.6,
+      "peak_db": -4.5
+    },
+    "B_voice": {
+      "mean_db": -21.5,
+      "peak_db": -4.5
+    }
+  },
+  "voice_gaps_found": [
+    {
+      "start": 22.55,
+      "dur": 0.64
+    },
+    {
+      "start": 37.59,
+      "dur": 0.57
+    },
+    {
+      "start": 54.13,
+      "dur": 0.83
+    }
+  ]
+}
