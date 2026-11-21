@@ -345,10 +345,10 @@ chmod +x build.sh
 2. **使用 UPX 压缩**（可选）
    ```bash
    # 安装 UPX: https://upx.github.io/
-   
+
    # 压缩可执行文件
    upx --best --lzma wx_channel.exe
-   
+
    # 注意：UPX 压缩可能被某些杀毒软件误报
    ```
 

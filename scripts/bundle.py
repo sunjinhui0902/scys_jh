@@ -106,7 +106,7 @@ def upload_one(tag,p):
 
 
 def pack(a):
-    if getattr(a, 'incremental_prefix', None) or getattr(a, 'core_prefix', None):
+    if getattr(a, 'incremental_prefix', None) or getattr(a, 'core_prefix', None) or getattr(a, 'software_file', None):
         return pack_analysis_increment(a)
     assert_repository() if a.upload else None
     if a.upload:
@@ -183,28 +183,37 @@ def pack(a):
 
 
 def pack_analysis_increment(a):
-    """Append only this batch's result images; preserve older release references."""
-    if getattr(a,'core_prefix',None) and getattr(a,'incremental_prefix',None):raise ValueError('Choose core or analysis prefixes, not both')
-    group='core' if getattr(a,'core_prefix',None) else 'analysis'
-    prefixes=[safe_path(ROOT,p) for p in (a.core_prefix if group=='core' else [a.incremental_prefix])]
-    if any(not p.is_dir() or p==ROOT.resolve() for p in prefixes):raise ValueError('Expected existing bounded result directories')
+    """Pack bounded result images or explicitly selected software updates."""
+    modes=[bool(getattr(a,name,None)) for name in ('core_prefix','incremental_prefix','software_file')]
+    if sum(modes)!=1:raise ValueError('Choose exactly one incremental scope')
+    group='software' if modes[2] else ('core' if modes[0] else 'analysis')
+    if group=='software':
+        prefixes=[]
+        candidates=sorted({safe_path(ROOT,p) for p in a.software_file})
+        if any(not p.is_file() for p in candidates):raise ValueError('Expected existing software files')
+    else:
+        prefixes=[safe_path(ROOT,p) for p in (a.core_prefix if group=='core' else [a.incremental_prefix])]
+        if any(not p.is_dir() or p==ROOT.resolve() for p in prefixes):raise ValueError('Expected existing bounded result directories')
+        candidates=sorted({p for prefix in prefixes for p in prefix.rglob('*')})
     previous_digest=digest(MANIFEST)
     previous=json.loads(MANIFEST.read_text(encoding='utf-8'))
     m=copy.deepcopy(previous)
     if m['repository']!=REPO or a.tag==m['tag']:raise ValueError('Expected repository and a fresh tag')
     current={x['path']:x for x in m['files']}
     additions=[]
-    for p in sorted({p for prefix in prefixes for p in prefix.rglob('*')}):
-        if not p.is_file() or p.is_symlink() or p.suffix.lower() not in {'.jpg','.jpeg','.png','.webp'}:continue
+    for p in candidates:
+        if not p.is_file() or p.is_symlink():continue
+        if group!='software' and p.suffix.lower() not in {'.jpg','.jpeg','.png','.webp'}:continue
         safe_path(ROOT,p.relative_to(ROOT))
         rel=p.relative_to(ROOT)
-        if excluded(p) or group_for(rel)!=group:raise ValueError(f'Only {group} result images are allowed: {rel}')
+        if excluded(p) or group_for(rel)!=group or (group=='software' and p.suffix.lower()=='.db'):
+            raise ValueError(f'Excluded or outside the {group} scope: {rel}')
         s=p.stat();h=digest(p);ref={'path':rel.as_posix(),'size':s.st_size,'mtime_ns':s.st_mtime_ns,'sha256':h,'group':group}
         if rel.as_posix() in current:
-            if current[rel.as_posix()]['sha256']!=h:raise ValueError('Existing frozen image changed; use a revision directory')
-            continue
+            if current[rel.as_posix()]['sha256']==h:continue
+            if group!='software':raise ValueError('Existing frozen image changed; use a revision directory')
         additions.append((p,ref))
-    if not additions:print('INCREMENTAL_BUNDLE_NO_NEW_IMAGES',flush=True);return
+    if not additions:print('INCREMENTAL_BUNDLE_NO_CHANGES',flush=True);return
     # Existing archive names stay unchanged; resolve their own release at restore.
     for archive in m['archives']:archive.setdefault('release_tag',previous['tag'])
     cache=ROOT/'.bundle-cache'/a.tag;cache.mkdir(parents=True,exist_ok=True)
@@ -216,6 +225,7 @@ def pack_analysis_increment(a):
             z.close();new_archives.append({'name':zp.name,'group':group,'size':zp.stat().st_size,'sha256':digest(zp),'release_tag':a.tag});z=None
     try:
         for p,ref in additions:
+            if group=='software':m['files']=[x for x in m['files'] if x['path']!=ref['path']]
             m['files'].append(ref);key=group+':'+ref['sha256']
             if key in m['blobs']:continue
             if z is None:
@@ -236,17 +246,21 @@ def pack_analysis_increment(a):
     m['incremental_base_tag']=previous['tag'];m['tag']=a.tag;m['created_at']=time.strftime('%Y-%m-%dT%H:%M:%S%z')
     m['incremental_scope']={'prefixes':[p.relative_to(ROOT).as_posix() for p in prefixes],'added_images':len(additions),'raw_sources_included':False}
     m['note']=f"沿用 {previous['tag']} 的历史恢复文件，仅新增本次 {group} 分组的 {len(additions)} 个图片文件；不含原视频、提取音频、下载数据库或模型缓存。"
+    if group=='software':
+        m['incremental_scope']={'files':[ref['path'] for _,ref in additions],'updated_software_files':len(additions),'raw_sources_included':False}
+        m['note']=f"沿用 {previous['tag']} 的历史恢复文件，仅更新显式选择的 {len(additions)} 个软件文件；不含配置凭据、证书、机器指纹、下载数据库或原视频。"
     m['summary']={'files':len(m['files']),'unique_files':len(m['blobs']),'original_bytes':sum(x['size'] for x in m['files']),'archive_bytes':sum(x['size'] for x in m['archives'])}
     if a.upload:
         assert_repository()
         if subprocess.run(['gh','release','view',a.tag,'--repo',REPO],capture_output=True).returncode==0:raise RuntimeError('Choose a fresh immutable release tag')
-        gh('release','create',a.tag,'--repo',REPO,'--draft','--title',a.tag,'--notes',f'{group}增量结果图片；沿用旧包引用，不包含原视频。新增{len(additions)}个图片文件。')
+        gh('release','create',a.tag,'--repo',REPO,'--draft','--title',a.tag,'--notes',m['note'])
         for archive in new_archives:upload_one(a.tag,cache/archive['name'])
     if digest(MANIFEST)!=previous_digest:raise RuntimeError('Bundle manifest changed concurrently; preserve both versions and reconcile')
     tmp=MANIFEST.with_suffix('.json.tmp');tmp.write_text(json.dumps(m,ensure_ascii=False,indent=2)+'\n',encoding='utf-8');tmp.replace(MANIFEST)
     shutil.copyfile(MANIFEST,cache/'bundle-manifest.json')
     if a.upload:upload_one(a.tag,cache/'bundle-manifest.json')
-    print(json.dumps({'incremental_images':len(additions),'new_archives':len(new_archives),'old_archive_references_preserved':len(previous['archives']),'tag':a.tag}),flush=True)
+    count_key='updated_software_files' if group=='software' else 'incremental_images'
+    print(json.dumps({count_key:len(additions),'new_archives':len(new_archives),'old_archive_references_preserved':len(previous['archives']),'tag':a.tag}),flush=True)
 
 
 def safe_path(base,rel):
@@ -299,6 +313,7 @@ def main():
     ap=argparse.ArgumentParser(description=__doc__)
     sub=ap.add_subparsers(dest='command',required=True)
     p=sub.add_parser('pack');p.add_argument('--tag',required=True);p.add_argument('--upload',action='store_true');p.add_argument('--incremental-prefix',help='Append only new analysis result images under this relative directory; retain older release references');p.add_argument('--core-prefix',action='append',help='Append only creative result images under this bounded directory; repeat for several projects')
+    p.add_argument('--software-file',action='append',help='Update one explicitly selected software file; repeat for every file and retain older release references')
     p=sub.add_parser('restore');p.add_argument('--group',action='append',choices=['core','software','analysis','all']);p.add_argument('--target');p.add_argument('--cache');p.add_argument('--offline',action='store_true')
     a=ap.parse_args()
     pack(a) if a.command=='pack' else restore(a)

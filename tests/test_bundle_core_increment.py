@@ -14,6 +14,43 @@ SPEC.loader.exec_module(bundle)
 
 
 class CoreIncrementTests(unittest.TestCase):
+    def test_selected_software_update_restores_and_preserves_old_release(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)
+            manifest=root/'config/bundle-manifest.json'
+            manifest.parent.mkdir()
+            program=root/'00_对标与采集工具/wx_channel/wx_channel.exe'
+            program.parent.mkdir(parents=True)
+            program.write_bytes(b'old-program')
+            manifest.write_text(json.dumps({'repository':bundle.REPO,'tag':'initial','files':[],'blobs':{},'archives':[]}),encoding='utf-8')
+            args=argparse.Namespace(tag='old-release',upload=False,software_file=[program.relative_to(root).as_posix()])
+            with patch.object(bundle,'ROOT',root),patch.object(bundle,'MANIFEST',manifest):
+                bundle.pack(args)
+                previous=json.loads(manifest.read_text(encoding='utf-8'))
+                program.write_bytes(b'new-program')
+                args.tag='new-release'
+                bundle.pack(args)
+                result=json.loads(manifest.read_text(encoding='utf-8'))
+                self.assertEqual(len(result['files']),1)
+                self.assertEqual(result['files'][0]['sha256'],bundle.digest(program))
+                self.assertEqual(result['archives'][:1],previous['archives'])
+                cache=root/'combined-cache'
+                cache.mkdir()
+                import shutil
+                for archive in result['archives']:
+                    shutil.copyfile(root/'.bundle-cache'/archive['release_tag']/archive['name'],cache/archive['name'])
+                target=root/'restored'
+                bundle.restore(argparse.Namespace(group=['software'],target=str(target),cache=str(cache),offline=True))
+                self.assertEqual((target/program.relative_to(root)).read_bytes(),b'new-program')
+                for relative in ['config.yaml','hardware_fingerprint.json','records.db','downloads/raw.exe']:
+                    sensitive=program.parent/relative
+                    sensitive.parent.mkdir(parents=True,exist_ok=True)
+                    sensitive.write_bytes(b'private')
+                    args.tag='unsafe-release'
+                    args.software_file=[sensitive.relative_to(root).as_posix()]
+                    with self.assertRaisesRegex(ValueError,'Excluded'):
+                        bundle.pack(args)
+
     def test_multiple_prefixes_deduplicate_and_restore(self):
         with tempfile.TemporaryDirectory() as temp:
             root = Path(temp)

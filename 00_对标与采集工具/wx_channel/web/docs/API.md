@@ -658,7 +658,7 @@ const checkProgress = setInterval(async () => {
 
   if (data.done + data.failed === data.total) {
     clearInterval(checkProgress);
-    
+
     // 3. 导出失败清单
     if (data.failed > 0) {
       const failed = await fetch("/__wx_channels_api/batch_failed");
